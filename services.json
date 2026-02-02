@@ -1,0 +1,3914 @@
+[
+  {
+    "name_i18n": {
+      "en": "Aesthetics Consultation"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Consultation is 500 + VATAED however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
+    },
+    "category_name": "AESTHETICS & DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermatology Consultation"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "A Dermatology Consultation is 500 AED which you can claim back from your Insurance provider."
+    },
+    "category_name": "AESTHETICS & DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Follow Up Consultation"
+    },
+    "duration_minutes": 15,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "AESTHETICS & DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Follow Up Visit"
+    },
+    "duration_minutes": 15,
+    "category_name": "AESTHETICS & DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Follow Up Consultation (Dermatology)"
+    },
+    "duration_minutes": 15,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "category_name": "AESTHETICS & DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Lesion Excision (Small)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Lesion Excision (Large)"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Mole Excision (Small)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Mole Excision (Large)"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cryotherapy (Small)"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cryotherapy (Medium)"
+    },
+    "duration_minutes": 45,
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cryotherapy (Large)"
+    },
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cysts Extraction (S)"
+    },
+    "duration_minutes": 30,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cysts Extraction (M)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cysts Extraction (L)"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Skin Tag Removal (small)"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Skin Tag Removal (large)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Wart Removal (small)"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Wart Removal (large)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Laser Minor Procedure"
+    },
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "UVB Phototherapy"
+    },
+    "duration_minutes": 30,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMATOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Hortman Signature Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 1700.0,
+    "price_max": 1700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Classic Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Face Sculpt"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermaplaning"
+    },
+    "duration_minutes": 90,
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermalux Flex MD LED Therapy"
+    },
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Face Mask - add on"
+    },
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Lymphatic Drainage Massage (add on)"
+    },
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Microdermabrasion (add-on)"
+    },
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Microcurrent Treatment"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "pH Facial - Rosacea"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "pH Facial - Acne"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "pH Facial - Pigmentation"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "pH Facial - Skin Resurfacing"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Phixel Needling Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Hydrafacial Syndeo Deluxe"
+    },
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Hydrafacial Syndeo Platinum"
+    },
+    "price_min": 1400.0,
+    "price_max": 1400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Heleo4 - 1 session"
+    },
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Heleo4 Skin Cellular Detox Programme"
+    },
+    "description_i18n": {
+      "en": "Package of 5 sessions"
+    },
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Facial Complex"
+    },
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pregnancy-Safe Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Teen Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Glass Skin Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime - MicroPlasma"
+    },
+    "duration_minutes": 90,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Back Facial"
+    },
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "FACIALS"
+  },
+  {
+    "name_i18n": {
+      "en": "Biorepeel"
+    },
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Cosmelan (includes home care products)"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermamelan"
+    },
+    "price_min": 4500.0,
+    "price_max": 4500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Centric - Whitening Treatment"
+    },
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Centric - Acne Treatment"
+    },
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Centric - Eye Treatment"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Centric - Lips Treatment"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "APPeex Peel"
+    },
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Intimate Peel"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "PRX-T33"
+    },
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "PRX-T33 ADD ON"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MEDICAL PEELS"
+  },
+  {
+    "name_i18n": {
+      "en": "Botox - Small Zone (up to 20 units)"
+    },
+    "duration_minutes": 30,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "BOTOX"
+  },
+  {
+    "name_i18n": {
+      "en": "Botox - Upper Face"
+    },
+    "duration_minutes": 30,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "BOTOX"
+  },
+  {
+    "name_i18n": {
+      "en": "Botox - Neck/Platysmal Bands (Nephertiti)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "BOTOX"
+  },
+  {
+    "name_i18n": {
+      "en": "Botox - Hyperhidrosis"
+    },
+    "duration_minutes": 45,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "BOTOX"
+  },
+  {
+    "name_i18n": {
+      "en": "Botox - Masseter"
+    },
+    "duration_minutes": 45,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "BOTOX"
+  },
+  {
+    "name_i18n": {
+      "en": "FU Botox"
+    },
+    "duration_minutes": 15,
+    "category_name": "BOTOX"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermal Filler - 1 Syringe"
+    },
+    "duration_minutes": 45,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermal Filler (add on syringe)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Radiesse Filler - 1 syringe"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Radiesse Filler - 2 syringe"
+    },
+    "duration_minutes": 75,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Sculptra Filler - 1 syringe"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Body Filler - 1 syringe"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Dermal Fillers - 1 syringe (Fillmed/Ultra)"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "FU Dermal Fillers"
+    },
+    "duration_minutes": 15,
+    "category_name": "DERMAL FILLERS"
+  },
+  {
+    "name_i18n": {
+      "en": "Skin Booster - 1 Syringe"
+    },
+    "duration_minutes": 45,
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Profhilo - 1 Syringe"
+    },
+    "duration_minutes": 45,
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Profhilo Body"
+    },
+    "duration_minutes": 90,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Hair Filler"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Filler Dissolving (Hyaluronidase) - small"
+    },
+    "duration_minutes": 30,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Filler Dissolving (Hyaluronidase) - large"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Ultrasound-guided Filler Dissolving"
+    },
+    "duration_minutes": 45,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Hair Loss SOS Injection"
+    },
+    "duration_minutes": 45,
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Keloid/Hypertrophic Scar Treatment"
+    },
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Exosomes Treatment - Hair/Face"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Growth Factors & Microneedling"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Growth Factors Treatment"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Growth Factors (add on)"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "AnteAGE Growth Factors"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "AnteAGE Growth Factors (add on)"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "SIILK SKINEE Lipolysis"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PBSerum - Fat Accumulation (Body)"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PBSerum - Fat Accumulation (Face)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Polynucleotides Injection (1 syringe)"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Polynucleotides Injection ( Under Eye)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Meso Mixed Treatment BCN"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "INJECTABLE TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PRF Treatment"
+    },
+    "duration_minutes": 75,
+    "price_min": 3900.0,
+    "price_max": 3900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "PLATELET RICH PLASMA (PRP)"
+  },
+  {
+    "name_i18n": {
+      "en": "PRP - Face (1 tube)"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "PLATELET RICH PLASMA (PRP)"
+  },
+  {
+    "name_i18n": {
+      "en": "PRP - Hair (1 tube)"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "PLATELET RICH PLASMA (PRP)"
+  },
+  {
+    "name_i18n": {
+      "en": "PRP with HA (1 tube)"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "PLATELET RICH PLASMA (PRP)"
+  },
+  {
+    "name_i18n": {
+      "en": "PRP & Microneedling - Face"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "PLATELET RICH PLASMA (PRP)"
+  },
+  {
+    "name_i18n": {
+      "en": "MesoTherapy - Face"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MESOTHERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "MesoTherapy - Hair"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MESOTHERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "MesoTherapy & Microneedling"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MESOTHERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Meso - Under Eyes"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MESOTHERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Mesotherapy NCTF (1 vial)"
+    },
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MESOTHERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Ulthera (per line)"
+    },
+    "duration_minutes": 90,
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Average AED 6000 - 8000 Face Lift"
+    },
+    "category_name": "ULTHERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Morpheus8 RF Microneedling (FACE) - 1 session"
+    },
+    "duration_minutes": 90,
+    "price_min": 3300.0,
+    "price_max": 3300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MORPHEUS8"
+  },
+  {
+    "name_i18n": {
+      "en": "Morpheus8 RF Microneedling (FACE & NECK) - 1 session"
+    },
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MORPHEUS8"
+  },
+  {
+    "name_i18n": {
+      "en": "Morpheus8 RF Microneedling (BODY-1 AREA) - 1 session"
+    },
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "MORPHEUS8"
+  },
+  {
+    "name_i18n": {
+      "en": "BBL - Add on"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "BBL - Forever Young"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "HALO - Face & Neck"
+    },
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Nano Peel"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Micro Peel"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Full Ablation"
+    },
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Eyes"
+    },
+    "duration_minutes": 45,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Small Area"
+    },
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "MOXI - Face & Neck"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Vein Laser Treatment (S)"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Vein Laser Treatment (M)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1300.0,
+    "price_max": 1300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Vein Laser Treatment (L)"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Clear Silk"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Clear Silk (add on)"
+    },
+    "duration_minutes": 30,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Tixel Eyes"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Tixel (Full Face)"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "AviClear"
+    },
+    "description_i18n": {
+      "en": "Package of 3 sessions"
+    },
+    "duration_minutes": 90,
+    "price_min": 10500.0,
+    "price_max": 10500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Ultraclear"
+    },
+    "duration_minutes": 75,
+    "price_min": 5000.0,
+    "price_max": 5000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "UltraClear 3D MIRACLE"
+    },
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Sofwave"
+    },
+    "duration_minutes": 120,
+    "price_min": 13000.0,
+    "price_max": 13000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (cosmetic)"
+    },
+    "duration_minutes": 30,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (body - Small: Hand)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (body - Medium: Arm)"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (body - big: both Arms/back)"
+    },
+    "duration_minutes": 90,
+    "price_min": 2700.0,
+    "price_max": 2700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PicoWay - Full Face"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PicoWay - Small Area (Face/Body)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pico Genesis  - Tattoo Removal (cosmetic)"
+    },
+    "duration_minutes": 30,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pico Genesis - Tattoo Removal (body - Small: Hand)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pico Genesis - Tattoo Removal (body - Medium: Arm)"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pico Genesis - Tattoo Removal (body - big: both Arms/back)"
+    },
+    "duration_minutes": 90,
+    "price_min": 2700.0,
+    "price_max": 2700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pico Genesis - Full Face"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Pico Genesis - Small Area (Face/Body)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Fotona 4D"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "LASER TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Acne Scar TCA Cross (Small)"
+    },
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Acne Scar TCA Cross (Large)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Laser - Scar (Small)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Laser - Scar (Meduim)"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Laser - Scar (Large)"
+    },
+    "duration_minutes": 75,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Laser Drug Delivery (add on)"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Scar Subcision"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "Magnetic Tattoo Removal (Eyebrows)"
+    },
+    "duration_minutes": 30,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "SCAR TREATMENTS"
+  },
+  {
+    "name_i18n": {
+      "en": "PDO - Mesothreads (per thread)"
+    },
+    "duration_minutes": 45,
+    "price_min": 100.0,
+    "price_max": 100.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "PDO - Mesothreads (10 threads)"
+    },
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "APTOS Excellence Visage Threads"
+    },
+    "duration_minutes": 90,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "APTOS Nano Threads"
+    },
+    "duration_minutes": 90,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "EVERLINE PLA Threads 19G 100mm (4 threads)"
+    },
+    "duration_minutes": 75,
+    "price_min": 2800.0,
+    "price_max": 2800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "EVERLINE PLA Threads 19G 100mm (add-on thread)"
+    },
+    "duration_minutes": 75,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "Mono Threads G27 60mm (10 threads)"
+    },
+    "duration_minutes": 75,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "APTOS 2 G Threads - Lower Face"
+    },
+    "duration_minutes": 90,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "APTOS Thread Lifting - Double Chin"
+    },
+    "duration_minutes": 90,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "THREADS"
+  },
+  {
+    "name_i18n": {
+      "en": "Icoone Body - 45 minutes"
+    },
+    "duration_minutes": 45,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "ICOONE"
+  },
+  {
+    "name_i18n": {
+      "en": "Icoone Body - 60 minutes"
+    },
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "ICOONE"
+  },
+  {
+    "name_i18n": {
+      "en": "Icoone Body - 90 minutes"
+    },
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "ICOONE"
+  },
+  {
+    "name_i18n": {
+      "en": "Icoone Face - 30 minutes"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "ICOONE"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Small Area"
+    },
+    "duration_minutes": 30,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Arms"
+    },
+    "duration_minutes": 30,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Flanks"
+    },
+    "duration_minutes": 30,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Stomach"
+    },
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Full Thighs"
+    },
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Thighs + Buttocks"
+    },
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Front Thighs"
+    },
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - 3 areas"
+    },
+    "duration_minutes": 90,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - 4 areas +"
+    },
+    "duration_minutes": 120,
+    "price_min": 5000.0,
+    "price_max": 5000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "category_name": "ALMA -ACCENT PRIME"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo - Abdomen"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo - Buttocks"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo – Front Thighs"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo – Back Thighs"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo – Outer Thighs"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo - Inner Thighs"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo - Calves"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo - Triceps"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Emsculpt Neo - Biceps"
+    },
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "Wonder Face"
+    },
+    "description_i18n": {
+      "en": "Package of 5 sessions"
+    },
+    "duration_minutes": 30,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "EMSCULPT NEO"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR (Small Area)"
+    },
+    "duration_minutes": 15,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Full Face"
+    },
+    "duration_minutes": 30,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Half Face"
+    },
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Face and Neckline"
+    },
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Arms (Full)"
+    },
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Arms (Half)"
+    },
+    "duration_minutes": 45,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Back"
+    },
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Bikini"
+    },
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "MLHR: Bikini (MALE)"
+    },
+    "duration_minutes": 30,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation . Performed by our male Doctor , Dr Karem Harb"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Legs (Full)"
+    },
+    "price_min": 750.0,
+    "price_max": 750.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Legs (Half)"
+    },
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Underarms"
+    },
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Upper Lip + Chin"
+    },
+    "duration_minutes": 15,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Bikini + Underarms"
+    },
+    "duration_minutes": 45,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Chest"
+    },
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Abdomen"
+    },
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Full Body (FEMALE)"
+    },
+    "duration_minutes": 120,
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Full Body (MALE)"
+    },
+    "duration_minutes": 150,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Dr Karem does the private area at an additional cost of 900 + VAT and Desiree Garcia the rest of the body."
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: 3 areas"
+    },
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR (Small Area)"
+    },
+    "duration_minutes": 15,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Full Face"
+    },
+    "duration_minutes": 30,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Half Face"
+    },
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Face and Neckline"
+    },
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Arms (Full)"
+    },
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Arms (Half)"
+    },
+    "duration_minutes": 45,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Back"
+    },
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Bikini"
+    },
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Legs (Full)"
+    },
+    "price_min": 750.0,
+    "price_max": 750.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Legs (Half)"
+    },
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Underarms"
+    },
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Upper Lip + Chin"
+    },
+    "duration_minutes": 15,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Bikini + Underarms"
+    },
+    "duration_minutes": 45,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Chest"
+    },
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Abdomen"
+    },
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Full Body (FEMALE)"
+    },
+    "duration_minutes": 120,
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: Full Body (MALE)"
+    },
+    "duration_minutes": 150,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "LHR: 3 areas"
+    },
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "category_name": "LASER HAIR REMOVAL - POLYLASE MX"
+  },
+  {
+    "name_i18n": {
+      "en": "Bleaching - Upper Lip"
+    },
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "category_name": "HAIR BLEACHING - STARWALKER FOTONA"
+  },
+  {
+    "name_i18n": {
+      "en": "Bleaching - Small (half face)"
+    },
+    "duration_minutes": 30,
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "category_name": "HAIR BLEACHING - STARWALKER FOTONA"
+  },
+  {
+    "name_i18n": {
+      "en": "Bleaching - Medium (full face)"
+    },
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "category_name": "HAIR BLEACHING - STARWALKER FOTONA"
+  },
+  {
+    "name_i18n": {
+      "en": "Bleaching - Large (one body area)"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "category_name": "HAIR BLEACHING - STARWALKER FOTONA"
+  },
+  {
+    "name_i18n": {
+      "en": "Home Service"
+    },
+    "duration_minutes": 75,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Family Medicine IV Therapy  Consultation"
+    },
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "ANTISTRESS DRIP"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "IMMUNE BOOST DRIP"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "ENERGY DRIP"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "LIVER CLEANSE (DETOX)"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "GUT CLEANSE"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "ANTI HAIR LOSS DRIP"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "MULTIVITAMIN FOR WOMEN"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "ANTI-AGING VITAMINS"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "NAD IV DRIP"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "NAD+ IV DRIP"
+    },
+    "duration_minutes": 120,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Vitamin D Injection"
+    },
+    "duration_minutes": 15,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Iron Infusion"
+    },
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "category_name": "WELLNESS -IV THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Family Medicine Consultant Consultation"
+    },
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "WELLNESS"
+  },
+  {
+    "name_i18n": {
+      "en": "Family Medicine Consultant Follow Up"
+    },
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "category_name": "WELLNESS"
+  },
+  {
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination\n Seca - Advanced Body Composition Analysis\n Vitals Check\n Follow up Consultation & Lab Test Reading\n Fertility Profile (Male) - (FSH, LH, Prolactin, Estradiol, Testosterone-Total, SHBG, FAI)\n Complete Blood Count (CBC)\n Lipids Profile (Cholesterol, Triglycerides, HDL, LDL, VLDL, Cholesterol/HDL Ratio, HDL/Cholesterol Ratio)\n Tumor Markers Screen (Male) - (CA 19.9, CEA, PSA-Total, PSA-Free, AFP, BHCG)\n Comprehensive Metabolic Panel"
+    },
+    "price_min": 4100.0,
+    "price_max": 4100.0,
+    "category_name": "MEN'S HEALTH"
+  },
+  {
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination\n Seca - Body Composition Analysis \n Vitals Check\n Follow up Consultation & Lab Test Reading \n Glycosylated Haemoglobin (HbA1C)\n Lipids Profile - (Cholesterol, Triglycerides, HDL, LDL, VLDL, Cholesterol/HDL Ratio, HDL/Cholesterol Ratio)\n Thyroid Stimulating Hormone (TSH)\n Comprehensive Metabolic Panel"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "category_name": "Weight Loss Package"
+  },
+  {
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination\n Seca - Body Composition Analysis \n Face Analizer\n Vitals Check\n Supplements and/or IVs Recommendation \n Follow up Consultation & Lab Test Reading \n Thyroid Stimulating Hormone (TSH)\n York- Check up Profile - (CBC, ESR, Glucose- Fasting, Lipids Profile, Kidney and Liver Function, Amylase, TSH, Urine Analysis)\n Electrolyte Profile - (Sodium (Na), Potassium (K), Chloride (Cl))\n Diabetes Profile - (Glucose-Fasting, HbA1C, Microalbumin/Creatinine Ratio-urine)\n Prostate Profile - (PSA-Total & PSA-Free, Free PSA Ratio)\n Tumor Markers Screen (Male) - (CA 19.9, CEA, PSA-Total, PSA-Free, AFP, BHCG)\n Fertility Profile (Male) - (Follicle Stimulating Hormone (FSH), Luteinizing Hormone (LH), Prolactin, Estradiol (E2), Testosterone-Total, SHBG, Free Androgen Index-FAI)"
+    },
+    "price_min": 5500.0,
+    "price_max": 5500.0,
+    "category_name": "Executive Physical Package - Male"
+  },
+  {
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination\n Seca - Body Composition Analysis \n Face Analizer\n Vitals Check\n Supplements and/or IVs Recommendation \n Follow up Consultation & Lab Test Reading \n Tumor Markers Screen (Female) - (CEA, CA 15.3, CA 19.9, CA 125, AFP)\n Thyroid Stimulating Hormone (TSH)\n York- Check up Profile - (CBC, ESR, Glucose- Fasting, Lipids Profile, Kidney and Liver Function, Amylase, TSH, Urine Analysis)\n Electrolyte Profile - (Sodium (Na), Potassium (K), Chloride (Cl))\n Diabetes Profile - (Glucose-Fasting, HbA1C, Microalbumin/Creatinine Ratio-urine)\n Fertility Profile (Female) - (Follicle Stimulating Hormone (FSH), Luteinizing Hormone (LH), Progesterone, Prolactin, Estradiol (E2), TSH)"
+    },
+    "price_min": 5500.0,
+    "price_max": 5500.0,
+    "category_name": "Executive Physical Package - Female"
+  },
+  {
+    "name_i18n": {
+      "en": "TRT Consultation"
+    },
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "WELLNESS : TESTOSTERONE REPLACEMENT THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Testosterone Replacement Therapy (1 month program / weekly follow-ups)"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "category_name": "WELLNESS : TESTOSTERONE REPLACEMENT THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Testosterone Replacement Therapy (3 month program / unlimited follow-ups)"
+    },
+    "price_min": 7500.0,
+    "price_max": 7500.0,
+    "category_name": "WELLNESS : TESTOSTERONE REPLACEMENT THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Peptides Consultation"
+    },
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "BPC 157"
+    },
+    "price_min": 2240.0,
+    "price_max": 2240.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Epitalon"
+    },
+    "price_min": 4720.0,
+    "price_max": 4720.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "IGF LR3"
+    },
+    "price_min": 2040.0,
+    "price_max": 2040.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Thymosin alpha 1"
+    },
+    "price_min": 2800.0,
+    "price_max": 2800.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Thymosin beta 4"
+    },
+    "price_min": 2680.0,
+    "price_max": 2680.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "PT 141 Spray"
+    },
+    "price_min": 1760.0,
+    "price_max": 1760.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "CJC ipamorelin"
+    },
+    "price_min": 3760.0,
+    "price_max": 3760.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "MOTSc"
+    },
+    "price_min": 14000.0,
+    "price_max": 14000.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "AOD 9604"
+    },
+    "price_min": 2300.0,
+    "price_max": 2300.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "GHK-Cu (Copper Peptide)"
+    },
+    "price_min": 1890.0,
+    "price_max": 1890.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "DSIP Peptides"
+    },
+    "price_min": 1760.0,
+    "price_max": 1760.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Oxytocin"
+    },
+    "price_min": 2520.0,
+    "price_max": 2520.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Kisspeptin"
+    },
+    "price_min": 2120.0,
+    "price_max": 2120.0,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Bi-Estrogen 1mg liposomal cream"
+    },
+    "price_min": 1298.8,
+    "price_max": 1298.8,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Progestrone SR 100mg"
+    },
+    "price_min": 1362.6,
+    "price_max": 1362.6,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Testosterone 2mg Liposmal Cream"
+    },
+    "price_min": 1362.6,
+    "price_max": 1362.6,
+    "category_name": "WELLNESS : PEPTIDES THERAPY"
+  },
+  {
+    "name_i18n": {
+      "en": "Hair Transplant Consultation"
+    },
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "Hair Loss Consultation (Treatments)"
+    },
+    "price_min": 525.0,
+    "price_max": 525.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Growth Fасtors"
+    },
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Pep Factor"
+    },
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Laser Hair Stimulation"
+    },
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Trichology Service"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT BT HT"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT BT Hair Loss"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Acell"
+    },
+    "price_min": 5000.0,
+    "price_max": 5000.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Triple Therapy"
+    },
+    "price_min": 2300.0,
+    "price_max": 2300.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Skin Biopsy"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Basic Package"
+    },
+    "price_min": 31158.75,
+    "price_max": 31158.75,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Standart Package"
+    },
+    "price_min": 35306.25,
+    "price_max": 35306.25,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Standart Package (2 days)"
+    },
+    "price_min": 45806.25,
+    "price_max": 45806.25,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Premium Package"
+    },
+    "price_min": 40346.25,
+    "price_max": 40346.25,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Premium Package (2 days)"
+    },
+    "price_min": 50846.25,
+    "price_max": 50846.25,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Elite Package"
+    },
+    "price_min": 49245.0,
+    "price_max": 49245.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Elite Package (2 days)"
+    },
+    "price_min": 59745.0,
+    "price_max": 59745.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Growth Factors + PRP"
+    },
+    "description_i18n": {
+      "en": "Package of 6 sessions"
+    },
+    "price_min": 10500.0,
+    "price_max": 10500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Pep Factor"
+    },
+    "description_i18n": {
+      "en": "Package of 6 sessions"
+    },
+    "price_min": 7500.0,
+    "price_max": 7500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Triple Therapy"
+    },
+    "description_i18n": {
+      "en": "Package of 6 sessions"
+    },
+    "price_min": 10500.0,
+    "price_max": 10500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "HT Acell + Triple Therapy"
+    },
+    "description_i18n": {
+      "en": "Package of 6 sessions"
+    },
+    "price_min": 13500.0,
+    "price_max": 13500.0,
+    "category_name": "HAIR TRANSPLANT"
+  },
+  {
+    "name_i18n": {
+      "en": "Specialist Gynecology Consultation"
+    },
+    "price_min": 850.0,
+    "price_max": 850.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Obstetric Ultrasound Scan"
+    },
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Gynaecology Ultrasound Scan"
+    },
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Ultrasound assisted Hysterosalpingoscopy"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Folliculometry"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Uterine Cavity Aspiration by Pipelle + Endometrial Biopsy + Histology"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "IUD Installation (including the device)"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "CU 375 IUD Insertion"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "IUD Removal"
+    },
+    "price_min": 1100.0,
+    "price_max": 1100.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Implanon Removal"
+    },
+    "price_min": 2800.0,
+    "price_max": 2800.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Depoprovera Injection"
+    },
+    "price_min": 850.0,
+    "price_max": 850.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Pessary Installation for Pregnant"
+    },
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cervix colposcopy"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Papilloma/Condyloma Removal + Histology (single)"
+    },
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Papilloma/Condyloma Removal + Histology (multiple)"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "Cervix or Vaginal Biopsy + Histopathology"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "CLINICAL OBSTETRICS & GYNECOLOGY"
+  },
+  {
+    "name_i18n": {
+      "en": "G-SPOT AMPLIFICATION"
+    },
+    "price_min": 3150.0,
+    "price_max": 3150.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "O-SHOT"
+    },
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "PRP - 1 session"
+    },
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "Femilift - Laser Tightening & Vaginal Rejuvenation"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "Intimate Whitening Treatment - 1 session"
+    },
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "LABIA AUGMENTATION WITH FILLERS (per syringe)"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "Labial Skin Tag Removal"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "category_name": "AESTHETICS GYNAE"
+  },
+  {
+    "name_i18n": {
+      "en": "LABIAPLASTY"
+    },
+    "price_min": 26250.0,
+    "price_max": 26250.0,
+    "category_name": "SURGICAL"
+  },
+  {
+    "name_i18n": {
+      "en": "Intimate Rejuvenation - Femilift x 3 sessions & O-shot x 3 sessions"
+    },
+    "price_min": 10000.0,
+    "price_max": 10000.0,
+    "price_note_i18n": {
+      "en": "Femilift x 3 sessions & O-shot x 3 sessions"
+    },
+    "category_name": "PACKAGES"
+  },
+  {
+    "name_i18n": {
+      "en": "Pre-Pregnancy Health Check"
+    },
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Comprehensive Consultation and Ultrasound\n Abdominal and pelvic examination\n Blood tests:\n Full blood count\n Blood group and rhesus type\n Atypical antibody screen\n Rubella, Hepatitis B, Varicella Zoster, HIV\n Glucose & Vitamin D\n TSH\n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "category_name": "PACKAGES"
+  },
+  {
+    "name_i18n": {
+      "en": "Well Women Check"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Consultation with a Gynaecologist and Ultrasound\n Full history taking and pelvic examination\n Blood pressure assessment\n Cervical smear (PAP test)\n HPV sub typing test\n Contraception and sexual health review\n Arrangement for prescription and onward referral if required\n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "category_name": "PACKAGES"
+  },
+  {
+    "name_i18n": {
+      "en": "Sexual Health Screen"
+    },
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "A consultation with a gynaecologist to discuss your sexual health needs and any additional gynecological concerns\n Abdominal and pelvic examination including Ultrasound\n Test for 13 sexually transmitted diseases\n Blood tests:\n HIV, Hepatitis B & C and Syphilis\n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "category_name": "PACKAGES"
+  },
+  {
+    "name_i18n": {
+      "en": "Fertility Check"
+    },
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "A fertility consultation with a gynaecologist and Ultrasound\n Fertility blood tests including\n Day 2-5 FSH, LH, oestradiol (ovarian hormones), Prolactin\n AMH (test for ovarian reserve)\n Vitamin D\n Day 21 progesterone test (test of ovulation)\n TSH"
+    },
+    "category_name": "PACKAGES"
+  },
+  {
+    "name_i18n": {
+      "en": "Hormonal Health Check"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Consultation and Ultrasound\n Abdominal and pelvic examination\n Comprehensive Hormonal Profile with 7 Blood Tests \n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "category_name": "PACKAGES"
+  },
+  {
+    "name_i18n": {
+      "en": "Beard micropigmentation"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "4200"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Full bold shaved look"
+    },
+    "price_min": 4200.0,
+    "price_max": 4200.0,
+    "price_note_i18n": {
+      "en": "10500"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Crown area"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "5250"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Hairline area"
+    },
+    "price_min": 1890.0,
+    "price_max": 1890.0,
+    "price_note_i18n": {
+      "en": "4200"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Hairline and Crown"
+    },
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "price_note_i18n": {
+      "en": "6300"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Hair Transplant Scar"
+    },
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "price_note_i18n": {
+      "en": "3150"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Ludwig Scale Type 1"
+    },
+    "price_min": 1050.0,
+    "price_max": 1050.0,
+    "price_note_i18n": {
+      "en": "2100"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Ludwig Scale Type 2"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "3150"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Ludwig Scale Type 3"
+    },
+    "price_min": 3150.0,
+    "price_max": 3150.0,
+    "price_note_i18n": {
+      "en": "4200"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Hairline and Crown"
+    },
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "price_note_i18n": {
+      "en": "6300"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Microblading eyebrows"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "1 session + touch up"
+    },
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Touch up session"
+    },
+    "price_min": 1050.0,
+    "price_max": 1050.0,
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Exosomes Treatment - Hair"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "category_name": "SMP"
+  },
+  {
+    "name_i18n": {
+      "en": "Dental Consultation"
+    },
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Consultation is 350 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
+    },
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Dental Consultation - Comprehensive"
+    },
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Consultation is 500 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
+    },
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Smile Design ( Wax up + casts )"
+    },
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Emax Veneers"
+    },
+    "price_min": 3675.0,
+    "price_max": 3675.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Feldspathic Veneers"
+    },
+    "price_min": 7350.0,
+    "price_max": 7350.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Emax Crown"
+    },
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Zirconia Crown"
+    },
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Inlay"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Onlay"
+    },
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Whitening + Bleaching trays"
+    },
+    "price_min": 2520.0,
+    "price_max": 2520.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Teeth Whitening"
+    },
+    "duration_minutes": 90,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Scaling and Polishing (Moderate)"
+    },
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Scaling and Polishing (Severe)"
+    },
+    "duration_minutes": 75,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Teeth Polishing"
+    },
+    "duration_minutes": 90,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Deep Root Planing + Scaling and Polishing (Moderate)"
+    },
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Deep Root Planing + Scaling and Polishing (Severe)"
+    },
+    "duration_minutes": 180,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Gingivectomy (per tooth)"
+    },
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Enameloplasty (per tooth)"
+    },
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Labial Composite Veneer"
+    },
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Direct Pulp Caping"
+    },
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Indircet Pulp Caping"
+    },
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Temporary Restoration"
+    },
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Bridge Cementation"
+    },
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Crown Cementation"
+    },
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Bridge Removal"
+    },
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Temporary Acrylic (lab manufactured, per tooth)"
+    },
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Crown Removal"
+    },
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Temporary Chairside (per tooth)"
+    },
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Wax up (per tooth)"
+    },
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "OPG X-Ray"
+    },
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Intraoral Periapical (IOPA)"
+    },
+    "price_min": 50.0,
+    "price_max": 50.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - one surface, anterior"
+    },
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - two surfaces, anterior"
+    },
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - three surface, anterior"
+    },
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - four or more surfaces or involving incisal angle (anterior)"
+    },
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - Crown, anterior"
+    },
+    "price_min": 1225.0,
+    "price_max": 1225.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - one surface, posterior"
+    },
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - two surfaces, posterior"
+    },
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - three surface, posterior"
+    },
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Resin Based Composite - four or more surfaces, posterior"
+    },
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Invisalign® Comprehensive"
+    },
+    "price_min": 27825.0,
+    "price_max": 27825.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Invisalign® Lite (Dual Arches)"
+    },
+    "price_min": 17010.0,
+    "price_max": 17010.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Invisalign® Lite (Single Arch)"
+    },
+    "price_min": 13650.0,
+    "price_max": 13650.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Invisalign® Express (Single Arch)"
+    },
+    "price_min": 8242.5,
+    "price_max": 8242.5,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Invisalign® Express (Dual Arches)"
+    },
+    "price_min": 11550.0,
+    "price_max": 11550.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Surgical stent"
+    },
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Surgical placement of implant body: endosteal implant"
+    },
+    "price_min": 7500.0,
+    "price_max": 7500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Abutment supported porcelain/ceramic crown"
+    },
+    "price_min": 4500.0,
+    "price_max": 4500.0,
+    "category_name": "DENTISTRY"
+  },
+  {
+    "name_i18n": {
+      "en": "Abutment supported porcelain fused to metal crown (high noble metal)"
+    },
+    "price_min": 5500.0,
+    "price_max": 5500.0,
+    "category_name": "DENTISTRY"
+  }
+]
