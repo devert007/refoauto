@@ -1,0 +1,1083 @@
+ID,Category,Service Name,Doctor name,Price,Duration,Note,Available In Branches
+ID,ServiceCategory,ServiceName,PractitionerNameArray,Price_AED,Duration,Note,AvailableInBranches
+1,AESTHETICS & DERMATOLOGY,Aesthetics Consultation,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Rebecca Treston
+Dr. Raquel Fernández De Castro",500 + VAT,30 min,"Consultation is 500 + VATAED however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived",Both
+2,AESTHETICS & DERMATOLOGY,Dermatology Consultation,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500,30 min,A Dermatology Consultation is 500 AED which you can claim back from your Insurance provider.,Both
+3,AESTHETICS & DERMATOLOGY,Follow Up Consultation,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Rebecca Treston
+Dr. Raquel Fernández De Castro",350 + VAT,15 min,,Both
+4,AESTHETICS & DERMATOLOGY,Follow Up Visit,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",0,15 min,,Both
+5,AESTHETICS & DERMATOLOGY,Follow Up Consultation (Dermatology),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",400,15 min,,Both
+6,DERMATOLOGY,Lesion Excision (Small),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 + VAT,45 min,,Both
+7,DERMATOLOGY,Lesion Excision (Large),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 + VAT,1 hour,,Both
+8,DERMATOLOGY,Mole Excision (Small),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 + VAT,45 min,,Both
+9,DERMATOLOGY,Mole Excision (Large),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 +VAT,1 hour,,Both
+10,DERMATOLOGY,Cryotherapy (Small),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500 + VAT,30 min,,Both
+11,DERMATOLOGY,Cryotherapy (Medium),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",700 + VAT,45 min,,Both
+12,DERMATOLOGY,Cryotherapy (Large),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 + VAT,1 hour,,Both
+13,DERMATOLOGY,Cysts Extraction (S),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 + VAT,30 min,,Both
+14,DERMATOLOGY,Cysts Extraction (M),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 + VAT,45 min,,Both
+15,DERMATOLOGY,Cysts Extraction (L),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1800 + VAT,1 hour,,Both
+16,DERMATOLOGY,Skin Tag Removal (small),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500 + VAT,30 min,,Both
+17,DERMATOLOGY,Skin Tag Removal (large),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 + VAT,45 min,,Both
+18,DERMATOLOGY,Wart Removal (small),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500 + VAT,30 min,,Both
+19,DERMATOLOGY,Wart Removal (large),"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 + VAT,45 min,,Both
+20,DERMATOLOGY,Laser Minor Procedure,"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500 + VAT,1 hour,,Both
+21,DERMATOLOGY,UVB Phototherapy,"Dr. Anna Zakhozha
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",200 + VAT,30 min,,Both
+22,FACIALS,Hortman Signature Facial,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1700 +VAT,1.5 hour,,Both
+23,FACIALS,Classic Facial,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",950 +VAT,1.5 hour,,Both
+24,FACIALS,Face Sculpt,Danielle April Stephen,1000 +VAT,1.5 hour,,Both
+25,FACIALS,Dermaplaning,Danielle April Stephen,600 +VAT,1.5 hour,,Both
+26,FACIALS,Dermalux Flex MD LED Therapy,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",400 +VAT,1 hour,,Both
+27,FACIALS,Face Mask - add on,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",350 +VAT,30 min,,Both
+28,FACIALS,Lymphatic Drainage Massage (add on),Joanine Nieuwoudt,300 +VAT,1 hour,,Both
+29,FACIALS,Microdermabrasion (add-on),"Joanine Nieuwoudt
+Olena Moshchenko
+Danielle April Stephen",350 +VAT,30 min,,Jumeirah
+30,FACIALS,Microcurrent Treatment,Joanine Nieuwoudt,1000 +VAT,1.5 hour,,Both
+31,FACIALS,pH Facial - Rosacea,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1000 +VAT,1.5 hour,,Both
+32,FACIALS,pH Facial - Acne,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1000 +VAT,1.5 hour,,Both
+33,FACIALS,pH Facial - Pigmentation,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1000+VAT,1.5 hour,,Both
+34,FACIALS,pH Facial - Skin Resurfacing,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1000 +VAT,1.5 hour,,Both
+35,FACIALS,Phixel Needling Facial,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1200 +VAT,1.5 hour,,Both
+36,FACIALS,Hydrafacial Syndeo Deluxe,"Joanine Nieuwoudt
+Olena Moshchenko
+Danielle April Stephen
+Mary Grace Cubillas",1000 +VAT,45 min,,Jumeirah
+37,FACIALS,Hydrafacial Syndeo Platinum,"Joanine Nieuwoudt
+Olena Moshchenko
+Danielle April Stephen
+Mary Grace Cubillas",1400 +VAT,1 hour,,Jumeirah
+38,FACIALS,Heleo4 - 1 session,"Joanine Nieuwoudt
+Olena Moshchenko
+Danielle April Stephen",950 +VAT,1 hour,,Jumeirah
+39,FACIALS,Heleo4 Skin Cellular Detox Programme (5 sessions),"Joanine Nieuwoudt
+Olena Moshchenko
+Danielle April Stephen
+Mary Grace Cubillas",4000 +VAT,1 hour,,Jumeirah
+40,FACIALS,Facial Complex,Olena Moshchenko,1000 +VAT,1.5 hour,,Both
+41,FACIALS,Pregnancy-Safe Facial,"Joanine Nieuwoudt
+Olena Moshchenko
+Merve Sahinoglu
+Svetlana Lialenko
+Sihem Fersi
+Danielle April Stephen",1200 +VAT,1.5 hour,,Both
+42,FACIALS,Teen Facial,Joanine Nieuwoudt,650 +VAT,1.5 hour,,Both
+43,FACIALS,Glass Skin Facial,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1500 +VAT,1.5 hour,,Both
+44,FACIALS,Accent Prime - MicroPlasma,Olena Moshchenko,1500 +VAT,1.5 hour,,Both
+45,FACIALS,Back Facial,"Joanine Nieuwoudt
+Olena Moshchenko
+Carole Semaan
+Sihem Fersi
+Danielle April Stephen
+Daria Buzynarska",1200 +VAT,1.5 hour,,Both
+46,MEDICAL PEELS,Biorepeel,,1000 +VAT,1 hour,,Both
+47,MEDICAL PEELS,Cosmelan (includes home care products),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",3500+VAT,1 hour,,Both
+48,MEDICAL PEELS,Dermamelan,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",4500 +VAT,1 hour,,Both
+49,MEDICAL PEELS,Centric - Whitening Treatment,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 +VAT,1 hour,,Both
+50,MEDICAL PEELS,Centric - Acne Treatment,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 +VAT,1 hour,,Both
+51,MEDICAL PEELS,Centric - Eye Treatment,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 +VAT,30 min,,Both
+52,MEDICAL PEELS,Centric - Lips Treatment,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 +VAT,30 min,,Both
+53,MEDICAL PEELS,APPeex Peel,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 +VAT,1 hour,,Both
+54,MEDICAL PEELS,Intimate Peel,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 +VAT,30 min,,Both
+55,MEDICAL PEELS,PRX-T33,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1200 +VAT,1 hour,,Both
+56,MEDICAL PEELS,PRX-T33 ADD ON,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500 +VAT,30 min,,Both
+57,BOTOX,Botox - Small Zone (up to 20 units),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",900 +VAT,30 min,,Both
+58,BOTOX,Botox - Upper Face,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,30 min,,Both
+59,BOTOX,Botox - Neck/Platysmal Bands (Nephertiti),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,45 min,,Both
+60,BOTOX,Botox - Hyperhidrosis,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3000 +VAT,45 min,,Both
+61,BOTOX,Botox - Masseter,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,45 min,,Both
+62,BOTOX,FU Botox,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",0,15 min,,Both
+63,DERMAL FILLERS,Dermal Filler - 1 Syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2000 +VAT,45 min,,Both
+64,DERMAL FILLERS,Dermal Filler (add on syringe),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,45 min,,Both
+65,DERMAL FILLERS,Radiesse Filler - 1 syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3500 +VAT,1 hour,,Both
+66,DERMAL FILLERS,Radiesse Filler - 2 syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",6000+VAT,75 min,,Both
+67,DERMAL FILLERS,Sculptra Filler - 1 syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3500 +VAT,1 hour,,Both
+68,DERMAL FILLERS,Body Filler - 1 syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1500 +VAT,1 hour,,Both
+69,DERMAL FILLERS,Dermal Fillers - 1 syringe (Fillmed/Ultra),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+70,DERMAL FILLERS,FU Dermal Fillers,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",0,15 min,,Both
+71,INJECTABLE TREATMENTS,Skin Booster - 1 Syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1600+VAT,45 min,,Both
+72,INJECTABLE TREATMENTS,Profhilo - 1 Syringe,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1600+VAT,45 min,,Both
+73,INJECTABLE TREATMENTS,Profhilo Body,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",4000 +VAT,1.5 hour,,Both
+74,INJECTABLE TREATMENTS,Hair Filler,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1500 +VAT,1 hour,,Both
+75,INJECTABLE TREATMENTS,Filler Dissolving (Hyaluronidase) - small,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",800 +VAT,30 min,,Both
+76,INJECTABLE TREATMENTS,Filler Dissolving (Hyaluronidase) - large,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1200 +VAT,45 min,,Both
+77,INJECTABLE TREATMENTS,Ultrasound-guided Filler Dissolving,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2000 +VAT,45 min,,Both
+78,INJECTABLE TREATMENTS,Hair Loss SOS Injection,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",700 +VAT,45 min,,Both
+79,INJECTABLE TREATMENTS,Keloid/Hypertrophic Scar Treatment,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",800 +VAT,1 hour,,Both
+80,INJECTABLE TREATMENTS,Exosomes Treatment - Hair/Face,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2500 +VAT,1 hour,,Both
+81,INJECTABLE TREATMENTS,Growth Factors & Microneedling,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+82,INJECTABLE TREATMENTS,Growth Factors Treatment,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+83,INJECTABLE TREATMENTS,Growth Factors (add on),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1000 +VAT,30 min,,Both
+84,INJECTABLE TREATMENTS,AnteAGE Growth Factors,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+85,INJECTABLE TREATMENTS,AnteAGE Growth Factors (add on),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1000 +VAT,30 min,,Both
+86,INJECTABLE TREATMENTS,SIILK SKINEE Lipolysis,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1200 +VAT,45 min,,Both
+87,INJECTABLE TREATMENTS,PBSerum - Fat Accumulation (Body),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2500 +VAT,1 hour,,Both
+88,INJECTABLE TREATMENTS,PBSerum - Fat Accumulation (Face),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1500 +VAT,45 min,,Both
+89,INJECTABLE TREATMENTS,Polynucleotides Injection (1 syringe),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2500 +VAT,1 hour,,Both
+90,INJECTABLE TREATMENTS,Polynucleotides Injection ( Under Eye),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1500 +VAT,45 min,,Both
+91,INJECTABLE TREATMENTS,Meso Mixed Treatment BCN,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2000 +VAT,1 hour,,Both
+92,PLATELET RICH PLASMA (PRP),PRF Treatment,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3900 +VAT,75 min,,Both
+93,PLATELET RICH PLASMA (PRP),PRP - Face (1 tube),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+94,PLATELET RICH PLASMA (PRP),PRP - Hair (1 tube),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+95,PLATELET RICH PLASMA (PRP),PRP with HA (1 tube),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2500 +VAT,1 hour,,Both
+96,PLATELET RICH PLASMA (PRP),PRP & Microneedling - Face,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",2000 +VAT,1 hour,,Both
+97,MESOTHERAPY,MesoTherapy - Face,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1500 +VAT,1 hour,,Both
+98,MESOTHERAPY,MesoTherapy - Hair,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1500 +VAT,1 hour,,Both
+99,MESOTHERAPY,MesoTherapy & Microneedling,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1800 +VAT,1 hour,,Both
+100,MESOTHERAPY,Meso - Under Eyes,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1200 +VAT,45 min,,Both
+101,MESOTHERAPY,Mesotherapy NCTF (1 vial),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",1600 +VAT,1 hour,,Both
+102,ULTHERAPY,Ulthera (per line),,20 +VAT,1.5 hour,Average AED 6000 - 8000 Face Lift,SZR
+103,MORPHEUS8,Morpheus8 RF Microneedling (FACE) - 1 session,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3300 + VAT,1.5 hour,,Both
+104,MORPHEUS8,"Morpheus8 RF Microneedling (FACE & NECK) - 1 session","Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3500 + VAT,1.5 hour,,Both
+105,MORPHEUS8,"Morpheus8 RF Microneedling (BODY-1 AREA) - 1 session","Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany
+Dr. Raquel Fernández De Castro",3500 + VAT,1.5 hour,,Both
+106,LASER TREATMENTS,BBL - Add on,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 + VAT,30 min,,Both
+107,LASER TREATMENTS,BBL - Forever Young,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",2000 + VAT,1 hour,,Both
+108,LASER TREATMENTS,HALO - Face & Neck,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed",3500 + VAT,1.5 hour,,SZR
+109,LASER TREATMENTS,Er:YAG Sciton - Nano Peel,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 + VAT,1 hour,,Both
+110,LASER TREATMENTS,Er:YAG Sciton - Micro Peel,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",2500 + VAT,1 hour,,Both
+111,LASER TREATMENTS,Er:YAG Sciton - Full Ablation,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",4000 + VAT,1 hour,,Both
+112,LASER TREATMENTS,Er:YAG Sciton - Eyes,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",2500 + VAT,45 min,,Both
+113,LASER TREATMENTS,Er:YAG Sciton - Small Area,"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",2000 + VAT,30 min,,Both
+114,LASER TREATMENTS,MOXI - Face & Neck,"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova",2500 + VAT,1 hour,,Jumeirah
+115,LASER TREATMENTS,Vein Laser Treatment (S),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 + VAT,30 min,,Both
+116,LASER TREATMENTS,Vein Laser Treatment (M),"Dr. Anna Zakhozha
+Dr. Karem Harb
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1300 + VAT,45 min,,Both
+117,LASER TREATMENTS,Vein Laser Treatment (L),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb",2000 + VAT,1 hour,,Both
+118,LASER TREATMENTS,Clear Silk,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb",1500 + VAT,1 hour,,SZR
+119,LASER TREATMENTS,Clear Silk (add on),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb",800 + VAT,30 min,,SZR
+120,LASER TREATMENTS,Tixel Eyes,"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb",1500 + VAT,45 min,,SZR
+121,LASER TREATMENTS,Tixel (Full Face),"Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr Karem Harb",2500 + VAT,1 hour,,SZR
+122,LASER TREATMENTS,AviClear (3 sessions),"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",10500 + VAT,1.5 hour,,Jumeirah
+123,LASER TREATMENTS,Ultraclear,"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",5000 + VAT,75 min,,Jumeirah
+124,LASER TREATMENTS,UltraClear 3D MIRACLE,"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",3000 + VAT,1 hour,,Jumeirah
+125,LASER TREATMENTS,Sofwave,"Rebecca Treston
+Olena Moshchenko
+Dr Nataliya Sanytska",13000 + VAT,2 hour,,Jumeirah
+126,LASER TREATMENTS,PicoWay - Tattoo Removal (cosmetic),"Dr. Anna Zakhozha
+Dr. Karem Harb",950 + VAT,30 min,,SZR
+127,LASER TREATMENTS,PicoWay - Tattoo Removal (body - Small: Hand),"Dr. Anna Zakhozha
+Dr. Karem Harb",1200 + VAT,45 min,,SZR
+128,LASER TREATMENTS,PicoWay - Tattoo Removal (body - Medium: Arm),"Dr. Anna Zakhozha
+Dr. Karem Harb",1800 + VAT,1 hour,,SZR
+129,LASER TREATMENTS,PicoWay - Tattoo Removal (body - big: both Arms/back),"Dr. Anna Zakhozha
+Dr. Karem Harb",2700 + VAT,1.5 hour,,SZR
+130,LASER TREATMENTS,PicoWay - Full Face,"Dr. Anna Zakhozha
+Dr. Karem Harb",2500 + VAT,1 hour,,SZR
+131,LASER TREATMENTS,PicoWay - Small Area (Face/Body),"Dr. Anna Zakhozha
+Dr. Karem Harb",1500 + VAT,45 min,,SZR
+132,LASER TREATMENTS,Pico Genesis  - Tattoo Removal (cosmetic),"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",950 + VAT,30 min,,Jumeirah
+133,LASER TREATMENTS,Pico Genesis - Tattoo Removal (body - Small: Hand),"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",1200 + VAT,45 min,,Jumeirah
+134,LASER TREATMENTS,Pico Genesis - Tattoo Removal (body - Medium: Arm),"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",1800 + VAT,1 hour,,Jumeirah
+135,LASER TREATMENTS,Pico Genesis - Tattoo Removal (body - big: both Arms/back),"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston",2700 + VAT,1.5 hour,,Jumeirah
+136,LASER TREATMENTS,Pico Genesis - Full Face,"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston
+Danielle Stephen",2500 + VAT,1 hour,,Jumeirah
+137,LASER TREATMENTS,Pico Genesis - Small Area (Face/Body),"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston
+Danielle Stephen",1500 + VAT,45 min,,Jumeirah
+138,LASER TREATMENTS,Fotona 4D,"Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Rebecca Treston
+Danielle Stephen",3500 + VAT,1 hour,,Jumeirah
+139,SCAR TREATMENTS,Acne Scar TCA Cross (Small),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1000 + VAT,30 min,,Both
+140,SCAR TREATMENTS,Acne Scar TCA Cross (Large),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 + VAT,45 min,,Both
+141,SCAR TREATMENTS,Laser - Scar (Small),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 + VAT,45 min,,Both
+142,SCAR TREATMENTS,Laser - Scar (Meduim),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",2000 + VAT,1 hour,,Both
+143,SCAR TREATMENTS,Laser - Scar (Large),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",2500 + VAT,75 min,,Both
+144,SCAR TREATMENTS,Laser Drug Delivery (add on),"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",500 + VAT,30 min,,Both
+145,SCAR TREATMENTS,Scar Subcision,"Dr. Anna Zakhozha
+Dr. Nataliya Sanytska
+Dr.Tatiana Kuznechenkova
+Dr.Lyn Al Alamy AlHassany",1500 + VAT,1 hour,,Both
+146,SCAR TREATMENTS,Magnetic Tattoo Removal (Eyebrows),"Rebecca Treston
+Danielle Stephen",1500 + VAT,30 min,,Jumeirah
+147,THREADS,PDO - Mesothreads (per thread),Dr. Nataliya Sanytska,100 + VAT,45 min,,Jumeirah
+148,THREADS,PDO - Mesothreads (10 threads),Dr. Nataliya Sanytska,1000 + VAT,1 hour,,Jumeirah
+149,THREADS,APTOS Excellence Visage Threads,Dr. Nataliya Sanytska,6000 + VAT,1.5 hour,,Jumeirah
+150,THREADS,APTOS Nano Threads,Dr. Nataliya Sanytska,4000 + VAT,1.5 hour,,Jumeirah
+151,THREADS,EVERLINE PLA Threads 19G 100mm (4 threads),Dr. Nataliya Sanytska,2800 + VAT,75 min,,Jumeirah
+152,THREADS,EVERLINE PLA Threads 19G 100mm (add-on thread),Dr. Nataliya Sanytska,500 + VAT,75 min,,Jumeirah
+153,THREADS,Mono Threads G27 60mm (10 threads),Dr. Nataliya Sanytska,1000 + VAT,75 min,,Jumeirah
+154,THREADS,APTOS 2 G Threads - Lower Face,Dr. Nataliya Sanytska,6000 + VAT,1.5 hour,,Jumeirah
+155,THREADS,APTOS Thread Lifting - Double Chin,Dr. Nataliya Sanytska,6000 + VAT,1.5 hour,,Jumeirah
+156,ICOONE,Icoone Body - 45 minutes, Daria Buzynarska,800 + VAT,45 min,,Jumeirah
+157,ICOONE,Icoone Body - 60 minutes, Daria Buzynarska,900 + VAT,1 hour,,Jumeirah
+158,ICOONE,Icoone Body - 90 minutes, Daria Buzynarska,1200 + VAT,1.5 hour,,Jumeirah
+159,ICOONE,Icoone Face - 30 minutes, Daria Buzynarska,500 + VAT,30 min,,Jumeirah
+160,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Small Area,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",900 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+161,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Arms,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",1500 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+162,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Flanks,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",1500 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+163,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Stomach,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2000 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+164,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Full Thighs,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2000 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+165,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Thighs + Buttocks,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2000 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+166,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - Front Thighs,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2000 + VAT,30 min,Initial consultation has to be done by Dr Karem Harb,SZR
+167,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - 3 areas,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",4000 + VAT,1.5 hour,Initial consultation has to be done by Dr Karem Harb,SZR
+168,ALMA -ACCENT PRIME,Accent Prime – RF and Ultrasound - 4 areas +,"Desiree Garcia
+Joanine Nieuwoudt
+Cherry Lou Abuyan",5000 + VAT,2 hour,Initial consultation has to be done by Dr Karem Harb,SZR
+169,EMSCULPT NEO,Emsculpt Neo - Abdomen,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+170,EMSCULPT NEO,Emsculpt Neo - Buttocks,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+171,EMSCULPT NEO,Emsculpt Neo – Front Thighs,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+172,EMSCULPT NEO,Emsculpt Neo – Back Thighs,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+173,EMSCULPT NEO,Emsculpt Neo – Outer Thighs,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+174,EMSCULPT NEO,Emsculpt Neo - Inner Thighs,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+175,EMSCULPT NEO,Emsculpt Neo - Calves,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+176,EMSCULPT NEO,Emsculpt Neo - Triceps,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+177,EMSCULPT NEO,Emsculpt Neo - Biceps,"Dr. Karem Harb
+Joanine Nieuwoudt
+Cherry Lou Abuyan",2600 + VAT,30 min,"Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself",SZR
+178,EMSCULPT NEO,Wonder Face (5 sessions),"Olena Moshchenko
+Danielle Stephen
+Joanine Nieuwoudt",3000 + VAT,30 min,,Jumeirah
+179,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR (Small Area),Desiree Garcia,200 + VAT,15 min,Free Consultation,SZR
+180,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Full Face,Desiree Garcia,400 + VAT,30 min,Free Consultation,SZR
+181,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Half Face,Desiree Garcia,300 + VAT,15 min,Free Consultation,SZR
+182,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Face and Neckline,Desiree Garcia,450 + VAT,30 min,Free Consultation,SZR
+183,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Arms (Full),Desiree Garcia,550 + VAT,1 hour,Free Consultation,SZR
+184,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Arms (Half),Desiree Garcia,350 + VAT,45 min,Free Consultation,SZR
+185,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Back,Desiree Garcia,650 + VAT,1 hour,Free Consultation,SZR
+186,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Bikini,Desiree Garcia,350 + VAT,30 min,Free Consultation,SZR
+187,LASER HAIR REMOVAL - SOPRANO TITANIUM,MLHR: Bikini (MALE),Desiree Garcia,900 + VAT,30 min,"Free Consultation . Performed by our male Doctor , Dr Karem Harb",SZR
+188,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Legs (Full),Desiree Garcia,750 + VAT,1 hour,Free Consultation,SZR
+189,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Legs (Half),Desiree Garcia,500 + VAT,45 min,Free Consultation,SZR
+190,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Underarms,Desiree Garcia,300 + VAT,15 min,Free Consultation,SZR
+191,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Upper Lip + Chin,Desiree Garcia,250 + VAT,15 min,Free Consultation,SZR
+192,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Bikini + Underarms,Desiree Garcia,450 + VAT,45 min,Free Consultation,SZR
+193,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Chest,Desiree Garcia,650 + VAT,1 hour,Free Consultation,SZR
+194,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Abdomen,Desiree Garcia,400 + VAT,1 hour,Free Consultation,SZR
+195,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Full Body (FEMALE),Desiree Garcia,1250 + VAT,2 hour,Free Consultation,SZR
+196,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: Full Body (MALE),"Desiree Garcia
+Dr Karem Harb (private area only)",1200 + VAT,2.5 hour,Free Consultation. Dr Karem does the private area at an additional cost of 900 + VAT and Desiree Garcia the rest of the body.,SZR
+197,LASER HAIR REMOVAL - SOPRANO TITANIUM,LHR: 3 areas,Desiree Garcia,950 + VAT,1.5 hour,Free Consultation,SZR
+198,LASER HAIR REMOVAL - POLYLASE MX,LHR (Small Area),Jan Alviola,200 + VAT,15 min,Free Consultation,Jumeirah
+199,LASER HAIR REMOVAL - POLYLASE MX,LHR: Full Face,Jan Alviola,400 + VAT,30 min,Free Consultation,Jumeirah
+200,LASER HAIR REMOVAL - POLYLASE MX,LHR: Half Face,Jan Alviola,300 + VAT,15 min,Free Consultation,Jumeirah
+201,LASER HAIR REMOVAL - POLYLASE MX,LHR: Face and Neckline,Jan Alviola,450 + VAT,30 min,Free Consultation,Jumeirah
+202,LASER HAIR REMOVAL - POLYLASE MX,LHR: Arms (Full),Jan Alviola,550 + VAT,1 hour,Free Consultation,Jumeirah
+203,LASER HAIR REMOVAL - POLYLASE MX,LHR: Arms (Half),Jan Alviola,350 + VAT,45 min,Free Consultation,Jumeirah
+204,LASER HAIR REMOVAL - POLYLASE MX,LHR: Back,Jan Alviola,650 + VAT,1 hour,Free Consultation,Jumeirah
+205,LASER HAIR REMOVAL - POLYLASE MX,LHR: Bikini,Jan Alviola,350 + VAT,30 min,Free Consultation,Jumeirah
+206,LASER HAIR REMOVAL - POLYLASE MX,LHR: Legs (Full),Jan Alviola,750 + VAT,1 hour,Free Consultation,Jumeirah
+207,LASER HAIR REMOVAL - POLYLASE MX,LHR: Legs (Half),Jan Alviola,500 + VAT,45 min,Free Consultation,Jumeirah
+208,LASER HAIR REMOVAL - POLYLASE MX,LHR: Underarms,Jan Alviola,300 + VAT,15 min,Free Consultation,Jumeirah
+209,LASER HAIR REMOVAL - POLYLASE MX,LHR: Upper Lip + Chin,Jan Alviola,250 + VAT,15 min,Free Consultation,Jumeirah
+210,LASER HAIR REMOVAL - POLYLASE MX,LHR: Bikini + Underarms,Jan Alviola,450 + VAT,45 min,Free Consultation,Jumeirah
+211,LASER HAIR REMOVAL - POLYLASE MX,LHR: Chest,Jan Alviola,650 + VAT,1 hour,Free Consultation,Jumeirah
+212,LASER HAIR REMOVAL - POLYLASE MX,LHR: Abdomen,Jan Alviola,400 + VAT,1 hour,Free Consultation,Jumeirah
+213,LASER HAIR REMOVAL - POLYLASE MX,LHR: Full Body (FEMALE),Jan Alviola,1250 + VAT,2 hour,Free Consultation,Jumeirah
+214,LASER HAIR REMOVAL - POLYLASE MX,LHR: Full Body (MALE),Jan Alviola,1200 + VAT,2.5 hour,Free Consultation,Jumeirah
+215,LASER HAIR REMOVAL - POLYLASE MX,LHR: 3 areas,Jan Alviola,950 + VAT,1.5 hour,Free Consultation,Jumeirah
+216,HAIR BLEACHING - STARWALKER FOTONA,Bleaching - Upper Lip,"Jan Alviola
+Mary Grace Cubillas
+Frances Tabuada
+Danielle Stephen",300 + VAT,15 min,Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm,Jumeirah
+217,HAIR BLEACHING - STARWALKER FOTONA,Bleaching - Small (half face),"Jan Alviola
+Mary Grace Cubillas
+Frances Tabuada
+Danielle Stephen",550 + VAT,30 min,Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm,Jumeirah
+218,HAIR BLEACHING - STARWALKER FOTONA,Bleaching - Medium (full face),"Jan Alviola
+Mary Grace Cubillas
+Frances Tabuada
+Danielle Stephen",1000 + VAT,45 min,Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm,Jumeirah
+219,HAIR BLEACHING - STARWALKER FOTONA,Bleaching - Large (one body area),"Jan Alviola
+Mary Grace Cubillas
+Frances Tabuada
+Danielle Stephen",1500 + VAT,1 hour,Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm,Jumeirah
+220,WELLNESS -IV THERAPY,Home Service,Dr Mohsen,500 + VAT,75 min,,Jumeirah
+221,WELLNESS -IV THERAPY,Family Medicine IV Therapy  Consultation,Dr Mohsen,450 + VAT,30 min,,Jumeirah
+222,WELLNESS -IV THERAPY,ANTISTRESS DRIP,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+223,WELLNESS -IV THERAPY,IMMUNE BOOST DRIP,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+224,WELLNESS -IV THERAPY,ENERGY DRIP,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+225,WELLNESS -IV THERAPY,LIVER CLEANSE (DETOX),Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+226,WELLNESS -IV THERAPY,GUT CLEANSE,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+227,WELLNESS -IV THERAPY,ANTI HAIR LOSS DRIP,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+228,WELLNESS -IV THERAPY,MULTIVITAMIN FOR WOMEN,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+229,WELLNESS -IV THERAPY,ANTI-AGING VITAMINS,Dr Mohsen,1500 + VAT,1 hour,,Jumeirah
+230,WELLNESS -IV THERAPY,NAD IV DRIP,Dr Mohsen,1800 + VAT,1 hour,,Jumeirah
+231,WELLNESS -IV THERAPY,NAD+ IV DRIP,Dr Mohsen,3000 + VAT,2 hour,,Jumeirah
+232,WELLNESS -IV THERAPY,Vitamin D Injection,Dr Mohsen,900 + VAT,15 min,,Jumeirah
+233,WELLNESS -IV THERAPY,Iron Infusion,Dr Mohsen,900 + VAT,1 hour,,Jumeirah
+234,WELLNESS,Family Medicine Consultant Consultation,Dr Mohsen,1500,2 hour,,Jumeirah
+235,WELLNESS,Family Medicine Consultant Follow Up,Dr Mohsen,1250,1 hour,,Jumeirah
+236,MEN'S HEALTH,"Comprehensive Consultation & Examination
+ Seca - Advanced Body Composition Analysis
+ Vitals Check
+ Follow up Consultation & Lab Test Reading
+ Fertility Profile (Male) - (FSH, LH, Prolactin, Estradiol, Testosterone-Total, SHBG, FAI)
+ Complete Blood Count (CBC)
+ Lipids Profile (Cholesterol, Triglycerides, HDL, LDL, VLDL, Cholesterol/HDL Ratio, HDL/Cholesterol Ratio)
+ Tumor Markers Screen (Male) - (CA 19.9, CEA, PSA-Total, PSA-Free, AFP, BHCG)
+ Comprehensive Metabolic Panel",Dr Mohsen,4100,1 hour,,Jumeirah
+237,Weight Loss Package,"Comprehensive Consultation & Examination
+ Seca - Body Composition Analysis 
+ Vitals Check
+ Follow up Consultation & Lab Test Reading 
+ Glycosylated Haemoglobin (HbA1C)
+ Lipids Profile - (Cholesterol, Triglycerides, HDL, LDL, VLDL, Cholesterol/HDL Ratio, HDL/Cholesterol Ratio)
+ Thyroid Stimulating Hormone (TSH)
+ Comprehensive Metabolic Panel",Dr Mohsen,2500,1 hour,,Jumeirah
+238,Executive Physical Package - Male,"Comprehensive Consultation & Examination
+ Seca - Body Composition Analysis 
+ Face Analizer
+ Vitals Check
+ Supplements and/or IVs Recommendation 
+ Follow up Consultation & Lab Test Reading 
+ Thyroid Stimulating Hormone (TSH)
+ York- Check up Profile - (CBC, ESR, Glucose- Fasting, Lipids Profile, Kidney and Liver Function, Amylase, TSH, Urine Analysis)
+ Electrolyte Profile - (Sodium (Na), Potassium (K), Chloride (Cl))
+ Diabetes Profile - (Glucose-Fasting, HbA1C, Microalbumin/Creatinine Ratio-urine)
+ Prostate Profile - (PSA-Total & PSA-Free, Free PSA Ratio)
+ Tumor Markers Screen (Male) - (CA 19.9, CEA, PSA-Total, PSA-Free, AFP, BHCG)
+ Fertility Profile (Male) - (Follicle Stimulating Hormone (FSH), Luteinizing Hormone (LH), Prolactin, Estradiol (E2), Testosterone-Total, SHBG, Free Androgen Index-FAI)",Dr Mohsen,5500,1 hour,,Jumeirah
+239,Executive Physical Package - Female,"Comprehensive Consultation & Examination
+ Seca - Body Composition Analysis 
+ Face Analizer
+ Vitals Check
+ Supplements and/or IVs Recommendation 
+ Follow up Consultation & Lab Test Reading 
+ Tumor Markers Screen (Female) - (CEA, CA 15.3, CA 19.9, CA 125, AFP)
+ Thyroid Stimulating Hormone (TSH)
+ York- Check up Profile - (CBC, ESR, Glucose- Fasting, Lipids Profile, Kidney and Liver Function, Amylase, TSH, Urine Analysis)
+ Electrolyte Profile - (Sodium (Na), Potassium (K), Chloride (Cl))
+ Diabetes Profile - (Glucose-Fasting, HbA1C, Microalbumin/Creatinine Ratio-urine)
+ Fertility Profile (Female) - (Follicle Stimulating Hormone (FSH), Luteinizing Hormone (LH), Progesterone, Prolactin, Estradiol (E2), TSH)",Dr Mohsen,5500,1 hour,,Jumeirah
+240,WELLNESS : TESTOSTERONE REPLACEMENT THERAPY,TRT Consultation,,1500,2 hour,,Jumeirah
+241,WELLNESS : TESTOSTERONE REPLACEMENT THERAPY,Testosterone Replacement Therapy (1 month program / weekly follow-ups),Dr Mohsen,2500,1 hour,,Jumeirah
+242,WELLNESS : TESTOSTERONE REPLACEMENT THERAPY,Testosterone Replacement Therapy (3 month program / unlimited follow-ups),Dr Mohsen,7500,1 hour,,Jumeirah
+243,WELLNESS : PEPTIDES THERAPY,Peptides Consultation,Dr Mohsen,1500,2 hour,,Jumeirah
+244,WELLNESS : PEPTIDES THERAPY,BPC 157,Dr Mohsen,2240,1 hour,,Jumeirah
+245,WELLNESS : PEPTIDES THERAPY,Epitalon,Dr Mohsen,4720,1 hour,,Jumeirah
+246,WELLNESS : PEPTIDES THERAPY,IGF LR3,Dr Mohsen,2040,1 hour,,Jumeirah
+247,WELLNESS : PEPTIDES THERAPY,Thymosin alpha 1,Dr Mohsen,2800,1 hour,,Jumeirah
+248,WELLNESS : PEPTIDES THERAPY,Thymosin beta 4,Dr Mohsen,2680,1 hour,,Jumeirah
+249,WELLNESS : PEPTIDES THERAPY,PT 141 Spray,Dr Mohsen,1760,1 hour,,Jumeirah
+250,WELLNESS : PEPTIDES THERAPY,CJC ipamorelin,Dr Mohsen,3760,1 hour,,Jumeirah
+251,WELLNESS : PEPTIDES THERAPY,MOTSc,Dr Mohsen,14000,1 hour,,Jumeirah
+252,WELLNESS : PEPTIDES THERAPY,AOD 9604,Dr Mohsen,2300,1 hour,,Jumeirah
+253,WELLNESS : PEPTIDES THERAPY,GHK-Cu (Copper Peptide),Dr Mohsen,1890,1 hour,,Jumeirah
+254,WELLNESS : PEPTIDES THERAPY,DSIP Peptides,Dr Mohsen,1760,1 hour,,Jumeirah
+255,WELLNESS : PEPTIDES THERAPY,Oxytocin,Dr Mohsen,2520,1 hour,,Jumeirah
+256,WELLNESS : PEPTIDES THERAPY,Kisspeptin,Dr Mohsen,2120,1 hour,,Jumeirah
+257,WELLNESS : PEPTIDES THERAPY,Bi-Estrogen 1mg liposomal cream,Dr Mohsen,1298.8,1 hour,,Jumeirah
+258,WELLNESS : PEPTIDES THERAPY,Progestrone SR 100mg,Dr Mohsen,1362.6,1 hour,,Jumeirah
+259,WELLNESS : PEPTIDES THERAPY,Testosterone 2mg Liposmal Cream,Dr Mohsen,1362.6,1 hour,,Jumeirah
+260,HAIR TRANSPLANT,Hair Transplant Consultation,Dr Sezgin Cagatay,500,30 min,,SZR
+261,HAIR TRANSPLANT,Hair Loss Consultation (Treatments),Dr Sezgin Cagatay,525,1 hour,,SZR
+262,HAIR TRANSPLANT,HT Growth Fасtors,Dr Sezgin Cagatay,1000,1 hour,,SZR
+263,HAIR TRANSPLANT,HT Pep Factor,Dr Sezgin Cagatay,1600,1 hour,,SZR
+264,HAIR TRANSPLANT,HT Laser Hair Stimulation,Dr Sezgin Cagatay,500,1 hour,,SZR
+265,HAIR TRANSPLANT,HT Trichology Service,Dr Sezgin Cagatay,2000,1 hour,,SZR
+266,HAIR TRANSPLANT,HT BT HT,Dr Sezgin Cagatay,2000,1 hour,,SZR
+267,HAIR TRANSPLANT,HT BT Hair Loss,Dr Sezgin Cagatay,2000,1 hour,,SZR
+268,HAIR TRANSPLANT,HT Acell,Dr Sezgin Cagatay,5000,1 hour,,SZR
+269,HAIR TRANSPLANT,HT Triple Therapy,Dr Sezgin Cagatay,2300,1 hour,,SZR
+270,HAIR TRANSPLANT,HT Skin Biopsy,Dr Sezgin Cagatay,2500,1 hour,,SZR
+271,HAIR TRANSPLANT,HT Basic Package,Dr Sezgin Cagatay,31158.75,2 + days,,SZR
+272,HAIR TRANSPLANT,HT Standart Package,Dr Sezgin Cagatay,35306.25,2 + days,,SZR
+273,HAIR TRANSPLANT,HT Standart Package (2 days),Dr Sezgin Cagatay,45806.25,2 days,,SZR
+274,HAIR TRANSPLANT,HT Premium Package,Dr Sezgin Cagatay,40346.25,Individual,,SZR
+275,HAIR TRANSPLANT,HT Premium Package (2 days),Dr Sezgin Cagatay,50846.25,2 days,,SZR
+276,HAIR TRANSPLANT,HT Elite Package,Dr Sezgin Cagatay,49245,Individual,,SZR
+277,HAIR TRANSPLANT,HT Elite Package (2 days),Dr Sezgin Cagatay,59745,2 days,,SZR
+278,HAIR TRANSPLANT,HT Growth Factors + PRP (6 sessions),Dr Sezgin Cagatay,10500,1 hour,,SZR
+279,HAIR TRANSPLANT,HT Pep Factor (6 sessions),Dr Sezgin Cagatay,7500,1 hour,,SZR
+280,HAIR TRANSPLANT,HT Triple Therapy (6 sessions),Dr Sezgin Cagatay,10500,1 hour,,SZR
+281,HAIR TRANSPLANT,HT Acell + Triple Therapy (6 sessions),Dr Sezgin Cagatay,13500,1 hour,,SZR
+282,CLINICAL OBSTETRICS & GYNECOLOGY,Specialist Gynecology Consultation,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",850,1 hour,,Jumeirah
+283,CLINICAL OBSTETRICS & GYNECOLOGY,Obstetric Ultrasound Scan,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",650,1 hour,,Jumeirah
+284,CLINICAL OBSTETRICS & GYNECOLOGY,Gynaecology Ultrasound Scan,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",650,1 hour,,Jumeirah
+285,CLINICAL OBSTETRICS & GYNECOLOGY,Ultrasound assisted Hysterosalpingoscopy,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1500,1 hour,,Jumeirah
+286,CLINICAL OBSTETRICS & GYNECOLOGY,Folliculometry,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1500,1 hour,,Jumeirah
+287,CLINICAL OBSTETRICS & GYNECOLOGY,Uterine Cavity Aspiration by Pipelle + Endometrial Biopsy + Histology,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1500,1 hour,,Jumeirah
+288,CLINICAL OBSTETRICS & GYNECOLOGY,IUD Installation (including the device),"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",3500,1 hour,,Jumeirah
+289,CLINICAL OBSTETRICS & GYNECOLOGY,CU 375 IUD Insertion,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1800,1 hour,,Jumeirah
+290,CLINICAL OBSTETRICS & GYNECOLOGY,IUD Removal,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1100,1 hour,,Jumeirah
+291,CLINICAL OBSTETRICS & GYNECOLOGY,Implanon Removal,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2800,1 hour,,Jumeirah
+292,CLINICAL OBSTETRICS & GYNECOLOGY,Depoprovera Injection,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",850,1 hour,,Jumeirah
+293,CLINICAL OBSTETRICS & GYNECOLOGY,Pessary Installation for Pregnant,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",600,1 hour,,Jumeirah
+294,CLINICAL OBSTETRICS & GYNECOLOGY,Cervix colposcopy,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2500,1 hour,,Jumeirah
+295,CLINICAL OBSTETRICS & GYNECOLOGY,Papilloma/Condyloma Removal + Histology (single),"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1000,1 hour,,Jumeirah
+296,CLINICAL OBSTETRICS & GYNECOLOGY,Papilloma/Condyloma Removal + Histology (multiple),"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1500,1 hour,,Jumeirah
+297,CLINICAL OBSTETRICS & GYNECOLOGY,Cervix or Vaginal Biopsy + Histopathology,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1500,1 hour,,Jumeirah
+298,AESTHETICS GYNAE,G-SPOT AMPLIFICATION,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",3150,1 hour,,Jumeirah
+299,AESTHETICS GYNAE,O-SHOT,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2625,1 hour,,Jumeirah
+300,AESTHETICS GYNAE,PRP - 1 session,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1575,1 hour,,Jumeirah
+301,AESTHETICS GYNAE,Femilift - Laser Tightening & Vaginal Rejuvenation,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2100,1 hour,,Jumeirah
+302,AESTHETICS GYNAE,Intimate Whitening Treatment - 1 session,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1575,1 hour,,Jumeirah
+303,AESTHETICS GYNAE,LABIA AUGMENTATION WITH FILLERS (per syringe),"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2100,1 hour,,Jumeirah
+304,AESTHETICS GYNAE,Labial Skin Tag Removal,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",3500,1 hour,,Jumeirah
+305,SURGICAL,LABIAPLASTY,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",26250,Individual,,Jumeirah
+306,PACKAGES,Intimate Rejuvenation - Femilift x 3 sessions & O-shot x 3 sessions,,10000,,Femilift x 3 sessions & O-shot x 3 sessions,Jumeirah
+307,PACKAGES,Pre-Pregnancy Health Check,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2000,1 hour,"Comprehensive Consultation and Ultrasound
+ Abdominal and pelvic examination
+ Blood tests:
+ Full blood count
+ Blood group and rhesus type
+ Atypical antibody screen
+ Rubella, Hepatitis B, Varicella Zoster, HIV
+ Glucose & Vitamin D
+ TSH
+ Detailed report & Follow Up
+ Direct access for any urgent health concerns",Jumeirah
+308,PACKAGES,Well Women Check,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1800,1 hour,"Consultation with a Gynaecologist and Ultrasound
+ Full history taking and pelvic examination
+ Blood pressure assessment
+ Cervical smear (PAP test)
+ HPV sub typing test
+ Contraception and sexual health review
+ Arrangement for prescription and onward referral if required
+ Detailed report & Follow Up
+ Direct access for any urgent health concerns",Jumeirah
+309,PACKAGES,Sexual Health Screen,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",2500,1 hour,"A consultation with a gynaecologist to discuss your sexual health needs and any additional gynecological concerns
+ Abdominal and pelvic examination including Ultrasound
+ Test for 13 sexually transmitted diseases
+ Blood tests:
+ HIV, Hepatitis B & C and Syphilis
+ Detailed report & Follow Up
+ Direct access for any urgent health concerns",Jumeirah
+310,PACKAGES,Fertility Check,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1800,1 hour,"A fertility consultation with a gynaecologist and Ultrasound
+ Fertility blood tests including
+ Day 2-5 FSH, LH, oestradiol (ovarian hormones), Prolactin
+ AMH (test for ovarian reserve)
+ Vitamin D
+ Day 21 progesterone test (test of ovulation)
+ TSH",Jumeirah
+311,PACKAGES,Hormonal Health Check,"Dr. Amitabha Majumdar
+Dr. Rashad Haddad",1500,1 hour,"Consultation and Ultrasound
+ Abdominal and pelvic examination
+ Comprehensive Hormonal Profile with 7 Blood Tests 
+ Detailed report & Follow Up
+ Direct access for any urgent health concerns",Jumeirah
+312,SMP,Beard micropigmentation,Andreea Paval,2100,Individual,4200,SZR
+313,SMP,Full bold shaved look,Andreea Paval,4200,Individual,10500,SZR
+314,SMP,Crown area,Andreea Paval,2100,Individual,5250,SZR
+315,SMP,Hairline area,Andreea Paval,1890,Individual,4200,SZR
+316,SMP,Hairline and Crown,Andreea Paval,2625,Individual,6300,SZR
+317,SMP,Hair Transplant Scar,Andreea Paval,1575,Individual,3150,SZR
+318,SMP,Ludwig Scale Type 1,Andreea Paval,1050,Individual,2100,SZR
+319,SMP,Ludwig Scale Type 2,Andreea Paval,2100,Individual,3150,SZR
+320,SMP,Ludwig Scale Type 3,Andreea Paval,3150,Individual,4200,SZR
+321,SMP,Hairline and Crown,Andreea Paval,2625,Individual,6300,SZR
+322,SMP,Microblading eyebrows,Andreea Paval,2100,Individual,1 session + touch up,SZR
+323,SMP,Touch up session,Andreea Paval,1050,Individual,,SZR
+324,SMP,Exosomes Treatment - Hair,Andreea Paval,2100,Individual,,SZR
+325,DENTISTRY,Dental Consultation,"Dr Zainab Mohi
+Dr Kinan Bonni",350,30 min,"Consultation is 350 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived",SZR
+326,DENTISTRY,Dental Consultation - Comprehensive,"Dr Zainab Mohi
+Dr Kinan Bonni",500,45 min,"Consultation is 500 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived",SZR
+327,DENTISTRY,Smile Design ( Wax up + casts ),"Dr Zainab Mohi
+Dr Kinan Bonni",2100,Individual,,SZR
+328,DENTISTRY,Emax Veneers,Dr Kinan Bonni,3675,Individual,,SZR
+329,DENTISTRY,Feldspathic Veneers,Dr Kinan Bonni,7350,Individual,,SZR
+330,DENTISTRY,Emax Crown,"Dr Zainab Mohi
+Dr Kinan Bonni",3500,1.5 hour,,SZR
+331,DENTISTRY,Zirconia Crown,"Dr Zainab Mohi
+Dr Kinan Bonni",3500,1.5 hour,,SZR
+332,DENTISTRY,Inlay,"Dr Zainab Mohi
+Dr Kinan Bonni",3500,1 hour,,SZR
+333,DENTISTRY,Onlay,"Dr Zainab Mohi
+Dr Kinan Bonni",3500,1 hour,,SZR
+334,DENTISTRY,Whitening + Bleaching trays,"Dr Zainab Mohi
+Dr Kinan Bonni",2520,Individual,,SZR
+335,DENTISTRY,Teeth Whitening,"Dr Zainab Mohi
+Dr Kinan Bonni",2100,1.5 hour,,SZR
+336,DENTISTRY,Scaling and Polishing (Moderate),"Dr Zainab Mohi
+Dr Kinan Bonni",550,1 hour,,SZR
+337,DENTISTRY,Scaling and Polishing (Severe),"Dr Zainab Mohi
+Dr Kinan Bonni",800,75 min,,SZR
+338,DENTISTRY,Teeth Polishing,"Dr Zainab Mohi
+Dr Kinan Bonni",300,1.5 hour,,SZR
+339,DENTISTRY,Deep Root Planing + Scaling and Polishing (Moderate),"Dr Zainab Mohi
+Dr Kinan Bonni",1500,2 hour,,SZR
+340,DENTISTRY,Deep Root Planing + Scaling and Polishing (Severe),"Dr Zainab Mohi
+Dr Kinan Bonni",3000,3 hour,,SZR
+341,DENTISTRY,Gingivectomy (per tooth),"Dr Zainab Mohi
+Dr Kinan Bonni",450,Individual,,SZR
+342,DENTISTRY,Enameloplasty (per tooth),"Dr Zainab Mohi
+Dr Kinan Bonni",350,Individual,,SZR
+343,DENTISTRY,Labial Composite Veneer,"Dr Zainab Mohi
+Dr Kinan Bonni",1575,Individual,,SZR
+344,DENTISTRY,Direct Pulp Caping,"Dr Zainab Mohi
+Dr Kinan Bonni",350,Individual,,SZR
+345,DENTISTRY,Indircet Pulp Caping,"Dr Zainab Mohi
+Dr Kinan Bonni",350,Individual,,SZR
+346,DENTISTRY,Temporary Restoration,"Dr Zainab Mohi
+Dr Kinan Bonni",300,Individual,,SZR
+347,DENTISTRY,Bridge Cementation,"Dr Zainab Mohi
+Dr Kinan Bonni",600,Individual,,SZR
+348,DENTISTRY,Crown Cementation,"Dr Zainab Mohi
+Dr Kinan Bonni",500,Individual,,SZR
+349,DENTISTRY,Bridge Removal,"Dr Zainab Mohi
+Dr Kinan Bonni",500,Individual,,SZR
+350,DENTISTRY,"Temporary Acrylic (lab manufactured, per tooth)","Dr Zainab Mohi
+Dr Kinan Bonni",250,Individual,,SZR
+351,DENTISTRY,Crown Removal,"Dr Zainab Mohi
+Dr Kinan Bonni",350,Individual,,SZR
+352,DENTISTRY,Temporary Chairside (per tooth),"Dr Zainab Mohi
+Dr Kinan Bonni",250,Individual,,SZR
+353,DENTISTRY,Wax up (per tooth),"Dr Zainab Mohi
+Dr Kinan Bonni",200,Individual,,SZR
+354,DENTISTRY,OPG X-Ray,"Dr Zainab Mohi
+Dr Kinan Bonni",350,Individual,,SZR
+355,DENTISTRY,Intraoral Periapical (IOPA),"Dr Zainab Mohi
+Dr Kinan Bonni",50,Individual,,SZR
+356,DENTISTRY,"Resin Based Composite - one surface, anterior","Dr Zainab Mohi
+Dr Kinan Bonni",600,Individual,,SZR
+357,DENTISTRY,"Resin Based Composite - two surfaces, anterior","Dr Zainab Mohi
+Dr Kinan Bonni",700,Individual,,SZR
+358,DENTISTRY,"Resin Based Composite - three surface, anterior","Dr Zainab Mohi
+Dr Kinan Bonni",800,Individual,,SZR
+359,DENTISTRY,Resin Based Composite - four or more surfaces or involving incisal angle (anterior),"Dr Zainab Mohi
+Dr Kinan Bonni",1200,Individual,,SZR
+360,DENTISTRY,"Resin Based Composite - Crown, anterior","Dr Zainab Mohi
+Dr Kinan Bonni",1225,Individual,,SZR
+361,DENTISTRY,"Resin Based Composite - one surface, posterior","Dr Zainab Mohi
+Dr Kinan Bonni",700,Individual,,SZR
+362,DENTISTRY,"Resin Based Composite - two surfaces, posterior","Dr Zainab Mohi
+Dr Kinan Bonni",800,Individual,,SZR
+363,DENTISTRY,"Resin Based Composite - three surface, posterior","Dr Zainab Mohi
+Dr Kinan Bonni",950,Individual,,SZR
+364,DENTISTRY,"Resin Based Composite - four or more surfaces, posterior","Dr Zainab Mohi
+Dr Kinan Bonni",1200,Individual,,SZR
+365,DENTISTRY,Invisalign® Comprehensive,"Dr Zainab Mohi
+Dr Kinan Bonni",27825,Individual,,SZR
+366,DENTISTRY,Invisalign® Lite (Dual Arches),"Dr Zainab Mohi
+Dr Kinan Bonni",17010,Individual,,SZR
+367,DENTISTRY,Invisalign® Lite (Single Arch),"Dr Zainab Mohi
+Dr Kinan Bonni",13650,Individual,,SZR
+368,DENTISTRY,Invisalign® Express (Single Arch),"Dr Zainab Mohi
+Dr Kinan Bonni",8242.5,Individual,,SZR
+369,DENTISTRY,Invisalign® Express (Dual Arches),"Dr Zainab Mohi
+Dr Kinan Bonni",11550,Individual,,SZR
+370,DENTISTRY,Surgical stent,"Dr Zainab Mohi
+Dr Kinan Bonni",1500,Individual,,SZR
+371,DENTISTRY,Surgical placement of implant body: endosteal implant,"Dr Zainab Mohi
+Dr Kinan Bonni",7500,Individual,,SZR
+372,DENTISTRY,Abutment supported porcelain/ceramic crown,"Dr Zainab Mohi
+Dr Kinan Bonni",4500,Individual,,SZR
+373,DENTISTRY,Abutment supported porcelain fused to metal crown (high noble metal),"Dr Zainab Mohi
+Dr Kinan Bonni",5500,Individual,,SZR

@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      }
+    },
+    "gdrive": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-gdrive"],
+      "env": {
+        "GDRIVE_CREDENTIALS_PATH": "/media/devert007/Windows 10 Compact/Users/devert/Desktop/работа YMA health/refoauto/cred.json"
+      }
+    }
+  }
+}
+

@@ -37,27 +37,53 @@ https://docs.google.com/spreadsheets/d/1ZXYPl573sgfdRYDJj1RzPDJLPpyKpGY6vgr4NsgJ
 - Example: "AESTHETICS & DERMATOLOGY" → `"category_name": "AESTHETICS & DERMATOLOGY"`
 
 ### 2. Service Name → `name_i18n` + `description_i18n`
-- **If the text is short (1-5 words)**: Use it as `name_i18n.en`
-- **If the text is long or contains extra information**: 
-  - Extract the main service name for `name_i18n.en`
-  - Put the rest into `description_i18n.en`
-- Example:
-  - Input: "Aesthetics Consultation" → `"name_i18n": {"en": "Aesthetics Consultation"}`
-  - Input: "Heleo4 Skin Cellular Detox Programme (5 sessions)" → 
-    - `"name_i18n": {"en": "Heleo4 Skin Cellular Detox Programme"}`
-    - `"description_i18n": {"en": "Package of 5 sessions"}`
 
-### 3. Doctor name → `aliases` (for reference, not stored in Service model)
+**CRITICAL RULE: If cell contains MULTIPLE LINES (newlines, bullet points, or list of items):**
+- **FIRST LINE ONLY** goes to `name_i18n.en`
+- **ALL OTHER LINES** go to `description_i18n.en` (join with ", " or keep as list)
+
+**Examples:**
+
+1. **Simple case** (single line):
+   - Input: "Aesthetics Consultation"
+   - Output: `"name_i18n": {"en": "Aesthetics Consultation"}`
+
+2. **With parentheses** (keep together if short):
+   - Input: "Heleo4 Skin Cellular Detox Programme (5 sessions)"
+   - Output: 
+     - `"name_i18n": {"en": "Heleo4 Skin Cellular Detox Programme"}`
+     - `"description_i18n": {"en": "Package of 5 sessions"}`
+
+3. **MULTI-LINE / Package with components** (SPLIT!):
+   - Input:
+     ```
+     Comprehensive Consultation & Examination
+     Seca - Body Composition Analysis 
+     Face Analyzer
+     Vitals Check
+     Supplements and/or IVs Recommendation
+     ```
+   - Output:
+     - `"name_i18n": {"en": "Comprehensive Consultation & Examination"}`
+     - `"description_i18n": {"en": "Includes: Seca - Body Composition Analysis, Face Analyzer, Vitals Check, Supplements and/or IVs Recommendation"}`
+
+**Detection rules:**
+- If text contains `\n` (newline) → SPLIT at first newline
+- If text starts with bullet points or numbered list → First item = name, rest = description
+- If text is longer than 100 characters → Likely needs splitting
+
+### 3. Doctor name → `practitioners`
 - Doctors are listed WITHOUT commas, separated by newlines
-- Parse as array of strings
+- Parse as array of strings and store in `practitioners` field
 - Example input:
   ```
   Dr. Anna Zakhozha
   Dr.Sarah Mohamed
   Dr. Karem Harb
   ```
-- Output: `["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Karem Harb"]`
-- **Note**: Fix spacing issues like "Dr.Sarah" → "Dr. Sarah"
+- Output: `"practitioners": ["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Karem Harb"]`
+- **Note**: Fix spacing issues like "Dr.Sarah" → "Dr. Sarah", "Dr.Lyn" → "Dr. Lyn"
+- **Important**: Split by newlines, NOT by commas (names may contain commas)
 
 ### 4. Price → `price_min` and `price_max` + `price_note_i18n`
 - **Parse the numeric value** (remove "+VAT", "AED", spaces)
@@ -98,7 +124,7 @@ Generate a JSON array of Service objects. Use `exclude_defaults=True` logic - on
 [
   {
     "name_i18n": {"en": "Aesthetics Consultation"},
-    "description_i18n": {"en": "Initial consultation for aesthetics treatments"},
+    "practitioners": ["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Karem Harb"],
     "duration_minutes": 30,
     "price_min": 500.0,
     "price_max": 500.0,
@@ -107,6 +133,7 @@ Generate a JSON array of Service objects. Use `exclude_defaults=True` logic - on
   },
   {
     "name_i18n": {"en": "Dermatology Consultation"},
+    "practitioners": ["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Nataliya Sanytska"],
     "duration_minutes": 30,
     "price_min": 500.0,
     "price_max": 500.0,
@@ -144,12 +171,12 @@ mcp__gdrive__search(query: "name = 'Hortman'")
 
 ## Authentication
 
-Use the `credentials.json` file in the project directory for Google API authentication.
+Use the `cred.json` file in the project directory for Google API authentication.
 
 This file contains Google Service Account credentials. Set the environment variable before running:
 
 ```bash
-export GOOGLE_APPLICATION_CREDENTIALS="./credentials.json"
+export GOOGLE_APPLICATION_CREDENTIALS="./cred.json"
 ```
 
 Or pass directly to MCP server configuration:
@@ -160,7 +187,7 @@ Or pass directly to MCP server configuration:
       "command": "npx",
       "args": ["-y", "@anthropic-ai/mcp-server-gdrive"],
       "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "/full/path/to/credentials.json"
+        "GOOGLE_APPLICATION_CREDENTIALS": "/full/path/to/cred.json"
       }
     }
   }
@@ -183,6 +210,7 @@ class Service(BaseModel):
     name_i18n: dict          # {"en": "Service Name"}
     description_i18n: dict   # {"en": "Description"}
     aliases: list[str]       # Alternative names for AI matching
+    practitioners: list[str] # Doctors/staff who perform this service
     duration_minutes: int    # Duration in minutes (default: 60)
     capacity: int            # Max clients per session (default: 1)
     price_type: str          # "fixed", "range", "unknown" (default: "fixed")

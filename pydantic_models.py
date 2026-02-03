@@ -95,6 +95,10 @@ class Service(BaseModel):
         default_factory=list,
         description="Alternative names for AI matching. Example: ['botox', 'botulinum', 'filler']"
     )
+    practitioners: list[str] = Field(
+        default_factory=list,
+        description="List of doctors who can perform this service. Example: ['Dr. Anna Zakhozha', 'Dr. Sarah Mohamed']"
+    )
     duration_minutes: int = Field(
         default=60,
         description="Service duration in minutes"
