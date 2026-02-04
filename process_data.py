@@ -1,141 +1,267 @@
 #!/usr/bin/env python3
 """
-Script to process services.json and create normalized data:
-- categories.json
-- practitioners.json
-- services.json (updated with category_id)
-- service_practitioners.json
+Script to process raw_data.csv and create 4 normalized JSON files:
+1. categories.json
+2. practitioners.json
+3. services.json
+4. service_practitioners.json
 """
 
+import csv
 import json
+import re
 from pathlib import Path
 
-# Paths
 BASE_DIR = Path(__file__).parent
-INPUT_FILE = BASE_DIR / "services.json"
-OUTPUT_CATEGORIES = BASE_DIR / "categories.json"
-OUTPUT_PRACTITIONERS = BASE_DIR / "practitioners.json"
-OUTPUT_SERVICES = BASE_DIR / "services_normalized.json"
-OUTPUT_SERVICE_PRACTITIONERS = BASE_DIR / "service_practitioners.json"
+
+
+def fix_doctor_name(name: str) -> str:
+    """Fix spacing in doctor names like 'Dr.Sarah' -> 'Dr. Sarah'"""
+    name = name.strip()
+    # Fix "Dr.Name" -> "Dr. Name"
+    name = re.sub(r'Dr\.(\S)', r'Dr. \1', name)
+    # Fix "Dr Name" -> "Dr. Name" at the beginning
+    if name.startswith("Dr "):
+        name = "Dr. " + name[3:]
+    return name
+
+
+def parse_duration(duration_str: str) -> int | None:
+    """Parse duration string to minutes"""
+    if not duration_str or duration_str.strip() == "":
+        return None
+
+    duration_str = duration_str.strip().lower()
+
+    # Handle "Individual", "2 + days", "2 days" etc
+    if "individual" in duration_str or "days" in duration_str or "+" in duration_str:
+        return None
+
+    # "30 min" -> 30
+    if "min" in duration_str:
+        match = re.search(r'(\d+)', duration_str)
+        if match:
+            return int(match.group(1))
+
+    # "1 hour" -> 60
+    # "1.5 hour" -> 90
+    # "2 hour" -> 120
+    if "hour" in duration_str:
+        match = re.search(r'([\d.]+)', duration_str)
+        if match:
+            return int(float(match.group(1)) * 60)
+
+    # Just a number
+    match = re.search(r'^(\d+)$', duration_str)
+    if match:
+        return int(match.group(1))
+
+    return None
+
+
+def parse_price(price_str: str) -> tuple[float | None, float | None, dict | None]:
+    """Parse price string and return (price_min, price_max, price_note_i18n)"""
+    if not price_str or price_str.strip() == "" or price_str.strip() == "0":
+        return None, None, None
+
+    price_str = price_str.strip()
+    price_note = None
+
+    # Check for "+ VAT" or "+VAT"
+    has_vat = "vat" in price_str.lower()
+    if has_vat:
+        price_note = {"en": "Price excludes VAT"}
+
+    # Extract numeric value
+    # Remove "+ VAT", "+VAT", "AED" etc
+    clean_price = re.sub(r'\s*\+?\s*vat', '', price_str, flags=re.IGNORECASE)
+    clean_price = re.sub(r'\s*aed', '', clean_price, flags=re.IGNORECASE)
+    clean_price = clean_price.strip()
+
+    # Try to extract number
+    match = re.search(r'([\d,]+(?:\.\d+)?)', clean_price)
+    if match:
+        price_value = float(match.group(1).replace(',', ''))
+        return price_value, price_value, price_note
+
+    return None, None, price_note
+
+
+def parse_branches(branch_str: str) -> list[str]:
+    """Parse branch string to list"""
+    if not branch_str or branch_str.strip() == "":
+        return ["jumeirah", "srz"]
+
+    branch_str = branch_str.strip().lower()
+
+    if branch_str == "both":
+        return ["jumeirah", "srz"]
+    elif branch_str == "jumeirah":
+        return ["jumeirah"]
+    elif branch_str in ["szr", "srz"]:
+        return ["srz"]
+    else:
+        return ["jumeirah", "srz"]
+
+
+def parse_service_name(name_str: str) -> tuple[str, str | None]:
+    """
+    Parse service name - if multiline, first line is name, rest is description.
+    Returns (name, description)
+    """
+    if not name_str:
+        return "", None
+
+    lines = [line.strip() for line in name_str.strip().split('\n') if line.strip()]
+
+    if len(lines) == 0:
+        return "", None
+    elif len(lines) == 1:
+        return lines[0], None
+    else:
+        name = lines[0]
+        description = "Includes: " + ", ".join(lines[1:])
+        return name, description
+
+
+def parse_practitioners(practitioners_str: str) -> list[str]:
+    """Parse practitioners string (newline separated)"""
+    if not practitioners_str or practitioners_str.strip() == "":
+        return []
+
+    practitioners = []
+    for line in practitioners_str.split('\n'):
+        name = fix_doctor_name(line.strip())
+        if name:
+            practitioners.append(name)
+
+    return practitioners
 
 
 def main():
-    # Load original services
-    with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        services_raw = json.load(f)
-    
-    print(f"Loaded {len(services_raw)} services")
-    
-    # === 1. Extract unique categories ===
-    categories_set = set()
-    for service in services_raw:
-        cat_name = service.get("category_name")
-        if cat_name:
-            categories_set.add(cat_name)
-    
-    # Create categories with IDs
-    categories = []
-    category_name_to_id = {}
-    for idx, cat_name in enumerate(sorted(categories_set), start=1):
-        category = {
-            "id": idx,
-            "name_i18n": {"en": cat_name},
-            "sort_order": idx
+    # Read CSV
+    csv_path = BASE_DIR / "raw_data.csv"
+
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        # Skip header row if it's a duplicate
+        rows = list(reader)
+
+        # Check if first row is header duplicate
+        if rows and rows[0].get("ID", "") == "ID":
+            rows = rows[1:]
+
+    # Collections
+    categories: dict[str, int] = {}  # name -> id
+    practitioners: dict[str, int] = {}  # name -> id
+    services: list[dict] = []
+    service_practitioners: list[dict] = []
+
+    category_id_counter = 1
+    practitioner_id_counter = 1
+
+    for row in rows:
+        # Get category
+        category_name = row.get("Category", "").strip()
+        if category_name and category_name not in categories:
+            categories[category_name] = category_id_counter
+            category_id_counter += 1
+
+        # Get practitioners
+        practitioners_str = row.get("Doctor name", "")
+        pract_names = parse_practitioners(practitioners_str)
+
+        for pract_name in pract_names:
+            if pract_name and pract_name not in practitioners:
+                practitioners[pract_name] = practitioner_id_counter
+                practitioner_id_counter += 1
+
+        # Parse service data
+        service_id = int(row.get("ID", 0))
+        if service_id == 0:
+            continue
+
+        service_name_raw = row.get("Service Name", "")
+        service_name, description = parse_service_name(service_name_raw)
+
+        duration = parse_duration(row.get("Duration", ""))
+        price_min, price_max, price_note = parse_price(row.get("Price", ""))
+        branches = parse_branches(row.get("Available In Branches", ""))
+        note = row.get("Note", "").strip()
+
+        # Combine notes
+        if note:
+            if price_note:
+                price_note["en"] = price_note["en"] + ". " + note
+            else:
+                price_note = {"en": note}
+
+        # Create service object
+        service = {
+            "id": service_id,
+            "category_id": categories.get(category_name, 1),
+            "name_i18n": {"en": service_name},
+            "description_i18n": {"en": description} if description else {},
+            "duration_minutes": duration,
+            "price_min": price_min,
+            "price_max": price_max,
+            "price_note_i18n": price_note if price_note else {},
+            "branches": branches
         }
-        categories.append(category)
-        category_name_to_id[cat_name] = idx
-    
-    print(f"Found {len(categories)} unique categories")
-    
-    # === 2. Extract unique practitioners ===
-    practitioners_set = set()
-    for service in services_raw:
-        practitioners_list = service.get("practitioners", [])
-        for p in practitioners_list:
-            if p and p.strip():
-                practitioners_set.add(p.strip())
-    
-    # Create practitioners with IDs
-    practitioners = []
-    practitioner_name_to_id = {}
-    for idx, p_name in enumerate(sorted(practitioners_set), start=1):
-        practitioner = {
-            "id": idx,
-            "name": p_name,
-            "name_i18n": {"en": p_name}
-        }
-        practitioners.append(practitioner)
-        practitioner_name_to_id[p_name] = idx
-    
-    print(f"Found {len(practitioners)} unique practitioners")
-    
-    # === 3. Create normalized services ===
-    services_normalized = []
-    service_practitioners = []
-    
-    for idx, service in enumerate(services_raw, start=1):
-        # Get category_id
-        cat_name = service.get("category_name")
-        category_id = category_name_to_id.get(cat_name, 0)
-        
-        # Get practitioners for this service
-        practitioners_list = service.get("practitioners", [])
-        
+        services.append(service)
+
         # Create service-practitioner links
-        for p_name in practitioners_list:
-            p_name = p_name.strip() if p_name else ""
-            if p_name and p_name in practitioner_name_to_id:
-                link = {
-                    "service_id": idx,
-                    "practitioner_id": practitioner_name_to_id[p_name]
-                }
-                service_practitioners.append(link)
-        
-        # Create normalized service (without category_name and practitioners)
-        normalized = {
-            "id": idx,
-            "category_id": category_id,
+        for pract_name in pract_names:
+            if pract_name in practitioners:
+                service_practitioners.append({
+                    "service_id": service_id,
+                    "practitioner_id": practitioners[pract_name]
+                })
+
+    # Create output data structures
+    categories_list = [
+        {
+            "id": cat_id,
+            "name_i18n": {"en": cat_name},
+            "sort_order": cat_id
         }
-        
-        # Copy other fields (excluding category_name and practitioners)
-        for key, value in service.items():
-            if key not in ("category_name", "practitioners"):
-                normalized[key] = value
-        
-        services_normalized.append(normalized)
-    
-    print(f"Created {len(service_practitioners)} service-practitioner links")
-    
-    # === 4. Save all files ===
-    
-    # Categories
-    with open(OUTPUT_CATEGORIES, "w", encoding="utf-8") as f:
-        json.dump(categories, f, ensure_ascii=False, indent=2)
-    print(f"Saved: {OUTPUT_CATEGORIES}")
-    
-    # Practitioners
-    with open(OUTPUT_PRACTITIONERS, "w", encoding="utf-8") as f:
-        json.dump(practitioners, f, ensure_ascii=False, indent=2)
-    print(f"Saved: {OUTPUT_PRACTITIONERS}")
-    
-    # Services (normalized)
-    with open(OUTPUT_SERVICES, "w", encoding="utf-8") as f:
-        json.dump(services_normalized, f, ensure_ascii=False, indent=2)
-    print(f"Saved: {OUTPUT_SERVICES}")
-    
-    # Service-Practitioners
-    with open(OUTPUT_SERVICE_PRACTITIONERS, "w", encoding="utf-8") as f:
+        for cat_name, cat_id in sorted(categories.items(), key=lambda x: x[1])
+    ]
+
+    practitioners_list = [
+        {
+            "id": pract_id,
+            "name": pract_name,
+            "name_i18n": {"en": pract_name}
+        }
+        for pract_name, pract_id in sorted(practitioners.items(), key=lambda x: x[1])
+    ]
+
+    # Write JSON files
+    with open(BASE_DIR / "categories.json", "w", encoding="utf-8") as f:
+        json.dump(categories_list, f, ensure_ascii=False, indent=2)
+    print(f"Created categories.json with {len(categories_list)} categories")
+
+    with open(BASE_DIR / "practitioners.json", "w", encoding="utf-8") as f:
+        json.dump(practitioners_list, f, ensure_ascii=False, indent=2)
+    print(f"Created practitioners.json with {len(practitioners_list)} practitioners")
+
+    with open(BASE_DIR / "services.json", "w", encoding="utf-8") as f:
+        json.dump(services, f, ensure_ascii=False, indent=2)
+    print(f"Created services.json with {len(services)} services")
+
+    with open(BASE_DIR / "service_practitioners.json", "w", encoding="utf-8") as f:
         json.dump(service_practitioners, f, ensure_ascii=False, indent=2)
-    print(f"Saved: {OUTPUT_SERVICE_PRACTITIONERS}")
-    
-    # === Summary ===
+    print(f"Created service_practitioners.json with {len(service_practitioners)} links")
+
+    # Print summary
     print("\n" + "=" * 50)
-    print("SUMMARY:")
-    print(f"  Categories:            {len(categories)}")
-    print(f"  Practitioners:         {len(practitioners)}")
-    print(f"  Services:              {len(services_normalized)}")
-    print(f"  Service-Practitioner:  {len(service_practitioners)}")
+    print("SUMMARY")
     print("=" * 50)
+    print(f"Categories: {len(categories_list)}")
+    print(f"Practitioners: {len(practitioners_list)}")
+    print(f"Services: {len(services)}")
+    print(f"Service-Practitioner links: {len(service_practitioners)}")
 
 
 if __name__ == "__main__":
