@@ -1,0 +1,6217 @@
+[
+  {
+    "id": 1,
+    "category_id": 10,
+    "name_i18n": {
+      "en": "Aesthetics Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Consultation is 500 + VATAED however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 2,
+    "category_id": 10,
+    "name_i18n": {
+      "en": "Dermatology Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "A Dermatology Consultation is 500 AED which you can claim back from your Insurance provider."
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 3,
+    "category_id": 10,
+    "name_i18n": {
+      "en": "Follow Up Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 4,
+    "category_id": 10,
+    "name_i18n": {
+      "en": "Follow Up Visit"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": null,
+    "price_max": null,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 5,
+    "category_id": 10,
+    "name_i18n": {
+      "en": "Follow Up Consultation (Dermatology)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 6,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Lesion Excision (Small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 7,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Lesion Excision (Large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 8,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Mole Excision (Small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 9,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Mole Excision (Large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 10,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Cryotherapy (Small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 11,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Cryotherapy (Medium)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 12,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Cryotherapy (Large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 13,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Cysts Extraction (S)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 14,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Cysts Extraction (M)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 15,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Cysts Extraction (L)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 16,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Skin Tag Removal (small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 17,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Skin Tag Removal (large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 18,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Wart Removal (small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 19,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Wart Removal (large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 20,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "Laser Minor Procedure"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 21,
+    "category_id": 11,
+    "name_i18n": {
+      "en": "UVB Phototherapy"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 22,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Hortman Signature Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1700.0,
+    "price_max": 1700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 23,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Classic Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 24,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Face Sculpt"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 25,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Dermaplaning"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 26,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Dermalux Flex MD LED Therapy"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 27,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Face Mask - add on"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 28,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Lymphatic Drainage Massage (add on)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 29,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Microdermabrasion (add-on)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 30,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Microcurrent Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 31,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "pH Facial - Rosacea"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 32,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "pH Facial - Acne"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 33,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "pH Facial - Pigmentation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 34,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "pH Facial - Skin Resurfacing"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 35,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Phixel Needling Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 36,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Hydrafacial Syndeo Deluxe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 37,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Hydrafacial Syndeo Platinum"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1400.0,
+    "price_max": 1400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 38,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Heleo4 - 1 session"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 39,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Heleo4 Skin Cellular Detox Programme (5 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 40,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Facial Complex"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 41,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Pregnancy-Safe Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 42,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Teen Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 43,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Glass Skin Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 44,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Accent Prime - MicroPlasma"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 45,
+    "category_id": 12,
+    "name_i18n": {
+      "en": "Back Facial"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 46,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Biorepeel"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 47,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Cosmelan (includes home care products)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 48,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Dermamelan"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 4500.0,
+    "price_max": 4500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 49,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Centric - Whitening Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 50,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Centric - Acne Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 51,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Centric - Eye Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 52,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Centric - Lips Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 53,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "APPeex Peel"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 54,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "Intimate Peel"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 55,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "PRX-T33"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 56,
+    "category_id": 13,
+    "name_i18n": {
+      "en": "PRX-T33 ADD ON"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 57,
+    "category_id": 14,
+    "name_i18n": {
+      "en": "Botox - Small Zone (up to 20 units)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 58,
+    "category_id": 14,
+    "name_i18n": {
+      "en": "Botox - Upper Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 59,
+    "category_id": 14,
+    "name_i18n": {
+      "en": "Botox - Neck/Platysmal Bands (Nephertiti)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 60,
+    "category_id": 14,
+    "name_i18n": {
+      "en": "Botox - Hyperhidrosis"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 61,
+    "category_id": 14,
+    "name_i18n": {
+      "en": "Botox - Masseter"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 62,
+    "category_id": 14,
+    "name_i18n": {
+      "en": "FU Botox"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": null,
+    "price_max": null,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 63,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Dermal Filler - 1 Syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 64,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Dermal Filler (add on syringe)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 65,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Radiesse Filler - 1 syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 66,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Radiesse Filler - 2 syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 67,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Sculptra Filler - 1 syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 68,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Body Filler - 1 syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 69,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "Dermal Fillers - 1 syringe (Fillmed/Ultra)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 70,
+    "category_id": 15,
+    "name_i18n": {
+      "en": "FU Dermal Fillers"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": null,
+    "price_max": null,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 71,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Skin Booster - 1 Syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 72,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Profhilo - 1 Syringe"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 73,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Profhilo Body"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 74,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Hair Filler"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 75,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Filler Dissolving (Hyaluronidase) - small"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 76,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Filler Dissolving (Hyaluronidase) - large"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 77,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Ultrasound-guided Filler Dissolving"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 78,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Hair Loss SOS Injection"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 79,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Keloid/Hypertrophic Scar Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 80,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Exosomes Treatment - Hair/Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 81,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Growth Factors & Microneedling"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 82,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Growth Factors Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 83,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Growth Factors (add on)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 84,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "AnteAGE Growth Factors"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 85,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "AnteAGE Growth Factors (add on)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 86,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "SIILK SKINEE Lipolysis"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 87,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "PBSerum - Fat Accumulation (Body)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 88,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "PBSerum - Fat Accumulation (Face)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 89,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Polynucleotides Injection (1 syringe)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 90,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Polynucleotides Injection ( Under Eye)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 91,
+    "category_id": 1,
+    "name_i18n": {
+      "en": "Meso Mixed Treatment BCN"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 92,
+    "category_id": 16,
+    "name_i18n": {
+      "en": "PRF Treatment"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 3900.0,
+    "price_max": 3900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 93,
+    "category_id": 16,
+    "name_i18n": {
+      "en": "PRP - Face (1 tube)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 94,
+    "category_id": 16,
+    "name_i18n": {
+      "en": "PRP - Hair (1 tube)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 95,
+    "category_id": 16,
+    "name_i18n": {
+      "en": "PRP with HA (1 tube)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 96,
+    "category_id": 16,
+    "name_i18n": {
+      "en": "PRP & Microneedling - Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 97,
+    "category_id": 17,
+    "name_i18n": {
+      "en": "MesoTherapy - Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 98,
+    "category_id": 17,
+    "name_i18n": {
+      "en": "MesoTherapy - Hair"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 99,
+    "category_id": 17,
+    "name_i18n": {
+      "en": "MesoTherapy & Microneedling"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 100,
+    "category_id": 17,
+    "name_i18n": {
+      "en": "Meso - Under Eyes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 101,
+    "category_id": 17,
+    "name_i18n": {
+      "en": "Mesotherapy NCTF (1 vial)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 102,
+    "category_id": 18,
+    "name_i18n": {
+      "en": "Ulthera (per line)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 20.0,
+    "price_max": 20.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Average AED 6000 - 8000 Face Lift"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 103,
+    "category_id": 19,
+    "name_i18n": {
+      "en": "Morpheus8 RF Microneedling (FACE) - 1 session"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 3300.0,
+    "price_max": 3300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 104,
+    "category_id": 19,
+    "name_i18n": {
+      "en": "Morpheus8 RF Microneedling (FACE & NECK) - 1 session"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 105,
+    "category_id": 19,
+    "name_i18n": {
+      "en": "Morpheus8 RF Microneedling (BODY-1 AREA) - 1 session"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 106,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "BBL - Add on"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 107,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "BBL - Forever Young"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 108,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "HALO - Face & Neck"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 109,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Nano Peel"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 110,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Micro Peel"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 111,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Full Ablation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 112,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Eyes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 113,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Er:YAG Sciton - Small Area"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 114,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "MOXI - Face & Neck"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 115,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Vein Laser Treatment (S)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 116,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Vein Laser Treatment (M)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1300.0,
+    "price_max": 1300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 117,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Vein Laser Treatment (L)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 118,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Clear Silk"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 119,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Clear Silk (add on)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 120,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Tixel Eyes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 121,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Tixel (Full Face)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 122,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "AviClear (3 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 10500.0,
+    "price_max": 10500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 123,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Ultraclear"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 5000.0,
+    "price_max": 5000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 124,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "UltraClear 3D MIRACLE"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 125,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Sofwave"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 13000.0,
+    "price_max": 13000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 126,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (cosmetic)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 127,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (body - Small: Hand)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 128,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (body - Medium: Arm)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 129,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "PicoWay - Tattoo Removal (body - big: both Arms/back)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 2700.0,
+    "price_max": 2700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 130,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "PicoWay - Full Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 131,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "PicoWay - Small Area (Face/Body)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 132,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Pico Genesis  - Tattoo Removal (cosmetic)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 133,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Pico Genesis - Tattoo Removal (body - Small: Hand)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 134,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Pico Genesis - Tattoo Removal (body - Medium: Arm)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 135,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Pico Genesis - Tattoo Removal (body - big: both Arms/back)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 2700.0,
+    "price_max": 2700.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 136,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Pico Genesis - Full Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 137,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Pico Genesis - Small Area (Face/Body)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 138,
+    "category_id": 20,
+    "name_i18n": {
+      "en": "Fotona 4D"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 139,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Acne Scar TCA Cross (Small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 140,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Acne Scar TCA Cross (Large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 141,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Laser - Scar (Small)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 142,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Laser - Scar (Meduim)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 143,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Laser - Scar (Large)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 144,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Laser Drug Delivery (add on)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 145,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Scar Subcision"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah",
+      "srz"
+    ]
+  },
+  {
+    "id": 146,
+    "category_id": 21,
+    "name_i18n": {
+      "en": "Magnetic Tattoo Removal (Eyebrows)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 147,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "PDO - Mesothreads (per thread)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 100.0,
+    "price_max": 100.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 148,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "PDO - Mesothreads (10 threads)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 149,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "APTOS Excellence Visage Threads"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 150,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "APTOS Nano Threads"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 151,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "EVERLINE PLA Threads 19G 100mm (4 threads)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 2800.0,
+    "price_max": 2800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 152,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "EVERLINE PLA Threads 19G 100mm (add-on thread)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 153,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "Mono Threads G27 60mm (10 threads)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 154,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "APTOS 2 G Threads - Lower Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 155,
+    "category_id": 22,
+    "name_i18n": {
+      "en": "APTOS Thread Lifting - Double Chin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 6000.0,
+    "price_max": 6000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 156,
+    "category_id": 23,
+    "name_i18n": {
+      "en": "Icoone Body - 45 minutes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 157,
+    "category_id": 23,
+    "name_i18n": {
+      "en": "Icoone Body - 60 minutes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 158,
+    "category_id": 23,
+    "name_i18n": {
+      "en": "Icoone Body - 90 minutes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 159,
+    "category_id": 23,
+    "name_i18n": {
+      "en": "Icoone Face - 30 minutes"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 160,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Small Area"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 161,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Arms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 162,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Flanks"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 163,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Stomach"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 164,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Full Thighs"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 165,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Thighs + Buttocks"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 166,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - Front Thighs"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 167,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - 3 areas"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 4000.0,
+    "price_max": 4000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 168,
+    "category_id": 24,
+    "name_i18n": {
+      "en": "Accent Prime – RF and Ultrasound - 4 areas +"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 5000.0,
+    "price_max": 5000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 169,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo - Abdomen"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 170,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo - Buttocks"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 171,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo – Front Thighs"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 172,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo – Back Thighs"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 173,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo – Outer Thighs"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 174,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo - Inner Thighs"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 175,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo - Calves"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 176,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo - Triceps"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 177,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Emsculpt Neo - Biceps"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 2600.0,
+    "price_max": 2600.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 178,
+    "category_id": 25,
+    "name_i18n": {
+      "en": "Wonder Face (5 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 179,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR (Small Area)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 180,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Full Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 181,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Half Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 182,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Face and Neckline"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 183,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Arms (Full)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 184,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Arms (Half)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 185,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Back"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 186,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Bikini"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 187,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "MLHR: Bikini (MALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation . Performed by our male Doctor , Dr Karem Harb"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 188,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Legs (Full)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 750.0,
+    "price_max": 750.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 189,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Legs (Half)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 190,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Underarms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 191,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Upper Lip + Chin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 192,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Bikini + Underarms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 193,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Chest"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 194,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Abdomen"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 195,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Full Body (FEMALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 196,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: Full Body (MALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 150,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Dr Karem does the private area at an additional cost of 900 + VAT and Desiree Garcia the rest of the body."
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 197,
+    "category_id": 26,
+    "name_i18n": {
+      "en": "LHR: 3 areas"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 198,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR (Small Area)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 199,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Full Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 200,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Half Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 201,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Face and Neckline"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 202,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Arms (Full)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 203,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Arms (Half)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 204,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Back"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 205,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Bikini"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 206,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Legs (Full)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 750.0,
+    "price_max": 750.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 207,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Legs (Half)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 208,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Underarms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 209,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Upper Lip + Chin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 210,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Bikini + Underarms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 211,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Chest"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 212,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Abdomen"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 213,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Full Body (FEMALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 214,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: Full Body (MALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 150,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 215,
+    "category_id": 27,
+    "name_i18n": {
+      "en": "LHR: 3 areas"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 216,
+    "category_id": 28,
+    "name_i18n": {
+      "en": "Bleaching - Upper Lip"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 217,
+    "category_id": 28,
+    "name_i18n": {
+      "en": "Bleaching - Small (half face)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 218,
+    "category_id": 28,
+    "name_i18n": {
+      "en": "Bleaching - Medium (full face)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 219,
+    "category_id": 28,
+    "name_i18n": {
+      "en": "Bleaching - Large (one body area)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Only available from 4:30pm onwards from Monday- Friday. On Saturdays it can be booked anytime available between 10:00am-6:00pm"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 220,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "Home Service"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 221,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "Family Medicine IV Therapy  Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 222,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "ANTISTRESS DRIP"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 223,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "IMMUNE BOOST DRIP"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 224,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "ENERGY DRIP"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 225,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "LIVER CLEANSE (DETOX)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 226,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "GUT CLEANSE"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 227,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "ANTI HAIR LOSS DRIP"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 228,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "MULTIVITAMIN FOR WOMEN"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 229,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "ANTI-AGING VITAMINS"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 230,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "NAD IV DRIP"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 231,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "NAD+ IV DRIP"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 232,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "Vitamin D Injection"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 233,
+    "category_id": 29,
+    "name_i18n": {
+      "en": "Iron Infusion"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 900.0,
+    "price_max": 900.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 234,
+    "category_id": 30,
+    "name_i18n": {
+      "en": "Family Medicine Consultant Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 235,
+    "category_id": 30,
+    "name_i18n": {
+      "en": "Family Medicine Consultant Follow Up"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 236,
+    "category_id": 31,
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination"
+    },
+    "description_i18n": {
+      "en": "Includes: Seca - Advanced Body Composition Analysis, Vitals Check, Follow up Consultation & Lab Test Reading, Fertility Profile (Male) - (FSH, LH, Prolactin, Estradiol, Testosterone-Total, SHBG, FAI), Complete Blood Count (CBC), Lipids Profile (Cholesterol, Triglycerides, HDL, LDL, VLDL, Cholesterol/HDL Ratio, HDL/Cholesterol Ratio), Tumor Markers Screen (Male) - (CA 19.9, CEA, PSA-Total, PSA-Free, AFP, BHCG), Comprehensive Metabolic Panel"
+    },
+    "duration_minutes": 60,
+    "price_min": 4100.0,
+    "price_max": 4100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 237,
+    "category_id": 32,
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination"
+    },
+    "description_i18n": {
+      "en": "Includes: Seca - Body Composition Analysis, Vitals Check, Follow up Consultation & Lab Test Reading, Glycosylated Haemoglobin (HbA1C), Lipids Profile - (Cholesterol, Triglycerides, HDL, LDL, VLDL, Cholesterol/HDL Ratio, HDL/Cholesterol Ratio), Thyroid Stimulating Hormone (TSH), Comprehensive Metabolic Panel"
+    },
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 238,
+    "category_id": 33,
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination"
+    },
+    "description_i18n": {
+      "en": "Includes: Seca - Body Composition Analysis, Face Analizer, Vitals Check, Supplements and/or IVs Recommendation, Follow up Consultation & Lab Test Reading, Thyroid Stimulating Hormone (TSH), York- Check up Profile - (CBC, ESR, Glucose- Fasting, Lipids Profile, Kidney and Liver Function, Amylase, TSH, Urine Analysis), Electrolyte Profile - (Sodium (Na), Potassium (K), Chloride (Cl)), Diabetes Profile - (Glucose-Fasting, HbA1C, Microalbumin/Creatinine Ratio-urine), Prostate Profile - (PSA-Total & PSA-Free, Free PSA Ratio), Tumor Markers Screen (Male) - (CA 19.9, CEA, PSA-Total, PSA-Free, AFP, BHCG), Fertility Profile (Male) - (Follicle Stimulating Hormone (FSH), Luteinizing Hormone (LH), Prolactin, Estradiol (E2), Testosterone-Total, SHBG, Free Androgen Index-FAI)"
+    },
+    "duration_minutes": 60,
+    "price_min": 5500.0,
+    "price_max": 5500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 239,
+    "category_id": 34,
+    "name_i18n": {
+      "en": "Comprehensive Consultation & Examination"
+    },
+    "description_i18n": {
+      "en": "Includes: Seca - Body Composition Analysis, Face Analizer, Vitals Check, Supplements and/or IVs Recommendation, Follow up Consultation & Lab Test Reading, Tumor Markers Screen (Female) - (CEA, CA 15.3, CA 19.9, CA 125, AFP), Thyroid Stimulating Hormone (TSH), York- Check up Profile - (CBC, ESR, Glucose- Fasting, Lipids Profile, Kidney and Liver Function, Amylase, TSH, Urine Analysis), Electrolyte Profile - (Sodium (Na), Potassium (K), Chloride (Cl)), Diabetes Profile - (Glucose-Fasting, HbA1C, Microalbumin/Creatinine Ratio-urine), Fertility Profile (Female) - (Follicle Stimulating Hormone (FSH), Luteinizing Hormone (LH), Progesterone, Prolactin, Estradiol (E2), TSH)"
+    },
+    "duration_minutes": 60,
+    "price_min": 5500.0,
+    "price_max": 5500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 240,
+    "category_id": 35,
+    "name_i18n": {
+      "en": "TRT Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 241,
+    "category_id": 35,
+    "name_i18n": {
+      "en": "Testosterone Replacement Therapy (1 month program / weekly follow-ups)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 242,
+    "category_id": 35,
+    "name_i18n": {
+      "en": "Testosterone Replacement Therapy (3 month program / unlimited follow-ups)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 7500.0,
+    "price_max": 7500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 243,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Peptides Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 244,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "BPC 157"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2240.0,
+    "price_max": 2240.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 245,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Epitalon"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 4720.0,
+    "price_max": 4720.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 246,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "IGF LR3"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2040.0,
+    "price_max": 2040.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 247,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Thymosin alpha 1"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2800.0,
+    "price_max": 2800.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 248,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Thymosin beta 4"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2680.0,
+    "price_max": 2680.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 249,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "PT 141 Spray"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1760.0,
+    "price_max": 1760.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 250,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "CJC ipamorelin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3760.0,
+    "price_max": 3760.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 251,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "MOTSc"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 14000.0,
+    "price_max": 14000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 252,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "AOD 9604"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2300.0,
+    "price_max": 2300.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 253,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "GHK-Cu (Copper Peptide)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1890.0,
+    "price_max": 1890.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 254,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "DSIP Peptides"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1760.0,
+    "price_max": 1760.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 255,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Oxytocin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2520.0,
+    "price_max": 2520.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 256,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Kisspeptin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2120.0,
+    "price_max": 2120.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 257,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Bi-Estrogen 1mg liposomal cream"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1298.8,
+    "price_max": 1298.8,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 258,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Progestrone SR 100mg"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1362.6,
+    "price_max": 1362.6,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 259,
+    "category_id": 36,
+    "name_i18n": {
+      "en": "Testosterone 2mg Liposmal Cream"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1362.6,
+    "price_max": 1362.6,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 260,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "Hair Transplant Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 261,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "Hair Loss Consultation (Treatments)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 525.0,
+    "price_max": 525.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 262,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Growth Fасtors"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 263,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Pep Factor"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1600.0,
+    "price_max": 1600.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 264,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Laser Hair Stimulation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 265,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Trichology Service"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 266,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT BT HT"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 267,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT BT Hair Loss"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 268,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Acell"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 5000.0,
+    "price_max": 5000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 269,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Triple Therapy"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2300.0,
+    "price_max": 2300.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 270,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Skin Biopsy"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 271,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Basic Package"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 31158.75,
+    "price_max": 31158.75,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 272,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Standart Package"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 35306.25,
+    "price_max": 35306.25,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 273,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Standart Package (2 days)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 45806.25,
+    "price_max": 45806.25,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 274,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Premium Package"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 40346.25,
+    "price_max": 40346.25,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 275,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Premium Package (2 days)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 50846.25,
+    "price_max": 50846.25,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 276,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Elite Package"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 49245.0,
+    "price_max": 49245.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 277,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Elite Package (2 days)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 59745.0,
+    "price_max": 59745.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 278,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Growth Factors + PRP (6 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 10500.0,
+    "price_max": 10500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 279,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Pep Factor (6 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 7500.0,
+    "price_max": 7500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 280,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Triple Therapy (6 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 10500.0,
+    "price_max": 10500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 281,
+    "category_id": 37,
+    "name_i18n": {
+      "en": "HT Acell + Triple Therapy (6 sessions)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 13500.0,
+    "price_max": 13500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 282,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Specialist Gynecology Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 850.0,
+    "price_max": 850.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 283,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Obstetric Ultrasound Scan"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 284,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Gynaecology Ultrasound Scan"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 285,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Ultrasound assisted Hysterosalpingoscopy"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 286,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Folliculometry"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 287,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Uterine Cavity Aspiration by Pipelle + Endometrial Biopsy + Histology"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 288,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "IUD Installation (including the device)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 289,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "CU 375 IUD Insertion"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 290,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "IUD Removal"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1100.0,
+    "price_max": 1100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 291,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Implanon Removal"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2800.0,
+    "price_max": 2800.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 292,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Depoprovera Injection"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 850.0,
+    "price_max": 850.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 293,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Pessary Installation for Pregnant"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 294,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Cervix colposcopy"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 295,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Papilloma/Condyloma Removal + Histology (single)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1000.0,
+    "price_max": 1000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 296,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Papilloma/Condyloma Removal + Histology (multiple)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 297,
+    "category_id": 38,
+    "name_i18n": {
+      "en": "Cervix or Vaginal Biopsy + Histopathology"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 298,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "G-SPOT AMPLIFICATION"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3150.0,
+    "price_max": 3150.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 299,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "O-SHOT"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 300,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "PRP - 1 session"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 301,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "Femilift - Laser Tightening & Vaginal Rejuvenation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 302,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "Intimate Whitening Treatment - 1 session"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 303,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "LABIA AUGMENTATION WITH FILLERS (per syringe)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 304,
+    "category_id": 39,
+    "name_i18n": {
+      "en": "Labial Skin Tag Removal"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 305,
+    "category_id": 40,
+    "name_i18n": {
+      "en": "LABIAPLASTY"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 26250.0,
+    "price_max": 26250.0,
+    "price_note_i18n": {},
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 306,
+    "category_id": 41,
+    "name_i18n": {
+      "en": "Intimate Rejuvenation - Femilift x 3 sessions & O-shot x 3 sessions"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 10000.0,
+    "price_max": 10000.0,
+    "price_note_i18n": {
+      "en": "Femilift x 3 sessions & O-shot x 3 sessions"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 307,
+    "category_id": 41,
+    "name_i18n": {
+      "en": "Pre-Pregnancy Health Check"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2000.0,
+    "price_max": 2000.0,
+    "price_note_i18n": {
+      "en": "Comprehensive Consultation and Ultrasound\n Abdominal and pelvic examination\n Blood tests:\n Full blood count\n Blood group and rhesus type\n Atypical antibody screen\n Rubella, Hepatitis B, Varicella Zoster, HIV\n Glucose & Vitamin D\n TSH\n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 308,
+    "category_id": 41,
+    "name_i18n": {
+      "en": "Well Women Check"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "Consultation with a Gynaecologist and Ultrasound\n Full history taking and pelvic examination\n Blood pressure assessment\n Cervical smear (PAP test)\n HPV sub typing test\n Contraception and sexual health review\n Arrangement for prescription and onward referral if required\n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 309,
+    "category_id": 41,
+    "name_i18n": {
+      "en": "Sexual Health Screen"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 2500.0,
+    "price_max": 2500.0,
+    "price_note_i18n": {
+      "en": "A consultation with a gynaecologist to discuss your sexual health needs and any additional gynecological concerns\n Abdominal and pelvic examination including Ultrasound\n Test for 13 sexually transmitted diseases\n Blood tests:\n HIV, Hepatitis B & C and Syphilis\n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 310,
+    "category_id": 41,
+    "name_i18n": {
+      "en": "Fertility Check"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1800.0,
+    "price_max": 1800.0,
+    "price_note_i18n": {
+      "en": "A fertility consultation with a gynaecologist and Ultrasound\n Fertility blood tests including\n Day 2-5 FSH, LH, oestradiol (ovarian hormones), Prolactin\n AMH (test for ovarian reserve)\n Vitamin D\n Day 21 progesterone test (test of ovulation)\n TSH"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 311,
+    "category_id": 41,
+    "name_i18n": {
+      "en": "Hormonal Health Check"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {
+      "en": "Consultation and Ultrasound\n Abdominal and pelvic examination\n Comprehensive Hormonal Profile with 7 Blood Tests \n Detailed report & Follow Up\n Direct access for any urgent health concerns"
+    },
+    "branches": [
+      "jumeirah"
+    ]
+  },
+  {
+    "id": 312,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Beard micropigmentation"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "4200"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 313,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Full bold shaved look"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 4200.0,
+    "price_max": 4200.0,
+    "price_note_i18n": {
+      "en": "10500"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 314,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Crown area"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "5250"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 315,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Hairline area"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1890.0,
+    "price_max": 1890.0,
+    "price_note_i18n": {
+      "en": "4200"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 316,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Hairline and Crown"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "price_note_i18n": {
+      "en": "6300"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 317,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Hair Transplant Scar"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "price_note_i18n": {
+      "en": "3150"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 318,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Ludwig Scale Type 1"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1050.0,
+    "price_max": 1050.0,
+    "price_note_i18n": {
+      "en": "2100"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 319,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Ludwig Scale Type 2"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "3150"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 320,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Ludwig Scale Type 3"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 3150.0,
+    "price_max": 3150.0,
+    "price_note_i18n": {
+      "en": "4200"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 321,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Hairline and Crown"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "price_note_i18n": {
+      "en": "6300"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 322,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Microblading eyebrows"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {
+      "en": "1 session + touch up"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 323,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Touch up session"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1050.0,
+    "price_max": 1050.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 324,
+    "category_id": 42,
+    "name_i18n": {
+      "en": "Exosomes Treatment - Hair"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 325,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Dental Consultation"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Consultation is 350 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 326,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Dental Consultation - Comprehensive"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Consultation is 500 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
+    },
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 327,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Smile Design ( Wax up + casts )"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 328,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Emax Veneers"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 3675.0,
+    "price_max": 3675.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 329,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Feldspathic Veneers"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 7350.0,
+    "price_max": 7350.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 330,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Emax Crown"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 331,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Zirconia Crown"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 332,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Inlay"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 333,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Onlay"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 3500.0,
+    "price_max": 3500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 334,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Whitening + Bleaching trays"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2520.0,
+    "price_max": 2520.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 335,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Teeth Whitening"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 2100.0,
+    "price_max": 2100.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 336,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Scaling and Polishing (Moderate)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 337,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Scaling and Polishing (Severe)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 75,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 338,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Teeth Polishing"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 339,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Deep Root Planing + Scaling and Polishing (Moderate)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 340,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Deep Root Planing + Scaling and Polishing (Severe)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 180,
+    "price_min": 3000.0,
+    "price_max": 3000.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 341,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Gingivectomy (per tooth)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 342,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Enameloplasty (per tooth)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 343,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Labial Composite Veneer"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1575.0,
+    "price_max": 1575.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 344,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Direct Pulp Caping"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 345,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Indircet Pulp Caping"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 346,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Temporary Restoration"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 347,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Bridge Cementation"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 348,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Crown Cementation"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 349,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Bridge Removal"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 350,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Temporary Acrylic (lab manufactured, per tooth)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 351,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Crown Removal"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 352,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Temporary Chairside (per tooth)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 353,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Wax up (per tooth)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 200.0,
+    "price_max": 200.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 354,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "OPG X-Ray"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 355,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Intraoral Periapical (IOPA)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 50.0,
+    "price_max": 50.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 356,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - one surface, anterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 600.0,
+    "price_max": 600.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 357,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - two surfaces, anterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 358,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - three surface, anterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 359,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - four or more surfaces or involving incisal angle (anterior)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 360,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - Crown, anterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1225.0,
+    "price_max": 1225.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 361,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - one surface, posterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 700.0,
+    "price_max": 700.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 362,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - two surfaces, posterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 800.0,
+    "price_max": 800.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 363,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - three surface, posterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 364,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Resin Based Composite - four or more surfaces, posterior"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 365,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Invisalign® Comprehensive"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 27825.0,
+    "price_max": 27825.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 366,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Invisalign® Lite (Dual Arches)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 17010.0,
+    "price_max": 17010.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 367,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Invisalign® Lite (Single Arch)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 13650.0,
+    "price_max": 13650.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 368,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Invisalign® Express (Single Arch)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 8242.5,
+    "price_max": 8242.5,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 369,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Invisalign® Express (Dual Arches)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 11550.0,
+    "price_max": 11550.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 370,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Surgical stent"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 1500.0,
+    "price_max": 1500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 371,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Surgical placement of implant body: endosteal implant"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 7500.0,
+    "price_max": 7500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 372,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Abutment supported porcelain/ceramic crown"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 4500.0,
+    "price_max": 4500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  },
+  {
+    "id": 373,
+    "category_id": 43,
+    "name_i18n": {
+      "en": "Abutment supported porcelain fused to metal crown (high noble metal)"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 5500.0,
+    "price_max": 5500.0,
+    "price_note_i18n": {},
+    "branches": [
+      "srz"
+    ]
+  }
+]

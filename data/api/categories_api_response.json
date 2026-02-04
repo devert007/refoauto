@@ -1,0 +1,349 @@
+[
+  {
+    "id": 1,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Injectable Treatments"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": true,
+    "external_id": "12558697",
+    "source": "Altegio",
+    "source_data": {
+      "id": 12558697,
+      "sex": 0,
+      "staff": [
+        2858674,
+        2858700,
+        2858691,
+        2858678,
+        2860435
+      ],
+      "title": "Injectable Treatments",
+      "api_id": "",
+      "weight": 1,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "",
+      "salon_service_id": 13885628
+    },
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": "2026-01-13T08:40:43.056616Z",
+    "created_at": "2026-01-12T10:52:54.563788Z",
+    "updated_at": "2026-01-15T14:42:12.528851Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 17
+  },
+  {
+    "id": 2,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Skin & Facial Treatments"
+    },
+    "description_i18n": {
+      "en": "Skin & Facial Treatments are professional skincare procedures designed for deep cleansing, exfoliation, hydration, and facial rejuvenation to achieve radiant, smooth skin.\n\nService Overview\nServices include pore cleansing to remove impurities, gentle exfoliation of dead skin cells, and application of custom masks or serums targeting issues like dryness, acne, or wrinkles.\n\nKey Benefits\nClients enjoy improved skin texture, enhanced glow, reduced aging signs, and even tone through techniques such as enzyme peels, LED therapy, or lymphatic drainage massage. Sessions feature facial massage for relaxation and better circulation."
+    },
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": false,
+    "external_id": "12800238",
+    "source": "Altegio",
+    "source_data": {
+      "id": 12800238,
+      "sex": 0,
+      "staff": [
+        2858674,
+        2858691,
+        2858678,
+        2860435,
+        2860430
+      ],
+      "title": "Skin & Facial Treatments",
+      "api_id": "",
+      "weight": 0,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "",
+      "salon_service_id": 14158725
+    },
+    "overridden_fields": [
+      "description_i18n"
+    ],
+    "is_overridden": true,
+    "synced_at": "2026-01-13T08:40:43.056616Z",
+    "created_at": "2026-01-12T10:52:54.563788Z",
+    "updated_at": "2026-01-15T14:46:46.610554Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 17
+  },
+  {
+    "id": 3,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Laser & Light Device Treatments"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": true,
+    "external_id": "12800269",
+    "source": "Altegio",
+    "source_data": {
+      "id": 12800269,
+      "sex": 0,
+      "staff": [
+        2858674,
+        2858691,
+        2860430,
+        2858678
+      ],
+      "title": "Laser & Light Device Treatments",
+      "api_id": "",
+      "weight": 0,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "",
+      "salon_service_id": 14158759
+    },
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": "2026-01-13T08:40:43.056616Z",
+    "created_at": "2026-01-12T10:52:54.563788Z",
+    "updated_at": "2026-01-15T14:42:12.528851Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 15
+  },
+  {
+    "id": 4,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Body Contouring & Cellulite Treatments"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": false,
+    "is_archived": true,
+    "external_id": "12830675",
+    "source": "Altegio",
+    "source_data": {
+      "id": 12830675,
+      "sex": 0,
+      "staff": [
+        2858678,
+        2858691,
+        2860435,
+        2860430
+      ],
+      "title": "Body Contouring & Cellulite Treatments",
+      "api_id": "",
+      "weight": 0,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "Body Contouring & Cellulite Treatments",
+      "salon_service_id": 14193921
+    },
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": "2026-01-13T08:40:43.056616Z",
+    "created_at": "2026-01-12T10:52:54.563788Z",
+    "updated_at": "2026-01-15T15:09:16.002704Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 8
+  },
+  {
+    "id": 5,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Hair Restoration Treatments"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": true,
+    "external_id": "12830676",
+    "source": "Altegio",
+    "source_data": {
+      "id": 12830676,
+      "sex": 0,
+      "staff": [
+        2858691,
+        2858678,
+        2860430,
+        2858674
+      ],
+      "title": "Hair Restoration Treatments",
+      "api_id": "",
+      "weight": 0,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "Hair Restoration Treatments",
+      "salon_service_id": 14193922
+    },
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": "2026-01-13T08:40:43.056616Z",
+    "created_at": "2026-01-12T10:52:54.563788Z",
+    "updated_at": "2026-01-15T14:42:12.528851Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 9
+  },
+  {
+    "id": 6,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Other Aesthetic Services"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": false,
+    "is_archived": false,
+    "external_id": "12830677",
+    "source": "Altegio",
+    "source_data": {
+      "id": 12830677,
+      "sex": 0,
+      "staff": [
+        2858674,
+        2860435,
+        2858678,
+        2860430
+      ],
+      "title": "Other Aesthetic Services",
+      "api_id": "",
+      "weight": 0,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "Other Aesthetic Services",
+      "salon_service_id": 14193923
+    },
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": "2026-01-13T08:40:43.056616Z",
+    "created_at": "2026-01-12T10:52:54.563788Z",
+    "updated_at": "2026-01-15T15:09:16.002704Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 5
+  },
+  {
+    "id": 7,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "test offer"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": true,
+    "external_id": "13247133",
+    "source": "Altegio",
+    "source_data": {
+      "id": 13247133,
+      "sex": 0,
+      "staff": [
+        2860435
+      ],
+      "title": "test offer",
+      "api_id": "",
+      "weight": 0,
+      "is_chain": false,
+      "price_max": 0,
+      "price_min": 0,
+      "category_id": 1,
+      "booking_title": "test offer",
+      "salon_service_id": 14653376
+    },
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": "2026-01-12T12:48:52.665662Z",
+    "created_at": "2026-01-12T11:52:32.348622Z",
+    "updated_at": "2026-01-12T12:52:29.880853Z",
+    "updated_by": null,
+    "children": [],
+    "services_count": 1
+  },
+  {
+    "id": 8,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "test1 offer"
+    },
+    "description_i18n": {},
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": true,
+    "external_id": null,
+    "source": "manual",
+    "source_data": null,
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": null,
+    "created_at": "2026-01-12T11:53:11.102537Z",
+    "updated_at": "2026-01-12T12:53:03.171130Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 0
+  },
+  {
+    "id": 9,
+    "location_id": 10,
+    "parent_id": null,
+    "name_i18n": {
+      "en": "Main category test"
+    },
+    "description_i18n": {
+      "en": "category test"
+    },
+    "level": 0,
+    "sort_order": 0,
+    "is_visible_to_ai": true,
+    "is_archived": true,
+    "external_id": null,
+    "source": "manual",
+    "source_data": null,
+    "overridden_fields": [],
+    "is_overridden": false,
+    "synced_at": null,
+    "created_at": "2026-01-12T13:52:58.783261Z",
+    "updated_at": "2026-01-12T14:04:25.085737Z",
+    "updated_by": "k_tech_lesha_qa@reforma.health",
+    "children": [],
+    "services_count": 0
+  }
+]

@@ -1,0 +1,4022 @@
+[
+  {
+    "service_id": 1,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 1,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 2,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 2,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 2,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 2,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 2,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 3,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 4,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 5,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 5,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 5,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 5,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 5,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 6,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 6,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 6,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 7,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 7,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 7,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 8,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 8,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 8,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 9,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 9,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 9,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 10,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 10,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 10,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 11,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 11,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 11,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 12,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 12,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 12,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 13,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 13,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 13,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 14,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 14,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 14,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 15,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 15,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 15,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 16,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 16,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 16,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 17,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 17,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 17,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 18,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 18,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 18,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 19,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 19,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 19,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 20,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 20,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 20,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 21,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 21,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 21,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 22,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 22,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 22,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 22,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 22,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 22,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 23,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 23,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 23,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 23,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 23,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 23,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 24,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 25,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 26,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 26,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 26,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 26,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 26,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 26,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 27,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 27,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 27,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 27,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 27,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 27,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 28,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 29,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 29,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 29,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 30,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 31,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 31,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 31,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 31,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 31,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 31,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 32,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 32,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 32,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 32,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 32,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 32,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 33,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 33,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 33,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 33,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 33,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 33,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 34,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 34,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 34,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 34,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 34,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 34,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 35,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 35,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 35,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 35,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 35,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 35,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 36,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 36,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 36,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 36,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 37,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 37,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 37,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 37,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 38,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 38,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 38,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 39,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 39,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 39,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 39,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 40,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 41,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 41,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 41,
+    "practitioner_id": 16
+  },
+  {
+    "service_id": 41,
+    "practitioner_id": 17
+  },
+  {
+    "service_id": 41,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 41,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 42,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 43,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 43,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 43,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 43,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 43,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 43,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 44,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 45,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 45,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 45,
+    "practitioner_id": 11
+  },
+  {
+    "service_id": 45,
+    "practitioner_id": 12
+  },
+  {
+    "service_id": 45,
+    "practitioner_id": 13
+  },
+  {
+    "service_id": 45,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 47,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 47,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 47,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 47,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 48,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 48,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 48,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 48,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 49,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 49,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 49,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 49,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 50,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 50,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 50,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 50,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 51,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 51,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 51,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 51,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 52,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 52,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 52,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 52,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 53,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 53,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 53,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 53,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 54,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 54,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 54,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 54,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 55,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 55,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 55,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 55,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 56,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 56,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 56,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 56,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 57,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 57,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 57,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 57,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 57,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 57,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 58,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 58,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 58,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 58,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 58,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 58,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 59,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 59,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 59,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 59,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 59,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 59,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 60,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 60,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 60,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 60,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 60,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 60,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 61,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 61,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 61,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 61,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 61,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 61,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 62,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 62,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 62,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 62,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 62,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 62,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 63,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 63,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 63,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 63,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 63,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 63,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 64,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 64,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 64,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 64,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 64,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 64,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 65,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 65,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 65,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 65,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 65,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 65,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 66,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 66,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 66,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 66,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 66,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 66,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 67,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 67,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 67,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 67,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 67,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 67,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 68,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 68,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 68,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 68,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 68,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 68,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 69,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 69,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 69,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 69,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 69,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 69,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 70,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 70,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 70,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 70,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 70,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 70,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 71,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 71,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 71,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 71,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 71,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 71,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 72,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 72,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 72,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 72,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 72,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 72,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 73,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 73,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 73,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 73,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 73,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 73,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 74,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 74,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 74,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 74,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 74,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 74,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 75,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 75,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 75,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 75,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 75,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 75,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 76,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 76,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 76,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 76,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 76,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 76,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 77,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 77,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 77,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 77,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 77,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 77,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 78,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 78,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 78,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 78,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 78,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 78,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 79,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 79,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 79,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 79,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 79,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 79,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 80,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 80,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 80,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 80,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 80,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 80,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 81,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 81,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 81,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 81,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 81,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 81,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 82,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 82,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 82,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 82,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 82,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 82,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 83,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 83,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 83,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 83,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 83,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 83,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 84,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 84,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 84,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 84,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 84,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 84,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 85,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 85,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 85,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 85,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 85,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 85,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 86,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 86,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 86,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 86,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 86,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 86,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 87,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 87,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 87,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 87,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 87,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 87,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 88,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 88,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 88,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 88,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 88,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 88,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 89,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 89,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 89,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 89,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 89,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 89,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 90,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 90,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 90,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 90,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 90,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 90,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 91,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 91,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 91,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 91,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 91,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 91,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 92,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 92,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 92,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 92,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 92,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 92,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 93,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 94,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 95,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 96,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 97,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 97,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 97,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 97,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 97,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 97,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 98,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 98,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 98,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 98,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 98,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 98,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 99,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 99,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 99,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 99,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 99,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 99,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 100,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 100,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 100,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 100,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 100,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 100,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 101,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 101,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 101,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 101,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 101,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 101,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 103,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 104,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 104,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 104,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 104,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 104,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 104,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 105,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 105,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 105,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 105,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 105,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 105,
+    "practitioner_id": 8
+  },
+  {
+    "service_id": 106,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 106,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 106,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 106,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 106,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 107,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 107,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 107,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 107,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 107,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 108,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 108,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 109,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 109,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 109,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 109,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 109,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 110,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 110,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 110,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 110,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 110,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 111,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 111,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 111,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 111,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 111,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 112,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 112,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 112,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 112,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 112,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 113,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 113,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 113,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 113,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 113,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 114,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 114,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 115,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 115,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 115,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 115,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 115,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 116,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 116,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 116,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 116,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 116,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 117,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 117,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 117,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 118,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 118,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 118,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 119,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 119,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 119,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 120,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 120,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 120,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 121,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 121,
+    "practitioner_id": 2
+  },
+  {
+    "service_id": 121,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 122,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 122,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 122,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 123,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 123,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 123,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 124,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 124,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 124,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 125,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 125,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 125,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 126,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 126,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 127,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 127,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 128,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 128,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 129,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 129,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 130,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 130,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 131,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 131,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 132,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 132,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 132,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 133,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 133,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 133,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 134,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 134,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 134,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 135,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 135,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 135,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 136,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 136,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 136,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 136,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 137,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 137,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 137,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 137,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 138,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 138,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 138,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 138,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 139,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 139,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 139,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 139,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 140,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 140,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 140,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 140,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 141,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 141,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 141,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 141,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 142,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 142,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 142,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 142,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 143,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 143,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 143,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 143,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 144,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 144,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 144,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 144,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 145,
+    "practitioner_id": 1
+  },
+  {
+    "service_id": 145,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 145,
+    "practitioner_id": 5
+  },
+  {
+    "service_id": 145,
+    "practitioner_id": 6
+  },
+  {
+    "service_id": 146,
+    "practitioner_id": 7
+  },
+  {
+    "service_id": 146,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 147,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 148,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 149,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 150,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 151,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 152,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 153,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 154,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 155,
+    "practitioner_id": 4
+  },
+  {
+    "service_id": 156,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 157,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 158,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 159,
+    "practitioner_id": 14
+  },
+  {
+    "service_id": 160,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 160,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 160,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 161,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 161,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 161,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 162,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 162,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 162,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 163,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 163,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 163,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 164,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 164,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 164,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 165,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 165,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 165,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 166,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 166,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 166,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 167,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 167,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 167,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 168,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 168,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 168,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 169,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 169,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 169,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 170,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 170,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 170,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 171,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 171,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 171,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 172,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 172,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 172,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 173,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 173,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 173,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 174,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 174,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 174,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 175,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 175,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 175,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 176,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 176,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 176,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 177,
+    "practitioner_id": 3
+  },
+  {
+    "service_id": 177,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 177,
+    "practitioner_id": 20
+  },
+  {
+    "service_id": 178,
+    "practitioner_id": 10
+  },
+  {
+    "service_id": 178,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 178,
+    "practitioner_id": 9
+  },
+  {
+    "service_id": 179,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 180,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 181,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 182,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 183,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 184,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 185,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 186,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 187,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 188,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 189,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 190,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 191,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 192,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 193,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 194,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 195,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 196,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 196,
+    "practitioner_id": 21
+  },
+  {
+    "service_id": 197,
+    "practitioner_id": 19
+  },
+  {
+    "service_id": 198,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 199,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 200,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 201,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 202,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 203,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 204,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 205,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 206,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 207,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 208,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 209,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 210,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 211,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 212,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 213,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 214,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 215,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 216,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 216,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 216,
+    "practitioner_id": 23
+  },
+  {
+    "service_id": 216,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 217,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 217,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 217,
+    "practitioner_id": 23
+  },
+  {
+    "service_id": 217,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 218,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 218,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 218,
+    "practitioner_id": 23
+  },
+  {
+    "service_id": 218,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 219,
+    "practitioner_id": 22
+  },
+  {
+    "service_id": 219,
+    "practitioner_id": 15
+  },
+  {
+    "service_id": 219,
+    "practitioner_id": 23
+  },
+  {
+    "service_id": 219,
+    "practitioner_id": 18
+  },
+  {
+    "service_id": 220,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 221,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 222,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 223,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 224,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 225,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 226,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 227,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 228,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 229,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 230,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 231,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 232,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 233,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 234,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 235,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 236,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 237,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 238,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 239,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 241,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 242,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 243,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 244,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 245,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 246,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 247,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 248,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 249,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 250,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 251,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 252,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 253,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 254,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 255,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 256,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 257,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 258,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 259,
+    "practitioner_id": 24
+  },
+  {
+    "service_id": 260,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 261,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 262,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 263,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 264,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 265,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 266,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 267,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 268,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 269,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 270,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 271,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 272,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 273,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 274,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 275,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 276,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 277,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 278,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 279,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 280,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 281,
+    "practitioner_id": 25
+  },
+  {
+    "service_id": 282,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 282,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 283,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 283,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 284,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 284,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 285,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 285,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 286,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 286,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 287,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 287,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 288,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 288,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 289,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 289,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 290,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 290,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 291,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 291,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 292,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 292,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 293,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 293,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 294,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 294,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 295,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 295,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 296,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 296,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 297,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 297,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 298,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 298,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 299,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 299,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 300,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 300,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 301,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 301,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 302,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 302,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 303,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 303,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 304,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 304,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 305,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 305,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 307,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 307,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 308,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 308,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 309,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 309,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 310,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 310,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 311,
+    "practitioner_id": 26
+  },
+  {
+    "service_id": 311,
+    "practitioner_id": 27
+  },
+  {
+    "service_id": 312,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 313,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 314,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 315,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 316,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 317,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 318,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 319,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 320,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 321,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 322,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 323,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 324,
+    "practitioner_id": 28
+  },
+  {
+    "service_id": 325,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 325,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 326,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 326,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 327,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 327,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 328,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 329,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 330,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 330,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 331,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 331,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 332,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 332,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 333,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 333,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 334,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 334,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 335,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 335,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 336,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 336,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 337,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 337,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 338,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 338,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 339,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 339,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 340,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 340,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 341,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 341,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 342,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 342,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 343,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 343,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 344,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 344,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 345,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 345,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 346,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 346,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 347,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 347,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 348,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 348,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 349,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 349,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 350,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 350,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 351,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 351,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 352,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 352,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 353,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 353,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 354,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 354,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 355,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 355,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 356,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 356,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 357,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 357,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 358,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 358,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 359,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 359,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 360,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 360,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 361,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 361,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 362,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 362,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 363,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 363,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 364,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 364,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 365,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 365,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 366,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 366,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 367,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 367,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 368,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 368,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 369,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 369,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 370,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 370,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 371,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 371,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 372,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 372,
+    "practitioner_id": 30
+  },
+  {
+    "service_id": 373,
+    "practitioner_id": 29
+  },
+  {
+    "service_id": 373,
+    "practitioner_id": 30
+  }
+]

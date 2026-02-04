@@ -1,0 +1,4 @@
+у нас нет в response doctors куда их складывать
+делаем ли мы category_id
+
+
