@@ -1,28 +1,27 @@
-# Prompt for Claude Code - Google Sheets to JSON Conversion
+# Prompt for Claude Code - Google Sheets to Normalized JSON
 
 ## CRITICAL CONSTRAINTS - READ FIRST
 
 **YOU MUST:**
-- Use ONLY MCP tools (mcp__gdrive) to access Google Sheets
-- Read data directly via MCP Google Drive tools
-- Process data in memory and write final JSON
+- Read data from Google Sheet (via MCP or public export)
+- Create **4 separate JSON files** (normalized database structure)
+- Run `assign_ids.py` script after creating JSON files
+- Follow the exact output structure specified below
 
 **YOU MUST NOT:**
-- Create Python scripts or parsers
-- Install any pip packages (gspread, google-auth, pandas, etc.)
-- Use curl, wget, or any HTTP requests
-- Create temporary files or intermediate scripts
-- Ask user to download CSV manually
-
-**If MCP tools are not available:**
-- STOP and tell the user: "MCP Google Drive tools are not configured. Please set up MCP first."
-- Do NOT fall back to creating scripts
+- Put all data in a single file
+- Skip running the assign_ids.py script
+- Create practitioners field inside services.json
 
 ---
 
 ## Task Description
 
-Read data from Google Sheet using MCP tools and convert it to JSON format according to Pydantic models defined in `pydantic_models.py`.
+Read data from Google Sheet and create **4 normalized JSON files**:
+1. `categories.json` - Service categories
+2. `practitioners.json` - Doctors/practitioners  
+3. `services.json` - Services (with category_id FK, WITHOUT practitioners)
+4. `service_practitioners.json` - Many-to-many links
 
 ## Google Sheet URL
 
@@ -30,192 +29,233 @@ Read data from Google Sheet using MCP tools and convert it to JSON format accord
 https://docs.google.com/spreadsheets/d/1ZXYPl573sgfdRYDJj1RzPDJLPpyKpGY6vgr4NsgJSlk/edit?gid=12440639#gid=12440639
 ```
 
-## Column Mapping Rules
+---
 
-### 1. Category → `category_name`
-- Map directly to `category_name` field
-- Example: "AESTHETICS & DERMATOLOGY" → `"category_name": "AESTHETICS & DERMATOLOGY"`
+## OUTPUT FILES STRUCTURE
 
-### 2. Service Name → `name_i18n` + `description_i18n`
+### 1. categories.json
 
-**CRITICAL RULE: If cell contains MULTIPLE LINES (newlines, bullet points, or list of items):**
-- **FIRST LINE ONLY** goes to `name_i18n.en`
-- **ALL OTHER LINES** go to `description_i18n.en` (join with ", " or keep as list)
-
-**Examples:**
-
-1. **Simple case** (single line):
-   - Input: "Aesthetics Consultation"
-   - Output: `"name_i18n": {"en": "Aesthetics Consultation"}`
-
-2. **With parentheses** (keep together if short):
-   - Input: "Heleo4 Skin Cellular Detox Programme (5 sessions)"
-   - Output: 
-     - `"name_i18n": {"en": "Heleo4 Skin Cellular Detox Programme"}`
-     - `"description_i18n": {"en": "Package of 5 sessions"}`
-
-3. **MULTI-LINE / Package with components** (SPLIT!):
-   - Input:
-     ```
-     Comprehensive Consultation & Examination
-     Seca - Body Composition Analysis 
-     Face Analyzer
-     Vitals Check
-     Supplements and/or IVs Recommendation
-     ```
-   - Output:
-     - `"name_i18n": {"en": "Comprehensive Consultation & Examination"}`
-     - `"description_i18n": {"en": "Includes: Seca - Body Composition Analysis, Face Analyzer, Vitals Check, Supplements and/or IVs Recommendation"}`
-
-**Detection rules:**
-- If text contains `\n` (newline) → SPLIT at first newline
-- If text starts with bullet points or numbered list → First item = name, rest = description
-- If text is longer than 100 characters → Likely needs splitting
-
-### 3. Doctor name → `practitioners`
-- Doctors are listed WITHOUT commas, separated by newlines
-- Parse as array of strings and store in `practitioners` field
-- Example input:
-  ```
-  Dr. Anna Zakhozha
-  Dr.Sarah Mohamed
-  Dr. Karem Harb
-  ```
-- Output: `"practitioners": ["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Karem Harb"]`
-- **Note**: Fix spacing issues like "Dr.Sarah" → "Dr. Sarah", "Dr.Lyn" → "Dr. Lyn"
-- **Important**: Split by newlines, NOT by commas (names may contain commas)
-
-### 4. Price → `price_min` and `price_max` + `price_note_i18n`
-- **Parse the numeric value** (remove "+VAT", "AED", spaces)
-- **If price contains "+VAT"**: Add note to `price_note_i18n`
-- **If price is "0" or empty**: Set `price_min: null`, `price_max: null`
-- Examples:
-  - "500 + VAT" → `price_min: 500, price_max: 500, price_note_i18n: {"en": "Price excludes VAT"}`
-  - "500" → `price_min: 500, price_max: 500`
-  - "0" → `price_min: null, price_max: null` (free follow-up)
-
-### 5. Duration → `duration_minutes`
-- **Convert all durations to minutes (integer)**
-- Parsing rules:
-  - "30 min" → `30`
-  - "45 min" → `45`
-  - "1 hour" → `60`
-  - "1.5 hour" → `90`
-  - "75 min" → `75`
-  - "1.5 hour" or "1.5 hours" → `90`
-- Output must be integer in minutes
-
-### 6. Note → `price_note_i18n` (append to existing)
-- If Note column has content, add it to `price_note_i18n.en`
-- Combine with VAT note if both exist
-- Example: 
-  - Note: "Consultation fees will be waived if you proceed with treatment"
-  - With VAT: `"price_note_i18n": {"en": "Price excludes VAT. Consultation fees will be waived if you proceed with treatment"}`
-
-### 7. Available In Branches → store in `aliases` or ignore
-- Values: "Both", "Jumeirah", etc.
-- Can be stored in service metadata or ignored for now
-
-## Output Format
-
-Generate a JSON array of Service objects. Use `exclude_defaults=True` logic - only include fields that differ from defaults.
+Extract unique categories and assign temporary IDs (will be fixed by script).
 
 ```json
 [
   {
-    "name_i18n": {"en": "Aesthetics Consultation"},
-    "practitioners": ["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Karem Harb"],
-    "duration_minutes": 30,
-    "price_min": 500.0,
-    "price_max": 500.0,
-    "price_note_i18n": {"en": "Price excludes VAT. Consultation fees will be waived if you proceed with treatment on the same day."},
-    "category_name": "AESTHETICS & DERMATOLOGY"
+    "id": 1,
+    "name_i18n": {"en": "AESTHETICS & DERMATOLOGY"},
+    "sort_order": 1
   },
   {
-    "name_i18n": {"en": "Dermatology Consultation"},
-    "practitioners": ["Dr. Anna Zakhozha", "Dr. Sarah Mohamed", "Dr. Nataliya Sanytska"],
-    "duration_minutes": 30,
-    "price_min": 500.0,
-    "price_max": 500.0,
-    "price_note_i18n": {"en": "You can claim this back from your Insurance provider."},
-    "category_name": "AESTHETICS & DERMATOLOGY"
+    "id": 2,
+    "name_i18n": {"en": "BOTOX"},
+    "sort_order": 2
   }
 ]
 ```
 
-## Steps to Execute (USING MCP TOOLS ONLY)
+### 2. practitioners.json
 
-1. **Call MCP tool** `mcp__gdrive__search` or `mcp__gdrive__read_file` to access the spreadsheet
-2. **Read spreadsheet content** using MCP Google Drive/Sheets tools
-3. **Parse the data in your response** - process each row mentally/in-context
-4. **Generate JSON directly** - write the final services.json file using standard file write tool
-5. **Do NOT create any Python/JS scripts** - all processing must happen via MCP + direct JSON generation
+Extract unique doctors/practitioners and assign temporary IDs.
 
-Example MCP tool usage:
-```
-mcp__gdrive__read_file(fileId: "1ZXYPl573sgfdRYDJj1RzPDJLPpyKpGY6vgr4NsgJSlk")
-```
-
-Or search first:
-```
-mcp__gdrive__search(query: "name = 'Hortman'")
-```
-
-## Important Notes
-
-- All text fields should be in English (use `en` key in i18n dicts)
-- Numeric values should be proper numbers, not strings
-- Empty or "0" prices should result in `null` values
-- Duration must always be an integer (minutes)
-- Handle edge cases gracefully (missing data, unusual formats)
-
-## Authentication
-
-Use the `cred.json` file in the project directory for Google API authentication.
-
-This file contains Google Service Account credentials. Set the environment variable before running:
-
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS="./cred.json"
-```
-
-Or pass directly to MCP server configuration:
 ```json
-{
-  "mcpServers": {
-    "gdrive": {
-      "command": "npx",
-      "args": ["-y", "@anthropic-ai/mcp-server-gdrive"],
-      "env": {
-        "GOOGLE_APPLICATION_CREDENTIALS": "/full/path/to/cred.json"
-      }
-    }
+[
+  {
+    "id": 1,
+    "name": "Dr. Anna Zakhozha",
+    "name_i18n": {"en": "Dr. Anna Zakhozha"}
+  },
+  {
+    "id": 2,
+    "name": "Dr. Sarah Mohamed",
+    "name_i18n": {"en": "Dr. Sarah Mohamed"}
   }
-}
+]
 ```
 
-## Pre-flight Check
+**Important:** Fix spacing in names like "Dr.Sarah" → "Dr. Sarah"
 
-Before starting, verify MCP tools are available by running:
+### 3. services.json
+
+Services with `category_id` (FK to categories.json), **WITHOUT practitioners field**.
+
+```json
+[
+  {
+    "id": 1,
+    "category_id": 1,
+    "name_i18n": {"en": "Aesthetics Consultation"},
+    "description_i18n": {"en": "Initial consultation"},
+    "duration_minutes": 30,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {"en": "Price excludes VAT"},
+    "branches": ["jumeirah", "srz"]
+  }
+]
 ```
-/mcp
+
+**NO `practitioners` field here!** Use service_practitioners.json instead.
+
+**`branches` field values:**
+- `["jumeirah", "srz"]` - available in both locations
+- `["jumeirah"]` - only in Jumeirah
+- `["srz"]` - only in SRZ
+
+### 4. service_practitioners.json
+
+Many-to-many relationship between services and practitioners.
+
+```json
+[
+  {"service_id": 1, "practitioner_id": 1},
+  {"service_id": 1, "practitioner_id": 2},
+  {"service_id": 2, "practitioner_id": 1}
+]
 ```
 
-You should see `gdrive` in the list of available MCP servers. If not, STOP and ask user to configure MCP.
+---
 
-## Reference: Pydantic Model Fields (from pydantic_models.py)
+## COLUMN MAPPING RULES
+
+### Category Column → categories.json + services.category_id
+1. Collect all unique category names
+2. Create categories.json with id, name_i18n, sort_order
+3. Map category_name to category_id in services.json
+
+### Service Name Column → services.name_i18n + description_i18n
+
+**CRITICAL: If cell contains MULTIPLE LINES:**
+- **FIRST LINE** → `name_i18n.en`
+- **OTHER LINES** → `description_i18n.en`
+
+Example:
+```
+Input:
+  Comprehensive Consultation & Examination
+  Seca - Body Composition Analysis 
+  Face Analyzer
+  Vitals Check
+
+Output:
+  "name_i18n": {"en": "Comprehensive Consultation & Examination"}
+  "description_i18n": {"en": "Includes: Seca - Body Composition Analysis, Face Analyzer, Vitals Check"}
+```
+
+### Doctor Name Column → practitioners.json + service_practitioners.json
+
+1. Doctors are listed **separated by NEWLINES** (not commas!)
+2. Extract unique doctors → practitioners.json
+3. Create links → service_practitioners.json
+
+Example input cell:
+```
+Dr. Anna Zakhozha
+Dr.Sarah Mohamed
+Dr. Karem Harb
+```
+
+**Fix spacing:** "Dr.Sarah" → "Dr. Sarah"
+
+### Price Column → services.price_min, price_max, price_note_i18n
+- "500 + VAT" → `price_min: 500, price_max: 500, price_note_i18n: {"en": "Price excludes VAT"}`
+- "500" → `price_min: 500, price_max: 500`
+- "0" or empty → `price_min: null, price_max: null`
+
+### Duration Column → services.duration_minutes
+- "30 min" → `30`
+- "1 hour" → `60`
+- "1.5 hour" → `90`
+- "75 min" → `75`
+
+### Note Column → Append to services.price_note_i18n
+
+### Available In Branches Column → services.branches
+
+**IMPORTANT RULE:**
+- If value is **"Both"** → `"branches": ["jumeirah", "srz"]`
+- If value is **"Jumeirah"** → `"branches": ["jumeirah"]`
+- If value is **"SRZ"** → `"branches": ["srz"]`
+- If empty or unknown → `"branches": ["jumeirah", "srz"]` (default to both)
+
+**Examples:**
+| Column Value | Output |
+|--------------|--------|
+| Both | `"branches": ["jumeirah", "srz"]` |
+| Jumeirah | `"branches": ["jumeirah"]` |
+| SRZ | `"branches": ["srz"]` |
+| (empty) | `"branches": ["jumeirah", "srz"]` |
+
+---
+
+## STEPS TO EXECUTE
+
+### Step 1: Read Google Sheet
+Use MCP tools or fetch public CSV export.
+
+### Step 2: Process Data
+For each row:
+1. Extract/create category → add to categories list
+2. Extract practitioners → add to practitioners list
+3. Create service object → add to services list
+4. Create service-practitioner links → add to links list
+
+### Step 3: Create JSON Files
+Write 4 files:
+```
+categories.json
+practitioners.json
+services.json
+service_practitioners.json
+```
+
+### Step 4: Run ID Assignment Script (REQUIRED!)
+```bash
+python3 assign_ids.py
+```
+
+This script will:
+- Verify all IDs are unique
+- Fix any conflicts
+- Ensure proper ID sequence
+
+---
+
+## FINAL CHECKLIST
+
+Before completing, verify:
+
+- [ ] `categories.json` exists with id, name_i18n, sort_order
+- [ ] `practitioners.json` exists with id, name, name_i18n
+- [ ] `services.json` exists with id, category_id, NO practitioners field
+- [ ] `service_practitioners.json` exists with service_id, practitioner_id pairs
+- [ ] Ran `python3 assign_ids.py` successfully
+
+---
+
+## Reference: Pydantic Models
 
 ```python
+class ServiceCategory(BaseModel):
+    id: int
+    name_i18n: dict    # {"en": "Category Name"}
+    sort_order: int
+
+class Practitioner(BaseModel):
+    id: int
+    name: str          # "Dr. Anna Zakhozha"
+    name_i18n: dict    # {"en": "Dr. Anna Zakhozha"}
+
 class Service(BaseModel):
-    name_i18n: dict          # {"en": "Service Name"}
-    description_i18n: dict   # {"en": "Description"}
-    aliases: list[str]       # Alternative names for AI matching
-    practitioners: list[str] # Doctors/staff who perform this service
-    duration_minutes: int    # Duration in minutes (default: 60)
-    capacity: int            # Max clients per session (default: 1)
-    price_type: str          # "fixed", "range", "unknown" (default: "fixed")
-    price_min: float | None  # Minimum price
-    price_max: float | None  # Maximum price (same as min for fixed)
-    price_note_i18n: dict    # Price notes {"en": "Note about price"}
-    category_name: str | None # Category name
+    id: int
+    category_id: int   # FK to ServiceCategory
+    name_i18n: dict
+    description_i18n: dict
+    duration_minutes: int
+    price_min: float | None
+    price_max: float | None
+    price_note_i18n: dict
+    branches: list[str]  # ["jumeirah", "srz"] or ["jumeirah"] or ["srz"]
+
+class ServicePractitioner(BaseModel):
+    service_id: int      # FK to Service
+    practitioner_id: int # FK to Practitioner
 ```

@@ -20,6 +20,36 @@ class BookingMode:
     REQUEST = "request"
 
 
+# === New Models ===
+
+class ServiceCategory(BaseModel):
+    """Service category model"""
+    id: int = Field(description="Unique category identifier")
+    name_i18n: dict = Field(
+        default_factory=dict,
+        description="Category name in multiple languages. Format: {'en': 'Category Name'}"
+    )
+    sort_order: int = Field(default=0, description="Sort order for displaying categories")
+
+
+class Practitioner(BaseModel):
+    """Practitioner/Doctor model"""
+    id: int = Field(description="Unique practitioner identifier")
+    name: str = Field(description="Full name of the practitioner. Example: 'Dr. Anna Zakhozha'")
+    name_i18n: dict = Field(
+        default_factory=dict,
+        description="Practitioner name in multiple languages. Format: {'en': 'Dr. Anna Zakhozha'}"
+    )
+
+
+class ServicePractitioner(BaseModel):
+    """Many-to-many relationship between Service and Practitioner"""
+    service_id: int = Field(description="Foreign key to Service")
+    practitioner_id: int = Field(description="Foreign key to Practitioner")
+
+
+# === Existing Models (updated) ===
+
 class SourceData(BaseModel):
     """Raw data from external EHR system (Altegio)"""
     
@@ -77,12 +107,13 @@ class SourceData(BaseModel):
 class Service(BaseModel):
     """Service model representing a bookable service in the system"""
     
-    # === ID fields ===
-    # id: int
-    # location_id: int
-    # category_id: Optional[int] = None
-    # external_id: Optional[str] = None
-
+    id: int = Field(description="Unique service identifier")
+    category_id: int = Field(description="Foreign key to ServiceCategory")
+    branches: list[str] = Field(
+        default_factory=lambda: ["jumeirah", "srz"],
+        description="Branches where service is available. Values: 'jumeirah', 'srz'. Example: ['jumeirah', 'srz'] for both"
+    )
+    
     name_i18n: dict = Field(
         default_factory=dict,
         description="Service name in multiple languages. Format: {'en': 'English name', 'ru': 'Русское название'}"
@@ -94,10 +125,6 @@ class Service(BaseModel):
     aliases: list[str] = Field(
         default_factory=list,
         description="Alternative names for AI matching. Example: ['botox', 'botulinum', 'filler']"
-    )
-    practitioners: list[str] = Field(
-        default_factory=list,
-        description="List of doctors who can perform this service. Example: ['Dr. Anna Zakhozha', 'Dr. Sarah Mohamed']"
     )
     duration_minutes: int = Field(
         default=60,
@@ -179,38 +206,3 @@ class Service(BaseModel):
         default=None,
         description="Email of user who made the last update"
     )
-    category_name: Optional[str] = Field(
-        default=None,
-        description="Name of the service category (read-only, computed field)"
-    )
-    practitioners_count: int = Field(
-        default=0,
-        description="Number of practitioners who can perform this service (read-only)"
-    )
-    offers_count: int = Field(
-        default=0,
-        description="Number of offers/packages that include this service (read-only)"
-    )
-
-
-class ServiceList(BaseModel):
-    """List of services returned from API"""
-    services: list[Service] = Field(
-        default_factory=list,
-        description="Array of Service objects"
-    )
-
-
-# === Example usage ===
-#
-# 1. Parsing response:
-#    services = [Service(**item) for item in response_json]
-#
-# 2. Dump with exclude_defaults:
-#    data = service.model_dump(exclude_defaults=True)
-#
-# 3. Dump to JSON:
-#    json_str = service.model_dump_json(exclude_defaults=True)
-#
-# 4. Get JSON Schema (for MCP tools):
-#    schema = Service.model_json_schema()
