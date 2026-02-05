@@ -1,187 +1,2239 @@
 {
-  "total_local": 35,
-  "total_api": 9,
-  "matched": 1,
-  "new": 34,
-  "matched_details": [
-    {
-      "local_name": "INJECTABLE TREATMENTS",
-      "api_name": "Injectable Treatments",
-      "old_id": 7,
-      "new_id": 1,
-      "is_archived": true
-    }
-  ],
-  "new_details": [
-    {
-      "local_name": "AESTHETICS & DERMATOLOGY",
-      "old_id": 1,
-      "new_id": 10
-    },
-    {
-      "local_name": "DERMATOLOGY",
-      "old_id": 2,
-      "new_id": 11
-    },
-    {
-      "local_name": "FACIALS",
-      "old_id": 3,
-      "new_id": 12
-    },
-    {
-      "local_name": "MEDICAL PEELS",
-      "old_id": 4,
-      "new_id": 13
-    },
-    {
-      "local_name": "BOTOX",
-      "old_id": 5,
-      "new_id": 14
-    },
-    {
-      "local_name": "DERMAL FILLERS",
-      "old_id": 6,
-      "new_id": 15
-    },
-    {
-      "local_name": "PLATELET RICH PLASMA (PRP)",
-      "old_id": 8,
-      "new_id": 16
-    },
-    {
-      "local_name": "MESOTHERAPY",
-      "old_id": 9,
-      "new_id": 17
-    },
-    {
-      "local_name": "ULTHERAPY",
-      "old_id": 10,
-      "new_id": 18
-    },
-    {
-      "local_name": "MORPHEUS8",
-      "old_id": 11,
-      "new_id": 19
-    },
-    {
-      "local_name": "LASER TREATMENTS",
-      "old_id": 12,
-      "new_id": 20
-    },
-    {
-      "local_name": "SCAR TREATMENTS",
-      "old_id": 13,
-      "new_id": 21
-    },
-    {
-      "local_name": "THREADS",
-      "old_id": 14,
-      "new_id": 22
-    },
-    {
-      "local_name": "ICOONE",
-      "old_id": 15,
-      "new_id": 23
-    },
-    {
-      "local_name": "ALMA -ACCENT PRIME",
-      "old_id": 16,
-      "new_id": 24
-    },
-    {
-      "local_name": "EMSCULPT NEO",
-      "old_id": 17,
-      "new_id": 25
-    },
-    {
-      "local_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM",
-      "old_id": 18,
-      "new_id": 26
-    },
-    {
-      "local_name": "LASER HAIR REMOVAL - POLYLASE MX",
-      "old_id": 19,
-      "new_id": 27
-    },
-    {
-      "local_name": "HAIR BLEACHING - STARWALKER FOTONA",
-      "old_id": 20,
-      "new_id": 28
-    },
-    {
-      "local_name": "WELLNESS -IV THERAPY",
-      "old_id": 21,
-      "new_id": 29
-    },
-    {
-      "local_name": "WELLNESS",
-      "old_id": 22,
-      "new_id": 30
-    },
-    {
-      "local_name": "MEN'S HEALTH",
-      "old_id": 23,
-      "new_id": 31
-    },
-    {
-      "local_name": "Weight Loss Package",
-      "old_id": 24,
-      "new_id": 32
-    },
-    {
-      "local_name": "Executive Physical Package - Male",
-      "old_id": 25,
-      "new_id": 33
-    },
-    {
-      "local_name": "Executive Physical Package - Female",
-      "old_id": 26,
-      "new_id": 34
-    },
-    {
-      "local_name": "WELLNESS : TESTOSTERONE REPLACEMENT THERAPY",
-      "old_id": 27,
-      "new_id": 35
-    },
-    {
-      "local_name": "WELLNESS : PEPTIDES THERAPY",
-      "old_id": 28,
-      "new_id": 36
-    },
-    {
-      "local_name": "HAIR TRANSPLANT",
-      "old_id": 29,
-      "new_id": 37
-    },
-    {
-      "local_name": "CLINICAL OBSTETRICS & GYNECOLOGY",
-      "old_id": 30,
-      "new_id": 38
-    },
-    {
-      "local_name": "AESTHETICS GYNAE",
-      "old_id": 31,
-      "new_id": 39
-    },
-    {
-      "local_name": "SURGICAL",
-      "old_id": 32,
-      "new_id": 40
-    },
-    {
-      "local_name": "PACKAGES",
-      "old_id": 33,
-      "new_id": 41
-    },
-    {
-      "local_name": "SMP",
-      "old_id": 34,
-      "new_id": 42
-    },
-    {
-      "local_name": "DENTISTRY",
-      "old_id": 35,
-      "new_id": 43
-    }
-  ]
+  "categories": {
+    "type": "categories",
+    "total_local": 35,
+    "total_api": 9,
+    "max_api_id": 9,
+    "matched": 1,
+    "new": 34,
+    "new_id_start": 10,
+    "new_id_end": 43,
+    "matched_details": [
+      {
+        "local_name": "INJECTABLE TREATMENTS",
+        "api_name": "Injectable Treatments",
+        "old_id": 1,
+        "new_id": 1,
+        "is_archived": true
+      }
+    ],
+    "new_details": [
+      {
+        "local_name": "AESTHETICS & DERMATOLOGY",
+        "old_id": 10,
+        "new_id": 10
+      },
+      {
+        "local_name": "DERMATOLOGY",
+        "old_id": 11,
+        "new_id": 11
+      },
+      {
+        "local_name": "FACIALS",
+        "old_id": 12,
+        "new_id": 12
+      },
+      {
+        "local_name": "MEDICAL PEELS",
+        "old_id": 13,
+        "new_id": 13
+      },
+      {
+        "local_name": "BOTOX",
+        "old_id": 14,
+        "new_id": 14
+      },
+      {
+        "local_name": "DERMAL FILLERS",
+        "old_id": 15,
+        "new_id": 15
+      },
+      {
+        "local_name": "PLATELET RICH PLASMA (PRP)",
+        "old_id": 16,
+        "new_id": 16
+      },
+      {
+        "local_name": "MESOTHERAPY",
+        "old_id": 17,
+        "new_id": 17
+      },
+      {
+        "local_name": "ULTHERAPY",
+        "old_id": 18,
+        "new_id": 18
+      },
+      {
+        "local_name": "MORPHEUS8",
+        "old_id": 19,
+        "new_id": 19
+      },
+      {
+        "local_name": "LASER TREATMENTS",
+        "old_id": 20,
+        "new_id": 20
+      },
+      {
+        "local_name": "SCAR TREATMENTS",
+        "old_id": 21,
+        "new_id": 21
+      },
+      {
+        "local_name": "THREADS",
+        "old_id": 22,
+        "new_id": 22
+      },
+      {
+        "local_name": "ICOONE",
+        "old_id": 23,
+        "new_id": 23
+      },
+      {
+        "local_name": "ALMA -ACCENT PRIME",
+        "old_id": 24,
+        "new_id": 24
+      },
+      {
+        "local_name": "EMSCULPT NEO",
+        "old_id": 25,
+        "new_id": 25
+      },
+      {
+        "local_name": "LASER HAIR REMOVAL - SOPRANO TITANIUM",
+        "old_id": 26,
+        "new_id": 26
+      },
+      {
+        "local_name": "LASER HAIR REMOVAL - POLYLASE MX",
+        "old_id": 27,
+        "new_id": 27
+      },
+      {
+        "local_name": "HAIR BLEACHING - STARWALKER FOTONA",
+        "old_id": 28,
+        "new_id": 28
+      },
+      {
+        "local_name": "WELLNESS -IV THERAPY",
+        "old_id": 29,
+        "new_id": 29
+      },
+      {
+        "local_name": "WELLNESS",
+        "old_id": 30,
+        "new_id": 30
+      },
+      {
+        "local_name": "MEN'S HEALTH",
+        "old_id": 31,
+        "new_id": 31
+      },
+      {
+        "local_name": "Weight Loss Package",
+        "old_id": 32,
+        "new_id": 32
+      },
+      {
+        "local_name": "Executive Physical Package - Male",
+        "old_id": 33,
+        "new_id": 33
+      },
+      {
+        "local_name": "Executive Physical Package - Female",
+        "old_id": 34,
+        "new_id": 34
+      },
+      {
+        "local_name": "WELLNESS : TESTOSTERONE REPLACEMENT THERAPY",
+        "old_id": 35,
+        "new_id": 35
+      },
+      {
+        "local_name": "WELLNESS : PEPTIDES THERAPY",
+        "old_id": 36,
+        "new_id": 36
+      },
+      {
+        "local_name": "HAIR TRANSPLANT",
+        "old_id": 37,
+        "new_id": 37
+      },
+      {
+        "local_name": "CLINICAL OBSTETRICS & GYNECOLOGY",
+        "old_id": 38,
+        "new_id": 38
+      },
+      {
+        "local_name": "AESTHETICS GYNAE",
+        "old_id": 39,
+        "new_id": 39
+      },
+      {
+        "local_name": "SURGICAL",
+        "old_id": 40,
+        "new_id": 40
+      },
+      {
+        "local_name": "PACKAGES",
+        "old_id": 41,
+        "new_id": 41
+      },
+      {
+        "local_name": "SMP",
+        "old_id": 42,
+        "new_id": 42
+      },
+      {
+        "local_name": "DENTISTRY",
+        "old_id": 43,
+        "new_id": 43
+      }
+    ]
+  },
+  "services": {
+    "type": "services",
+    "total_local": 373,
+    "total_api": 73,
+    "max_api_id": 3092,
+    "matched": 2,
+    "new": 371,
+    "new_id_start": 3093,
+    "new_id_end": 3463,
+    "matched_details": [
+      {
+        "local_name": "MesoTherapy - Face",
+        "api_name": "Mesotherapy – Face",
+        "old_id": 7,
+        "new_id": 7,
+        "is_archived": false
+      },
+      {
+        "local_name": "Dermaplaning",
+        "api_name": "Dermaplaning",
+        "old_id": 53,
+        "new_id": 53,
+        "is_archived": false
+      }
+    ],
+    "new_details": [
+      {
+        "local_name": "Aesthetics Consultation",
+        "old_id": 3093,
+        "new_id": 3093
+      },
+      {
+        "local_name": "Dermatology Consultation",
+        "old_id": 3094,
+        "new_id": 3094
+      },
+      {
+        "local_name": "Follow Up Consultation",
+        "old_id": 3095,
+        "new_id": 3095
+      },
+      {
+        "local_name": "Follow Up Visit",
+        "old_id": 3096,
+        "new_id": 3096
+      },
+      {
+        "local_name": "Follow Up Consultation (Dermatology)",
+        "old_id": 3097,
+        "new_id": 3097
+      },
+      {
+        "local_name": "Lesion Excision (Small)",
+        "old_id": 3098,
+        "new_id": 3098
+      },
+      {
+        "local_name": "Lesion Excision (Large)",
+        "old_id": 3099,
+        "new_id": 3099
+      },
+      {
+        "local_name": "Mole Excision (Small)",
+        "old_id": 3100,
+        "new_id": 3100
+      },
+      {
+        "local_name": "Mole Excision (Large)",
+        "old_id": 3101,
+        "new_id": 3101
+      },
+      {
+        "local_name": "Cryotherapy (Small)",
+        "old_id": 3102,
+        "new_id": 3102
+      },
+      {
+        "local_name": "Cryotherapy (Medium)",
+        "old_id": 3103,
+        "new_id": 3103
+      },
+      {
+        "local_name": "Cryotherapy (Large)",
+        "old_id": 3104,
+        "new_id": 3104
+      },
+      {
+        "local_name": "Cysts Extraction (S)",
+        "old_id": 3105,
+        "new_id": 3105
+      },
+      {
+        "local_name": "Cysts Extraction (M)",
+        "old_id": 3106,
+        "new_id": 3106
+      },
+      {
+        "local_name": "Cysts Extraction (L)",
+        "old_id": 3107,
+        "new_id": 3107
+      },
+      {
+        "local_name": "Skin Tag Removal (small)",
+        "old_id": 3108,
+        "new_id": 3108
+      },
+      {
+        "local_name": "Skin Tag Removal (large)",
+        "old_id": 3109,
+        "new_id": 3109
+      },
+      {
+        "local_name": "Wart Removal (small)",
+        "old_id": 3110,
+        "new_id": 3110
+      },
+      {
+        "local_name": "Wart Removal (large)",
+        "old_id": 3111,
+        "new_id": 3111
+      },
+      {
+        "local_name": "Laser Minor Procedure",
+        "old_id": 3112,
+        "new_id": 3112
+      },
+      {
+        "local_name": "UVB Phototherapy",
+        "old_id": 3113,
+        "new_id": 3113
+      },
+      {
+        "local_name": "Hortman Signature Facial",
+        "old_id": 3114,
+        "new_id": 3114
+      },
+      {
+        "local_name": "Classic Facial",
+        "old_id": 3115,
+        "new_id": 3115
+      },
+      {
+        "local_name": "Face Sculpt",
+        "old_id": 3116,
+        "new_id": 3116
+      },
+      {
+        "local_name": "Dermalux Flex MD LED Therapy",
+        "old_id": 3117,
+        "new_id": 3117
+      },
+      {
+        "local_name": "Face Mask - add on",
+        "old_id": 3118,
+        "new_id": 3118
+      },
+      {
+        "local_name": "Lymphatic Drainage Massage (add on)",
+        "old_id": 3119,
+        "new_id": 3119
+      },
+      {
+        "local_name": "Microdermabrasion (add-on)",
+        "old_id": 3120,
+        "new_id": 3120
+      },
+      {
+        "local_name": "Microcurrent Treatment",
+        "old_id": 3121,
+        "new_id": 3121
+      },
+      {
+        "local_name": "pH Facial - Rosacea",
+        "old_id": 3122,
+        "new_id": 3122
+      },
+      {
+        "local_name": "pH Facial - Acne",
+        "old_id": 3123,
+        "new_id": 3123
+      },
+      {
+        "local_name": "pH Facial - Pigmentation",
+        "old_id": 3124,
+        "new_id": 3124
+      },
+      {
+        "local_name": "pH Facial - Skin Resurfacing",
+        "old_id": 3125,
+        "new_id": 3125
+      },
+      {
+        "local_name": "Phixel Needling Facial",
+        "old_id": 3126,
+        "new_id": 3126
+      },
+      {
+        "local_name": "Hydrafacial Syndeo Deluxe",
+        "old_id": 3127,
+        "new_id": 3127
+      },
+      {
+        "local_name": "Hydrafacial Syndeo Platinum",
+        "old_id": 3128,
+        "new_id": 3128
+      },
+      {
+        "local_name": "Heleo4 - 1 session",
+        "old_id": 3129,
+        "new_id": 3129
+      },
+      {
+        "local_name": "Heleo4 Skin Cellular Detox Programme (5 sessions)",
+        "old_id": 3130,
+        "new_id": 3130
+      },
+      {
+        "local_name": "Facial Complex",
+        "old_id": 3131,
+        "new_id": 3131
+      },
+      {
+        "local_name": "Pregnancy-Safe Facial",
+        "old_id": 3132,
+        "new_id": 3132
+      },
+      {
+        "local_name": "Teen Facial",
+        "old_id": 3133,
+        "new_id": 3133
+      },
+      {
+        "local_name": "Glass Skin Facial",
+        "old_id": 3134,
+        "new_id": 3134
+      },
+      {
+        "local_name": "Accent Prime - MicroPlasma",
+        "old_id": 3135,
+        "new_id": 3135
+      },
+      {
+        "local_name": "Back Facial",
+        "old_id": 3136,
+        "new_id": 3136
+      },
+      {
+        "local_name": "Biorepeel",
+        "old_id": 3137,
+        "new_id": 3137
+      },
+      {
+        "local_name": "Cosmelan (includes home care products)",
+        "old_id": 3138,
+        "new_id": 3138
+      },
+      {
+        "local_name": "Dermamelan",
+        "old_id": 3139,
+        "new_id": 3139
+      },
+      {
+        "local_name": "Centric - Whitening Treatment",
+        "old_id": 3140,
+        "new_id": 3140
+      },
+      {
+        "local_name": "Centric - Acne Treatment",
+        "old_id": 3141,
+        "new_id": 3141
+      },
+      {
+        "local_name": "Centric - Eye Treatment",
+        "old_id": 3142,
+        "new_id": 3142
+      },
+      {
+        "local_name": "Centric - Lips Treatment",
+        "old_id": 3143,
+        "new_id": 3143
+      },
+      {
+        "local_name": "APPeex Peel",
+        "old_id": 3144,
+        "new_id": 3144
+      },
+      {
+        "local_name": "Intimate Peel",
+        "old_id": 3145,
+        "new_id": 3145
+      },
+      {
+        "local_name": "PRX-T33",
+        "old_id": 3146,
+        "new_id": 3146
+      },
+      {
+        "local_name": "PRX-T33 ADD ON",
+        "old_id": 3147,
+        "new_id": 3147
+      },
+      {
+        "local_name": "Botox - Small Zone (up to 20 units)",
+        "old_id": 3148,
+        "new_id": 3148
+      },
+      {
+        "local_name": "Botox - Upper Face",
+        "old_id": 3149,
+        "new_id": 3149
+      },
+      {
+        "local_name": "Botox - Neck/Platysmal Bands (Nephertiti)",
+        "old_id": 3150,
+        "new_id": 3150
+      },
+      {
+        "local_name": "Botox - Hyperhidrosis",
+        "old_id": 3151,
+        "new_id": 3151
+      },
+      {
+        "local_name": "Botox - Masseter",
+        "old_id": 3152,
+        "new_id": 3152
+      },
+      {
+        "local_name": "FU Botox",
+        "old_id": 3153,
+        "new_id": 3153
+      },
+      {
+        "local_name": "Dermal Filler - 1 Syringe",
+        "old_id": 3154,
+        "new_id": 3154
+      },
+      {
+        "local_name": "Dermal Filler (add on syringe)",
+        "old_id": 3155,
+        "new_id": 3155
+      },
+      {
+        "local_name": "Radiesse Filler - 1 syringe",
+        "old_id": 3156,
+        "new_id": 3156
+      },
+      {
+        "local_name": "Radiesse Filler - 2 syringe",
+        "old_id": 3157,
+        "new_id": 3157
+      },
+      {
+        "local_name": "Sculptra Filler - 1 syringe",
+        "old_id": 3158,
+        "new_id": 3158
+      },
+      {
+        "local_name": "Body Filler - 1 syringe",
+        "old_id": 3159,
+        "new_id": 3159
+      },
+      {
+        "local_name": "Dermal Fillers - 1 syringe (Fillmed/Ultra)",
+        "old_id": 3160,
+        "new_id": 3160
+      },
+      {
+        "local_name": "FU Dermal Fillers",
+        "old_id": 3161,
+        "new_id": 3161
+      },
+      {
+        "local_name": "Skin Booster - 1 Syringe",
+        "old_id": 3162,
+        "new_id": 3162
+      },
+      {
+        "local_name": "Profhilo - 1 Syringe",
+        "old_id": 3163,
+        "new_id": 3163
+      },
+      {
+        "local_name": "Profhilo Body",
+        "old_id": 3164,
+        "new_id": 3164
+      },
+      {
+        "local_name": "Hair Filler",
+        "old_id": 3165,
+        "new_id": 3165
+      },
+      {
+        "local_name": "Filler Dissolving (Hyaluronidase) - small",
+        "old_id": 3166,
+        "new_id": 3166
+      },
+      {
+        "local_name": "Filler Dissolving (Hyaluronidase) - large",
+        "old_id": 3167,
+        "new_id": 3167
+      },
+      {
+        "local_name": "Ultrasound-guided Filler Dissolving",
+        "old_id": 3168,
+        "new_id": 3168
+      },
+      {
+        "local_name": "Hair Loss SOS Injection",
+        "old_id": 3169,
+        "new_id": 3169
+      },
+      {
+        "local_name": "Keloid/Hypertrophic Scar Treatment",
+        "old_id": 3170,
+        "new_id": 3170
+      },
+      {
+        "local_name": "Exosomes Treatment - Hair/Face",
+        "old_id": 3171,
+        "new_id": 3171
+      },
+      {
+        "local_name": "Growth Factors & Microneedling",
+        "old_id": 3172,
+        "new_id": 3172
+      },
+      {
+        "local_name": "Growth Factors Treatment",
+        "old_id": 3173,
+        "new_id": 3173
+      },
+      {
+        "local_name": "Growth Factors (add on)",
+        "old_id": 3174,
+        "new_id": 3174
+      },
+      {
+        "local_name": "AnteAGE Growth Factors",
+        "old_id": 3175,
+        "new_id": 3175
+      },
+      {
+        "local_name": "AnteAGE Growth Factors (add on)",
+        "old_id": 3176,
+        "new_id": 3176
+      },
+      {
+        "local_name": "SIILK SKINEE Lipolysis",
+        "old_id": 3177,
+        "new_id": 3177
+      },
+      {
+        "local_name": "PBSerum - Fat Accumulation (Body)",
+        "old_id": 3178,
+        "new_id": 3178
+      },
+      {
+        "local_name": "PBSerum - Fat Accumulation (Face)",
+        "old_id": 3179,
+        "new_id": 3179
+      },
+      {
+        "local_name": "Polynucleotides Injection (1 syringe)",
+        "old_id": 3180,
+        "new_id": 3180
+      },
+      {
+        "local_name": "Polynucleotides Injection ( Under Eye)",
+        "old_id": 3181,
+        "new_id": 3181
+      },
+      {
+        "local_name": "Meso Mixed Treatment BCN",
+        "old_id": 3182,
+        "new_id": 3182
+      },
+      {
+        "local_name": "PRF Treatment",
+        "old_id": 3183,
+        "new_id": 3183
+      },
+      {
+        "local_name": "PRP - Face (1 tube)",
+        "old_id": 3184,
+        "new_id": 3184
+      },
+      {
+        "local_name": "PRP - Hair (1 tube)",
+        "old_id": 3185,
+        "new_id": 3185
+      },
+      {
+        "local_name": "PRP with HA (1 tube)",
+        "old_id": 3186,
+        "new_id": 3186
+      },
+      {
+        "local_name": "PRP & Microneedling - Face",
+        "old_id": 3187,
+        "new_id": 3187
+      },
+      {
+        "local_name": "MesoTherapy - Hair",
+        "old_id": 3188,
+        "new_id": 3188
+      },
+      {
+        "local_name": "MesoTherapy & Microneedling",
+        "old_id": 3189,
+        "new_id": 3189
+      },
+      {
+        "local_name": "Meso - Under Eyes",
+        "old_id": 3190,
+        "new_id": 3190
+      },
+      {
+        "local_name": "Mesotherapy NCTF (1 vial)",
+        "old_id": 3191,
+        "new_id": 3191
+      },
+      {
+        "local_name": "Ulthera (per line)",
+        "old_id": 3192,
+        "new_id": 3192
+      },
+      {
+        "local_name": "Morpheus8 RF Microneedling (FACE) - 1 session",
+        "old_id": 3193,
+        "new_id": 3193
+      },
+      {
+        "local_name": "Morpheus8 RF Microneedling (FACE & NECK) - 1 session",
+        "old_id": 3194,
+        "new_id": 3194
+      },
+      {
+        "local_name": "Morpheus8 RF Microneedling (BODY-1 AREA) - 1 session",
+        "old_id": 3195,
+        "new_id": 3195
+      },
+      {
+        "local_name": "BBL - Add on",
+        "old_id": 3196,
+        "new_id": 3196
+      },
+      {
+        "local_name": "BBL - Forever Young",
+        "old_id": 3197,
+        "new_id": 3197
+      },
+      {
+        "local_name": "HALO - Face & Neck",
+        "old_id": 3198,
+        "new_id": 3198
+      },
+      {
+        "local_name": "Er:YAG Sciton - Nano Peel",
+        "old_id": 3199,
+        "new_id": 3199
+      },
+      {
+        "local_name": "Er:YAG Sciton - Micro Peel",
+        "old_id": 3200,
+        "new_id": 3200
+      },
+      {
+        "local_name": "Er:YAG Sciton - Full Ablation",
+        "old_id": 3201,
+        "new_id": 3201
+      },
+      {
+        "local_name": "Er:YAG Sciton - Eyes",
+        "old_id": 3202,
+        "new_id": 3202
+      },
+      {
+        "local_name": "Er:YAG Sciton - Small Area",
+        "old_id": 3203,
+        "new_id": 3203
+      },
+      {
+        "local_name": "MOXI - Face & Neck",
+        "old_id": 3204,
+        "new_id": 3204
+      },
+      {
+        "local_name": "Vein Laser Treatment (S)",
+        "old_id": 3205,
+        "new_id": 3205
+      },
+      {
+        "local_name": "Vein Laser Treatment (M)",
+        "old_id": 3206,
+        "new_id": 3206
+      },
+      {
+        "local_name": "Vein Laser Treatment (L)",
+        "old_id": 3207,
+        "new_id": 3207
+      },
+      {
+        "local_name": "Clear Silk",
+        "old_id": 3208,
+        "new_id": 3208
+      },
+      {
+        "local_name": "Clear Silk (add on)",
+        "old_id": 3209,
+        "new_id": 3209
+      },
+      {
+        "local_name": "Tixel Eyes",
+        "old_id": 3210,
+        "new_id": 3210
+      },
+      {
+        "local_name": "Tixel (Full Face)",
+        "old_id": 3211,
+        "new_id": 3211
+      },
+      {
+        "local_name": "AviClear (3 sessions)",
+        "old_id": 3212,
+        "new_id": 3212
+      },
+      {
+        "local_name": "Ultraclear",
+        "old_id": 3213,
+        "new_id": 3213
+      },
+      {
+        "local_name": "UltraClear 3D MIRACLE",
+        "old_id": 3214,
+        "new_id": 3214
+      },
+      {
+        "local_name": "Sofwave",
+        "old_id": 3215,
+        "new_id": 3215
+      },
+      {
+        "local_name": "PicoWay - Tattoo Removal (cosmetic)",
+        "old_id": 3216,
+        "new_id": 3216
+      },
+      {
+        "local_name": "PicoWay - Tattoo Removal (body - Small: Hand)",
+        "old_id": 3217,
+        "new_id": 3217
+      },
+      {
+        "local_name": "PicoWay - Tattoo Removal (body - Medium: Arm)",
+        "old_id": 3218,
+        "new_id": 3218
+      },
+      {
+        "local_name": "PicoWay - Tattoo Removal (body - big: both Arms/back)",
+        "old_id": 3219,
+        "new_id": 3219
+      },
+      {
+        "local_name": "PicoWay - Full Face",
+        "old_id": 3220,
+        "new_id": 3220
+      },
+      {
+        "local_name": "PicoWay - Small Area (Face/Body)",
+        "old_id": 3221,
+        "new_id": 3221
+      },
+      {
+        "local_name": "Pico Genesis  - Tattoo Removal (cosmetic)",
+        "old_id": 3222,
+        "new_id": 3222
+      },
+      {
+        "local_name": "Pico Genesis - Tattoo Removal (body - Small: Hand)",
+        "old_id": 3223,
+        "new_id": 3223
+      },
+      {
+        "local_name": "Pico Genesis - Tattoo Removal (body - Medium: Arm)",
+        "old_id": 3224,
+        "new_id": 3224
+      },
+      {
+        "local_name": "Pico Genesis - Tattoo Removal (body - big: both Arms/back)",
+        "old_id": 3225,
+        "new_id": 3225
+      },
+      {
+        "local_name": "Pico Genesis - Full Face",
+        "old_id": 3226,
+        "new_id": 3226
+      },
+      {
+        "local_name": "Pico Genesis - Small Area (Face/Body)",
+        "old_id": 3227,
+        "new_id": 3227
+      },
+      {
+        "local_name": "Fotona 4D",
+        "old_id": 3228,
+        "new_id": 3228
+      },
+      {
+        "local_name": "Acne Scar TCA Cross (Small)",
+        "old_id": 3229,
+        "new_id": 3229
+      },
+      {
+        "local_name": "Acne Scar TCA Cross (Large)",
+        "old_id": 3230,
+        "new_id": 3230
+      },
+      {
+        "local_name": "Laser - Scar (Small)",
+        "old_id": 3231,
+        "new_id": 3231
+      },
+      {
+        "local_name": "Laser - Scar (Meduim)",
+        "old_id": 3232,
+        "new_id": 3232
+      },
+      {
+        "local_name": "Laser - Scar (Large)",
+        "old_id": 3233,
+        "new_id": 3233
+      },
+      {
+        "local_name": "Laser Drug Delivery (add on)",
+        "old_id": 3234,
+        "new_id": 3234
+      },
+      {
+        "local_name": "Scar Subcision",
+        "old_id": 3235,
+        "new_id": 3235
+      },
+      {
+        "local_name": "Magnetic Tattoo Removal (Eyebrows)",
+        "old_id": 3236,
+        "new_id": 3236
+      },
+      {
+        "local_name": "PDO - Mesothreads (per thread)",
+        "old_id": 3237,
+        "new_id": 3237
+      },
+      {
+        "local_name": "PDO - Mesothreads (10 threads)",
+        "old_id": 3238,
+        "new_id": 3238
+      },
+      {
+        "local_name": "APTOS Excellence Visage Threads",
+        "old_id": 3239,
+        "new_id": 3239
+      },
+      {
+        "local_name": "APTOS Nano Threads",
+        "old_id": 3240,
+        "new_id": 3240
+      },
+      {
+        "local_name": "EVERLINE PLA Threads 19G 100mm (4 threads)",
+        "old_id": 3241,
+        "new_id": 3241
+      },
+      {
+        "local_name": "EVERLINE PLA Threads 19G 100mm (add-on thread)",
+        "old_id": 3242,
+        "new_id": 3242
+      },
+      {
+        "local_name": "Mono Threads G27 60mm (10 threads)",
+        "old_id": 3243,
+        "new_id": 3243
+      },
+      {
+        "local_name": "APTOS 2 G Threads - Lower Face",
+        "old_id": 3244,
+        "new_id": 3244
+      },
+      {
+        "local_name": "APTOS Thread Lifting - Double Chin",
+        "old_id": 3245,
+        "new_id": 3245
+      },
+      {
+        "local_name": "Icoone Body - 45 minutes",
+        "old_id": 3246,
+        "new_id": 3246
+      },
+      {
+        "local_name": "Icoone Body - 60 minutes",
+        "old_id": 3247,
+        "new_id": 3247
+      },
+      {
+        "local_name": "Icoone Body - 90 minutes",
+        "old_id": 3248,
+        "new_id": 3248
+      },
+      {
+        "local_name": "Icoone Face - 30 minutes",
+        "old_id": 3249,
+        "new_id": 3249
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Small Area",
+        "old_id": 3250,
+        "new_id": 3250
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Arms",
+        "old_id": 3251,
+        "new_id": 3251
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Flanks",
+        "old_id": 3252,
+        "new_id": 3252
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Stomach",
+        "old_id": 3253,
+        "new_id": 3253
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Full Thighs",
+        "old_id": 3254,
+        "new_id": 3254
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Thighs + Buttocks",
+        "old_id": 3255,
+        "new_id": 3255
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - Front Thighs",
+        "old_id": 3256,
+        "new_id": 3256
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - 3 areas",
+        "old_id": 3257,
+        "new_id": 3257
+      },
+      {
+        "local_name": "Accent Prime – RF and Ultrasound - 4 areas +",
+        "old_id": 3258,
+        "new_id": 3258
+      },
+      {
+        "local_name": "Emsculpt Neo - Abdomen",
+        "old_id": 3259,
+        "new_id": 3259
+      },
+      {
+        "local_name": "Emsculpt Neo - Buttocks",
+        "old_id": 3260,
+        "new_id": 3260
+      },
+      {
+        "local_name": "Emsculpt Neo – Front Thighs",
+        "old_id": 3261,
+        "new_id": 3261
+      },
+      {
+        "local_name": "Emsculpt Neo – Back Thighs",
+        "old_id": 3262,
+        "new_id": 3262
+      },
+      {
+        "local_name": "Emsculpt Neo – Outer Thighs",
+        "old_id": 3263,
+        "new_id": 3263
+      },
+      {
+        "local_name": "Emsculpt Neo - Inner Thighs",
+        "old_id": 3264,
+        "new_id": 3264
+      },
+      {
+        "local_name": "Emsculpt Neo - Calves",
+        "old_id": 3265,
+        "new_id": 3265
+      },
+      {
+        "local_name": "Emsculpt Neo - Triceps",
+        "old_id": 3266,
+        "new_id": 3266
+      },
+      {
+        "local_name": "Emsculpt Neo - Biceps",
+        "old_id": 3267,
+        "new_id": 3267
+      },
+      {
+        "local_name": "Wonder Face (5 sessions)",
+        "old_id": 3268,
+        "new_id": 3268
+      },
+      {
+        "local_name": "LHR (Small Area)",
+        "old_id": 3269,
+        "new_id": 3269
+      },
+      {
+        "local_name": "LHR: Full Face",
+        "old_id": 3270,
+        "new_id": 3270
+      },
+      {
+        "local_name": "LHR: Half Face",
+        "old_id": 3271,
+        "new_id": 3271
+      },
+      {
+        "local_name": "LHR: Face and Neckline",
+        "old_id": 3272,
+        "new_id": 3272
+      },
+      {
+        "local_name": "LHR: Arms (Full)",
+        "old_id": 3273,
+        "new_id": 3273
+      },
+      {
+        "local_name": "LHR: Arms (Half)",
+        "old_id": 3274,
+        "new_id": 3274
+      },
+      {
+        "local_name": "LHR: Back",
+        "old_id": 3275,
+        "new_id": 3275
+      },
+      {
+        "local_name": "LHR: Bikini",
+        "old_id": 3276,
+        "new_id": 3276
+      },
+      {
+        "local_name": "MLHR: Bikini (MALE)",
+        "old_id": 3277,
+        "new_id": 3277
+      },
+      {
+        "local_name": "LHR: Legs (Full)",
+        "old_id": 3278,
+        "new_id": 3278
+      },
+      {
+        "local_name": "LHR: Legs (Half)",
+        "old_id": 3279,
+        "new_id": 3279
+      },
+      {
+        "local_name": "LHR: Underarms",
+        "old_id": 3280,
+        "new_id": 3280
+      },
+      {
+        "local_name": "LHR: Upper Lip + Chin",
+        "old_id": 3281,
+        "new_id": 3281
+      },
+      {
+        "local_name": "LHR: Bikini + Underarms",
+        "old_id": 3282,
+        "new_id": 3282
+      },
+      {
+        "local_name": "LHR: Chest",
+        "old_id": 3283,
+        "new_id": 3283
+      },
+      {
+        "local_name": "LHR: Abdomen",
+        "old_id": 3284,
+        "new_id": 3284
+      },
+      {
+        "local_name": "LHR: Full Body (FEMALE)",
+        "old_id": 3285,
+        "new_id": 3285
+      },
+      {
+        "local_name": "LHR: Full Body (MALE)",
+        "old_id": 3286,
+        "new_id": 3286
+      },
+      {
+        "local_name": "LHR: 3 areas",
+        "old_id": 3287,
+        "new_id": 3287
+      },
+      {
+        "local_name": "LHR (Small Area)",
+        "old_id": 3288,
+        "new_id": 3288
+      },
+      {
+        "local_name": "LHR: Full Face",
+        "old_id": 3289,
+        "new_id": 3289
+      },
+      {
+        "local_name": "LHR: Half Face",
+        "old_id": 3290,
+        "new_id": 3290
+      },
+      {
+        "local_name": "LHR: Face and Neckline",
+        "old_id": 3291,
+        "new_id": 3291
+      },
+      {
+        "local_name": "LHR: Arms (Full)",
+        "old_id": 3292,
+        "new_id": 3292
+      },
+      {
+        "local_name": "LHR: Arms (Half)",
+        "old_id": 3293,
+        "new_id": 3293
+      },
+      {
+        "local_name": "LHR: Back",
+        "old_id": 3294,
+        "new_id": 3294
+      },
+      {
+        "local_name": "LHR: Bikini",
+        "old_id": 3295,
+        "new_id": 3295
+      },
+      {
+        "local_name": "LHR: Legs (Full)",
+        "old_id": 3296,
+        "new_id": 3296
+      },
+      {
+        "local_name": "LHR: Legs (Half)",
+        "old_id": 3297,
+        "new_id": 3297
+      },
+      {
+        "local_name": "LHR: Underarms",
+        "old_id": 3298,
+        "new_id": 3298
+      },
+      {
+        "local_name": "LHR: Upper Lip + Chin",
+        "old_id": 3299,
+        "new_id": 3299
+      },
+      {
+        "local_name": "LHR: Bikini + Underarms",
+        "old_id": 3300,
+        "new_id": 3300
+      },
+      {
+        "local_name": "LHR: Chest",
+        "old_id": 3301,
+        "new_id": 3301
+      },
+      {
+        "local_name": "LHR: Abdomen",
+        "old_id": 3302,
+        "new_id": 3302
+      },
+      {
+        "local_name": "LHR: Full Body (FEMALE)",
+        "old_id": 3303,
+        "new_id": 3303
+      },
+      {
+        "local_name": "LHR: Full Body (MALE)",
+        "old_id": 3304,
+        "new_id": 3304
+      },
+      {
+        "local_name": "LHR: 3 areas",
+        "old_id": 3305,
+        "new_id": 3305
+      },
+      {
+        "local_name": "Bleaching - Upper Lip",
+        "old_id": 3306,
+        "new_id": 3306
+      },
+      {
+        "local_name": "Bleaching - Small (half face)",
+        "old_id": 3307,
+        "new_id": 3307
+      },
+      {
+        "local_name": "Bleaching - Medium (full face)",
+        "old_id": 3308,
+        "new_id": 3308
+      },
+      {
+        "local_name": "Bleaching - Large (one body area)",
+        "old_id": 3309,
+        "new_id": 3309
+      },
+      {
+        "local_name": "Home Service",
+        "old_id": 3310,
+        "new_id": 3310
+      },
+      {
+        "local_name": "Family Medicine IV Therapy  Consultation",
+        "old_id": 3311,
+        "new_id": 3311
+      },
+      {
+        "local_name": "ANTISTRESS DRIP",
+        "old_id": 3312,
+        "new_id": 3312
+      },
+      {
+        "local_name": "IMMUNE BOOST DRIP",
+        "old_id": 3313,
+        "new_id": 3313
+      },
+      {
+        "local_name": "ENERGY DRIP",
+        "old_id": 3314,
+        "new_id": 3314
+      },
+      {
+        "local_name": "LIVER CLEANSE (DETOX)",
+        "old_id": 3315,
+        "new_id": 3315
+      },
+      {
+        "local_name": "GUT CLEANSE",
+        "old_id": 3316,
+        "new_id": 3316
+      },
+      {
+        "local_name": "ANTI HAIR LOSS DRIP",
+        "old_id": 3317,
+        "new_id": 3317
+      },
+      {
+        "local_name": "MULTIVITAMIN FOR WOMEN",
+        "old_id": 3318,
+        "new_id": 3318
+      },
+      {
+        "local_name": "ANTI-AGING VITAMINS",
+        "old_id": 3319,
+        "new_id": 3319
+      },
+      {
+        "local_name": "NAD IV DRIP",
+        "old_id": 3320,
+        "new_id": 3320
+      },
+      {
+        "local_name": "NAD+ IV DRIP",
+        "old_id": 3321,
+        "new_id": 3321
+      },
+      {
+        "local_name": "Vitamin D Injection",
+        "old_id": 3322,
+        "new_id": 3322
+      },
+      {
+        "local_name": "Iron Infusion",
+        "old_id": 3323,
+        "new_id": 3323
+      },
+      {
+        "local_name": "Family Medicine Consultant Consultation",
+        "old_id": 3324,
+        "new_id": 3324
+      },
+      {
+        "local_name": "Family Medicine Consultant Follow Up",
+        "old_id": 3325,
+        "new_id": 3325
+      },
+      {
+        "local_name": "Comprehensive Consultation & Examination",
+        "old_id": 3326,
+        "new_id": 3326
+      },
+      {
+        "local_name": "Comprehensive Consultation & Examination",
+        "old_id": 3327,
+        "new_id": 3327
+      },
+      {
+        "local_name": "Comprehensive Consultation & Examination",
+        "old_id": 3328,
+        "new_id": 3328
+      },
+      {
+        "local_name": "Comprehensive Consultation & Examination",
+        "old_id": 3329,
+        "new_id": 3329
+      },
+      {
+        "local_name": "TRT Consultation",
+        "old_id": 3330,
+        "new_id": 3330
+      },
+      {
+        "local_name": "Testosterone Replacement Therapy (1 month program / weekly follow-ups)",
+        "old_id": 3331,
+        "new_id": 3331
+      },
+      {
+        "local_name": "Testosterone Replacement Therapy (3 month program / unlimited follow-ups)",
+        "old_id": 3332,
+        "new_id": 3332
+      },
+      {
+        "local_name": "Peptides Consultation",
+        "old_id": 3333,
+        "new_id": 3333
+      },
+      {
+        "local_name": "BPC 157",
+        "old_id": 3334,
+        "new_id": 3334
+      },
+      {
+        "local_name": "Epitalon",
+        "old_id": 3335,
+        "new_id": 3335
+      },
+      {
+        "local_name": "IGF LR3",
+        "old_id": 3336,
+        "new_id": 3336
+      },
+      {
+        "local_name": "Thymosin alpha 1",
+        "old_id": 3337,
+        "new_id": 3337
+      },
+      {
+        "local_name": "Thymosin beta 4",
+        "old_id": 3338,
+        "new_id": 3338
+      },
+      {
+        "local_name": "PT 141 Spray",
+        "old_id": 3339,
+        "new_id": 3339
+      },
+      {
+        "local_name": "CJC ipamorelin",
+        "old_id": 3340,
+        "new_id": 3340
+      },
+      {
+        "local_name": "MOTSc",
+        "old_id": 3341,
+        "new_id": 3341
+      },
+      {
+        "local_name": "AOD 9604",
+        "old_id": 3342,
+        "new_id": 3342
+      },
+      {
+        "local_name": "GHK-Cu (Copper Peptide)",
+        "old_id": 3343,
+        "new_id": 3343
+      },
+      {
+        "local_name": "DSIP Peptides",
+        "old_id": 3344,
+        "new_id": 3344
+      },
+      {
+        "local_name": "Oxytocin",
+        "old_id": 3345,
+        "new_id": 3345
+      },
+      {
+        "local_name": "Kisspeptin",
+        "old_id": 3346,
+        "new_id": 3346
+      },
+      {
+        "local_name": "Bi-Estrogen 1mg liposomal cream",
+        "old_id": 3347,
+        "new_id": 3347
+      },
+      {
+        "local_name": "Progestrone SR 100mg",
+        "old_id": 3348,
+        "new_id": 3348
+      },
+      {
+        "local_name": "Testosterone 2mg Liposmal Cream",
+        "old_id": 3349,
+        "new_id": 3349
+      },
+      {
+        "local_name": "Hair Transplant Consultation",
+        "old_id": 3350,
+        "new_id": 3350
+      },
+      {
+        "local_name": "Hair Loss Consultation (Treatments)",
+        "old_id": 3351,
+        "new_id": 3351
+      },
+      {
+        "local_name": "HT Growth Fасtors",
+        "old_id": 3352,
+        "new_id": 3352
+      },
+      {
+        "local_name": "HT Pep Factor",
+        "old_id": 3353,
+        "new_id": 3353
+      },
+      {
+        "local_name": "HT Laser Hair Stimulation",
+        "old_id": 3354,
+        "new_id": 3354
+      },
+      {
+        "local_name": "HT Trichology Service",
+        "old_id": 3355,
+        "new_id": 3355
+      },
+      {
+        "local_name": "HT BT HT",
+        "old_id": 3356,
+        "new_id": 3356
+      },
+      {
+        "local_name": "HT BT Hair Loss",
+        "old_id": 3357,
+        "new_id": 3357
+      },
+      {
+        "local_name": "HT Acell",
+        "old_id": 3358,
+        "new_id": 3358
+      },
+      {
+        "local_name": "HT Triple Therapy",
+        "old_id": 3359,
+        "new_id": 3359
+      },
+      {
+        "local_name": "HT Skin Biopsy",
+        "old_id": 3360,
+        "new_id": 3360
+      },
+      {
+        "local_name": "HT Basic Package",
+        "old_id": 3361,
+        "new_id": 3361
+      },
+      {
+        "local_name": "HT Standart Package",
+        "old_id": 3362,
+        "new_id": 3362
+      },
+      {
+        "local_name": "HT Standart Package (2 days)",
+        "old_id": 3363,
+        "new_id": 3363
+      },
+      {
+        "local_name": "HT Premium Package",
+        "old_id": 3364,
+        "new_id": 3364
+      },
+      {
+        "local_name": "HT Premium Package (2 days)",
+        "old_id": 3365,
+        "new_id": 3365
+      },
+      {
+        "local_name": "HT Elite Package",
+        "old_id": 3366,
+        "new_id": 3366
+      },
+      {
+        "local_name": "HT Elite Package (2 days)",
+        "old_id": 3367,
+        "new_id": 3367
+      },
+      {
+        "local_name": "HT Growth Factors + PRP (6 sessions)",
+        "old_id": 3368,
+        "new_id": 3368
+      },
+      {
+        "local_name": "HT Pep Factor (6 sessions)",
+        "old_id": 3369,
+        "new_id": 3369
+      },
+      {
+        "local_name": "HT Triple Therapy (6 sessions)",
+        "old_id": 3370,
+        "new_id": 3370
+      },
+      {
+        "local_name": "HT Acell + Triple Therapy (6 sessions)",
+        "old_id": 3371,
+        "new_id": 3371
+      },
+      {
+        "local_name": "Specialist Gynecology Consultation",
+        "old_id": 3372,
+        "new_id": 3372
+      },
+      {
+        "local_name": "Obstetric Ultrasound Scan",
+        "old_id": 3373,
+        "new_id": 3373
+      },
+      {
+        "local_name": "Gynaecology Ultrasound Scan",
+        "old_id": 3374,
+        "new_id": 3374
+      },
+      {
+        "local_name": "Ultrasound assisted Hysterosalpingoscopy",
+        "old_id": 3375,
+        "new_id": 3375
+      },
+      {
+        "local_name": "Folliculometry",
+        "old_id": 3376,
+        "new_id": 3376
+      },
+      {
+        "local_name": "Uterine Cavity Aspiration by Pipelle + Endometrial Biopsy + Histology",
+        "old_id": 3377,
+        "new_id": 3377
+      },
+      {
+        "local_name": "IUD Installation (including the device)",
+        "old_id": 3378,
+        "new_id": 3378
+      },
+      {
+        "local_name": "CU 375 IUD Insertion",
+        "old_id": 3379,
+        "new_id": 3379
+      },
+      {
+        "local_name": "IUD Removal",
+        "old_id": 3380,
+        "new_id": 3380
+      },
+      {
+        "local_name": "Implanon Removal",
+        "old_id": 3381,
+        "new_id": 3381
+      },
+      {
+        "local_name": "Depoprovera Injection",
+        "old_id": 3382,
+        "new_id": 3382
+      },
+      {
+        "local_name": "Pessary Installation for Pregnant",
+        "old_id": 3383,
+        "new_id": 3383
+      },
+      {
+        "local_name": "Cervix colposcopy",
+        "old_id": 3384,
+        "new_id": 3384
+      },
+      {
+        "local_name": "Papilloma/Condyloma Removal + Histology (single)",
+        "old_id": 3385,
+        "new_id": 3385
+      },
+      {
+        "local_name": "Papilloma/Condyloma Removal + Histology (multiple)",
+        "old_id": 3386,
+        "new_id": 3386
+      },
+      {
+        "local_name": "Cervix or Vaginal Biopsy + Histopathology",
+        "old_id": 3387,
+        "new_id": 3387
+      },
+      {
+        "local_name": "G-SPOT AMPLIFICATION",
+        "old_id": 3388,
+        "new_id": 3388
+      },
+      {
+        "local_name": "O-SHOT",
+        "old_id": 3389,
+        "new_id": 3389
+      },
+      {
+        "local_name": "PRP - 1 session",
+        "old_id": 3390,
+        "new_id": 3390
+      },
+      {
+        "local_name": "Femilift - Laser Tightening & Vaginal Rejuvenation",
+        "old_id": 3391,
+        "new_id": 3391
+      },
+      {
+        "local_name": "Intimate Whitening Treatment - 1 session",
+        "old_id": 3392,
+        "new_id": 3392
+      },
+      {
+        "local_name": "LABIA AUGMENTATION WITH FILLERS (per syringe)",
+        "old_id": 3393,
+        "new_id": 3393
+      },
+      {
+        "local_name": "Labial Skin Tag Removal",
+        "old_id": 3394,
+        "new_id": 3394
+      },
+      {
+        "local_name": "LABIAPLASTY",
+        "old_id": 3395,
+        "new_id": 3395
+      },
+      {
+        "local_name": "Intimate Rejuvenation - Femilift x 3 sessions & O-shot x 3 sessions",
+        "old_id": 3396,
+        "new_id": 3396
+      },
+      {
+        "local_name": "Pre-Pregnancy Health Check",
+        "old_id": 3397,
+        "new_id": 3397
+      },
+      {
+        "local_name": "Well Women Check",
+        "old_id": 3398,
+        "new_id": 3398
+      },
+      {
+        "local_name": "Sexual Health Screen",
+        "old_id": 3399,
+        "new_id": 3399
+      },
+      {
+        "local_name": "Fertility Check",
+        "old_id": 3400,
+        "new_id": 3400
+      },
+      {
+        "local_name": "Hormonal Health Check",
+        "old_id": 3401,
+        "new_id": 3401
+      },
+      {
+        "local_name": "Beard micropigmentation",
+        "old_id": 3402,
+        "new_id": 3402
+      },
+      {
+        "local_name": "Full bold shaved look",
+        "old_id": 3403,
+        "new_id": 3403
+      },
+      {
+        "local_name": "Crown area",
+        "old_id": 3404,
+        "new_id": 3404
+      },
+      {
+        "local_name": "Hairline area",
+        "old_id": 3405,
+        "new_id": 3405
+      },
+      {
+        "local_name": "Hairline and Crown",
+        "old_id": 3406,
+        "new_id": 3406
+      },
+      {
+        "local_name": "Hair Transplant Scar",
+        "old_id": 3407,
+        "new_id": 3407
+      },
+      {
+        "local_name": "Ludwig Scale Type 1",
+        "old_id": 3408,
+        "new_id": 3408
+      },
+      {
+        "local_name": "Ludwig Scale Type 2",
+        "old_id": 3409,
+        "new_id": 3409
+      },
+      {
+        "local_name": "Ludwig Scale Type 3",
+        "old_id": 3410,
+        "new_id": 3410
+      },
+      {
+        "local_name": "Hairline and Crown",
+        "old_id": 3411,
+        "new_id": 3411
+      },
+      {
+        "local_name": "Microblading eyebrows",
+        "old_id": 3412,
+        "new_id": 3412
+      },
+      {
+        "local_name": "Touch up session",
+        "old_id": 3413,
+        "new_id": 3413
+      },
+      {
+        "local_name": "Exosomes Treatment - Hair",
+        "old_id": 3414,
+        "new_id": 3414
+      },
+      {
+        "local_name": "Dental Consultation",
+        "old_id": 3415,
+        "new_id": 3415
+      },
+      {
+        "local_name": "Dental Consultation - Comprehensive",
+        "old_id": 3416,
+        "new_id": 3416
+      },
+      {
+        "local_name": "Smile Design ( Wax up + casts )",
+        "old_id": 3417,
+        "new_id": 3417
+      },
+      {
+        "local_name": "Emax Veneers",
+        "old_id": 3418,
+        "new_id": 3418
+      },
+      {
+        "local_name": "Feldspathic Veneers",
+        "old_id": 3419,
+        "new_id": 3419
+      },
+      {
+        "local_name": "Emax Crown",
+        "old_id": 3420,
+        "new_id": 3420
+      },
+      {
+        "local_name": "Zirconia Crown",
+        "old_id": 3421,
+        "new_id": 3421
+      },
+      {
+        "local_name": "Inlay",
+        "old_id": 3422,
+        "new_id": 3422
+      },
+      {
+        "local_name": "Onlay",
+        "old_id": 3423,
+        "new_id": 3423
+      },
+      {
+        "local_name": "Whitening + Bleaching trays",
+        "old_id": 3424,
+        "new_id": 3424
+      },
+      {
+        "local_name": "Teeth Whitening",
+        "old_id": 3425,
+        "new_id": 3425
+      },
+      {
+        "local_name": "Scaling and Polishing (Moderate)",
+        "old_id": 3426,
+        "new_id": 3426
+      },
+      {
+        "local_name": "Scaling and Polishing (Severe)",
+        "old_id": 3427,
+        "new_id": 3427
+      },
+      {
+        "local_name": "Teeth Polishing",
+        "old_id": 3428,
+        "new_id": 3428
+      },
+      {
+        "local_name": "Deep Root Planing + Scaling and Polishing (Moderate)",
+        "old_id": 3429,
+        "new_id": 3429
+      },
+      {
+        "local_name": "Deep Root Planing + Scaling and Polishing (Severe)",
+        "old_id": 3430,
+        "new_id": 3430
+      },
+      {
+        "local_name": "Gingivectomy (per tooth)",
+        "old_id": 3431,
+        "new_id": 3431
+      },
+      {
+        "local_name": "Enameloplasty (per tooth)",
+        "old_id": 3432,
+        "new_id": 3432
+      },
+      {
+        "local_name": "Labial Composite Veneer",
+        "old_id": 3433,
+        "new_id": 3433
+      },
+      {
+        "local_name": "Direct Pulp Caping",
+        "old_id": 3434,
+        "new_id": 3434
+      },
+      {
+        "local_name": "Indircet Pulp Caping",
+        "old_id": 3435,
+        "new_id": 3435
+      },
+      {
+        "local_name": "Temporary Restoration",
+        "old_id": 3436,
+        "new_id": 3436
+      },
+      {
+        "local_name": "Bridge Cementation",
+        "old_id": 3437,
+        "new_id": 3437
+      },
+      {
+        "local_name": "Crown Cementation",
+        "old_id": 3438,
+        "new_id": 3438
+      },
+      {
+        "local_name": "Bridge Removal",
+        "old_id": 3439,
+        "new_id": 3439
+      },
+      {
+        "local_name": "Temporary Acrylic (lab manufactured, per tooth)",
+        "old_id": 3440,
+        "new_id": 3440
+      },
+      {
+        "local_name": "Crown Removal",
+        "old_id": 3441,
+        "new_id": 3441
+      },
+      {
+        "local_name": "Temporary Chairside (per tooth)",
+        "old_id": 3442,
+        "new_id": 3442
+      },
+      {
+        "local_name": "Wax up (per tooth)",
+        "old_id": 3443,
+        "new_id": 3443
+      },
+      {
+        "local_name": "OPG X-Ray",
+        "old_id": 3444,
+        "new_id": 3444
+      },
+      {
+        "local_name": "Intraoral Periapical (IOPA)",
+        "old_id": 3445,
+        "new_id": 3445
+      },
+      {
+        "local_name": "Resin Based Composite - one surface, anterior",
+        "old_id": 3446,
+        "new_id": 3446
+      },
+      {
+        "local_name": "Resin Based Composite - two surfaces, anterior",
+        "old_id": 3447,
+        "new_id": 3447
+      },
+      {
+        "local_name": "Resin Based Composite - three surface, anterior",
+        "old_id": 3448,
+        "new_id": 3448
+      },
+      {
+        "local_name": "Resin Based Composite - four or more surfaces or involving incisal angle (anterior)",
+        "old_id": 3449,
+        "new_id": 3449
+      },
+      {
+        "local_name": "Resin Based Composite - Crown, anterior",
+        "old_id": 3450,
+        "new_id": 3450
+      },
+      {
+        "local_name": "Resin Based Composite - one surface, posterior",
+        "old_id": 3451,
+        "new_id": 3451
+      },
+      {
+        "local_name": "Resin Based Composite - two surfaces, posterior",
+        "old_id": 3452,
+        "new_id": 3452
+      },
+      {
+        "local_name": "Resin Based Composite - three surface, posterior",
+        "old_id": 3453,
+        "new_id": 3453
+      },
+      {
+        "local_name": "Resin Based Composite - four or more surfaces, posterior",
+        "old_id": 3454,
+        "new_id": 3454
+      },
+      {
+        "local_name": "Invisalign® Comprehensive",
+        "old_id": 3455,
+        "new_id": 3455
+      },
+      {
+        "local_name": "Invisalign® Lite (Dual Arches)",
+        "old_id": 3456,
+        "new_id": 3456
+      },
+      {
+        "local_name": "Invisalign® Lite (Single Arch)",
+        "old_id": 3457,
+        "new_id": 3457
+      },
+      {
+        "local_name": "Invisalign® Express (Single Arch)",
+        "old_id": 3458,
+        "new_id": 3458
+      },
+      {
+        "local_name": "Invisalign® Express (Dual Arches)",
+        "old_id": 3459,
+        "new_id": 3459
+      },
+      {
+        "local_name": "Surgical stent",
+        "old_id": 3460,
+        "new_id": 3460
+      },
+      {
+        "local_name": "Surgical placement of implant body: endosteal implant",
+        "old_id": 3461,
+        "new_id": 3461
+      },
+      {
+        "local_name": "Abutment supported porcelain/ceramic crown",
+        "old_id": 3462,
+        "new_id": 3462
+      },
+      {
+        "local_name": "Abutment supported porcelain fused to metal crown (high noble metal)",
+        "old_id": 3463,
+        "new_id": 3463
+      }
+    ]
+  },
+  "practitioners": {
+    "type": "practitioners",
+    "total_local": 30,
+    "total_api": 6,
+    "max_api_id": 6,
+    "matched": 0,
+    "new": 30,
+    "new_id_start": 7,
+    "new_id_end": 36,
+    "matched_details": [],
+    "new_details": [
+      {
+        "local_name": "Dr. Anna Zakhozha",
+        "old_id": 7,
+        "new_id": 7
+      },
+      {
+        "local_name": "Dr. Sarah Mohamed",
+        "old_id": 8,
+        "new_id": 8
+      },
+      {
+        "local_name": "Dr. Karem Harb",
+        "old_id": 9,
+        "new_id": 9
+      },
+      {
+        "local_name": "Dr. Nataliya Sanytska",
+        "old_id": 10,
+        "new_id": 10
+      },
+      {
+        "local_name": "Dr. Tatiana Kuznechenkova",
+        "old_id": 11,
+        "new_id": 11
+      },
+      {
+        "local_name": "Dr. Lyn Al Alamy AlHassany",
+        "old_id": 12,
+        "new_id": 12
+      },
+      {
+        "local_name": "Rebecca Treston",
+        "old_id": 13,
+        "new_id": 13
+      },
+      {
+        "local_name": "Dr. Raquel Fernández De Castro",
+        "old_id": 14,
+        "new_id": 14
+      },
+      {
+        "local_name": "Joanine Nieuwoudt",
+        "old_id": 15,
+        "new_id": 15
+      },
+      {
+        "local_name": "Olena Moshchenko",
+        "old_id": 16,
+        "new_id": 16
+      },
+      {
+        "local_name": "Carole Semaan",
+        "old_id": 17,
+        "new_id": 17
+      },
+      {
+        "local_name": "Sihem Fersi",
+        "old_id": 18,
+        "new_id": 18
+      },
+      {
+        "local_name": "Danielle April Stephen",
+        "old_id": 19,
+        "new_id": 19
+      },
+      {
+        "local_name": "Daria Buzynarska",
+        "old_id": 20,
+        "new_id": 20
+      },
+      {
+        "local_name": "Mary Grace Cubillas",
+        "old_id": 21,
+        "new_id": 21
+      },
+      {
+        "local_name": "Merve Sahinoglu",
+        "old_id": 22,
+        "new_id": 22
+      },
+      {
+        "local_name": "Svetlana Lialenko",
+        "old_id": 23,
+        "new_id": 23
+      },
+      {
+        "local_name": "Danielle Stephen",
+        "old_id": 24,
+        "new_id": 24
+      },
+      {
+        "local_name": "Desiree Garcia",
+        "old_id": 25,
+        "new_id": 25
+      },
+      {
+        "local_name": "Cherry Lou Abuyan",
+        "old_id": 26,
+        "new_id": 26
+      },
+      {
+        "local_name": "Dr. Karem Harb (private area only)",
+        "old_id": 27,
+        "new_id": 27
+      },
+      {
+        "local_name": "Jan Alviola",
+        "old_id": 28,
+        "new_id": 28
+      },
+      {
+        "local_name": "Frances Tabuada",
+        "old_id": 29,
+        "new_id": 29
+      },
+      {
+        "local_name": "Dr. Mohsen",
+        "old_id": 30,
+        "new_id": 30
+      },
+      {
+        "local_name": "Dr. Sezgin Cagatay",
+        "old_id": 31,
+        "new_id": 31
+      },
+      {
+        "local_name": "Dr. Amitabha Majumdar",
+        "old_id": 32,
+        "new_id": 32
+      },
+      {
+        "local_name": "Dr. Rashad Haddad",
+        "old_id": 33,
+        "new_id": 33
+      },
+      {
+        "local_name": "Andreea Paval",
+        "old_id": 34,
+        "new_id": 34
+      },
+      {
+        "local_name": "Dr. Zainab Mohi",
+        "old_id": 35,
+        "new_id": 35
+      },
+      {
+        "local_name": "Dr. Kinan Bonni",
+        "old_id": 36,
+        "new_id": 36
+      }
+    ]
+  }
 }

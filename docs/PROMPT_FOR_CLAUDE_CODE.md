@@ -225,17 +225,24 @@ python3 scripts/sync_with_api.py
 ```
 
 This script will:
-- Fetch existing categories from DialogGauge API
-- Match local categories with API categories by name (case-insensitive)
-- **If category exists in API** → use API's ID (don't create duplicate)
-- **If category is new** → assign new ID (starting from max_api_id + 1)
-- Update `services.json` with correct `category_id` references
+- Fetch existing **categories** and **services** from DialogGauge API
+- Match local items with API items by name (case-insensitive)
+- **If item exists in API** → use API's ID (don't create duplicate)
+- **If item is new** → assign new ID (starting from max_api_id + 1)
+- Update all references (`category_id` in services, `service_id` in service_practitioners)
 - Generate `data/api/_sync_report.json` with sync details
 
+**Options:**
+```bash
+python3 scripts/sync_with_api.py                  # Sync both categories and services
+python3 scripts/sync_with_api.py --categories-only # Sync only categories
+python3 scripts/sync_with_api.py --services-only   # Sync only services
+```
+
 **Important:** 
-- Categories that match existing API categories will use their IDs
-- New categories will need to be created in DialogGauge manually (or via API)
-- Check `data/api/_sync_report.json` to see which categories are new vs matched
+- Items that match existing API items will use their IDs
+- New items will need to be created in DialogGauge manually (or via API)
+- Check `data/api/_sync_report.json` to see which items are new vs matched
 
 ---
 

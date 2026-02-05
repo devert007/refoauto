@@ -2,21 +2,25 @@
 """
 Sync local JSON files with DialogGauge API.
 
-This script:
-1. Fetches categories from API
-2. Compares with locally generated categories.json
-3. Matches by name (case-insensitive, normalized)
-4. Uses existing API IDs for matching categories
-5. Assigns new IDs for new categories (starting from max_api_id + 1)
-6. Updates services.json with correct category_id references
-7. Creates sync report
+Logic:
+1. Fetch categories/services/practitioners from API
+2. Get max ID from API
+3. For each local item:
+   - If name matches API item → use API's ID
+   - If new (not in API) → assign new ID = max_api_id + 1, +2, ...
+4. Update all references (category_id, service_id, practitioner_id)
+5. Save updated files
 
 Usage:
-    python scripts/sync_with_api.py
+    python scripts/sync_with_api.py                  # Sync all
+    python scripts/sync_with_api.py --categories-only
+    python scripts/sync_with_api.py --services-only
+    python scripts/sync_with_api.py --practitioners-only
 """
 
 import json
 import re
+import sys
 from pathlib import Path
 
 # Project paths
@@ -29,24 +33,18 @@ DATA_API_DIR = PROJECT_ROOT / "data" / "api"
 DATA_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 DATA_API_DIR.mkdir(parents=True, exist_ok=True)
 
-# Import get_categories from existing script
+# Import API functions
 from get_categories import get_categories as fetch_api_categories
+from get_categories import get_services as fetch_api_services
+from get_categories import get_practitioners as fetch_api_practitioners
 
 
 def normalize_name(name: str) -> str:
-    """
-    Normalize category name for comparison.
-    - Lowercase
-    - Remove extra spaces
-    - Remove special characters
-    """
+    """Normalize name for comparison."""
     if not name:
         return ""
-    # Lowercase
     name = name.lower().strip()
-    # Replace multiple spaces with single
     name = re.sub(r'\s+', ' ', name)
-    # Remove special characters except spaces
     name = re.sub(r'[^\w\s]', '', name)
     return name
 
@@ -67,228 +65,336 @@ def save_json(filepath: Path, data: list) -> None:
     print(f"Saved: {filepath}")
 
 
-def build_api_name_map(api_categories: list) -> dict:
-    """
-    Build a map of normalized_name -> api_category for matching.
-    """
-    name_map = {}
-    for cat in api_categories:
-        name_en = cat.get("name_i18n", {}).get("en", "")
-        normalized = normalize_name(name_en)
-        if normalized:
-            name_map[normalized] = cat
-    return name_map
+def get_item_name(item: dict) -> str:
+    """Get item name from name_i18n.en or name field."""
+    name = item.get("name_i18n", {}).get("en", "")
+    if not name:
+        name = item.get("name", "")
+    return name
 
 
-def sync_categories(
-    local_categories: list,
-    api_categories: list,
+def sync_items(
+    local_items: list,
+    api_items: list,
+    item_type: str = "items",
 ) -> tuple[list, dict, dict]:
     """
-    Sync local categories with API categories.
+    Sync local items with API.
+    
+    - If local item name matches API → use API's ID
+    - If local item is new → assign max_api_id + 1, +2, ...
     
     Returns:
-        - synced_categories: Updated local categories with correct IDs
-        - id_mapping: old_local_id -> new_id mapping
-        - report: sync statistics
+        - synced_items: Updated items with correct IDs
+        - id_mapping: old_local_id -> new_id
+        - report: sync stats
     """
-    # Build API name map
-    api_name_map = build_api_name_map(api_categories)
+    # Build API name -> item map
+    api_name_map = {}
+    for item in api_items:
+        name_en = get_item_name(item)
+        normalized = normalize_name(name_en)
+        if normalized:
+            api_name_map[normalized] = item
     
-    # Find max ID from API to assign new IDs
-    max_api_id = max((cat["id"] for cat in api_categories), default=0)
+    # Get max API ID
+    max_api_id = max((item["id"] for item in api_items), default=0)
+    print(f"  Max API ID: {max_api_id}")
+    
     next_new_id = max_api_id + 1
     
-    # Track results
-    synced_categories = []
+    synced_items = []
     id_mapping = {}  # old_local_id -> new_id
     
     matched = []
-    new_categories = []
+    new_items = []
     
-    for local_cat in local_categories:
-        old_id = local_cat["id"]
-        local_name = local_cat.get("name_i18n", {}).get("en", "")
+    for local_item in local_items:
+        old_id = local_item["id"]
+        local_name = get_item_name(local_item)
         normalized = normalize_name(local_name)
         
         if normalized in api_name_map:
-            # Found match in API - use API's ID
-            api_cat = api_name_map[normalized]
-            new_id = api_cat["id"]
+            # MATCH: Use API's ID
+            api_item = api_name_map[normalized]
+            new_id = api_item["id"]
             
             matched.append({
                 "local_name": local_name,
-                "api_name": api_cat.get("name_i18n", {}).get("en", ""),
+                "api_name": get_item_name(api_item),
                 "old_id": old_id,
                 "new_id": new_id,
-                "is_archived": api_cat.get("is_archived", False),
+                "is_archived": api_item.get("is_archived", False),
             })
-            
-            # Keep local structure but update ID
-            synced_cat = local_cat.copy()
-            synced_cat["id"] = new_id
-            synced_cat["_api_match"] = True
-            synced_cat["_api_archived"] = api_cat.get("is_archived", False)
-            
         else:
-            # No match - assign new ID
+            # NEW: Assign next ID
             new_id = next_new_id
             next_new_id += 1
             
-            new_categories.append({
+            new_items.append({
                 "local_name": local_name,
                 "old_id": old_id,
                 "new_id": new_id,
             })
-            
-            synced_cat = local_cat.copy()
-            synced_cat["id"] = new_id
-            synced_cat["_api_match"] = False
+        
+        # Create synced item with new ID
+        synced_item = local_item.copy()
+        synced_item["id"] = new_id
+        synced_items.append(synced_item)
         
         id_mapping[old_id] = new_id
-        synced_categories.append(synced_cat)
     
     # Sort by ID
-    synced_categories.sort(key=lambda x: x["id"])
-    
-    # Update sort_order to match new IDs
-    for i, cat in enumerate(synced_categories, 1):
-        cat["sort_order"] = i
+    synced_items.sort(key=lambda x: x["id"])
     
     report = {
-        "total_local": len(local_categories),
-        "total_api": len(api_categories),
+        "type": item_type,
+        "total_local": len(local_items),
+        "total_api": len(api_items),
+        "max_api_id": max_api_id,
         "matched": len(matched),
-        "new": len(new_categories),
+        "new": len(new_items),
+        "new_id_start": max_api_id + 1 if new_items else None,
+        "new_id_end": next_new_id - 1 if new_items else None,
         "matched_details": matched,
-        "new_details": new_categories,
+        "new_details": new_items,
     }
     
-    return synced_categories, id_mapping, report
+    return synced_items, id_mapping, report
 
 
-def update_services_category_ids(services: list, id_mapping: dict) -> list:
-    """
-    Update category_id in services based on id_mapping.
-    """
-    updated_services = []
-    
-    for service in services:
-        service_copy = service.copy()
-        old_category_id = service.get("category_id")
-        
-        if old_category_id in id_mapping:
-            service_copy["category_id"] = id_mapping[old_category_id]
-        
-        updated_services.append(service_copy)
-    
-    return updated_services
-
-
-def clean_categories_for_output(categories: list) -> list:
-    """
-    Remove internal fields (_api_match, _api_archived) for final output.
-    """
-    cleaned = []
-    for cat in categories:
-        clean_cat = {k: v for k, v in cat.items() if not k.startswith("_")}
-        cleaned.append(clean_cat)
-    return cleaned
+def update_references(items: list, id_field: str, id_mapping: dict) -> list:
+    """Update ID references in items."""
+    updated = []
+    for item in items:
+        item_copy = item.copy()
+        old_id = item.get(id_field)
+        if old_id in id_mapping:
+            item_copy[id_field] = id_mapping[old_id]
+        updated.append(item_copy)
+    return updated
 
 
 def print_report(report: dict) -> None:
     """Print sync report."""
-    print("\n" + "=" * 60)
-    print("SYNC REPORT")
+    item_type = report.get("type", "items").upper()
+    
+    print(f"\n{'=' * 60}")
+    print(f"SYNC REPORT: {item_type}")
     print("=" * 60)
     
-    print(f"\nLocal categories: {report['total_local']}")
-    print(f"API categories:   {report['total_api']}")
-    print(f"Matched:          {report['matched']}")
-    print(f"New (to create):  {report['new']}")
+    print(f"\nLocal:     {report['total_local']}")
+    print(f"API:       {report['total_api']}")
+    print(f"Max API ID: {report['max_api_id']}")
+    print(f"Matched:   {report['matched']}")
+    print(f"New:       {report['new']}")
+    
+    if report['new'] > 0:
+        print(f"New IDs:   {report['new_id_start']} - {report['new_id_end']}")
     
     if report["matched_details"]:
-        print("\n--- MATCHED CATEGORIES ---")
-        for m in report["matched_details"]:
-            archived = " [ARCHIVED]" if m["is_archived"] else ""
-            print(f"  '{m['local_name']}' → API ID {m['new_id']}{archived}")
-            if m["local_name"].lower() != m["api_name"].lower():
-                print(f"    (API name: '{m['api_name']}')")
+        print(f"\n--- MATCHED (using API ID) ---")
+        for m in report["matched_details"][:15]:
+            archived = " [ARCHIVED]" if m.get("is_archived") else ""
+            name = m['local_name'][:35]
+            print(f"  {m['old_id']:>5} → {m['new_id']:<5} '{name}'{archived}")
+        if len(report["matched_details"]) > 15:
+            print(f"  ... and {len(report['matched_details']) - 15} more")
     
     if report["new_details"]:
-        print("\n--- NEW CATEGORIES (not in API) ---")
-        for n in report["new_details"]:
-            print(f"  '{n['local_name']}' → New ID {n['new_id']}")
+        print(f"\n--- NEW (assigned new ID) ---")
+        for n in report["new_details"][:15]:
+            name = n['local_name'][:35]
+            print(f"  {n['old_id']:>5} → {n['new_id']:<5} '{name}'")
+        if len(report["new_details"]) > 15:
+            print(f"  ... and {len(report['new_details']) - 15} more")
     
+    print("=" * 60)
+
+
+def sync_categories() -> tuple[dict, dict]:
+    """Sync categories with API."""
     print("\n" + "=" * 60)
+    print("SYNCING CATEGORIES")
+    print("=" * 60)
+    
+    local = load_json(DATA_OUTPUT_DIR / "categories.json")
+    if not local:
+        print("No local categories")
+        return {}, {}
+    
+    print(f"Local categories: {len(local)}")
+    
+    try:
+        api = fetch_api_categories(flat=True, include_archived=True)
+        print(f"API categories: {len(api)}")
+    except Exception as e:
+        print(f"Error: {e}")
+        api = []
+    
+    synced, id_mapping, report = sync_items(local, api, "categories")
+    
+    # Update sort_order
+    for i, cat in enumerate(synced, 1):
+        cat["sort_order"] = i
+    
+    save_json(DATA_OUTPUT_DIR / "categories.json", synced)
+    print_report(report)
+    
+    return id_mapping, report
+
+
+def sync_services(category_id_mapping: dict = None) -> tuple[dict, dict]:
+    """Sync services with API."""
+    print("\n" + "=" * 60)
+    print("SYNCING SERVICES")
+    print("=" * 60)
+    
+    local = load_json(DATA_OUTPUT_DIR / "services.json")
+    if not local:
+        print("No local services")
+        return {}, {}
+    
+    print(f"Local services: {len(local)}")
+    
+    try:
+        api = fetch_api_services(include_archived=True)
+        print(f"API services: {len(api)}")
+    except Exception as e:
+        print(f"Error: {e}")
+        api = []
+    
+    synced, id_mapping, report = sync_items(local, api, "services")
+    
+    # Update category_id if mapping provided
+    if category_id_mapping:
+        print("\nUpdating category_id references...")
+        synced = update_references(synced, "category_id", category_id_mapping)
+    
+    save_json(DATA_OUTPUT_DIR / "services.json", synced)
+    print_report(report)
+    
+    return id_mapping, report
+
+
+def update_service_practitioners(
+    service_id_mapping: dict = None,
+    practitioner_id_mapping: dict = None,
+) -> None:
+    """Update service_practitioners with new service/practitioner IDs."""
+    print("\n" + "-" * 40)
+    print("Updating service_practitioners.json...")
+    
+    sp = load_json(DATA_OUTPUT_DIR / "service_practitioners.json")
+    if not sp:
+        print("No service_practitioners.json")
+        return
+    
+    updated = sp
+    
+    if service_id_mapping:
+        print(f"  Updating service_id references...")
+        updated = update_references(updated, "service_id", service_id_mapping)
+    
+    if practitioner_id_mapping:
+        print(f"  Updating practitioner_id references...")
+        updated = update_references(updated, "practitioner_id", practitioner_id_mapping)
+    
+    save_json(DATA_OUTPUT_DIR / "service_practitioners.json", updated)
+    print(f"Updated {len(updated)} links")
+
+
+def sync_practitioners() -> tuple[dict, dict]:
+    """Sync practitioners with API."""
+    print("\n" + "=" * 60)
+    print("SYNCING PRACTITIONERS")
+    print("=" * 60)
+    
+    local = load_json(DATA_OUTPUT_DIR / "practitioners.json")
+    if not local:
+        print("No local practitioners")
+        return {}, {}
+    
+    print(f"Local practitioners: {len(local)}")
+    
+    try:
+        api = fetch_api_practitioners(include_archived=True)
+        print(f"API practitioners: {len(api)}")
+    except Exception as e:
+        print(f"Error: {e}")
+        api = []
+    
+    synced, id_mapping, report = sync_items(local, api, "practitioners")
+    
+    save_json(DATA_OUTPUT_DIR / "practitioners.json", synced)
+    print_report(report)
+    
+    return id_mapping, report
 
 
 def main():
-    print("Syncing local data with DialogGauge API...")
+    categories_only = "--categories-only" in sys.argv
+    services_only = "--services-only" in sys.argv
+    practitioners_only = "--practitioners-only" in sys.argv
     
-    # 1. Load local files
-    print("\nLoading local files...")
-    local_categories = load_json(DATA_OUTPUT_DIR / "categories.json")
-    local_services = load_json(DATA_OUTPUT_DIR / "services.json")
+    print("=" * 60)
+    print("SYNC WITH DIALOGGAUGE API")
+    print("=" * 60)
     
-    if not local_categories:
-        print("Error: categories.json is empty or not found")
-        return
+    full_report = {}
+    category_id_mapping = {}
+    service_id_mapping = {}
+    practitioner_id_mapping = {}
     
-    print(f"  - categories.json: {len(local_categories)} categories")
-    print(f"  - services.json: {len(local_services)} services")
+    # Determine what to sync
+    sync_categories_flag = not services_only and not practitioners_only
+    sync_services_flag = not categories_only and not practitioners_only
+    sync_practitioners_flag = not categories_only and not services_only
     
-    # 2. Fetch API categories
-    print("\nFetching categories from API...")
-    try:
-        api_categories = fetch_api_categories(
-            flat=True,
-            include_archived=True,
-        )
-        print(f"  - API returned: {len(api_categories)} categories")
-    except Exception as e:
-        print(f"Error fetching API categories: {e}")
-        print("Continuing with empty API categories...")
-        api_categories = []
+    # Sync categories
+    if sync_categories_flag:
+        category_id_mapping, cat_report = sync_categories()
+        full_report["categories"] = cat_report
     
-    # 3. Sync categories
-    print("\nSyncing categories...")
-    synced_categories, id_mapping, report = sync_categories(
-        local_categories,
-        api_categories,
-    )
+    # Sync services
+    if sync_services_flag:
+        service_id_mapping, svc_report = sync_services(category_id_mapping)
+        full_report["services"] = svc_report
     
-    # 4. Update services
-    print("\nUpdating services with new category IDs...")
-    updated_services = update_services_category_ids(local_services, id_mapping)
+    # Sync practitioners
+    if sync_practitioners_flag:
+        practitioner_id_mapping, pract_report = sync_practitioners()
+        full_report["practitioners"] = pract_report
     
-    # 5. Print report
-    print_report(report)
+    # Update service_practitioners with new IDs
+    if service_id_mapping or practitioner_id_mapping:
+        update_service_practitioners(service_id_mapping, practitioner_id_mapping)
     
-    # 6. Save updated files
-    print("\nSaving updated files...")
+    # Save report
+    save_json(DATA_API_DIR / "_sync_report.json", full_report)
     
-    # Clean and save categories
-    clean_categories = clean_categories_for_output(synced_categories)
-    save_json(DATA_OUTPUT_DIR / "categories.json", clean_categories)
+    # Summary
+    print("\n" + "=" * 60)
+    print("SYNC COMPLETE")
+    print("=" * 60)
     
-    # Save services
-    save_json(DATA_OUTPUT_DIR / "services.json", updated_services)
+    if "categories" in full_report and full_report["categories"]:
+        r = full_report["categories"]
+        print(f"\nCategories: {r['matched']} matched, {r['new']} new")
+        if r['new'] > 0:
+            print(f"  New IDs: {r['new_id_start']} - {r['new_id_end']}")
     
-    # Save sync report
-    save_json(DATA_API_DIR / "_sync_report.json", report)
+    if "services" in full_report and full_report["services"]:
+        r = full_report["services"]
+        print(f"\nServices: {r['matched']} matched, {r['new']} new")
+        if r['new'] > 0:
+            print(f"  New IDs: {r['new_id_start']} - {r['new_id_end']}")
     
-    # 7. Print ID mapping for reference
-    print("\n--- ID MAPPING (old → new) ---")
-    for old_id, new_id in sorted(id_mapping.items()):
-        marker = " *" if old_id != new_id else ""
-        print(f"  {old_id} → {new_id}{marker}")
-    
-    print("\nSync complete!")
-    print("\nNext steps:")
-    print("  1. Review data/api/_sync_report.json for details")
-    print("  2. New categories need to be created in DialogGauge manually")
-    print("  3. Or use API to create them if available")
+    if "practitioners" in full_report and full_report["practitioners"]:
+        r = full_report["practitioners"]
+        print(f"\nPractitioners: {r['matched']} matched, {r['new']} new")
+        if r['new'] > 0:
+            print(f"  New IDs: {r['new_id_start']} - {r['new_id_end']}")
 
 
 if __name__ == "__main__":

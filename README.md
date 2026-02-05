@@ -48,10 +48,17 @@ python -m playwright install chromium
 
 ## Использование
 
-### 1. Получить категории из API
+### 1. Получить данные из API
 
 ```bash
+# Только категории
 python scripts/get_categories.py
+
+# Только сервисы
+python scripts/get_categories.py --services
+
+# Всё (категории + сервисы + practitioners)
+python scripts/get_categories.py --all
 ```
 
 При первом запуске откроется браузер для входа через Google.
@@ -74,13 +81,20 @@ python scripts/assign_ids.py
 ### 4. Синхронизировать с API
 
 ```bash
+# Синхронизировать категории и сервисы
 python scripts/sync_with_api.py
+
+# Только категории
+python scripts/sync_with_api.py --categories-only
+
+# Только сервисы  
+python scripts/sync_with_api.py --services-only
 ```
 
-Сравнивает локальные категории с API и:
-- Использует существующие ID для совпадающих категорий
-- Присваивает новые ID для новых категорий
-- Обновляет `category_id` в services.json
+Сравнивает локальные данные с API и:
+- Использует существующие ID для совпадающих элементов
+- Присваивает новые ID для новых элементов
+- Обновляет все ссылки (`category_id`, `service_id`)
 
 ## Полный пайплайн
 
@@ -103,3 +117,13 @@ python scripts/sync_with_api.py
 - Base URL: `https://dialoggauge.yma.health/api`
 - Location ID: `10`
 - Auth: Cookie `dg_session` (Google OAuth)
+
+
+
+
+
+
+
+1.python3 scripts/get_categories.py --categories
+2. python3 scripts/upload_categories.py
+3. python3 scripts/upload_categories.py --execute

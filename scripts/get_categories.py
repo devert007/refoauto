@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script to fetch categories from DialogGauge API.
+Script to fetch data from DialogGauge API (categories, services, practitioners).
 
 Authentication: Automatic via Playwright (Google OAuth).
 First run: Opens browser for Google login (one time).
@@ -12,6 +12,8 @@ Requirements:
 
 Usage:
     python scripts/get_categories.py
+    python scripts/get_categories.py --services
+    python scripts/get_categories.py --all
 """
 
 import json
@@ -37,7 +39,7 @@ PLAYWRIGHT_PROFILE = PROJECT_ROOT / ".playwright_profile"
 # API Configuration
 API_BASE_URL = "https://dialoggauge.yma.health/api"
 DG_BASE_URL = "https://dialoggauge.yma.health"
-LOCATION_ID = 10
+LOCATION_ID = 17
 
 # Cookie expires in 7 days (604800 seconds), refresh 1 hour before
 COOKIE_REFRESH_BUFFER = 3600
@@ -189,33 +191,26 @@ def get_session(force_refresh: bool = False) -> str:
     return get_session_via_playwright()
 
 
-def get_categories(
-    location_id: int = LOCATION_ID,
-    flat: bool = True,
-    include_archived: bool = True,
+def _api_request(
+    endpoint: str,
+    params: dict | None = None,
     session_cookie: str | None = None,
 ) -> list[dict]:
     """
-    Fetch categories from the API.
+    Make authenticated API GET request.
     
     Args:
-        location_id: Location ID to fetch categories for
-        flat: If True, return flat list (no nested children)
-        include_archived: If True, include archived categories
+        endpoint: API endpoint (e.g., "/locations/10/categories")
+        params: Query parameters
         session_cookie: Optional session cookie (auto-fetched if not provided)
     
     Returns:
-        List of category dictionaries
+        JSON response
     """
     if session_cookie is None:
         session_cookie = get_session()
     
-    url = f"{API_BASE_URL}/locations/{location_id}/categories"
-    
-    params = {
-        "flat": str(flat).lower(),
-        "include_archived": str(include_archived).lower(),
-    }
+    url = f"{API_BASE_URL}{endpoint}"
     
     headers = {
         "Accept": "application/json",
@@ -224,8 +219,9 @@ def get_categories(
     
     cookies = {"dg_session": session_cookie}
     
-    print(f"\nFetching categories from: {url}")
-    print(f"Parameters: {params}")
+    print(f"\nFetching from: {url}")
+    if params:
+        print(f"Parameters: {params}")
     
     response = requests.get(url, params=params, headers=headers, cookies=cookies)
     
@@ -250,27 +246,297 @@ def get_categories(
     return response.json()
 
 
+def _api_post_request(
+    endpoint: str,
+    data: dict,
+    session_cookie: str | None = None,
+) -> dict:
+    """
+    Make authenticated API POST request.
+    
+    Args:
+        endpoint: API endpoint (e.g., "/locations/17/categories")
+        data: JSON body to send
+        session_cookie: Optional session cookie (auto-fetched if not provided)
+    
+    Returns:
+        JSON response
+    """
+    if session_cookie is None:
+        session_cookie = get_session()
+    
+    url = f"{API_BASE_URL}{endpoint}"
+    
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+    }
+    
+    cookies = {"dg_session": session_cookie}
+    
+    print(f"\nPOST to: {url}")
+    print(f"Data: {json.dumps(data, ensure_ascii=False)}")
+    
+    response = requests.post(url, json=data, headers=headers, cookies=cookies)
+    
+    print(f"Status Code: {response.status_code}")
+    
+    # Handle expired session
+    if response.status_code == 401:
+        print("Session expired, refreshing...")
+        session_cookie = get_session(force_refresh=True)
+        response = requests.post(
+            url,
+            json=data,
+            headers=headers,
+            cookies={"dg_session": session_cookie},
+        )
+        print(f"Retry Status Code: {response.status_code}")
+    
+    if response.status_code not in (200, 201):
+        print(f"Error: {response.text}")
+        response.raise_for_status()
+    
+    return response.json()
+
+
+def create_category(
+    name: str,
+    location_id: int = LOCATION_ID,
+    parent_id: int | None = None,
+    description: str | None = None,
+    is_visible_to_ai: bool = True,
+    session_cookie: str | None = None,
+) -> dict:
+    """
+    Create a new category via API.
+    
+    Args:
+        name: Category name (English)
+        location_id: Location ID
+        parent_id: Parent category ID (None for root category)
+        description: Category description (optional)
+        is_visible_to_ai: Whether category is visible to AI
+        session_cookie: Optional session cookie (auto-fetched if not provided)
+    
+    Returns:
+        Created category dict
+    """
+    data = {
+        "location_id": location_id,
+        "name": {"en": name},
+        "is_visible_to_ai": is_visible_to_ai,
+    }
+    
+    if parent_id is not None:
+        data["parent_id"] = parent_id
+    
+    if description:
+        data["description_i18n"] = {"en": description}
+    
+    return _api_post_request(
+        f"/locations/{location_id}/categories",
+        data=data,
+        session_cookie=session_cookie,
+    )
+
+
+def get_categories(
+    location_id: int = LOCATION_ID,
+    flat: bool = True,
+    include_archived: bool = True,
+    session_cookie: str | None = None,
+) -> list[dict]:
+    """
+    Fetch categories from the API.
+    
+    Args:
+        location_id: Location ID to fetch categories for
+        flat: If True, return flat list (no nested children)
+        include_archived: If True, include archived categories
+        session_cookie: Optional session cookie (auto-fetched if not provided)
+    
+    Returns:
+        List of category dictionaries
+    """
+    params = {
+        "flat": str(flat).lower(),
+        "include_archived": str(include_archived).lower(),
+    }
+    
+    return _api_request(
+        f"/locations/{location_id}/categories",
+        params=params,
+        session_cookie=session_cookie,
+    )
+
+
+def get_services(
+    location_id: int = LOCATION_ID,
+    include_archived: bool = True,
+    session_cookie: str | None = None,
+) -> list[dict]:
+    """
+    Fetch services from the API.
+    
+    Args:
+        location_id: Location ID to fetch services for
+        include_archived: If True, include archived services
+        session_cookie: Optional session cookie (auto-fetched if not provided)
+    
+    Returns:
+        List of service dictionaries
+    """
+    params = {
+        "include_archived": str(include_archived).lower(),
+    }
+    
+    return _api_request(
+        f"/locations/{location_id}/services",
+        params=params,
+        session_cookie=session_cookie,
+    )
+
+
+def get_practitioners(
+    location_id: int = LOCATION_ID,
+    include_archived: bool = True,
+    session_cookie: str | None = None,
+) -> list[dict]:
+    """
+    Fetch practitioners from the API.
+    
+    Args:
+        location_id: Location ID to fetch practitioners for
+        include_archived: If True, include archived practitioners
+        session_cookie: Optional session cookie (auto-fetched if not provided)
+    
+    Returns:
+        List of practitioner dictionaries
+    """
+    params = {
+        "include_archived": str(include_archived).lower(),
+    }
+    
+    return _api_request(
+        f"/locations/{location_id}/practitioners",
+        params=params,
+        session_cookie=session_cookie,
+    )
+
+
 def main():
+    import sys
+    
+    # Test POST request to create category
+    if "--create-test" in sys.argv:
+        print("=" * 60)
+        print("TESTING: CREATE CATEGORY")
+        print("=" * 60)
+        
+        # Get location_id from args or use default 17 (from user's example)
+        location_id = 17
+        for arg in sys.argv:
+            if arg.startswith("--location="):
+                location_id = int(arg.split("=")[1])
+        
+        # Get category name from args or use test name
+        category_name = "TEST CATEGORY (can be deleted)"
+        for arg in sys.argv:
+            if arg.startswith("--name="):
+                category_name = arg.split("=", 1)[1]
+        
+        print(f"\nCreating category:")
+        print(f"  Location ID: {location_id}")
+        print(f"  Name: {category_name}")
+        
+        try:
+            result = create_category(
+                name=category_name,
+                location_id=location_id,
+            )
+            print("\n✓ SUCCESS! Created category:")
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+        except Exception as e:
+            print(f"\n✗ FAILED: {e}")
+        
+        return
+    
+    fetch_services = "--services" in sys.argv or "--all" in sys.argv
+    fetch_practitioners = "--practitioners" in sys.argv or "--all" in sys.argv
+    fetch_categories = "--categories" in sys.argv or "--all" in sys.argv or (
+        not fetch_services and not fetch_practitioners
+    )
+    
     # Fetch categories
-    categories = get_categories()
+    if fetch_categories:
+        print("=" * 60)
+        print("FETCHING CATEGORIES")
+        print("=" * 60)
+        categories = get_categories()
+        
+        print(f"\nFetched {len(categories)} categories:")
+        for cat in categories:
+            name = cat.get("name_i18n", {}).get("en", "Unknown")
+            is_archived = cat.get("is_archived", False)
+            services_count = cat.get("services_count", 0)
+            status = " [ARCHIVED]" if is_archived else ""
+            print(f"  - {cat['id']}: {name} ({services_count} services){status}")
+        
+        output_path = DATA_API_DIR / "categories_api_response.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(categories, f, ensure_ascii=False, indent=2)
+        print(f"\nSaved to: {output_path}")
     
-    # Print summary
-    print(f"\nFetched {len(categories)} categories:")
-    for cat in categories:
-        name = cat.get("name_i18n", {}).get("en", "Unknown")
-        is_archived = cat.get("is_archived", False)
-        services_count = cat.get("services_count", 0)
-        status = " [ARCHIVED]" if is_archived else ""
-        print(f"  - {cat['id']}: {name} ({services_count} services){status}")
+    # Fetch services
+    if fetch_services:
+        print("\n" + "=" * 60)
+        print("FETCHING SERVICES")
+        print("=" * 60)
+        services = get_services()
+        
+        print(f"\nFetched {len(services)} services:")
+        archived_count = sum(1 for s in services if s.get("is_archived", False))
+        print(f"  - Active: {len(services) - archived_count}")
+        print(f"  - Archived: {archived_count}")
+        
+        # Show first 10
+        for svc in services[:10]:
+            name = svc.get("name_i18n", {}).get("en", "Unknown")
+            is_archived = svc.get("is_archived", False)
+            status = " [ARCHIVED]" if is_archived else ""
+            print(f"  - {svc['id']}: {name[:50]}...{status}" if len(name) > 50 else f"  - {svc['id']}: {name}{status}")
+        if len(services) > 10:
+            print(f"  ... and {len(services) - 10} more")
+        
+        output_path = DATA_API_DIR / "services_api_response.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(services, f, ensure_ascii=False, indent=2)
+        print(f"\nSaved to: {output_path}")
     
-    # Save to file
-    output_path = DATA_API_DIR / "categories_api_response.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(categories, f, ensure_ascii=False, indent=2)
+    # Fetch practitioners
+    if fetch_practitioners:
+        print("\n" + "=" * 60)
+        print("FETCHING PRACTITIONERS")
+        print("=" * 60)
+        try:
+            practitioners = get_practitioners()
+            
+            print(f"\nFetched {len(practitioners)} practitioners:")
+            for pract in practitioners[:10]:
+                name = pract.get("name", pract.get("name_i18n", {}).get("en", "Unknown"))
+                print(f"  - {pract['id']}: {name}")
+            if len(practitioners) > 10:
+                print(f"  ... and {len(practitioners) - 10} more")
+            
+            output_path = DATA_API_DIR / "practitioners_api_response.json"
+            with open(output_path, "w", encoding="utf-8") as f:
+                json.dump(practitioners, f, ensure_ascii=False, indent=2)
+            print(f"\nSaved to: {output_path}")
+        except Exception as e:
+            print(f"Failed to fetch practitioners: {e}")
     
-    print(f"\nSaved response to: {output_path}")
-    
-    return categories
+    print("\nDone!")
 
 
 if __name__ == "__main__":
