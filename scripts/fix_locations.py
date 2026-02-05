@@ -1,422 +1,888 @@
 #!/usr/bin/env python3
 """
-Script to fix data distribution across locations.
+Fix data distribution across locations.
 
-Problem:
-- All data was uploaded only to location_id=17 (Jumeirah)
-- But services have 'branches' field that determines which location they belong to
+PROBLEM:
+  All 373 services and 38 categories were uploaded to location_id=17 (Jumeirah) only.
+  But services have a 'branches' field that specifies which location(s) they belong to.
+  Location 18 (SZR) is empty.
 
-Locations:
-- location_id=17 → Jumeirah → branches: ["jumeirah"]
-- location_id=18 → SZR → branches: ["srz"]
+LOCATION MAPPING:
+  location_id=17  →  Jumeirah  →  branches containing "jumeirah"
+  location_id=18  →  SZR       →  branches containing "srz"
 
-This script will:
-1. Analyze what needs to be fixed
-2. Upload categories to location 18 (SZR)
-3. Upload services with 'srz' in branches to location 18
-4. Delete services with ONLY 'srz' from location 17 (optional)
+WHAT THIS SCRIPT DOES (in order):
 
-Usage:
-    python scripts/fix_locations.py --analyze           # Just show what needs to be done
-    python scripts/fix_locations.py --upload-categories # Upload categories to location 18
-    python scripts/fix_locations.py --upload-services   # Upload services to location 18
-    python scripts/fix_locations.py --delete-wrong      # Delete srz-only services from location 17
-    python scripts/fix_locations.py --all --execute     # Do everything (requires --execute)
+  Step 1: Upload categories to Location 18 (SZR)
+    - Categories don't have 'branches' → same set for both locations
+    - 35 categories need to be created on Location 18
+
+  Step 2: Upload services to Location 18 (SZR)
+    - Services with branches=["srz"] → 133 services (SZR only)
+    - Services with branches=["jumeirah","srz"] → 116 services (both)
+    - Total: 249 services need to be on Location 18
+    - Maps category_id from local → API (Location 18 IDs)
+
+  Step 3: Delete SRZ-only services from Location 17 (Jumeirah)
+    - 133 services with branches=["srz"] should NOT be on Location 17
+    - Matches by name_i18n.en between local data and API
+
+  Step 4: Upload practitioners (per location)
+    - branches=["jumeirah"] → Location 17 only (5 practitioners)
+    - branches=["szr"] → Location 18 only (6 practitioners)
+    - branches=["jumeirah","szr"] → both locations (1 practitioner)
+    - branches=[] (empty) → BOTH locations (14 practitioners)
+    - Total: 20 on Location 17, 21 on Location 18
+
+  Step 5: Link service-practitioners (per location)
+    - Uses service_practitioners.json
+    - Links each (service_id, practitioner_id) pair on the correct location(s)
+    - Maps local IDs → API IDs per location
+
+USAGE:
+    python scripts/fix_locations.py --analyze                     # Show what needs to be done
+    python scripts/fix_locations.py --step1                       # Dry run: categories → Location 18
+    python scripts/fix_locations.py --step1 --execute             # Execute: categories → Location 18
+    python scripts/fix_locations.py --step2                       # Dry run: services → Location 18
+    python scripts/fix_locations.py --step2 --execute             # Execute: services → Location 18
+    python scripts/fix_locations.py --step3                       # Dry run: delete wrong services from 17
+    python scripts/fix_locations.py --step3 --execute             # Execute: delete wrong services from 17
+    python scripts/fix_locations.py --step4                       # Dry run: practitioners
+    python scripts/fix_locations.py --step4 --execute             # Execute: practitioners
+    python scripts/fix_locations.py --step5                       # Dry run: service-practitioner links
+    python scripts/fix_locations.py --step5 --execute             # Execute: service-practitioner links
 """
 
 import argparse
 import json
+import re
 import sys
+import time
 from pathlib import Path
 
 import requests
 
-# Project paths
+# ─── Project paths ───────────────────────────────────────────────────────────
 SCRIPTS_DIR = Path(__file__).parent
 PROJECT_ROOT = SCRIPTS_DIR.parent
 CONFIG_DIR = PROJECT_ROOT / "config"
 DATA_OUTPUT = PROJECT_ROOT / "data" / "output"
 DATA_API = PROJECT_ROOT / "data" / "api"
 
-# API Configuration
-API_BASE_URL = "https://dialoggauge.yma.health/api"
+# ─── API ─────────────────────────────────────────────────────────────────────
+API_BASE = "https://dialoggauge.yma.health/api"
 
-# Location mapping
-LOCATIONS = {
-    "jumeirah": 17,
-    "srz": 18,
+LOCATION_JUMEIRAH = 17
+LOCATION_SZR = 18
+
+# branch name in local JSON → location_id
+BRANCH_TO_LOCATION = {
+    "jumeirah": LOCATION_JUMEIRAH,
+    "srz": LOCATION_SZR,
+    "szr": LOCATION_SZR,  # alias (practitioners use "szr" instead of "srz")
 }
 
-LOCATION_17_NAME = "Jumeirah"
-LOCATION_18_NAME = "SZR"
 
+# ─── Helpers ─────────────────────────────────────────────────────────────────
 
 def load_session() -> str:
-    """Load session cookie."""
-    session_file = CONFIG_DIR / ".dg_session.json"
-    with open(session_file) as f:
-        data = json.load(f)
-    return data["dg_session"]
+    with open(CONFIG_DIR / ".dg_session.json") as f:
+        return json.load(f)["dg_session"]
 
 
-def get_headers() -> dict:
-    """Get request headers with auth cookie."""
-    return {"Cookie": f"dg_session={load_session()}"}
-
-
-def load_local_data():
-    """Load local JSON data."""
-    with open(DATA_OUTPUT / "categories.json") as f:
-        categories = json.load(f)
-    with open(DATA_OUTPUT / "services.json") as f:
-        services = json.load(f)
-    return categories, services
-
-
-def fetch_api_data(location_id: int):
-    """Fetch current data from API for a location."""
-    headers = get_headers()
-    
-    # Categories
-    r = requests.get(
-        f"{API_BASE_URL}/locations/{location_id}/categories?flat=true&include_archived=true",
-        headers=headers
-    )
-    categories = r.json() if r.status_code == 200 else []
-    
-    # Services
-    r = requests.get(
-        f"{API_BASE_URL}/locations/{location_id}/services?include_archived=true",
-        headers=headers
-    )
-    services = r.json() if r.status_code == 200 else []
-    
-    return categories, services
-
-
-def analyze():
-    """Analyze what needs to be fixed."""
-    print("\n" + "=" * 70)
-    print("ANALYSIS: Current state vs Expected state")
-    print("=" * 70)
-    
-    local_categories, local_services = load_local_data()
-    
-    # Analyze services by branches
-    services_by_branch = {
-        "jumeirah_only": [],
-        "srz_only": [],
-        "both": [],
+def api_headers() -> dict:
+    return {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Cookie": f"dg_session={load_session()}",
     }
-    
-    for svc in local_services:
+
+
+def normalize(name: str) -> str:
+    """Normalize name for comparison."""
+    if not name:
+        return ""
+    name = name.lower().strip()
+    name = re.sub(r"\s+", " ", name)
+    return name
+
+
+def get_name_en(item: dict) -> str:
+    return (item.get("name_i18n") or {}).get("en", "") or item.get("name", "")
+
+
+def load_local(filename: str) -> list:
+    with open(DATA_OUTPUT / filename, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def api_get(endpoint: str) -> list:
+    r = requests.get(f"{API_BASE}{endpoint}", headers=api_headers())
+    r.raise_for_status()
+    return r.json()
+
+
+def api_post(endpoint: str, data: dict) -> dict:
+    r = requests.post(f"{API_BASE}{endpoint}", headers=api_headers(), json=data)
+    if r.status_code not in (200, 201):
+        raise Exception(f"POST {endpoint} → {r.status_code}: {r.text[:200]}")
+    return r.json()
+
+
+def api_delete(endpoint: str) -> int:
+    r = requests.delete(f"{API_BASE}{endpoint}", headers=api_headers())
+    return r.status_code
+
+
+# ─── Fetch current API state ────────────────────────────────────────────────
+
+def fetch_api_categories(location_id: int) -> list:
+    return api_get(f"/locations/{location_id}/categories?flat=true&include_archived=true")
+
+
+def fetch_api_services(location_id: int) -> list:
+    return api_get(f"/locations/{location_id}/services?include_archived=true")
+
+
+def fetch_api_practitioners(location_id: int) -> list:
+    return api_get(f"/locations/{location_id}/practitioners?include_archived=true")
+
+
+# ─── Classify local data by branch ──────────────────────────────────────────
+
+def classify_services(services: list) -> dict:
+    """Classify services by which locations they belong to."""
+    result = {"jumeirah_only": [], "srz_only": [], "both": []}
+    for svc in services:
         branches = set(svc.get("branches", []))
         if branches == {"jumeirah"}:
-            services_by_branch["jumeirah_only"].append(svc)
+            result["jumeirah_only"].append(svc)
         elif branches == {"srz"}:
-            services_by_branch["srz_only"].append(svc)
+            result["srz_only"].append(svc)
         elif "jumeirah" in branches and "srz" in branches:
-            services_by_branch["both"].append(svc)
+            result["both"].append(svc)
         else:
-            print(f"  WARNING: Service '{svc.get('name', 'unknown')}' has unexpected branches: {branches}")
+            print(f"  WARNING: unexpected branches {branches} for service '{get_name_en(svc)}'")
+    return result
+
+
+def classify_practitioners(practitioners: list) -> dict:
+    """Classify practitioners by which locations they belong to.
     
-    print("\n--- LOCAL DATA ---")
-    print(f"Categories: {len(local_categories)}")
-    print(f"Services total: {len(local_services)}")
-    print(f"  - jumeirah only: {len(services_by_branch['jumeirah_only'])}")
-    print(f"  - srz only: {len(services_by_branch['srz_only'])}")
-    print(f"  - both locations: {len(services_by_branch['both'])}")
-    
-    # Fetch current API state
-    print("\n--- CURRENT API STATE ---")
-    
-    api_17_cats, api_17_svcs = fetch_api_data(17)
-    api_18_cats, api_18_svcs = fetch_api_data(18)
-    
-    print(f"Location 17 (Jumeirah):")
-    print(f"  Categories: {len(api_17_cats)}")
-    print(f"  Services: {len(api_17_svcs)}")
-    
-    print(f"Location 18 (SZR):")
-    print(f"  Categories: {len(api_18_cats)}")
-    print(f"  Services: {len(api_18_svcs)}")
-    
-    # Calculate what should be
-    expected_17_svcs = len(services_by_branch["jumeirah_only"]) + len(services_by_branch["both"])
-    expected_18_svcs = len(services_by_branch["srz_only"]) + len(services_by_branch["both"])
-    
-    print("\n--- EXPECTED STATE ---")
-    print(f"Location 17 (Jumeirah):")
-    print(f"  Categories: {len(local_categories)}")
-    print(f"  Services: {expected_17_svcs} (jumeirah + both)")
-    
-    print(f"Location 18 (SZR):")
-    print(f"  Categories: {len(local_categories)}")
-    print(f"  Services: {expected_18_svcs} (srz + both)")
-    
-    # What needs to be done
-    print("\n--- ACTIONS NEEDED ---")
-    
-    if len(api_18_cats) < len(local_categories):
-        print(f"[1] Upload {len(local_categories)} categories to Location 18 (SZR)")
-    else:
-        print("[1] Categories on Location 18: OK")
-    
-    services_for_18 = services_by_branch["srz_only"] + services_by_branch["both"]
-    if len(api_18_svcs) < len(services_for_18):
-        print(f"[2] Upload {len(services_for_18)} services to Location 18 (SZR)")
-    else:
-        print("[2] Services on Location 18: OK")
-    
-    # Services to delete from 17
-    if len(api_17_svcs) > expected_17_svcs:
-        to_delete = len(api_17_svcs) - expected_17_svcs
-        print(f"[3] Delete ~{to_delete} srz-only services from Location 17 (optional)")
-    else:
-        print("[3] Services on Location 17: OK")
-    
+    NOTE: In practitioners.json, SZR branch is spelled "szr" (not "srz").
+    Practitioners with empty branches go to BOTH locations.
+    """
+    result = {"jumeirah_only": [], "szr_only": [], "both": []}
+    for p in practitioners:
+        branches = set(b.lower() for b in p.get("branches", []))
+        has_jum = "jumeirah" in branches
+        has_szr = "szr" in branches or "srz" in branches
+        
+        if has_jum and has_szr:
+            result["both"].append(p)
+        elif has_jum:
+            result["jumeirah_only"].append(p)
+        elif has_szr:
+            result["szr_only"].append(p)
+        else:
+            # Empty branches → goes to both locations
+            result["both"].append(p)
+    return result
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# ANALYZE
+# ═════════════════════════════════════════════════════════════════════════════
+
+def do_analyze():
     print("\n" + "=" * 70)
-    
-    return services_by_branch
+    print("  ANALYSIS: Current State vs Expected State")
+    print("=" * 70)
+
+    # Local data
+    local_cats = load_local("categories.json")
+    local_svcs = load_local("services.json")
+    local_practs = load_local("practitioners.json")
+    local_sp = load_local("service_practitioners.json")
+
+    svc_class = classify_services(local_svcs)
+    pract_class = classify_practitioners(local_practs)
+
+    print(f"\n{'─'*40}")
+    print("LOCAL DATA")
+    print(f"{'─'*40}")
+    print(f"  Categories:              {len(local_cats)}")
+    print(f"  Services total:          {len(local_svcs)}")
+    print(f"    - jumeirah only:       {len(svc_class['jumeirah_only'])}")
+    print(f"    - srz only:            {len(svc_class['srz_only'])}")
+    print(f"    - both:                {len(svc_class['both'])}")
+    print(f"  Practitioners total:     {len(local_practs)}")
+    print(f"    - jumeirah only:       {len(pract_class['jumeirah_only'])}")
+    print(f"    - szr only:            {len(pract_class['szr_only'])}")
+    print(f"    - both (incl empty):   {len(pract_class['both'])}")
+    print(f"  Service-Practitioner links: {len(local_sp)}")
+
+    # API state
+    print(f"\n{'─'*40}")
+    print("CURRENT API STATE")
+    print(f"{'─'*40}")
+    for loc_id, loc_name in [(17, "Jumeirah"), (18, "SZR")]:
+        cats = fetch_api_categories(loc_id)
+        svcs = fetch_api_services(loc_id)
+        practs = fetch_api_practitioners(loc_id)
+        print(f"  Location {loc_id} ({loc_name}):")
+        print(f"    Categories:    {len(cats)}")
+        print(f"    Services:      {len(svcs)}")
+        print(f"    Practitioners: {len(practs)}")
+
+    # Expected
+    exp_17_svcs = len(svc_class["jumeirah_only"]) + len(svc_class["both"])
+    exp_18_svcs = len(svc_class["srz_only"]) + len(svc_class["both"])
+    exp_17_practs = len(pract_class["jumeirah_only"]) + len(pract_class["both"])
+    exp_18_practs = len(pract_class["szr_only"]) + len(pract_class["both"])
+
+    print(f"\n{'─'*40}")
+    print("EXPECTED STATE")
+    print(f"{'─'*40}")
+    print(f"  Location 17 (Jumeirah):")
+    print(f"    Categories:    {len(local_cats)}")
+    print(f"    Services:      {exp_17_svcs}")
+    print(f"    Practitioners: {exp_17_practs}")
+    print(f"  Location 18 (SZR):")
+    print(f"    Categories:    {len(local_cats)}")
+    print(f"    Services:      {exp_18_svcs}")
+    print(f"    Practitioners: {exp_18_practs}")
+
+    # Actions
+    print(f"\n{'─'*40}")
+    print("ACTIONS NEEDED")
+    print(f"{'─'*40}")
+    print(f"  [Step 1] Upload {len(local_cats)} categories to Location 18 (SZR)")
+    print(f"  [Step 2] Upload {exp_18_svcs} services to Location 18 (SZR)")
+    print(f"  [Step 3] Delete {len(svc_class['srz_only'])} srz-only services from Location 17")
+    print(f"  [Step 4] Upload {exp_17_practs} practitioners to Loc 17 + {exp_18_practs} to Loc 18")
+    print(f"  [Step 5] Link service-practitioners on both locations")
+    print("=" * 70)
 
 
-def upload_categories_to_18(execute: bool = False):
-    """Upload all categories to location 18."""
-    print("\n--- UPLOADING CATEGORIES TO LOCATION 18 (SZR) ---")
-    
-    local_categories, _ = load_local_data()
-    api_cats, _ = fetch_api_data(18)
-    
-    # Build lookup of existing categories by name
-    existing_by_name = {}
-    for cat in api_cats:
-        name_en = cat.get("name_i18n", {}).get("en", "").lower()
-        name = cat.get("name", "").lower()
-        if name_en:
-            existing_by_name[name_en] = cat
-        if name:
-            existing_by_name[name] = cat
-    
-    to_upload = []
-    for cat in local_categories:
-        name_en = cat.get("name_i18n", {}).get("en", "").lower()
-        name = cat.get("name", "").lower()
-        if name_en not in existing_by_name and name not in existing_by_name:
-            to_upload.append(cat)
-    
-    print(f"Categories to upload: {len(to_upload)} (already exists: {len(local_categories) - len(to_upload)})")
-    
-    if not execute:
-        print("\n[DRY RUN] Add --execute to actually upload")
-        return
-    
-    headers = get_headers()
-    headers["Content-Type"] = "application/json"
-    
-    success = 0
-    failed = 0
-    
-    for cat in to_upload:
-        # Prepare payload (remove local id)
-        payload = {
-            "name": cat.get("name"),
-            "name_i18n": cat.get("name_i18n"),
-            "description_i18n": cat.get("description_i18n"),
-            "parent_id": None,  # Categories are flat for now
-            "is_active": True,
-        }
-        
-        response = requests.post(
-            f"{API_BASE_URL}/locations/18/categories",
-            headers=headers,
-            json=payload,
-        )
-        
-        if response.status_code in (200, 201):
-            success += 1
-            print(f"  ✓ Created: {cat.get('name')}")
+# ═════════════════════════════════════════════════════════════════════════════
+# STEP 1: Upload categories to Location 18
+# ═════════════════════════════════════════════════════════════════════════════
+
+def do_step1(execute: bool):
+    print("\n" + "=" * 70)
+    print("  STEP 1: Upload categories to Location 18 (SZR)")
+    print("=" * 70)
+
+    local_cats = load_local("categories.json")
+    api_cats = fetch_api_categories(LOCATION_SZR)
+
+    # Existing on API (by normalized name)
+    existing = {normalize(get_name_en(c)): c for c in api_cats}
+
+    to_create = []
+    already = []
+    for cat in local_cats:
+        name = normalize(get_name_en(cat))
+        if name in existing:
+            already.append(cat)
         else:
-            failed += 1
-            print(f"  ✗ Failed: {cat.get('name')} - {response.status_code}: {response.text[:100]}")
-    
-    print(f"\nResult: {success} success, {failed} failed")
+            to_create.append(cat)
 
+    print(f"\n  Already on Location 18: {len(already)}")
+    print(f"  To create:              {len(to_create)}")
 
-def upload_services_to_18(execute: bool = False):
-    """Upload services with 'srz' in branches to location 18."""
-    print("\n--- UPLOADING SERVICES TO LOCATION 18 (SZR) ---")
-    
-    local_categories, local_services = load_local_data()
-    api_cats, api_svcs = fetch_api_data(18)
-    
-    # Services to upload: those with 'srz' in branches
-    services_for_18 = [s for s in local_services if "srz" in s.get("branches", [])]
-    
-    print(f"Services with 'srz' in branches: {len(services_for_18)}")
-    
-    # Build lookup of existing services by name
-    existing_by_name = {}
-    for svc in api_svcs:
-        name_en = svc.get("name_i18n", {}).get("en", "").lower()
-        if name_en:
-            existing_by_name[name_en] = svc
-    
-    to_upload = []
-    for svc in services_for_18:
-        name_en = svc.get("name_i18n", {}).get("en", "").lower()
-        if name_en not in existing_by_name:
-            to_upload.append(svc)
-    
-    print(f"Services to upload: {len(to_upload)} (already exists: {len(services_for_18) - len(to_upload)})")
-    
-    if not execute:
-        print("\n[DRY RUN] Add --execute to actually upload")
+    if not to_create:
+        print("\n  All categories already exist. Nothing to do.")
         return
+
+    for cat in to_create:
+        print(f"    + {get_name_en(cat)}")
+
+    if not execute:
+        print(f"\n  [DRY RUN] Add --execute to actually create {len(to_create)} categories")
+        return
+
+    print(f"\n  Creating {len(to_create)} categories...")
+    ok, fail = 0, 0
+    for cat in to_create:
+        name_en = get_name_en(cat)
+        payload = {
+            "location_id": LOCATION_SZR,
+            "name": {"en": name_en},
+            "is_visible_to_ai": True,
+        }
+        try:
+            result = api_post(f"/locations/{LOCATION_SZR}/categories", payload)
+            ok += 1
+            print(f"    ✓ {name_en}  (api_id={result['id']})")
+        except Exception as e:
+            fail += 1
+            print(f"    ✗ {name_en}  ({e})")
+
+    print(f"\n  Result: {ok} created, {fail} failed")
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# STEP 2: Upload services to Location 18
+# ═════════════════════════════════════════════════════════════════════════════
+
+def build_category_name_to_api_id(location_id: int) -> dict:
+    """Build mapping: normalized category name → API category ID for location."""
+    api_cats = fetch_api_categories(location_id)
+    return {normalize(get_name_en(c)): c["id"] for c in api_cats}
+
+
+def build_api_catid_to_name(location_id: int) -> dict:
+    """Build mapping: API category_id → normalized category name."""
+    api_cats = fetch_api_categories(location_id)
+    return {c["id"]: normalize(get_name_en(c)) for c in api_cats}
+
+
+def build_local_catid_to_name(local_cats: list) -> dict:
+    """Build mapping: local category_id → normalized name."""
+    return {c["id"]: normalize(get_name_en(c)) for c in local_cats}
+
+
+def svc_key(name: str, cat_name: str) -> tuple:
+    """Unique service key = (normalized name, normalized category name).
     
-    # Build category mapping: local category name -> API category ID on location 18
-    api_cats_18, _ = fetch_api_data(18)
-    cat_name_to_api_id = {}
-    for cat in api_cats_18:
-        name_en = cat.get("name_i18n", {}).get("en", "").lower()
-        if name_en:
-            cat_name_to_api_id[name_en] = cat["id"]
-    
-    # Also need local category id -> name mapping
-    local_cat_id_to_name = {}
-    for cat in local_categories:
-        cat_id = cat.get("id")
-        name_en = cat.get("name_i18n", {}).get("en", "").lower()
-        if cat_id and name_en:
-            local_cat_id_to_name[cat_id] = name_en
-    
-    headers = get_headers()
-    headers["Content-Type"] = "application/json"
-    
-    success = 0
-    failed = 0
-    skipped_no_cat = 0
-    
-    for svc in to_upload:
-        # Map category_id from local to API
-        local_cat_id = svc.get("category_id")
-        cat_name = local_cat_id_to_name.get(local_cat_id)
-        api_cat_id = cat_name_to_api_id.get(cat_name) if cat_name else None
-        
+    This is needed because some services have identical names but belong to
+    different categories (e.g. LHR services exist in both Soprano Titanium
+    and Polylase MX categories with different branch assignments).
+    """
+    return (normalize(name), normalize(cat_name))
+
+
+def do_step2(execute: bool):
+    print("\n" + "=" * 70)
+    print("  STEP 2: Upload services to Location 18 (SZR)")
+    print("=" * 70)
+
+    local_cats = load_local("categories.json")
+    local_svcs = load_local("services.json")
+    svc_class = classify_services(local_svcs)
+    local_catid_to_name = build_local_catid_to_name(local_cats)
+
+    # Services for Location 18: srz_only + both
+    services_for_18 = svc_class["srz_only"] + svc_class["both"]
+    print(f"\n  Services with 'srz' in branches: {len(services_for_18)}")
+    print(f"    - srz only:  {len(svc_class['srz_only'])}")
+    print(f"    - both:      {len(svc_class['both'])}")
+
+    # Check what already exists on Location 18 — match by (name, category)
+    api_svcs = fetch_api_services(LOCATION_SZR)
+    api_catid_to_name_18 = build_api_catid_to_name(LOCATION_SZR)
+    existing_keys = set()
+    for s in api_svcs:
+        cat_name = api_catid_to_name_18.get(s.get("category_id"), "")
+        existing_keys.add(svc_key(get_name_en(s), cat_name))
+
+    to_create = []
+    already = 0
+    for s in services_for_18:
+        local_cat_name = local_catid_to_name.get(s.get("category_id"), "")
+        key = svc_key(get_name_en(s), local_cat_name)
+        if key in existing_keys:
+            already += 1
+        else:
+            to_create.append(s)
+
+    print(f"\n  Already on Location 18: {already}")
+    print(f"  To create:              {len(to_create)}")
+
+    if not to_create:
+        print("\n  All services already exist. Nothing to do.")
+        return
+
+    # Build category mapping
+    cat_name_to_api_id = build_category_name_to_api_id(LOCATION_SZR)
+
+    # Show first 20
+    for svc in to_create[:20]:
+        name = get_name_en(svc)
+        local_cat = local_catid_to_name.get(svc.get("category_id"), "???")
+        api_cat = cat_name_to_api_id.get(local_cat, "???")
+        print(f"    + {name[:50]}  (cat: {local_cat[:20]} → api_cat_id={api_cat})")
+    if len(to_create) > 20:
+        print(f"    ... and {len(to_create) - 20} more")
+
+    if not execute:
+        print(f"\n  [DRY RUN] Add --execute to create {len(to_create)} services")
+        return
+
+    print(f"\n  Creating {len(to_create)} services...")
+    ok, fail, no_cat = 0, 0, 0
+
+    for svc in to_create:
+        name_en = get_name_en(svc)
+        local_cat_name = local_catid_to_name.get(svc.get("category_id"))
+        api_cat_id = cat_name_to_api_id.get(local_cat_name) if local_cat_name else None
+
         if not api_cat_id:
-            skipped_no_cat += 1
-            print(f"  ⚠ Skipped (no category mapping): {svc.get('name_i18n', {}).get('en', 'unknown')}")
+            no_cat += 1
+            print(f"    ⚠ SKIP (no category mapping): {name_en}")
             continue
-        
+
         payload = {
-            "name_i18n": svc.get("name_i18n"),
-            "description_i18n": svc.get("description_i18n"),
+            "location_id": LOCATION_SZR,
+            "name": {"en": name_en},
             "category_id": api_cat_id,
-            "duration_minutes": svc.get("duration_minutes"),
-            "price": svc.get("price"),
-            "is_active": True,
+            "is_visible_to_ai": True,
         }
-        
-        response = requests.post(
-            f"{API_BASE_URL}/locations/18/services",
-            headers=headers,
-            json=payload,
-        )
-        
-        if response.status_code in (200, 201):
-            success += 1
-            if success % 50 == 0:
-                print(f"  ... uploaded {success} services")
-        else:
-            failed += 1
-            print(f"  ✗ Failed: {svc.get('name_i18n', {}).get('en', 'unknown')} - {response.status_code}")
-    
-    print(f"\nResult: {success} success, {failed} failed, {skipped_no_cat} skipped (no category)")
+        # Optional fields
+        desc = (svc.get("description_i18n") or {}).get("en")
+        if desc:
+            payload["description"] = {"en": desc}
+        if svc.get("duration_minutes"):
+            payload["duration_minutes"] = svc["duration_minutes"]
+        if svc.get("price_min") is not None:
+            payload["price_min"] = svc["price_min"]
+        if svc.get("price_max") is not None:
+            payload["price_max"] = svc["price_max"]
+        price_note = (svc.get("price_note_i18n") or {}).get("en")
+        if price_note:
+            payload["price_note"] = {"en": price_note}
+
+        try:
+            result = api_post(f"/locations/{LOCATION_SZR}/services", payload)
+            ok += 1
+            if ok % 50 == 0:
+                print(f"    ... created {ok} services")
+        except Exception as e:
+            fail += 1
+            print(f"    ✗ {name_en}: {e}")
+
+    print(f"\n  Result: {ok} created, {fail} failed, {no_cat} skipped (no category)")
 
 
-def delete_wrong_services_from_17(execute: bool = False):
-    """Delete services that are srz-only from location 17."""
-    print("\n--- DELETING SRZ-ONLY SERVICES FROM LOCATION 17 ---")
-    
-    _, local_services = load_local_data()
-    _, api_svcs = fetch_api_data(17)
-    
-    # Services that are srz-only in local data
-    srz_only_names = set()
-    for svc in local_services:
-        branches = set(svc.get("branches", []))
-        if branches == {"srz"}:
-            name_en = svc.get("name_i18n", {}).get("en", "").lower()
-            if name_en:
-                srz_only_names.add(name_en)
-    
-    print(f"SRZ-only services in local data: {len(srz_only_names)}")
-    
-    # Find API services to delete
+# ═════════════════════════════════════════════════════════════════════════════
+# STEP 3: Delete SRZ-only services from Location 17
+# ═════════════════════════════════════════════════════════════════════════════
+
+def do_step3(execute: bool):
+    print("\n" + "=" * 70)
+    print("  STEP 3: Delete SRZ-only services from Location 17 (Jumeirah)")
+    print("=" * 70)
+    print("  NOTE: Uses (name + category) matching to avoid deleting")
+    print("  services that share a name but belong to different categories/branches.")
+
+    local_cats = load_local("categories.json")
+    local_svcs = load_local("services.json")
+    local_catid_to_name = build_local_catid_to_name(local_cats)
+    svc_class = classify_services(local_svcs)
+
+    # Build set of (name, category) keys for srz-only services
+    srz_only_keys = set()
+    for s in svc_class["srz_only"]:
+        cat_name = local_catid_to_name.get(s.get("category_id"), "")
+        srz_only_keys.add(svc_key(get_name_en(s), cat_name))
+    print(f"\n  SRZ-only service (name,cat) keys: {len(srz_only_keys)}")
+
+    # Fetch current Location 17 services and build (name, category) keys
+    api_svcs = fetch_api_services(LOCATION_JUMEIRAH)
+    api_catid_to_name_17 = build_api_catid_to_name(LOCATION_JUMEIRAH)
+
     to_delete = []
+    kept = 0
     for svc in api_svcs:
-        name_en = svc.get("name_i18n", {}).get("en", "").lower()
-        if name_en in srz_only_names:
+        api_cat_name = api_catid_to_name_17.get(svc.get("category_id"), "")
+        key = svc_key(get_name_en(svc), api_cat_name)
+        if key in srz_only_keys:
             to_delete.append(svc)
-    
-    print(f"Services to delete from Location 17: {len(to_delete)}")
-    
-    if not execute:
-        print("\n[DRY RUN] Add --execute to actually delete")
-        if to_delete:
-            print("\nFirst 10 services that would be deleted:")
-            for svc in to_delete[:10]:
-                print(f"  - {svc.get('name_i18n', {}).get('en', 'unknown')} (id={svc['id']})")
-        return
-    
-    headers = get_headers()
-    
-    success = 0
-    failed = 0
-    
-    for svc in to_delete:
-        response = requests.delete(
-            f"{API_BASE_URL}/locations/17/services/{svc['id']}",
-            headers=headers,
-        )
-        
-        if response.status_code in (200, 204):
-            success += 1
         else:
-            failed += 1
-            print(f"  ✗ Failed to delete: {svc.get('name_i18n', {}).get('en', 'unknown')} (id={svc['id']})")
-    
-    print(f"\nResult: {success} deleted, {failed} failed")
+            kept += 1
 
+    print(f"  API services on Location 17: {len(api_svcs)}")
+    print(f"  Services to DELETE (srz-only): {len(to_delete)}")
+    print(f"  Services to KEEP:              {kept}")
+
+    if not to_delete:
+        print("\n  No SRZ-only services found on Location 17. Nothing to do.")
+        return
+
+    # Show first 20
+    for svc in to_delete[:20]:
+        cat_name = api_catid_to_name_17.get(svc.get("category_id"), "?")
+        print(f"    - [{svc['id']}] {get_name_en(svc)[:45]} | cat: {cat_name[:25]}")
+    if len(to_delete) > 20:
+        print(f"    ... and {len(to_delete) - 20} more")
+
+    if not execute:
+        print(f"\n  [DRY RUN] Add --execute to delete {len(to_delete)} services")
+        return
+
+    print(f"\n  Deleting {len(to_delete)} services...")
+    ok, fail = 0, 0
+    for svc in to_delete:
+        status = api_delete(f"/locations/{LOCATION_JUMEIRAH}/services/{svc['id']}")
+        if status in (200, 204):
+            ok += 1
+        else:
+            fail += 1
+            print(f"    ✗ Failed to delete [{svc['id']}] {get_name_en(svc)} (status={status})")
+
+    print(f"\n  Result: {ok} deleted, {fail} failed")
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# STEP 4: Upload practitioners to both locations
+# ═════════════════════════════════════════════════════════════════════════════
+
+def build_practitioner_payload(pract: dict, location_id: int) -> dict:
+    """Build API payload for creating a practitioner.
+    
+    API fields (discovered from testing):
+      - location_id: int (required)
+      - name: {"en": "..."} (required)
+      - description: {"en": "..."}
+      - speciality: {"en": "..."} (NOT a plain string!)
+      - sex: "male" | "female"
+      - languages: ["ENGLISH", ...]
+      - years_of_experience: int | null
+      - is_visible_to_ai: bool
+      - treats_children: bool | null  (NOTE: 's' in treats)
+      - treat_children_age is NOT an API field
+      - primary/secondary/additional qualifications are NOT separate fields;
+        API has qualifications_i18n (one combined field)
+    """
+    payload = {
+        "location_id": location_id,
+        "name": {"en": pract.get("name", get_name_en(pract))},
+        "is_visible_to_ai": pract.get("is_visible_to_ai", True),
+    }
+
+    # Description
+    desc_en = (pract.get("description_i18n") or {}).get("en")
+    if desc_en:
+        payload["description"] = {"en": desc_en}
+
+    # Speciality (API expects i18n dict)
+    spec = pract.get("speciality")
+    if spec:
+        payload["speciality"] = {"en": spec}
+
+    # Sex
+    if pract.get("sex"):
+        payload["sex"] = pract["sex"]
+
+    # Languages
+    if pract.get("languages"):
+        payload["languages"] = pract["languages"]
+
+    # Years of experience
+    if pract.get("years_of_experience") is not None:
+        payload["years_of_experience"] = pract["years_of_experience"]
+
+    # Treat children
+    if pract.get("treat_children") is not None:
+        payload["treats_children"] = pract["treat_children"]
+
+    # Qualifications - combine into one string
+    quals = []
+    for field in ["primary_qualifications", "secondary_qualifications", "additional_qualifications"]:
+        val = pract.get(field)
+        if val:
+            quals.append(val)
+    if quals:
+        combined = "\n\n".join(quals)
+        payload["qualifications"] = {"en": combined}
+
+    return payload
+
+
+def do_step4(execute: bool):
+    print("\n" + "=" * 70)
+    print("  STEP 4: Upload practitioners to both locations")
+    print("=" * 70)
+
+    local_practs = load_local("practitioners.json")
+    pract_class = classify_practitioners(local_practs)
+
+    # Which practitioners go where
+    practs_for_17 = pract_class["jumeirah_only"] + pract_class["both"]
+    practs_for_18 = pract_class["szr_only"] + pract_class["both"]
+
+    print(f"\n  Practitioners for Location 17 (Jumeirah): {len(practs_for_17)}")
+    print(f"    - jumeirah only: {len(pract_class['jumeirah_only'])}")
+    print(f"    - both/empty:    {len(pract_class['both'])}")
+    print(f"  Practitioners for Location 18 (SZR):      {len(practs_for_18)}")
+    print(f"    - szr only:      {len(pract_class['szr_only'])}")
+    print(f"    - both/empty:    {len(pract_class['both'])}")
+
+    for loc_id, loc_name, practs_list in [
+        (LOCATION_JUMEIRAH, "Jumeirah", practs_for_17),
+        (LOCATION_SZR, "SZR", practs_for_18),
+    ]:
+        print(f"\n  {'─'*50}")
+        print(f"  Location {loc_id} ({loc_name}): {len(practs_list)} practitioners")
+        print(f"  {'─'*50}")
+
+        # Check existing
+        api_practs = fetch_api_practitioners(loc_id)
+        existing = {normalize(get_name_en(p)): p for p in api_practs}
+
+        to_create = []
+        already = []
+        for p in practs_list:
+            name = normalize(p.get("name", get_name_en(p)))
+            if name in existing:
+                already.append(p)
+            else:
+                to_create.append(p)
+
+        print(f"    Already exists: {len(already)}")
+        print(f"    To create:      {len(to_create)}")
+
+        for p in to_create:
+            branches = p.get("branches", [])
+            print(f"      + {p.get('name', get_name_en(p)):<40} branches={branches}")
+
+        if not execute or not to_create:
+            continue
+
+        ok, fail = 0, 0
+        for p in to_create:
+            payload = build_practitioner_payload(p, loc_id)
+            try:
+                result = api_post(f"/locations/{loc_id}/practitioners", payload)
+                ok += 1
+                print(f"      ✓ {p.get('name', '?')} (api_id={result['id']})")
+            except Exception as e:
+                fail += 1
+                print(f"      ✗ {p.get('name', '?')}: {e}")
+
+        print(f"    Result: {ok} created, {fail} failed")
+
+    if not execute:
+        total = len(practs_for_17) + len(practs_for_18)
+        print(f"\n  [DRY RUN] Add --execute to create practitioners")
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# STEP 5: Link service-practitioners
+# ═════════════════════════════════════════════════════════════════════════════
+
+def do_step5(execute: bool):
+    print("\n" + "=" * 70)
+    print("  STEP 5: Link service-practitioners on both locations")
+    print("=" * 70)
+
+    local_svcs = load_local("services.json")
+    local_practs = load_local("practitioners.json")
+    local_sp = load_local("service_practitioners.json")
+    local_cats = load_local("categories.json")
+
+    svc_class = classify_services(local_svcs)
+    pract_class = classify_practitioners(local_practs)
+
+    # Build local ID → info mappings
+    local_svc_by_id = {s["id"]: s for s in local_svcs}
+    local_pract_id_to_name = {p["id"]: normalize(p.get("name", get_name_en(p))) for p in local_practs}
+    local_catid_to_name = build_local_catid_to_name(local_cats)
+
+    # Build local ID → branches
+    local_svc_id_to_branches = {s["id"]: set(s.get("branches", [])) for s in local_svcs}
+    local_pract_id_to_branches = {}
+    for p in local_practs:
+        branches = set(b.lower() for b in p.get("branches", []))
+        local_pract_id_to_branches[p["id"]] = branches
+
+    # For each location, determine which service-practitioner links apply
+    for loc_id, loc_name in [(LOCATION_JUMEIRAH, "Jumeirah"), (LOCATION_SZR, "SZR")]:
+        print(f"\n  {'─'*50}")
+        print(f"  Location {loc_id} ({loc_name})")
+        print(f"  {'─'*50}")
+
+        # Determine which branch names map to this location
+        if loc_id == LOCATION_JUMEIRAH:
+            loc_branch = "jumeirah"
+        else:
+            loc_branch = "srz"  # services use "srz"
+
+        # Get API data for this location
+        api_svcs = fetch_api_services(loc_id)
+        api_practs = fetch_api_practitioners(loc_id)
+        api_catid_to_name = build_api_catid_to_name(loc_id)
+
+        # Build API (name, category) → ID mapping for services (handles duplicates!)
+        api_svc_key_to_id = {}
+        for s in api_svcs:
+            cat_name = api_catid_to_name.get(s.get("category_id"), "")
+            key = svc_key(get_name_en(s), cat_name)
+            api_svc_key_to_id[key] = s["id"]
+
+        # Build API name → ID for practitioners (no duplicates expected)
+        api_pract_name_to_id = {normalize(get_name_en(p)): p["id"] for p in api_practs}
+
+        print(f"    API services:      {len(api_svcs)}")
+        print(f"    API practitioners: {len(api_practs)}")
+
+        # Get existing links
+        existing_links = set()
+        for p in api_practs:
+            for link in p.get("service_links", []):
+                existing_links.add((link["service_id"], p["id"]))
+
+        # Filter service-practitioner links for this location
+        links_for_location = []
+        skipped_svc = 0
+        skipped_pract = 0
+        skipped_no_api_svc = 0
+        skipped_no_api_pract = 0
+
+        for sp in local_sp:
+            local_svc_id = sp["service_id"]
+            local_pract_id = sp["practitioner_id"]
+
+            # Check if service belongs to this location
+            svc_branches = local_svc_id_to_branches.get(local_svc_id, set())
+
+            if loc_branch == "srz":
+                if "srz" not in svc_branches:
+                    skipped_svc += 1
+                    continue
+            else:  # jumeirah
+                if "jumeirah" not in svc_branches:
+                    skipped_svc += 1
+                    continue
+
+            # Check if practitioner belongs to this location
+            pract_branches = local_pract_id_to_branches.get(local_pract_id, set())
+            pract_name = local_pract_id_to_name.get(local_pract_id)
+
+            # Practitioner with empty branches → goes to both locations
+            if pract_branches:
+                if loc_id == LOCATION_SZR:
+                    if "szr" not in pract_branches and "srz" not in pract_branches:
+                        skipped_pract += 1
+                        continue
+                else:
+                    if "jumeirah" not in pract_branches:
+                        skipped_pract += 1
+                        continue
+
+            # Map service to API ID using (name, category) key
+            local_svc = local_svc_by_id.get(local_svc_id)
+            if not local_svc:
+                skipped_no_api_svc += 1
+                continue
+            local_cat_name = local_catid_to_name.get(local_svc.get("category_id"), "")
+            svc_k = svc_key(get_name_en(local_svc), local_cat_name)
+            api_svc_id = api_svc_key_to_id.get(svc_k)
+
+            api_pract_id = api_pract_name_to_id.get(pract_name)
+
+            if not api_svc_id:
+                skipped_no_api_svc += 1
+                continue
+            if not api_pract_id:
+                skipped_no_api_pract += 1
+                continue
+
+            # Skip if already linked
+            if (api_svc_id, api_pract_id) in existing_links:
+                continue
+
+            links_for_location.append({
+                "api_service_id": api_svc_id,
+                "api_practitioner_id": api_pract_id,
+                "service_name": normalize(get_name_en(local_svc)),
+                "practitioner_name": pract_name,
+            })
+
+        print(f"    Links to create:           {len(links_for_location)}")
+        print(f"    Skipped (svc wrong loc):   {skipped_svc}")
+        print(f"    Skipped (pract wrong loc): {skipped_pract}")
+        print(f"    Skipped (no API service):  {skipped_no_api_svc}")
+        print(f"    Skipped (no API pract):    {skipped_no_api_pract}")
+        print(f"    Already linked:            {len(existing_links)}")
+
+        if not links_for_location:
+            print("    Nothing to create.")
+            continue
+
+        # Show sample
+        for link in links_for_location[:10]:
+            print(f"      + svc={link['api_service_id']} ↔ pract={link['api_practitioner_id']}")
+        if len(links_for_location) > 10:
+            print(f"      ... and {len(links_for_location) - 10} more")
+
+        if not execute:
+            continue
+
+        print(f"    Creating {len(links_for_location)} links...")
+        ok, fail = 0, 0
+        for link in links_for_location:
+            try:
+                api_post(
+                    f"/locations/{loc_id}/practitioners/{link['api_practitioner_id']}/services",
+                    {"service_id": link["api_service_id"]},
+                )
+                ok += 1
+                if ok % 50 == 0:
+                    print(f"      ... created {ok} links")
+            except Exception as e:
+                fail += 1
+                if fail <= 5:
+                    print(f"      ✗ svc={link['api_service_id']} pract={link['api_practitioner_id']}: {e}")
+
+        print(f"    Result: {ok} created, {fail} failed")
+
+    if not execute:
+        print(f"\n  [DRY RUN] Add --execute to create service-practitioner links")
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# MAIN
+# ═════════════════════════════════════════════════════════════════════════════
 
 def main():
-    parser = argparse.ArgumentParser(description="Fix data distribution across locations")
-    parser.add_argument("--analyze", action="store_true", help="Analyze current state")
-    parser.add_argument("--upload-categories", action="store_true", help="Upload categories to Location 18")
-    parser.add_argument("--upload-services", action="store_true", help="Upload services to Location 18")
-    parser.add_argument("--delete-wrong", action="store_true", help="Delete srz-only services from Location 17")
-    parser.add_argument("--all", action="store_true", help="Do all operations")
+    parser = argparse.ArgumentParser(
+        description="Fix data distribution across locations",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python scripts/fix_locations.py --analyze
+  python scripts/fix_locations.py --step1                # Dry run
+  python scripts/fix_locations.py --step1 --execute      # Execute
+  python scripts/fix_locations.py --step2 --execute
+  python scripts/fix_locations.py --step3 --execute
+  python scripts/fix_locations.py --step4 --execute
+  python scripts/fix_locations.py --step5 --execute
+        """,
+    )
+    parser.add_argument("--analyze", action="store_true", help="Show analysis of current vs expected state")
+    parser.add_argument("--step1", action="store_true", help="Step 1: Upload categories to Location 18")
+    parser.add_argument("--step2", action="store_true", help="Step 2: Upload services to Location 18")
+    parser.add_argument("--step3", action="store_true", help="Step 3: Delete srz-only services from Location 17")
+    parser.add_argument("--step4", action="store_true", help="Step 4: Upload practitioners to both locations")
+    parser.add_argument("--step5", action="store_true", help="Step 5: Link service-practitioners on both locations")
     parser.add_argument("--execute", action="store_true", help="Actually execute (default is dry-run)")
-    
+
     args = parser.parse_args()
-    
-    if not any([args.analyze, args.upload_categories, args.upload_services, args.delete_wrong, args.all]):
+
+    if not any([args.analyze, args.step1, args.step2, args.step3, args.step4, args.step5]):
         parser.print_help()
-        print("\nExample:")
-        print("  python scripts/fix_locations.py --analyze")
-        print("  python scripts/fix_locations.py --upload-categories --execute")
         return
-    
-    if args.analyze or args.all:
-        analyze()
-    
-    if args.upload_categories or args.all:
-        upload_categories_to_18(execute=args.execute)
-    
-    if args.upload_services or args.all:
-        upload_services_to_18(execute=args.execute)
-    
-    if args.delete_wrong or args.all:
-        delete_wrong_services_from_17(execute=args.execute)
+
+    if args.analyze:
+        do_analyze()
+
+    if args.step1:
+        do_step1(execute=args.execute)
+
+    if args.step2:
+        do_step2(execute=args.execute)
+
+    if args.step3:
+        do_step3(execute=args.execute)
+
+    if args.step4:
+        do_step4(execute=args.execute)
+
+    if args.step5:
+        do_step5(execute=args.execute)
 
 
 if __name__ == "__main__":
