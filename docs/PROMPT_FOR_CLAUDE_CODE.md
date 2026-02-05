@@ -56,22 +56,65 @@ Extract unique categories and assign temporary IDs (will be fixed by script).
 
 ### 2. practitioners.json
 
-Extract unique doctors/practitioners and assign temporary IDs.
+Extract practitioners from Google Sheets tab "Practitioners".
 
+**Google Sheets URL:**
+```
+https://docs.google.com/spreadsheets/d/1ZXYPl573sgfdRYDJj1RzPDJLPpyKpGY6vgr4NsgJSlk/edit?gid=881293577#gid=881293577
+```
+
+**Full structure:**
 ```json
 [
   {
     "id": 1,
     "name": "Dr. Anna Zakhozha",
-    "name_i18n": {"en": "Dr. Anna Zakhozha"}
-  },
-  {
-    "id": 2,
-    "name": "Dr. Sarah Mohamed",
-    "name_i18n": {"en": "Dr. Sarah Mohamed"}
+    "name_i18n": {"en": "Dr. Anna Zakhozha"},
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": ["ENGLISH", "RUSSIAN", "UKRAINIAN"],
+    "description_i18n": {
+      "en": "Dr. Anna Zakhozha is a highly skilled...",
+      "ru": "Доктор Анна Захожа — высококвалифицированный..."
+    },
+    "years_of_experience": 13,
+    "primary_qualifications": "Board-certified Dermatologist...",
+    "secondary_qualifications": "Fellowship from American Academy...",
+    "additional_qualifications": "Certified in botulinum toxin...",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": ["srz"],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
   }
 ]
 ```
+
+**Column Mapping from Google Sheets:**
+
+| Column | Field | Parsing Rule |
+|--------|-------|--------------|
+| ID (col A) | `id` | Use as-is |
+| Name | `name`, `name_i18n.en` | Fix spacing: "Dr.Sarah" → "Dr. Sarah" |
+| Speciality | `speciality` | As-is |
+| Sex | `sex` | "Female" → "female", "Male" → "male" |
+| Languages | `languages` | Parse concatenated: "ENGLISHRUSSIAN" → ["ENGLISH", "RUSSIAN"] |
+| Description English | `description_i18n.en` | As-is |
+| Description Russian | `description_i18n.ru` | As-is |
+| Years of experience | `years_of_experience` | Extract number: "13+" → 13, "25" → 25 |
+| Primary Qualifications | `primary_qualifications` | As-is |
+| Secondary Qualifications | `secondary_qualifications` | As-is |
+| Additional Qualifications | `additional_qualifications` | As-is |
+| treat children | `treat_children`, `treat_children_age` | "No" → false/null, "Any age" → true/"Any age", "13+" → true/"13+" |
+| Branch | `branches` | "Hortman Clinics - Jumeirah 3" → ["jumeirah"], "Sheikh Zayed Road" → ["srz"] |
+
+**Known Languages for parsing:**
+ENGLISH, RUSSIAN, UKRAINIAN, ARABIC, FRENCH, AFRIKAANS, ROMANIAN, TURKISH, ARMENIAN, SPANISH
+
+**Branch Mapping:**
+- "Hortman Clinics - Jumeirah 3" → "jumeirah"
+- "Hortman Clinics - Sheikh Zayed Road" → "srz"
+- If both mentioned → ["jumeirah", "srz"]
 
 **Important:** Fix spacing in names like "Dr.Sarah" → "Dr. Sarah"
 
@@ -278,12 +321,22 @@ refoauto/
 Before completing, verify:
 
 - [ ] `data/output/categories.json` exists with id, name_i18n, sort_order
-- [ ] `data/output/practitioners.json` exists with id, name, name_i18n
+- [ ] `data/output/practitioners.json` exists with FULL structure (all fields from Google Sheets)
 - [ ] `data/output/services.json` exists with id, category_id, NO practitioners field
 - [ ] `data/output/service_practitioners.json` exists with service_id, practitioner_id pairs
 - [ ] Ran `python3 scripts/assign_ids.py` successfully
 - [ ] Ran `python3 scripts/sync_with_api.py` successfully
 - [ ] Reviewed `data/api/_sync_report.json` for matched/new categories
+
+## Practitioners-Specific Checklist
+
+- [ ] Read Google Sheets tab "Practitioners" (gid=881293577)
+- [ ] Parsed `languages` correctly (split concatenated strings)
+- [ ] Parsed `sex` correctly ("Female" → "female")
+- [ ] Parsed `years_of_experience` correctly ("13+" → 13)
+- [ ] Parsed `treat_children` correctly ("No" → false, "13+" → true with age)
+- [ ] Parsed `branches` correctly (clinic name → short code)
+- [ ] All practitioners have unique IDs
 
 ---
 
@@ -296,9 +349,23 @@ class ServiceCategory(BaseModel):
     sort_order: int
 
 class Practitioner(BaseModel):
+    """Full model - see models/pydantic_models.py"""
     id: int
-    name: str          # "Dr. Anna Zakhozha"
-    name_i18n: dict    # {"en": "Dr. Anna Zakhozha"}
+    name: str                          # "Dr. Anna Zakhozha"
+    name_i18n: dict                    # {"en": "Dr. Anna Zakhozha"}
+    speciality: str                    # "Specialist Dermatology"
+    sex: str                           # "male" | "female"
+    languages: list[str]               # ["ENGLISH", "RUSSIAN"]
+    description_i18n: dict             # {"en": "...", "ru": "..."}
+    years_of_experience: int | None    # 13
+    primary_qualifications: str
+    secondary_qualifications: str
+    additional_qualifications: str
+    treat_children: bool               # False = "No", True = any other
+    treat_children_age: str | None     # "13+", "Any age", None
+    branches: list[str]                # ["jumeirah"] or ["srz"] or both
+    is_visible_to_ai: bool = True
+    source: str = "google_sheets"
 
 class Service(BaseModel):
     id: int
@@ -314,4 +381,17 @@ class Service(BaseModel):
 class ServicePractitioner(BaseModel):
     service_id: int      # FK to Service
     practitioner_id: int # FK to Practitioner
+```
+
+## Helper Functions (models/pydantic_models.py)
+
+```python
+from models import (
+    parse_languages,           # "ENGLISHRUSSIAN" → ["ENGLISH", "RUSSIAN"]
+    parse_sex,                 # "Female" → "female"
+    parse_years_of_experience, # "13+" → 13
+    parse_treat_children,      # "No" → (False, None), "13+" → (True, "13+")
+    parse_branches,            # "Jumeirah 3" → ["jumeirah"]
+    practitioner_from_sheets_row,  # Full row → Practitioner dict
+)
 ```

@@ -1,0 +1,100 @@
+---
+description: DialogGauge API sync - categories, services, practitioners
+globs:
+  - scripts/upload_*.py
+  - scripts/get_categories.py
+  - scripts/sync_with_api.py
+  - data/output/*.json
+  - data/api/*.json
+alwaysApply: false
+---
+
+# DialogGauge API Sync Context
+
+## Проект
+
+Синхронизация данных между локальными JSON и DialogGauge API.
+
+- **API:** `https://dialoggauge.yma.health/api`
+- **Location ID:** `17` (в `scripts/get_categories.py`)
+- **Auth:** Cookie `dg_session` (автообновление через Playwright)
+
+## Ключевые файлы
+
+| Файл | Назначение |
+|------|------------|
+| `scripts/get_categories.py` | API функции (GET/POST) для categories, services, practitioners |
+| `scripts/upload_categories.py` | Загрузка категорий (dry-run по умолчанию, `--execute` для выполнения) |
+| `scripts/upload_services.py` | Загрузка сервисов (нужны загруженные категории!) |
+| `data/output/*.json` | Локальные данные с LOCAL ID |
+| `data/api/*.json` | Кэш ответов API |
+| `config/.dg_session.json` | Сессия авторизации |
+
+## Важные концепции
+
+### Local ID vs API ID
+- **Local ID** — временные ID в `data/output/*.json`
+- **API ID** — реальные ID в базе DialogGauge
+- Это РАЗНЫЕ числа! Не путать!
+
+### Сравнение по имени
+Элементы сравниваются по `name_i18n.en` (нормализованному):
+- lowercase
+- trim spaces
+- remove special chars
+
+### Маппинг category_id
+При загрузке сервисов:
+1. `local_category_id` → находим локальную категорию → получаем имя
+2. Имя → ищем в API категориях → получаем `api_category_id`
+3. Сервис создаётся с `api_category_id`
+
+## Порядок загрузки
+
+```
+1. Categories  → upload_categories.py --execute
+2. Services    → upload_services.py --execute
+3. Practitioners (TODO)
+4. ServicePractitioners (TODO)
+```
+
+## Безопасность
+
+- Скрипты идемпотентны — дубли НЕ создаются
+- Dry-run по умолчанию — показывает план без изменений
+- `--execute` — реально создаёт элементы
+
+## API Format
+
+```json
+// POST category/service
+{
+  "location_id": 17,
+  "name": {"en": "Name"},  // ОБЪЕКТ, не строка!
+  "is_visible_to_ai": true
+}
+```
+
+## Practitioners Data Source
+
+**Google Sheets:** https://docs.google.com/spreadsheets/d/1ZXYPl573sgfdRYDJj1RzPDJLPpyKpGY6vgr4NsgJSlk/edit?gid=881293577#gid=881293577
+
+### Column Mapping (ключевые)
+| Column | Field | Parse |
+|--------|-------|-------|
+| Name | `name`, `name_i18n.en` | As-is |
+| Speciality | `speciality` | As-is |
+| Sex | `sex` | "Female" → "female" |
+| Languages | `languages` | Split "ENGLISHRUSSIAN" → ["ENGLISH", "RUSSIAN"] |
+| Description English | `description_i18n.en` | As-is |
+| Years of experience | `years_of_experience` | "13+" → 13 |
+| Branch | `branches` | "Jumeirah 3" → "jumeirah", "Sheikh Zayed" → "srz" |
+
+### Pydantic модели
+Полные модели в `models/pydantic_models.py`:
+- `Practitioner` — все поля из Google Sheets
+- `Service`, `ServiceCategory`, `ServicePractitioner`
+
+## Полная документация
+
+Читай `docs/CLAUDE_CODE_CONTEXT.md` для полного контекста.

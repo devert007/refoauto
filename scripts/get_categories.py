@@ -341,6 +341,67 @@ def create_category(
     )
 
 
+def create_service(
+    name: str,
+    location_id: int = LOCATION_ID,
+    category_id: int | None = None,
+    description: str | None = None,
+    duration_minutes: int | None = None,
+    price_min: float | None = None,
+    price_max: float | None = None,
+    price_note: str | None = None,
+    is_visible_to_ai: bool = True,
+    session_cookie: str | None = None,
+) -> dict:
+    """
+    Create a new service via API.
+    
+    Args:
+        name: Service name (English)
+        location_id: Location ID
+        category_id: Category ID (optional)
+        description: Service description (optional)
+        duration_minutes: Duration in minutes (optional)
+        price_min: Minimum price (optional)
+        price_max: Maximum price (optional)
+        price_note: Price note (optional)
+        is_visible_to_ai: Whether service is visible to AI
+        session_cookie: Optional session cookie (auto-fetched if not provided)
+    
+    Returns:
+        Created service dict
+    """
+    data = {
+        "location_id": location_id,
+        "name": {"en": name},
+        "is_visible_to_ai": is_visible_to_ai,
+    }
+    
+    if category_id is not None:
+        data["category_id"] = category_id
+    
+    if description:
+        data["description"] = {"en": description}
+    
+    if duration_minutes is not None:
+        data["duration_minutes"] = duration_minutes
+    
+    if price_min is not None:
+        data["price_min"] = price_min
+    
+    if price_max is not None:
+        data["price_max"] = price_max
+    
+    if price_note:
+        data["price_note"] = {"en": price_note}
+    
+    return _api_post_request(
+        f"/locations/{location_id}/services",
+        data=data,
+        session_cookie=session_cookie,
+    )
+
+
 def get_categories(
     location_id: int = LOCATION_ID,
     flat: bool = True,
