@@ -1,0 +1,703 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Anna Zakhozha",
+    "name_i18n": {
+      "en": "Dr. Anna Zakhozha"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "RUSSIAN",
+      "UKRAINIAN"
+    ],
+    "description_i18n": {
+      "en": "Dr. Anna Zakhozha is a highly skilled and experienced Dermatology Specialist, widely recognized for her exceptional expertise in aesthetic medicine. With over a decade of experience, Dr. Anna is known for delivering advanced, customized skin treatments that combine medical precision with artistic finesse. She believes aesthetic medicine is not just science—it's an art form that enhances her patients’ natural beauty and boosts their self-confidence. Her practice is grounded in evidence-based medicine, supported by cutting-edge technologies and refined aesthetic judgment to ensure safe, natural-looking, and effective results. Whether it’s anti-aging treatments, skin rejuvenation, or advanced laser therapies, Dr. Anna provides each patient with personalized care tailored to their skin goals and concerns.\nDr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.\nDr. Anna’s commitment to staying at the forefront of her field is evident from her dedication to research and development. She combines the latest aesthetic techniques with innovative technology for more natural and effective results. Her approach is to provide care with a feminine touch and a deep understanding of the emotions that women experience when considering cosmetic surgery.\nDr. Anna is fluent in English, Russian, and Ukrainian and has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support.",
+      "ru": "Dr. Anna Zakhozha is a highly skilled and experienced Dermatology Specialist, widely recognized for her exceptional expertise in aesthetic medicine. With over a decade of experience, Dr. Anna is known for delivering advanced, customized skin treatments that combine medical precision with artistic finesse. She believes aesthetic medicine is not just science—it's an art form that enhances her patients’ natural beauty and boosts their self-confidence. Her practice is grounded in evidence-based medicine, supported by cutting-edge technologies and refined aesthetic judgment to ensure safe, natural-looking, and effective results. Whether it’s anti-aging treatments, skin rejuvenation, or advanced laser therapies, Dr. Anna provides each patient with personalized care tailored to their skin goals and concerns.\nDr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.\nDr. Anna’s commitment to staying at the forefront of her field is evident from her dedication to research and development. She combines the latest aesthetic techniques with innovative technology for more natural and effective results. Her approach is to provide care with a feminine touch and a deep understanding of the emotions that women experience when considering cosmetic surgery.\nDr. Anna is fluent in English, Russian, and Ukrainian and has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Dr Anna has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support.",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Nataliya Sanytska",
+    "name_i18n": {
+      "en": "Dr. Nataliya Sanytska"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "RUSSIAN",
+      "UKRAINIAN"
+    ],
+    "description_i18n": {
+      "en": "Dr. Nataliya Sanytska is an accomplished Board-Certified Dermatologist and Aesthetic Doctor with over 11 years of experience serving patients in the Gulf and throughout Europe. Recognized as an International medical Trainer and Speaker, Dr. Sanytska is passionate about sharing her knowledge and expertise with colleagues and industry professionals.\nDr. Sanytska received her medical degree from the prestigious National Medical University of O.O.Bogomolec in Ukraine. She completed advanced training and earned a master’s in Dermatology and Aesthetic Medicine from the Ukrainian National Medical Academy of Postgraduate Education. She further honed her skills with additional training in Germany and Spain.\nAs a dermatology and aesthetic medicine specialist, Dr. Sanytska offers a wide range of cutting-edge procedures to help her patients achieve the best possible results. Some of her specialty procedures include injectable and non-injectable skin rejuvenation, total natural face restoration, volume reconstruction with fillers and threads, threads face lifting and body tightening, complete natural PRP rejuvenation and volume rebuilding, stretch marks and scars treatment, SMAS lifting, micro-needling treatment, laser treatments, and treatment of skin conditions such as acne, rosacea, and pigmentation.\nWith her extensive experience, dedication to excellence, and commitment to patient satisfaction, Dr. Nataliya is a true leader in the field of dermatology and aesthetic medicine.",
+      "ru": "Dr. Nataliya Sanytska is an accomplished Board-Certified Dermatologist and Aesthetic Doctor with over 11 years of experience serving patients in the Gulf and throughout Europe. Recognized as an International medical Trainer and Speaker, Dr. Sanytska is passionate about sharing her knowledge and expertise with colleagues and industry professionals.\nDr. Sanytska received her medical degree from the prestigious National Medical University of O.O.Bogomolec in Ukraine. She completed advanced training and earned a master’s in Dermatology and Aesthetic Medicine from the Ukrainian National Medical Academy of Postgraduate Education. She further honed her skills with additional training in Germany and Spain.\nAs a dermatology and aesthetic medicine specialist, Dr. Sanytska offers a wide range of cutting-edge procedures to help her patients achieve the best possible results. Some of her specialty procedures include injectable and non-injectable skin rejuvenation, total natural face restoration, volume reconstruction with fillers and threads, threads face lifting and body tightening, complete natural PRP rejuvenation and volume rebuilding, stretch marks and scars treatment, SMAS lifting, micro-needling treatment, laser treatments, and treatment of skin conditions such as acne, rosacea, and pigmentation.\nWith her extensive experience, dedication to excellence, and commitment to patient satisfaction, Dr. Nataliya is a true leader in the field of dermatology and aesthetic medicine."
+    },
+    "years_of_experience": 11,
+    "primary_qualifications": "Dr. Sanytska received her medical degree from the prestigious National Medical University of O.O.Bogomolec in Ukraine. She completed advanced training and earned a master’s in Dermatology and Aesthetic Medicine from the Ukrainian National Medical Academy of Postgraduate Education. She further honed her skills with additional training in Germany and Spain.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "jumeirah"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sarah Mohamed",
+    "name_i18n": {
+      "en": "Dr. Sarah Mohamed"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Sarah Magdy is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.\n\nThroughout her career, Dr. Sarah has cultivated a reputation for her meticulous attention to detail, artistic precision, and deep-rooted passion for helping patients feel confident in their skin. Her treatment philosophy blends scientific rigor with a personalized, empathetic approach, ensuring every client receives a tailored plan designed to enhance their natural beauty while achieving long-lasting, healthy results.\n\nShe remains at the forefront of dermatological and cosmetic advancements by continuously updating her knowledge and techniques. Patients appreciate her gentle manner, transparent communication, and results-driven approach.",
+      "ru": "Dr. Sarah Magdy is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.\n\nThroughout her career, Dr. Sarah has cultivated a reputation for her meticulous attention to detail, artistic precision, and deep-rooted passion for helping patients feel confident in their skin. Her treatment philosophy blends scientific rigor with a personalized, empathetic approach, ensuring every client receives a tailored plan designed to enhance their natural beauty while achieving long-lasting, healthy results.\n\nShe remains at the forefront of dermatological and cosmetic advancements by continuously updating her knowledge and techniques. Patients appreciate her gentle manner, transparent communication, and results-driven approach."
+    },
+    "years_of_experience": 12,
+    "primary_qualifications": "Dr. Sarah Mohamed is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Tatiana Kuznechenkova",
+    "name_i18n": {
+      "en": "Dr. Tatiana Kuznechenkova"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "RUSSIAN"
+    ],
+    "description_i18n": {
+      "en": "Dr. Tatiana is a distinguished dermatologist with over a decade of clinical experience in dermatology and aesthetic medicine. As the Medical Director at MSM Proderma Polyclinic in Dubai, she has established herself as a leader in advanced skin care and facial rejuvenation. Holding a Ph.D. in Dermato-venereology and graduating with top honors from CMA, Russia, Dr. Tatiana combines academic excellence with clinical innovation to deliver exceptional patient outcomes.\n\nDr. Tatiana is the pioneer of the 3DL method—a cutting-edge, holistic skin rejuvenation technique designed to achieve natural-looking, personalized results. Known for her patient-centric approach and commitment to the highest standards of care, Dr. Tatiana offers tailored solutions in a state-of-the-art clinical setting. Fluent in both English and Russian, she serves a diverse patient population with professionalism, precision, and warmth.",
+      "ru": "Dr. Tatiana is a distinguished dermatologist with over a decade of clinical experience in dermatology and aesthetic medicine. As the Medical Director at MSM Proderma Polyclinic in Dubai, she has established herself as a leader in advanced skin care and facial rejuvenation. Holding a Ph.D. in Dermato-venereology and graduating with top honors from CMA, Russia, Dr. Tatiana combines academic excellence with clinical innovation to deliver exceptional patient outcomes.\n\nDr. Tatiana is the pioneer of the 3DL method—a cutting-edge, holistic skin rejuvenation technique designed to achieve natural-looking, personalized results. Known for her patient-centric approach and commitment to the highest standards of care, Dr. Tatiana offers tailored solutions in a state-of-the-art clinical setting. Fluent in both English and Russian, she serves a diverse patient population with professionalism, precision, and warmth."
+    },
+    "years_of_experience": 10,
+    "primary_qualifications": "Dr. Tatiana is a distinguished dermatologist with over a decade of clinical experience in dermatology and aesthetic medicine. As the Medical Director at MSM Proderma Polyclinic in Dubai, she has established herself as a leader in advanced skin care and facial rejuvenation. Holding a Ph.D. in Dermato-venereology and graduating with top honors from CMA, Russia, Dr. Tatiana combines academic excellence with clinical innovation to deliver exceptional patient outcomes.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Dr. Tatiana is the pioneer of the 3DL method—a cutting-edge, holistic skin rejuvenation technique designed to achieve natural-looking, personalized results",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "jumeirah"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Lyn Al Alamy AlHassany",
+    "name_i18n": {
+      "en": "Dr. Lyn Al Alamy AlHassany"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "With a deep passion for both science and artistry, Dr. Lyn Alamy has dedicated her career to the art of aesthetic and medical dermatology. A Double Board-Certified Aesthetic Dermatologist, she holds three distinguished qualifications:\nThe Arab Board\nThe Syrian Board\nA Master’s degree in Dermatology\nShe has been practicing since 2018, bringing expertise, precision, and innovation to every treatment.\n\nFor the past three years, Dr. Lyn has been based in Dubai, where she has built a reputation for delivering refined, natural, and elegant aesthetic results.\n\nWith an artistic background that began in childhood, Dr. Lyn brings a unique eye for facial harmony and balance, blending medical precision with creative vision. She is renowned for her signature lip fillers, expert facial contouring, and advanced collagen stimulation procedures. Dedicated to safe, evidence-based protocols, she delivers personalized, long-lasting results and also serves as an official trainer in aesthetic medicine, mentoring peers in technique, safety, and artistry.",
+      "ru": "With a deep passion for both science and artistry, Dr. Lyn Alamy has dedicated her career to the art of aesthetic and medical dermatology. A Double Board-Certified Aesthetic Dermatologist, she holds three distinguished qualifications:\nThe Arab Board\nThe Syrian Board\nA Master’s degree in Dermatology\nShe has been practicing since 2018, bringing expertise, precision, and innovation to every treatment.\n\nFor the past three years, Dr. Lyn has been based in Dubai, where she has built a reputation for delivering refined, natural, and elegant aesthetic results.\n\nWith an artistic background that began in childhood, Dr. Lyn brings a unique eye for facial harmony and balance, blending medical precision with creative vision. She is renowned for her signature lip fillers, expert facial contouring, and advanced collagen stimulation procedures. Dedicated to safe, evidence-based protocols, she delivers personalized, long-lasting results and also serves as an official trainer in aesthetic medicine, mentoring peers in technique, safety, and artistry."
+    },
+    "years_of_experience": 7,
+    "primary_qualifications": "Dr. Lyn Alamy has dedicated her career to the art of aesthetic and medical dermatology. A Double Board-Certified Aesthetic Dermatologist, she holds three distinguished qualifications:\nThe Arab Board\nThe Syrian Board\nA Master’s degree in Dermatology\nShe has been practicing since 2018, bringing expertise, precision, and innovation to every treatment.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "jumeirah"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Karem Harb",
+    "name_i18n": {
+      "en": "Dr. Karem Harb"
+    },
+    "speciality": "General Practitioner",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Karem Harb is a highly qualified medical professional and a licensed General Practitioner with a special interest in Aesthetic Medicine. He is an experienced clinical trainer in the field of aesthetics and currently holds the title of Medical Director at Hortman Clinics.\nDr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).\nWithin the field of Aesthetic Medicine, he performs various procedures for the face and body. These include but are not limited to; botox, fillers, chemical peels, bio-stimulators, exosomes, PRP, skin boosters, rejuvenating and resurfacing lasers, tattoo removals, skin tightening energy-based devices, body contouring machines, hair restoration treatments, and more.\nDr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management.",
+      "ru": "Dr. Karem Harb is a highly qualified medical professional and a licensed General Practitioner with a special interest in Aesthetic Medicine. He is an experienced clinical trainer in the field of aesthetics and currently holds the title of Medical Director at Hortman Clinics.\nDr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).\nWithin the field of Aesthetic Medicine, he performs various procedures for the face and body. These include but are not limited to; botox, fillers, chemical peels, bio-stimulators, exosomes, PRP, skin boosters, rejuvenating and resurfacing lasers, tattoo removals, skin tightening energy-based devices, body contouring machines, hair restoration treatments, and more.\nDr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Dr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management.",
+    "treat_children": true,
+    "treat_children_age": "Any age",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 7,
+    "name": "Rebecca Treston",
+    "name_i18n": {
+      "en": "Rebecca Treston"
+    },
+    "speciality": "Beauty and Laser Therapist",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Rebecca Treston is the visionary behind Rebecca Treston Aesthetics. With nearly 25 years of laser and skin care experience, Rebecca has been dubbed “Dubai’s Skincare Guru.”\n\nRebecca is sought after by royals, supermodels, global CEOs, top beauty and fashion editors, media personalities, and moms for her results-driven, innovative, multi-modal treatment protocols. She is recognized as a pioneer in the field of advanced laser therapies in aesthetic applications and advises manufacturers on best practices for their laser machines.\n\nRebecca has a loyal client following of nearly 15,000 clients. She is often quoted in prestigious publications such as Vogue, Harper’s Bazaar, Moje, Emirates Woman, Hello, and Savoir Flair, to name a few. Rebecca is not only highly qualified in her area of expertise; as a well-known practitioner in Dubai for over twenty years, she has a wealth of experience and knowledge in treating a variety of skin complaints and conditions.\n\nAs a licensed Medical Aesthetician and Laser Specialist, Rebecca has also attained NVQ Level 3 in Beauty Therapy – an advanced level of Beauty Therapy in the UK. She is a member of the American Academy of Anti-Ageing.",
+      "ru": "Rebecca Treston is the visionary behind Rebecca Treston Aesthetics. With nearly 25 years of laser and skin care experience, Rebecca has been dubbed “Dubai’s Skincare Guru.”\n\nRebecca is sought after by royals, supermodels, global CEOs, top beauty and fashion editors, media personalities, and moms for her results-driven, innovative, multi-modal treatment protocols. She is recognized as a pioneer in the field of advanced laser therapies in aesthetic applications and advises manufacturers on best practices for their laser machines.\n\nRebecca has a loyal client following of nearly 15,000 clients. She is often quoted in prestigious publications such as Vogue, Harper’s Bazaar, Moje, Emirates Woman, Hello, and Savoir Flair, to name a few. Rebecca is not only highly qualified in her area of expertise; as a well-known practitioner in Dubai for over twenty years, she has a wealth of experience and knowledge in treating a variety of skin complaints and conditions.\n\nAs a licensed Medical Aesthetician and Laser Specialist, Rebecca has also attained NVQ Level 3 in Beauty Therapy – an advanced level of Beauty Therapy in the UK. She is a member of the American Academy of Anti-Ageing."
+    },
+    "years_of_experience": 25,
+    "primary_qualifications": "As a licensed Medical Aesthetician and Laser Specialist, Rebecca has also attained NVQ Level 3 in Beauty Therapy – an advanced level of Beauty Therapy in the UK. She is a member of the American Academy of Anti-Ageing.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Rebecca Treston is the visionary behind Rebecca Treston Aesthetics. With nearly 25 years of laser and skin care experience, Rebecca has been dubbed “Dubai’s Skincare Guru.”\n\nRebecca is sought after by royals, supermodels, global CEOs, top beauty and fashion editors, media personalities, and moms for her results-driven, innovative, multi-modal treatment protocols. She is recognized as a pioneer in the field of advanced laser therapies in aesthetic applications and advises manufacturers on best practices for their laser machines.\n\nRebecca has a loyal client following of nearly 15,000 clients. She is often quoted in prestigious publications such as Vogue, Harper’s Bazaar, Moje, Emirates Woman, Hello, and Savoir Flair, to name a few. Rebecca is not only highly qualified in her area of expertise; as a well-known practitioner in Dubai for over twenty years, she has a wealth of experience and knowledge in treating a variety of skin complaints and conditions.",
+    "treat_children": false,
+    "treat_children_age": null,
+    "branches": [
+      "jumeirah"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 8,
+    "name": "Danielle April Stephen",
+    "name_i18n": {
+      "en": "Danielle April Stephen"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Danielle moved to Dubai five years ago to work in the growing beauty industry in the UAE. She is a fully qualified beauty and laser therapist from the City & Guilds at Aberdeen College in 2008 and has over 15 years of experience.\nDanielle provides treatments such as deep cleaning facials, face sculpting massages, chemical peels, and micro-needling. She also takes a holistic approach to skincare, emphasizing the importance of treating not just the skin on the surface but also from within. She is a firm believer in the power of nutrition and healthy lifestyle choices in achieving healthy, glowing skin.\nDanielle keeps up-to-date with the latest technological and medical advances in the laser beauty industry. This allows Danielle to guide the clients to make the best decisions to reach their skin and beauty goals. In her free time, she enjoys researching the latest trends and technologies in skincare, attending classes and seminars to further her education, and experimenting with her skincare routine. Thus, she is always up-to-date with what’s new and next in the skincare world.\nIf you’re looking for a knowledgeable and compassionate skin therapist genuinely committed to helping you achieve beautiful, healthy skin, look no further than Danielle!",
+      "ru": "Danielle moved to Dubai five years ago to work in the growing beauty industry in the UAE. She is a fully qualified beauty and laser therapist from the City & Guilds at Aberdeen College in 2008 and has over 15 years of experience.\nDanielle provides treatments such as deep cleaning facials, face sculpting massages, chemical peels, and micro-needling. She also takes a holistic approach to skincare, emphasizing the importance of treating not just the skin on the surface but also from within. She is a firm believer in the power of nutrition and healthy lifestyle choices in achieving healthy, glowing skin.\nDanielle keeps up-to-date with the latest technological and medical advances in the laser beauty industry. This allows Danielle to guide the clients to make the best decisions to reach their skin and beauty goals. In her free time, she enjoys researching the latest trends and technologies in skincare, attending classes and seminars to further her education, and experimenting with her skincare routine. Thus, she is always up-to-date with what’s new and next in the skincare world.\nIf you’re looking for a knowledgeable and compassionate skin therapist genuinely committed to helping you achieve beautiful, healthy skin, look no further than Danielle!"
+    },
+    "years_of_experience": 15,
+    "primary_qualifications": "Danielle is a fully qualified beauty and laser therapist from the City & Guilds at Aberdeen College in 2008 and has over 15 years of experience.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "jumeirah"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 9,
+    "name": "Joanine Nieuwoudt",
+    "name_i18n": {
+      "en": "Joanine Nieuwoudt"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "AFRIKAANS"
+    ],
+    "description_i18n": {
+      "en": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.\n\nWith a passion for beauty and skincare, Joanine has mastered the art of luxury facials, dermaplaning, and beauty treatments that leave her clients feeling refreshed and rejuvenated.\n\nJoanine likes to focus on the quality of her treatments, especially with her spa background, which helps her to combine the luxury aspect of 5* hotels with tailored aesthetic treatments. She is known for her gentle touch, exceptional communication skills, and ability to make her clients feel relaxed and comfortable throughout their experience.\n\nHer warm personality and passion for skincare make every appointment with her a luxurious and enjoyable experience. As a skin therapist at Hortman Clinic, Joanine strives to provide exceptional patient care and customer service.",
+      "ru": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.\n\nWith a passion for beauty and skincare, Joanine has mastered the art of luxury facials, dermaplaning, and beauty treatments that leave her clients feeling refreshed and rejuvenated.\n\nJoanine likes to focus on the quality of her treatments, especially with her spa background, which helps her to combine the luxury aspect of 5* hotels with tailored aesthetic treatments. She is known for her gentle touch, exceptional communication skills, and ability to make her clients feel relaxed and comfortable throughout their experience.\n\nHer warm personality and passion for skincare make every appointment with her a luxurious and enjoyable experience. As a skin therapist at Hortman Clinic, Joanine strives to provide exceptional patient care and customer service."
+    },
+    "years_of_experience": 15,
+    "primary_qualifications": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 10,
+    "name": "Andreea Paval",
+    "name_i18n": {
+      "en": "Andreea Paval"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ROMANIAN"
+    ],
+    "description_i18n": {
+      "en": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.\n\nAndreea have welcomed over 100 clients and looking forward to work with thousands more. Maybe you’ll be next!",
+      "ru": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.\n\nAndreea have welcomed over 100 clients and looking forward to work with thousands more. Maybe you’ll be next!"
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 11,
+    "name": "Olena Moshchenko",
+    "name_i18n": {
+      "en": "Olena Moshchenko"
+    },
+    "speciality": "Aesthetics & Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "UKRAINIAN",
+      "RUSSIAN"
+    ],
+    "description_i18n": {
+      "en": "Olena Moshchenko is a highly experienced Licensed Beauty Therapist and Laser Therapist, renowned for her expertise in the beauty and aesthetic industry. She serves as a Medical Trainer and Ambassador for prestigious brands such as Hydropeptide (USA), Swiss Line (Switzerland), and Ling (USA) across the GCC region. In addition to her work as a trainer for beauty therapists at Volna and the Nordic Beauty Academy, Olena is the proud owner of Derma Health Space in Ukraine and the creator of Derma Health Cosmetics.\n\nHer innovative approach is further highlighted through the development of the online course \"Medical Self-Massage\" and a specialized course on \"Cosmetic Chemistry\" for doctors and beauty therapists. With over 17 years of practical experience and 14 years in training, she has become a sought-after authority in skincare, medical devices, and customized skin programs.",
+      "ru": "Olena Moshchenko is a highly experienced Licensed Beauty Therapist and Laser Therapist, renowned for her expertise in the beauty and aesthetic industry. She serves as a Medical Trainer and Ambassador for prestigious brands such as Hydropeptide (USA), Swiss Line (Switzerland), and Ling (USA) across the GCC region. In addition to her work as a trainer for beauty therapists at Volna and the Nordic Beauty Academy, Olena is the proud owner of Derma Health Space in Ukraine and the creator of Derma Health Cosmetics.\n\nHer innovative approach is further highlighted through the development of the online course \"Medical Self-Massage\" and a specialized course on \"Cosmetic Chemistry\" for doctors and beauty therapists. With over 17 years of practical experience and 14 years in training, she has become a sought-after authority in skincare, medical devices, and customized skin programs."
+    },
+    "years_of_experience": 17,
+    "primary_qualifications": "Olena Moshchenko is a highly experienced Licensed Beauty Therapist and Laser Therapist, renowned for her expertise in the beauty and aesthetic industry. She serves as a Medical Trainer and Ambassador for prestigious brands such as Hydropeptide (USA), Swiss Line (Switzerland), and Ling (USA) across the GCC region. In addition to her work as a trainer for beauty therapists at Volna and the Nordic Beauty Academy, Olena is the proud owner of Derma Health Space in Ukraine and the creator of Derma Health Cosmetics.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Her innovative approach is further highlighted through the development of the online course \"Medical Self-Massage\" and a specialized course on \"Cosmetic Chemistry\" for doctors and beauty therapists. With over 17 years of practical experience and 14 years in training, she has become a sought-after authority in skincare, medical devices, and customized skin programs.",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "jumeirah",
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 12,
+    "name": "Nicole Juliet Zysk",
+    "name_i18n": {
+      "en": "Nicole Juliet Zysk"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.\n\nNicole is best known for her innovative approach to treating stretch marks and scar revision, including post-surgical scarring, as well as addressing complex pigmentation concerns, vascular lesions, and other skin irregularities. Her deep commitment to client care and cutting-edge techniques has earned her a loyal clientele and international recognition.\n\nMedia Recognition\n\nAs one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook",
+      "ru": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.\n\nNicole is best known for her innovative approach to treating stretch marks and scar revision, including post-surgical scarring, as well as addressing complex pigmentation concerns, vascular lesions, and other skin irregularities. Her deep commitment to client care and cutting-edge techniques has earned her a loyal clientele and international recognition.\n\nMedia Recognition\n\nAs one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook"
+    },
+    "years_of_experience": 14,
+    "primary_qualifications": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "As one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 13,
+    "name": "Sihem Fersi",
+    "name_i18n": {
+      "en": "Sihem Fersi"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Sihem Fersi is an accomplished and senior derma therapist with over 15 years of extensive experience in aesthetic dermatology across prestigious clinics in Dubai and Tunisia. As a proven leader who has headed laser and skin departments, she brings a wealth of knowledge in advanced cosmetic procedures, combined with a deep commitment to patient safety and satisfaction.\r\n\r\nSpecializing in laser technology, medical grade peels, and regenerative treatments like PRP, Sihem is highly skilled at creating personalized, results driven plans for a wide range of skin concerns, from acne and pigmentation to aging and skin laxity. Her method is rooted in continuous education, as evidenced by her numerous international certifications, ensuring she remains at the forefront of evidence based skincare practices.",
+      "ru": "Sihem Fersi is an accomplished and senior derma therapist with over 15 years of extensive experience in aesthetic dermatology across prestigious clinics in Dubai and Tunisia. As a proven leader who has headed laser and skin departments, she brings a wealth of knowledge in advanced cosmetic procedures, combined with a deep commitment to patient safety and satisfaction.\r\n\r\nSpecializing in laser technology, medical grade peels, and regenerative treatments like PRP, Sihem is highly skilled at creating personalized, results driven plans for a wide range of skin concerns, from acne and pigmentation to aging and skin laxity. Her method is rooted in continuous education, as evidenced by her numerous international certifications, ensuring she remains at the forefront of evidence based skincare practices."
+    },
+    "years_of_experience": 15,
+    "primary_qualifications": "Area of Expertise\r\nLaser Hair Removal\r\nSkin Rejuvenation & Pigmentation Treatments\r\nAcne and Scar Treatment\r\nPRP Therapy & Microneedling\r\nMedical Facials\r\nChemical Peels & Microdermabrasion\r\nSkin Tightening & Body Contouring",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 14,
+    "name": "Daria Buzynarska",
+    "name_i18n": {
+      "en": "Daria Buzynarska"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "RUSSIAN",
+      "FRENCH"
+    ],
+    "description_i18n": {
+      "en": "Daria Buzynarska is a passionate beauty and laser therapist who sees beauty as a reflection of inner skin health, balance, and confidence. With experience in Dubai's high end aesthetic clinics, she is dedicated to delivering exceptional, tailored treatments that enhance both the skin's appearance and the client's overall well being.\r\n\r\nHer philosophy, \"beautiful skin is healthy skin,\" is at the core of her practice. Daria specializes in a comprehensive range of advanced technologies, from transformative pigmentation treatments like Cosmelan to cutting edge skin tightening with Morpheus8 and non-invasive body contouring. She excels at creating personalized plans that respect the skin's natural function and integrity.\r\n\r\nKnown for her meticulous attention to detail and professionalism, Daria has built a trusted reputation, even among A list clientele. She believes in a consultative approach, ensuring every client feels heard and cared for. By combining her deep skincare knowledge with superior customer service, Daria provides a luxurious and results oriented experience that empowers her clients to feel their most confident.",
+      "ru": "Daria Buzynarska is a passionate beauty and laser therapist who sees beauty as a reflection of inner skin health, balance, and confidence. With experience in Dubai's high end aesthetic clinics, she is dedicated to delivering exceptional, tailored treatments that enhance both the skin's appearance and the client's overall well being.\r\n\r\nHer philosophy, \"beautiful skin is healthy skin,\" is at the core of her practice. Daria specializes in a comprehensive range of advanced technologies, from transformative pigmentation treatments like Cosmelan to cutting edge skin tightening with Morpheus8 and non-invasive body contouring. She excels at creating personalized plans that respect the skin's natural function and integrity.\r\n\r\nKnown for her meticulous attention to detail and professionalism, Daria has built a trusted reputation, even among A list clientele. She believes in a consultative approach, ensuring every client feels heard and cared for. By combining her deep skincare knowledge with superior customer service, Daria provides a luxurious and results oriented experience that empowers her clients to feel their most confident."
+    },
+    "years_of_experience": 5,
+    "primary_qualifications": "Area of Expertise\r\nAdvanced Facial Treatments (Hydrafacial, Jet Peel)\r\nPigmentation Solutions\r\nMicroneedling\r\nRadiofrequency & Skin Tightening\r\nNon-Surgical Body Contouring\r\nSkin Rejuvenation & Anti-Aging\r\nPersonalized Skincare Consultations",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 15,
+    "name": "Carole Semaan",
+    "name_i18n": {
+      "en": "Carole Semaan"
+    },
+    "speciality": "Beauty Therapist",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ARABIC",
+      "FRENCH"
+    ],
+    "description_i18n": {
+      "en": "Carole Semaan, PhD, is a distinguished Anti-Aging Specialist and a globally recognised leader in regenerative aesthetics and skin longevity. She is the Founder of CaroCare Club, the Middle East’s first award-winning anti-aging skincare club, internationally honoured for its innovation in personalised rejuvenation and advanced age-decode diagnostics.\r\n\r\nCarole made history as the first expert from the Middle East to be recognised at the Cannes Global Beauty Festivals, marking a landmark achievement in the field of aesthetics and skin science. With over 15 years of clinical experience, Dr. Carole blends scientific precision with advanced diagnostic technology to deliver long-term, cellular-level skin transformation. Her academic credentials include a Doctorate in Non-Surgical Cosmetics & Anti-Aging Skincare (UK), a Master’s Degree in Biology, and a Bachelor’s Degree in Nursing & Chronic Disease Care, forming a rare and comprehensive foundation in both clinical and regenerative care.\r\n\r\nHer academic journey began as a Demonstrator at Tishreen University, where she developed her evidence-based, research-driven approach to skin health, aging science, and regenerative medicine.",
+      "ru": "Carole Semaan, PhD, is a distinguished Anti-Aging Specialist and a globally recognised leader in regenerative aesthetics and skin longevity. She is the Founder of CaroCare Club, the Middle East’s first award-winning anti-aging skincare club, internationally honoured for its innovation in personalised rejuvenation and advanced age-decode diagnostics.\r\n\r\nCarole made history as the first expert from the Middle East to be recognised at the Cannes Global Beauty Festivals, marking a landmark achievement in the field of aesthetics and skin science. With over 15 years of clinical experience, Dr. Carole blends scientific precision with advanced diagnostic technology to deliver long-term, cellular-level skin transformation. Her academic credentials include a Doctorate in Non-Surgical Cosmetics & Anti-Aging Skincare (UK), a Master’s Degree in Biology, and a Bachelor’s Degree in Nursing & Chronic Disease Care, forming a rare and comprehensive foundation in both clinical and regenerative care.\r\n\r\nHer academic journey began as a Demonstrator at Tishreen University, where she developed her evidence-based, research-driven approach to skin health, aging science, and regenerative medicine."
+    },
+    "years_of_experience": 15,
+    "primary_qualifications": "Carole Semaan is an International Trainer at:\r\n\r\nVilafortuny Training Center\r\n\r\nMultiple leading European institutes\r\n\r\nShe delivers KHDA- and CPD-certified programs in:\r\n\r\nRegenerative aesthetics\r\n\r\nExosomes therapy\r\n\r\nMesotherapy\r\n\r\nLaser science\r\n\r\nAdvanced skin therapies",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 16,
+    "name": "Desiree Garcia",
+    "name_i18n": {
+      "en": "Desiree Garcia"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Desiree Garcia is a highly skilled UAE-licensed Registered Nurse and DHA-licensed Laser Therapist with over 15 years of combined experience in the healthcare and aesthetic industry.\r\n\r\nHer career began in Kuwait, where she spent 8 years honing her expertise in aesthetic medicine and laser treatments, with a particular focus on laser hair removal, skin rejuvenation, and body contouring.\r\n\r\nPassionate about delivering safe, effective, and personalized care, Desiree utilizes the latest medical-grade laser technologies to achieve optimal results. She works closely with each client, taking time to understand their unique needs and goals, ensuring every treatment is both comfortable and results-driven.\r\n\r\nHer commitment to continuous professional development has equipped her with advanced skills across a wide range of cutting-edge laser platforms and aesthetic procedures, making her a trusted and sought-after professional in her field.",
+      "ru": "Desiree Garcia is a highly skilled UAE-licensed Registered Nurse and DHA-licensed Laser Therapist with over 15 years of combined experience in the healthcare and aesthetic industry.\r\n\r\nHer career began in Kuwait, where she spent 8 years honing her expertise in aesthetic medicine and laser treatments, with a particular focus on laser hair removal, skin rejuvenation, and body contouring.\r\n\r\nPassionate about delivering safe, effective, and personalized care, Desiree utilizes the latest medical-grade laser technologies to achieve optimal results. She works closely with each client, taking time to understand their unique needs and goals, ensuring every treatment is both comfortable and results-driven.\r\n\r\nHer commitment to continuous professional development has equipped her with advanced skills across a wide range of cutting-edge laser platforms and aesthetic procedures, making her a trusted and sought-after professional in her field."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Desiree Garcia is a highly skilled UAE-licensed Registered Nurse and DHA-licensed Laser Therapist with over 15 years of combined experience in the healthcare and aesthetic industry.\r\n\r\nHer career began in Kuwait, where she spent 8 years honing her expertise in aesthetic medicine and laser treatments, with a particular focus on laser hair removal, skin rejuvenation, and body contouring.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 17,
+    "name": "Dr. Mohsen Soofian",
+    "name_i18n": {
+      "en": "Dr. Mohsen Soofian"
+    },
+    "speciality": "Consultant Family Medicine",
+    "sex": "male",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Dr. Mohsen Soofian is a graduate of the Pacific Northwest University of Health Sciences, holding a Doctor of Osteopathic Medicine degree. His professional journey is fueled by a deep passion for promoting healthier living, holistic well-being, and the establishment of effective fitness routines for those seeking a comprehensive approach to their health.\r\nAs a dedicated healthcare practitioner, Dr. Soofian’s primary focus lies in optimizing health and wellness across all facets of life. He is committed to offering a more natural and functional alternative to the limitations of traditional medicine. His mission is to empower individuals to take control of their health in a holistic manner.\r\nDr. Soofian is renowned for his practice of integrative health approaches, catering to international patients from around the world. His extensive training with the American Academy of Anti-Aging Medicine ensures that you are in the hands of a trusted and experienced professional. Dr. Soofian utilizes cutting-edge natural therapies, underscoring his commitment to a truly integrated approach to well-being.\r\nWith a specialization in Family Medicine, Dr. Soofian brings a wealth of knowledge in the fields of wellness and regenerative medicine. His services extend to Men’s Health & Wellness, Non-Surgical Weight-Loss solutions, Hormone Replacement therapies, and more.\r\nDr. Mohsen Soofian’s dedication to holistic health and well-being makes him a trusted guide for individuals seeking a comprehensive approach to their fitness and vitality.",
+      "ru": "Dr. Mohsen Soofian is a graduate of the Pacific Northwest University of Health Sciences, holding a Doctor of Osteopathic Medicine degree. His professional journey is fueled by a deep passion for promoting healthier living, holistic well-being, and the establishment of effective fitness routines for those seeking a comprehensive approach to their health.\r\nAs a dedicated healthcare practitioner, Dr. Soofian’s primary focus lies in optimizing health and wellness across all facets of life. He is committed to offering a more natural and functional alternative to the limitations of traditional medicine. His mission is to empower individuals to take control of their health in a holistic manner.\r\nDr. Soofian is renowned for his practice of integrative health approaches, catering to international patients from around the world. His extensive training with the American Academy of Anti-Aging Medicine ensures that you are in the hands of a trusted and experienced professional. Dr. Soofian utilizes cutting-edge natural therapies, underscoring his commitment to a truly integrated approach to well-being.\r\nWith a specialization in Family Medicine, Dr. Soofian brings a wealth of knowledge in the fields of wellness and regenerative medicine. His services extend to Men’s Health & Wellness, Non-Surgical Weight-Loss solutions, Hormone Replacement therapies, and more.\r\nDr. Mohsen Soofian’s dedication to holistic health and well-being makes him a trusted guide for individuals seeking a comprehensive approach to their fitness and vitality."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Mohsen Soofian is a graduate of the Pacific Northwest University of Health Sciences, holding a Doctor of Osteopathic Medicine degree. His professional journey is fueled by a deep passion for promoting healthier living, holistic well-being, and the establishment of effective fitness routines for those seeking a comprehensive approach to their health.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 18,
+    "name": "Dr. Raquel Fernández De Castro",
+    "name_i18n": {
+      "en": "Dr. Raquel Fernández De Castro"
+    },
+    "speciality": "Specialist Family Medicine",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Dr. Raquel Fernández De Castro is a leading figure in Aesthetic Medicine and Antiaging, renowned for her dedication, innovation, and patient-centered approach. With advanced training in Surgery, Psychiatry, and Aesthetic Medicine, she combines medical expertise with artistry to deliver natural, safe, and effective results. Her career reflects a relentless pursuit of excellence, making her a trusted expert both locally and internationally.\nAwards & Recognition:\n2018: Doctoralia Awards – Finalist\n\n2019: Spain’s First Place Winner in Aesthetic Medicine – Doctoralia Awards\n\n2020: Top Doctors Certificate of Excellence\n\n2021: Best Botulinum Toxin Specialist – LA RAZÓN Beauty and Aesthetics Awards\n\n2022: Doctoralia Awards – Nominated                                Awards & Recognition:\n2018: Doctoralia Awards – Finalist\n\n2019: Spain’s First Place Winner in Aesthetic Medicine – Doctoralia Awards\n\n2020: Top Doctors Certificate of Excellence\n\n2021: Best Botulinum Toxin Specialist – LA RAZÓN Beauty and Aesthetics Awards   Academic & Professional Training:\nSpecialized in Family Medicine & Emergency, Valencia (2010–2014)\n\nMaster’s in Aesthetic Medicine & Antiaging, Mallorca\n\nDoctor Cum Laude, Medicine – Dominican Republic\n\nSurgery & Psychiatry Training – La Timone Hospital & La Conception Hospital, Marseille, France\n\nExecutive MBA – EAE Business School\n\n    Professional Contributions:\nInternational KOL & trainer for doctors worldwide\n\nBrand Ambassador for Filorga & Reviderm",
+      "ru": "Dr. Raquel Fernández De Castro is a leading figure in Aesthetic Medicine and Antiaging, renowned for her dedication, innovation, and patient-centered approach. With advanced training in Surgery, Psychiatry, and Aesthetic Medicine, she combines medical expertise with artistry to deliver natural, safe, and effective results. Her career reflects a relentless pursuit of excellence, making her a trusted expert both locally and internationally.\nAwards & Recognition:\n2018: Doctoralia Awards – Finalist\n\n2019: Spain’s First Place Winner in Aesthetic Medicine – Doctoralia Awards\n\n2020: Top Doctors Certificate of Excellence\n\n2021: Best Botulinum Toxin Specialist – LA RAZÓN Beauty and Aesthetics Awards\n\n2022: Doctoralia Awards – Nominated                                Awards & Recognition:\n2018: Doctoralia Awards – Finalist\n\n2019: Spain’s First Place Winner in Aesthetic Medicine – Doctoralia Awards\n\n2020: Top Doctors Certificate of Excellence\n\n2021: Best Botulinum Toxin Specialist – LA RAZÓN Beauty and Aesthetics Awards   Academic & Professional Training:\nSpecialized in Family Medicine & Emergency, Valencia (2010–2014)\n\nMaster’s in Aesthetic Medicine & Antiaging, Mallorca\n\nDoctor Cum Laude, Medicine – Dominican Republic\n\nSurgery & Psychiatry Training – La Timone Hospital & La Conception Hospital, Marseille, France\n\nExecutive MBA – EAE Business School\n\n    Professional Contributions:\nInternational KOL & trainer for doctors worldwide\n\nBrand Ambassador for Filorga & Reviderm"
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Specialized in Family Medicine & Emergency, Valencia (2010–2014)\r\n\r\nMaster’s in Aesthetic Medicine & Antiaging, Mallorca\r\n\r\nDoctor Cum Laude, Medicine – Dominican Republic\r\n\r\nSurgery & Psychiatry Training – La Timone Hospital & La Conception Hospital, Marseille, France\r\n\r\nExecutive MBA – EAE Business School",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 19,
+    "name": "Dr. Amitabha Majumdar",
+    "name_i18n": {
+      "en": "Dr. Amitabha Majumdar"
+    },
+    "speciality": "Consultant Obstetrician and Gynaecologist",
+    "sex": "male",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Dr. Amitabha Majumdar is a highly experienced Consultant Obstetrician and Gynecologist with over 30 years of expertise, specializing in urogynecology. His comprehensive skill set and attention to detail make him one of Dubai's top professionals in his field. His expertise spans high-risk pregnancy, urinary incontinence, chronic pelvic pain, and cervical cancer management. Passionate about transforming lives, he also mentors the next generation of gynecologists.",
+      "ru": "Dr. Amitabha Majumdar is a highly experienced Consultant Obstetrician and Gynecologist with over 30 years of expertise, specializing in urogynecology. His comprehensive skill set and attention to detail make him one of Dubai's top professionals in his field. His expertise spans high-risk pregnancy, urinary incontinence, chronic pelvic pain, and cervical cancer management. Passionate about transforming lives, he also mentors the next generation of gynecologists."
+    },
+    "years_of_experience": 30,
+    "primary_qualifications": "Dr. Amitabha Majumdar is a highly experienced Consultant Obstetrician and Gynecologist with over 30 years of expertise, specializing in urogynecology. His comprehensive skill set and attention to detail make him one of Dubai's top professionals in his field. His expertise spans high-risk pregnancy, urinary incontinence, chronic pelvic pain, and cervical cancer management. Passionate about transforming lives, he also mentors the next generation of gynecologists.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 20,
+    "name": "Dr. Rashad Haddad",
+    "name_i18n": {
+      "en": "Dr. Rashad Haddad"
+    },
+    "speciality": "Consultant Obstetrician and Gynaecologist",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Rashad Haddad is a globally recognized leader and one of the world’s top experts in Cosmetic Gynecology.\r\n\r\nHe began his distinguished medical career in the academic hospitals of Paris, later serving as an Associate Professor while also building a thriving private practice in the French capital.\r\n\r\nHis mission is to help women overcome the emotional distress and physical discomfort associated with gynecologic issues, restoring their self-confidence and overall well-being.\r\n\r\nDr. Rashad is deeply committed to medical education, providing extensive training to physicians worldwide on the latest trends and techniques in aesthetic and cosmetic gynecology.\r\n\r\nWith a unique approach that combines effective management of female sexual dysfunction with advanced aesthetic solutions, he delivers truly comprehensive care.\r\n\r\nHe maintains clinical practices in Dubai, Paris, and Riyadh, and is highly regarded worldwide by both patients and medical professionals for his expertise, compassion, and transformative contributions to women’s health.",
+      "ru": "Dr. Rashad Haddad is a globally recognized leader and one of the world’s top experts in Cosmetic Gynecology.\r\n\r\nHe began his distinguished medical career in the academic hospitals of Paris, later serving as an Associate Professor while also building a thriving private practice in the French capital.\r\n\r\nHis mission is to help women overcome the emotional distress and physical discomfort associated with gynecologic issues, restoring their self-confidence and overall well-being.\r\n\r\nDr. Rashad is deeply committed to medical education, providing extensive training to physicians worldwide on the latest trends and techniques in aesthetic and cosmetic gynecology.\r\n\r\nWith a unique approach that combines effective management of female sexual dysfunction with advanced aesthetic solutions, he delivers truly comprehensive care.\r\n\r\nHe maintains clinical practices in Dubai, Paris, and Riyadh, and is highly regarded worldwide by both patients and medical professionals for his expertise, compassion, and transformative contributions to women’s health."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Rashad Haddad is a globally recognized leader and one of the world’s top experts in Cosmetic Gynecology.\r\n\r\nHe began his distinguished medical career in the academic hospitals of Paris, later serving as an Associate Professor while also building a thriving private practice in the French capital.\r\n\r\nHis mission is to help women overcome the emotional distress and physical discomfort associated with gynecologic issues, restoring their self-confidence and overall well-being.\r\n\r\nDr. Rashad is deeply committed to medical education, providing extensive training to physicians worldwide on the latest trends and techniques in aesthetic and cosmetic gynecology.\r\n\r\nWith a unique approach that combines effective management of female sexual dysfunction with advanced aesthetic solutions, he delivers truly comprehensive care.\r\n\r\nHe maintains clinical practices in Dubai, Paris, and Riyadh, and is highly regarded worldwide by both patients and medical professionals for his expertise, compassion, and transformative contributions to women’s health.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 21,
+    "name": "Dr. John Milam Shamoun",
+    "name_i18n": {
+      "en": "Dr. John Milam Shamoun"
+    },
+    "speciality": "Specialist Plastic Surgery",
+    "sex": "male",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Dr. Shamoun brings a wealth of experience spanning 25 years, specializing in both 𝐜𝐨𝐬𝐦𝐞𝐭𝐢𝐜 𝐚𝐧𝐝 𝐫𝐞𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐯𝐞 𝐩𝐫𝐨𝐜𝐞𝐝𝐮𝐫𝐞𝐬.\r\nBeing among the rare few to hold 𝐪𝐮𝐚𝐝𝐫𝐮𝐩𝐥𝐞 𝐛𝐨𝐚𝐫𝐝 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧. With certifications from the American Board of Surgery, the American Board of Plastic Surgery, the American Board of Facial, Plastic, and Reconstructive Surgery, and the American Board of Forensic Medicine, Dr. Shamoun’s credentials exemplify the highest echelons of expertise.\r\nStay tuned for more insights into Dr. Shamoun’s distinctive approach, coming soon.",
+      "ru": "Dr. Shamoun brings a wealth of experience spanning 25 years, specializing in both 𝐜𝐨𝐬𝐦𝐞𝐭𝐢𝐜 𝐚𝐧𝐝 𝐫𝐞𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐯𝐞 𝐩𝐫𝐨𝐜𝐞𝐝𝐮𝐫𝐞𝐬.\r\nBeing among the rare few to hold 𝐪𝐮𝐚𝐝𝐫𝐮𝐩𝐥𝐞 𝐛𝐨𝐚𝐫𝐝 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧. With certifications from the American Board of Surgery, the American Board of Plastic Surgery, the American Board of Facial, Plastic, and Reconstructive Surgery, and the American Board of Forensic Medicine, Dr. Shamoun’s credentials exemplify the highest echelons of expertise.\r\nStay tuned for more insights into Dr. Shamoun’s distinctive approach, coming soon."
+    },
+    "years_of_experience": 25,
+    "primary_qualifications": "Being among the rare few to hold 𝐪𝐮𝐚𝐝𝐫𝐮𝐩𝐥𝐞 𝐛𝐨𝐚𝐫𝐝 𝐜𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧. With certifications from the American Board of Surgery, the American Board of Plastic Surgery, the American Board of Facial, Plastic, and Reconstructive Surgery, and the American Board of Forensic Medicine, Dr. Shamoun’s credentials exemplify the highest echelons of expertise.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 22,
+    "name": "Dr. Amr Elnaggary",
+    "name_i18n": {
+      "en": "Dr. Amr Elnaggary"
+    },
+    "speciality": "Specialist Plastic Surgery",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Amr Mohamed Abd El Moniem El Naggary is an Egyptian plastic and reconstructive surgeon, internationally recognized for his expertise in surgical and non-surgical aesthetics. In 2010, he founded YES Clinics, a leading center in Egypt for cosmetic surgery, dermatology, and wellness. With over 10,000 successful surgeries since 1996, he combines advanced technology with a patient-focused approach, earning a strong reputation as one of the Middle East’s most respected plastic surgeons. Exceptional expertise in plastic and reconstructive surgery innovations.\n\nMastery of high-technology devices and advanced surgical techniques.\n\nStrong interpersonal, leadership, and teaching skills.\n\nExcellent verbal and written communication abilities.\n\nProven ability to mentor and train surgeons internationally. Performed 10,000+ successful surgeries in body contouring, facial aesthetics, breast surgery, and injectables.\n\nFirst APTOST™ Expert worldwide, with hands-on experience since 2000.\n\nInternational Trainer & Ambassador:\n\nTeosyal Trainer\n\nSpherofill Ambassador\n\nMiddle East Trainer for Liposound™ Sculpture (UAL)\n\nMiddle East Trainer for J-Plasma (Renuvion)\n\nTrainer at ICME Academy\n\nConsultant Plastic Surgeon – Medical Harmonie Cosmetic Center, Germany.\n\nLeadership Roles:\n\nPresident – International Training Academy (ITA)\n\nGeneral Secretary – ICCE Conference, Egypt\n\nMemberships:\n\nEgyptian Society of Plastic & Reconstructive Surgery\n\nISAPS (International Society of Aesthetic Plastic Surgery)",
+      "ru": "Dr. Amr Mohamed Abd El Moniem El Naggary is an Egyptian plastic and reconstructive surgeon, internationally recognized for his expertise in surgical and non-surgical aesthetics. In 2010, he founded YES Clinics, a leading center in Egypt for cosmetic surgery, dermatology, and wellness. With over 10,000 successful surgeries since 1996, he combines advanced technology with a patient-focused approach, earning a strong reputation as one of the Middle East’s most respected plastic surgeons. Exceptional expertise in plastic and reconstructive surgery innovations.\n\nMastery of high-technology devices and advanced surgical techniques.\n\nStrong interpersonal, leadership, and teaching skills.\n\nExcellent verbal and written communication abilities.\n\nProven ability to mentor and train surgeons internationally. Performed 10,000+ successful surgeries in body contouring, facial aesthetics, breast surgery, and injectables.\n\nFirst APTOST™ Expert worldwide, with hands-on experience since 2000.\n\nInternational Trainer & Ambassador:\n\nTeosyal Trainer\n\nSpherofill Ambassador\n\nMiddle East Trainer for Liposound™ Sculpture (UAL)\n\nMiddle East Trainer for J-Plasma (Renuvion)\n\nTrainer at ICME Academy\n\nConsultant Plastic Surgeon – Medical Harmonie Cosmetic Center, Germany.\n\nLeadership Roles:\n\nPresident – International Training Academy (ITA)\n\nGeneral Secretary – ICCE Conference, Egypt\n\nMemberships:\n\nEgyptian Society of Plastic & Reconstructive Surgery\n\nISAPS (International Society of Aesthetic Plastic Surgery)"
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "M.D. in Plastic & Reconstructive Surgery (2006) – Qasr Al Ainy College, Cairo University (Excellent with Honor)\n\nMaster’s Degree (2001) – Qasr Al Ainy College, Cairo University (Excellent with Honor)\n\nM.B.B.Ch (1996) – Qasr Al Ainy College, Cairo University (Excellent with Honor)",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 23,
+    "name": "Dr. Garabet Kassabian",
+    "name_i18n": {
+      "en": "Dr. Garabet Kassabian"
+    },
+    "speciality": "Specialist Plastic Surgery",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "ARABIC",
+      "ARMENIAN",
+      "SPANISH",
+      "FRENCH"
+    ],
+    "description_i18n": {
+      "en": "Dr. Garo Kassabian is a world-renowned, Board-Certified Plastic Surgeon and the founder of Lift MD Aesthetics in Beverly Hills.\n\nWith over nine years of formal training and three specialized fellowships, his background ranks among the top tier of international aesthetic surgeons.\n\nA recognized author, researcher, and speaker, Dr. Kassabian is celebrated for his innovative signature procedures, including The Invisible Bra for breast augmentation and the Scarless Facelift.\n\nHe specializes in achieving exceptionally natural results in Rhinoplasty, Facial Rejuvenation, Breast Augmentation, and Body Contouring — expertise that earned him the “Best Surgical Facial Rejuvenation” award at the Aesthetic Awards.\n\nA trusted media expert, he has been featured on shows such as NIP/TUCK, CBS, and his own series Doctor Lift. Dr. Kassabian is praised by both patients and colleagues for his workmanship, talent, and commitment to excellence, attracting a distinguished international clientele.",
+      "ru": "Dr. Garo Kassabian is a world-renowned, Board-Certified Plastic Surgeon and the founder of Lift MD Aesthetics in Beverly Hills.\n\nWith over nine years of formal training and three specialized fellowships, his background ranks among the top tier of international aesthetic surgeons.\n\nA recognized author, researcher, and speaker, Dr. Kassabian is celebrated for his innovative signature procedures, including The Invisible Bra for breast augmentation and the Scarless Facelift.\n\nHe specializes in achieving exceptionally natural results in Rhinoplasty, Facial Rejuvenation, Breast Augmentation, and Body Contouring — expertise that earned him the “Best Surgical Facial Rejuvenation” award at the Aesthetic Awards.\n\nA trusted media expert, he has been featured on shows such as NIP/TUCK, CBS, and his own series Doctor Lift. Dr. Kassabian is praised by both patients and colleagues for his workmanship, talent, and commitment to excellence, attracting a distinguished international clientele."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Garo Kassabian is a world-renowned, Board-Certified Plastic Surgeon and the founder of Lift MD Aesthetics in Beverly Hills.\r\n\r\nWith over nine years of formal training and three specialized fellowships, his background ranks among the top tier of international aesthetic surgeons.\r\n\r\nA recognized author, researcher, and speaker, Dr. Kassabian is celebrated for his innovative signature procedures, including The Invisible Bra for breast augmentation and the Scarless Facelift.\r\n\r\nHe specializes in achieving exceptionally natural results in Rhinoplasty, Facial Rejuvenation, Breast Augmentation, and Body Contouring — expertise that earned him the “Best Surgical Facial Rejuvenation” award at the Aesthetic Awards.\r\n\r\nA trusted media expert, he has been featured on shows such as NIP/TUCK, CBS, and his own series Doctor Lift. Dr. Kassabian is praised by both patients and colleagues for his workmanship, talent, and commitment to excellence, attracting a distinguished international clientele.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 24,
+    "name": "Dr. Kinan Bonni",
+    "name_i18n": {
+      "en": "Dr. Kinan Bonni"
+    },
+    "speciality": "General & Cosmetic Dentist / Implantologist",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Kinan Bonni is a highly skilled cosmetic dentist with more than five years of extensive experience in the UAE. Dr. Bonni graduated in 2015 from the University of Ajman and achieved his ID-SC Diploma in Implant Dentistry from the University of Toronto and a Diploma in Endodontics from the University of Lyon in France.\n\nHe is passionate about delivering the highest quality care to his patients and staying up-to-date with the latest developments in the industry. Throughout his career, he was invited to work as a clinical trainer, educating fellow dentists on cosmetic dentistry.",
+      "ru": "Dr. Kinan Bonni is a highly skilled cosmetic dentist with more than five years of extensive experience in the UAE. Dr. Bonni graduated in 2015 from the University of Ajman and achieved his ID-SC Diploma in Implant Dentistry from the University of Toronto and a Diploma in Endodontics from the University of Lyon in France.\n\nHe is passionate about delivering the highest quality care to his patients and staying up-to-date with the latest developments in the industry. Throughout his career, he was invited to work as a clinical trainer, educating fellow dentists on cosmetic dentistry."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Kinan Bonni is a highly skilled cosmetic dentist with more than five years of extensive experience in the UAE. Dr. Bonni graduated in 2015 from the University of Ajman and achieved his ID-SC Diploma in Implant Dentistry from the University of Toronto and a Diploma in Endodontics from the University of Lyon in France.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 25,
+    "name": "Dr. Zainab Mohi",
+    "name_i18n": {
+      "en": "Dr. Zainab Mohi"
+    },
+    "speciality": "General & Cosmetic Dentist",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Zainab Mohi is a highly skilled General and Cosmetic Dentist with expertise across a wide range of dental procedures, including restorative, preventive, cosmetic, and emergency dental care. She earned her Doctor of Dental Surgery degree with honors from Ajman University and holds a Master’s in Aesthetic Oral Rehabilitation from the Universitat Internacional de Catalunya. Dr. Zainab has further enhanced her practice through comprehensive dental internships and courses in various dental specialties.\r\n\r\nShe is dedicated to advancing her field through scientific research and has contributed articles to peer-reviewed journals. Actively participating in dental events, she is committed to staying at the forefront of the latest dental technologies and treatment innovations.\r\n\r\nPassionate about all aspects of general dentistry, Dr. Zainab strives to improve both the aesthetics and function of her patients’ smiles, providing relief from pain and enhancing overall oral health. She is deeply committed to delivering high-quality, comprehensive care while educating her patients on the vital connection between oral health and overall well-being.\r\n\r\nDr. Zainab ensures her patients are well-informed and actively involved in their treatment plans, offering them the best that modern dentistry has to offer.",
+      "ru": "Dr. Zainab Mohi is a highly skilled General and Cosmetic Dentist with expertise across a wide range of dental procedures, including restorative, preventive, cosmetic, and emergency dental care. She earned her Doctor of Dental Surgery degree with honors from Ajman University and holds a Master’s in Aesthetic Oral Rehabilitation from the Universitat Internacional de Catalunya. Dr. Zainab has further enhanced her practice through comprehensive dental internships and courses in various dental specialties.\r\n\r\nShe is dedicated to advancing her field through scientific research and has contributed articles to peer-reviewed journals. Actively participating in dental events, she is committed to staying at the forefront of the latest dental technologies and treatment innovations.\r\n\r\nPassionate about all aspects of general dentistry, Dr. Zainab strives to improve both the aesthetics and function of her patients’ smiles, providing relief from pain and enhancing overall oral health. She is deeply committed to delivering high-quality, comprehensive care while educating her patients on the vital connection between oral health and overall well-being.\r\n\r\nDr. Zainab ensures her patients are well-informed and actively involved in their treatment plans, offering them the best that modern dentistry has to offer."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Zainab Mohi is a highly skilled General and Cosmetic Dentist with expertise across a wide range of dental procedures, including restorative, preventive, cosmetic, and emergency dental care. She earned her Doctor of Dental Surgery degree with honors from Ajman University and holds a Master’s in Aesthetic Oral Rehabilitation from the Universitat Internacional de Catalunya. Dr. Zainab has further enhanced her practice through comprehensive dental internships and courses in various dental specialties.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 26,
+    "name": "Dr. Sezgin Cagatay",
+    "name_i18n": {
+      "en": "Dr. Sezgin Cagatay"
+    },
+    "speciality": "Specialist General Surgery – Hair Transplant",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "TURKISH"
+    ],
+    "description_i18n": {
+      "en": "Dr. Çağatay Sezgin is a celebrity Hair Transplant Surgeon with over 20 years of experience in hair transplantation and restoration. He completed his medical degree and general surgery specialty training in Turkey, and he is a Turkish Board General Surgeon and holds both DHA and DHCC licenses.\r\n\r\nDr. Sezgin has been a member of the International Society of Hair Restoration Surgery (ISHRS) since 2001, a very prestigious organization in the field of hair restoration. He is also the first Turkish Board Surgeon accredited as a member of ISHRS and the Asian Association of Hair-transplant Surgeons (AAHRS).\r\n\r\nAfter operating in Turkey for 15 years, he permanently moved to Dubai in May 2016 as a full-time hair transplant surgeon and currently resides there. Dr. Sezgin attended various courses related to hair transplantation and restoration, including an introductory course in Bangkok, Thailand, in 2019, a body hair transplant course in San Francisco, USA, in 2013, an eyebrow transplant course in Nassau, Bahamas, in 2012, and a hairline design workshop in Boston, USA in 2010.\r\n\r\nDr. Sezgin is an expert in hair loss treatments and has helped many people regain their confidence through hair restoration. He is well-known and trusted in the industry and has a reputation for providing high-quality hair transplant services to his clients.",
+      "ru": "Dr. Çağatay Sezgin is a celebrity Hair Transplant Surgeon with over 20 years of experience in hair transplantation and restoration. He completed his medical degree and general surgery specialty training in Turkey, and he is a Turkish Board General Surgeon and holds both DHA and DHCC licenses.\r\n\r\nDr. Sezgin has been a member of the International Society of Hair Restoration Surgery (ISHRS) since 2001, a very prestigious organization in the field of hair restoration. He is also the first Turkish Board Surgeon accredited as a member of ISHRS and the Asian Association of Hair-transplant Surgeons (AAHRS).\r\n\r\nAfter operating in Turkey for 15 years, he permanently moved to Dubai in May 2016 as a full-time hair transplant surgeon and currently resides there. Dr. Sezgin attended various courses related to hair transplantation and restoration, including an introductory course in Bangkok, Thailand, in 2019, a body hair transplant course in San Francisco, USA, in 2013, an eyebrow transplant course in Nassau, Bahamas, in 2012, and a hairline design workshop in Boston, USA in 2010.\r\n\r\nDr. Sezgin is an expert in hair loss treatments and has helped many people regain their confidence through hair restoration. He is well-known and trusted in the industry and has a reputation for providing high-quality hair transplant services to his clients."
+    },
+    "years_of_experience": 20,
+    "primary_qualifications": "Dr. Çağatay Sezgin is a celebrity Hair Transplant Surgeon with over 20 years of experience in hair transplantation and restoration. He completed his medical degree and general surgery specialty training in Turkey, and he is a Turkish Board General Surgeon and holds both DHA and DHCC licenses.\r\n\r\nDr. Sezgin has been a member of the International Society of Hair Restoration Surgery (ISHRS) since 2001, a very prestigious organization in the field of hair restoration. He is also the first Turkish Board Surgeon accredited as a member of ISHRS and the Asian Association of Hair-transplant Surgeons (AAHRS).\r\n\r\nAfter operating in Turkey for 15 years, he permanently moved to Dubai in May 2016 as a full-time hair transplant surgeon and currently resides there. Dr. Sezgin attended various courses related to hair transplantation and restoration, including an introductory course in Bangkok, Thailand, in 2019, a body hair transplant course in San Francisco, USA, in 2013, an eyebrow transplant course in Nassau, Bahamas, in 2012, and a hairline design workshop in Boston, USA in 2010.\r\n\r\nDr. Sezgin is an expert in hair loss treatments and has helped many people regain their confidence through hair restoration. He is well-known and trusted in the industry and has a reputation for providing high-quality hair transplant services to his clients.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  }
+]
