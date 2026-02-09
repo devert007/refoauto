@@ -1,35 +1,6 @@
 [
   {
-    "id": 1,
-    "name": "Dr. Anna Zakhozha",
-    "name_i18n": {
-      "en": "Dr. Anna Zakhozha"
-    },
-    "speciality": "Specialist Dermatology",
-    "sex": "female",
-    "languages": [
-      "ENGLISH",
-      "RUSSIAN",
-      "UKRAINIAN"
-    ],
-    "description_i18n": {
-      "en": "Dr. Anna Zakhozha is a highly skilled and experienced Dermatology Specialist, widely recognized for her exceptional expertise in aesthetic medicine. With over a decade of experience, Dr. Anna is known for delivering advanced, customized skin treatments that combine medical precision with artistic finesse. She believes aesthetic medicine is not just science—it's an art form that enhances her patients’ natural beauty and boosts their self-confidence. Her practice is grounded in evidence-based medicine, supported by cutting-edge technologies and refined aesthetic judgment to ensure safe, natural-looking, and effective results. Whether it’s anti-aging treatments, skin rejuvenation, or advanced laser therapies, Dr. Anna provides each patient with personalized care tailored to their skin goals and concerns.\nDr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.\nDr. Anna’s commitment to staying at the forefront of her field is evident from her dedication to research and development. She combines the latest aesthetic techniques with innovative technology for more natural and effective results. Her approach is to provide care with a feminine touch and a deep understanding of the emotions that women experience when considering cosmetic surgery.\nDr. Anna is fluent in English, Russian, and Ukrainian and has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support.",
-      "ru": "Dr. Anna Zakhozha is a highly skilled and experienced Dermatology Specialist, widely recognized for her exceptional expertise in aesthetic medicine. With over a decade of experience, Dr. Anna is known for delivering advanced, customized skin treatments that combine medical precision with artistic finesse. She believes aesthetic medicine is not just science—it's an art form that enhances her patients’ natural beauty and boosts their self-confidence. Her practice is grounded in evidence-based medicine, supported by cutting-edge technologies and refined aesthetic judgment to ensure safe, natural-looking, and effective results. Whether it’s anti-aging treatments, skin rejuvenation, or advanced laser therapies, Dr. Anna provides each patient with personalized care tailored to their skin goals and concerns.\nDr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.\nDr. Anna’s commitment to staying at the forefront of her field is evident from her dedication to research and development. She combines the latest aesthetic techniques with innovative technology for more natural and effective results. Her approach is to provide care with a feminine touch and a deep understanding of the emotions that women experience when considering cosmetic surgery.\nDr. Anna is fluent in English, Russian, and Ukrainian and has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support."
-    },
-    "years_of_experience": null,
-    "primary_qualifications": "Dr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.",
-    "secondary_qualifications": null,
-    "additional_qualifications": "Dr Anna has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support.",
-    "treat_children": true,
-    "treat_children_age": "13+",
-    "branches": [
-      "szr"
-    ],
-    "is_visible_to_ai": true,
-    "source": "google_sheets"
-  },
-  {
-    "id": 2,
+    "id": 58,
     "name": "Dr. Nataliya Sanytska",
     "name_i18n": {
       "en": "Dr. Nataliya Sanytska"
@@ -58,35 +29,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 3,
-    "name": "Dr. Sarah Mohamed",
-    "name_i18n": {
-      "en": "Dr. Sarah Mohamed"
-    },
-    "speciality": "Specialist Dermatology",
-    "sex": "female",
-    "languages": [
-      "ENGLISH",
-      "ARABIC"
-    ],
-    "description_i18n": {
-      "en": "Dr. Sarah Magdy is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.\n\nThroughout her career, Dr. Sarah has cultivated a reputation for her meticulous attention to detail, artistic precision, and deep-rooted passion for helping patients feel confident in their skin. Her treatment philosophy blends scientific rigor with a personalized, empathetic approach, ensuring every client receives a tailored plan designed to enhance their natural beauty while achieving long-lasting, healthy results.\n\nShe remains at the forefront of dermatological and cosmetic advancements by continuously updating her knowledge and techniques. Patients appreciate her gentle manner, transparent communication, and results-driven approach.",
-      "ru": "Dr. Sarah Magdy is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.\n\nThroughout her career, Dr. Sarah has cultivated a reputation for her meticulous attention to detail, artistic precision, and deep-rooted passion for helping patients feel confident in their skin. Her treatment philosophy blends scientific rigor with a personalized, empathetic approach, ensuring every client receives a tailored plan designed to enhance their natural beauty while achieving long-lasting, healthy results.\n\nShe remains at the forefront of dermatological and cosmetic advancements by continuously updating her knowledge and techniques. Patients appreciate her gentle manner, transparent communication, and results-driven approach."
-    },
-    "years_of_experience": 12,
-    "primary_qualifications": "Dr. Sarah Mohamed is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.",
-    "secondary_qualifications": null,
-    "additional_qualifications": null,
-    "treat_children": true,
-    "treat_children_age": "13+",
-    "branches": [
-      "szr"
-    ],
-    "is_visible_to_ai": true,
-    "source": "google_sheets"
-  },
-  {
-    "id": 4,
+    "id": 59,
     "name": "Dr. Tatiana Kuznechenkova",
     "name_i18n": {
       "en": "Dr. Tatiana Kuznechenkova"
@@ -114,7 +57,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 5,
+    "id": 60,
     "name": "Dr. Lyn Al Alamy AlHassany",
     "name_i18n": {
       "en": "Dr. Lyn Al Alamy AlHassany"
@@ -142,35 +85,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 6,
-    "name": "Dr. Karem Harb",
-    "name_i18n": {
-      "en": "Dr. Karem Harb"
-    },
-    "speciality": "General Practitioner",
-    "sex": "male",
-    "languages": [
-      "ENGLISH",
-      "ARABIC"
-    ],
-    "description_i18n": {
-      "en": "Dr. Karem Harb is a highly qualified medical professional and a licensed General Practitioner with a special interest in Aesthetic Medicine. He is an experienced clinical trainer in the field of aesthetics and currently holds the title of Medical Director at Hortman Clinics.\nDr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).\nWithin the field of Aesthetic Medicine, he performs various procedures for the face and body. These include but are not limited to; botox, fillers, chemical peels, bio-stimulators, exosomes, PRP, skin boosters, rejuvenating and resurfacing lasers, tattoo removals, skin tightening energy-based devices, body contouring machines, hair restoration treatments, and more.\nDr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management.",
-      "ru": "Dr. Karem Harb is a highly qualified medical professional and a licensed General Practitioner with a special interest in Aesthetic Medicine. He is an experienced clinical trainer in the field of aesthetics and currently holds the title of Medical Director at Hortman Clinics.\nDr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).\nWithin the field of Aesthetic Medicine, he performs various procedures for the face and body. These include but are not limited to; botox, fillers, chemical peels, bio-stimulators, exosomes, PRP, skin boosters, rejuvenating and resurfacing lasers, tattoo removals, skin tightening energy-based devices, body contouring machines, hair restoration treatments, and more.\nDr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management."
-    },
-    "years_of_experience": null,
-    "primary_qualifications": "Dr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).",
-    "secondary_qualifications": null,
-    "additional_qualifications": "Dr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management.",
-    "treat_children": true,
-    "treat_children_age": "Any age",
-    "branches": [
-      "szr"
-    ],
-    "is_visible_to_ai": true,
-    "source": "google_sheets"
-  },
-  {
-    "id": 7,
+    "id": 61,
     "name": "Rebecca Treston",
     "name_i18n": {
       "en": "Rebecca Treston"
@@ -197,7 +112,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 8,
+    "id": 62,
     "name": "Danielle April Stephen",
     "name_i18n": {
       "en": "Danielle April Stephen"
@@ -224,63 +139,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 9,
-    "name": "Joanine Nieuwoudt",
-    "name_i18n": {
-      "en": "Joanine Nieuwoudt"
-    },
-    "speciality": "Aesthetics",
-    "sex": "female",
-    "languages": [
-      "ENGLISH",
-      "AFRIKAANS"
-    ],
-    "description_i18n": {
-      "en": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.\n\nWith a passion for beauty and skincare, Joanine has mastered the art of luxury facials, dermaplaning, and beauty treatments that leave her clients feeling refreshed and rejuvenated.\n\nJoanine likes to focus on the quality of her treatments, especially with her spa background, which helps her to combine the luxury aspect of 5* hotels with tailored aesthetic treatments. She is known for her gentle touch, exceptional communication skills, and ability to make her clients feel relaxed and comfortable throughout their experience.\n\nHer warm personality and passion for skincare make every appointment with her a luxurious and enjoyable experience. As a skin therapist at Hortman Clinic, Joanine strives to provide exceptional patient care and customer service.",
-      "ru": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.\n\nWith a passion for beauty and skincare, Joanine has mastered the art of luxury facials, dermaplaning, and beauty treatments that leave her clients feeling refreshed and rejuvenated.\n\nJoanine likes to focus on the quality of her treatments, especially with her spa background, which helps her to combine the luxury aspect of 5* hotels with tailored aesthetic treatments. She is known for her gentle touch, exceptional communication skills, and ability to make her clients feel relaxed and comfortable throughout their experience.\n\nHer warm personality and passion for skincare make every appointment with her a luxurious and enjoyable experience. As a skin therapist at Hortman Clinic, Joanine strives to provide exceptional patient care and customer service."
-    },
-    "years_of_experience": 15,
-    "primary_qualifications": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.",
-    "secondary_qualifications": null,
-    "additional_qualifications": null,
-    "treat_children": true,
-    "treat_children_age": "13+",
-    "branches": [
-      "szr"
-    ],
-    "is_visible_to_ai": true,
-    "source": "google_sheets"
-  },
-  {
-    "id": 10,
-    "name": "Andreea Paval",
-    "name_i18n": {
-      "en": "Andreea Paval"
-    },
-    "speciality": "Aesthetics",
-    "sex": "female",
-    "languages": [
-      "ENGLISH",
-      "ROMANIAN"
-    ],
-    "description_i18n": {
-      "en": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.\n\nAndreea have welcomed over 100 clients and looking forward to work with thousands more. Maybe you’ll be next!",
-      "ru": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.\n\nAndreea have welcomed over 100 clients and looking forward to work with thousands more. Maybe you’ll be next!"
-    },
-    "years_of_experience": null,
-    "primary_qualifications": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.",
-    "secondary_qualifications": null,
-    "additional_qualifications": null,
-    "treat_children": true,
-    "treat_children_age": "13+",
-    "branches": [
-      "szr"
-    ],
-    "is_visible_to_ai": true,
-    "source": "google_sheets"
-  },
-  {
-    "id": 11,
+    "id": 63,
     "name": "Olena Moshchenko",
     "name_i18n": {
       "en": "Olena Moshchenko"
@@ -310,34 +169,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 12,
-    "name": "Nicole Juliet Zysk",
-    "name_i18n": {
-      "en": "Nicole Juliet Zysk"
-    },
-    "speciality": "Aesthetics",
-    "sex": "female",
-    "languages": [
-      "ENGLISH"
-    ],
-    "description_i18n": {
-      "en": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.\n\nNicole is best known for her innovative approach to treating stretch marks and scar revision, including post-surgical scarring, as well as addressing complex pigmentation concerns, vascular lesions, and other skin irregularities. Her deep commitment to client care and cutting-edge techniques has earned her a loyal clientele and international recognition.\n\nMedia Recognition\n\nAs one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook",
-      "ru": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.\n\nNicole is best known for her innovative approach to treating stretch marks and scar revision, including post-surgical scarring, as well as addressing complex pigmentation concerns, vascular lesions, and other skin irregularities. Her deep commitment to client care and cutting-edge techniques has earned her a loyal clientele and international recognition.\n\nMedia Recognition\n\nAs one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook"
-    },
-    "years_of_experience": 14,
-    "primary_qualifications": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.",
-    "secondary_qualifications": null,
-    "additional_qualifications": "As one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook",
-    "treat_children": true,
-    "treat_children_age": "13+",
-    "branches": [
-      "szr"
-    ],
-    "is_visible_to_ai": true,
-    "source": "google_sheets"
-  },
-  {
-    "id": 13,
+    "id": 64,
     "name": "Sihem Fersi",
     "name_i18n": {
       "en": "Sihem Fersi"
@@ -363,7 +195,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 14,
+    "id": 65,
     "name": "Daria Buzynarska",
     "name_i18n": {
       "en": "Daria Buzynarska"
@@ -390,7 +222,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 15,
+    "id": 66,
     "name": "Carole Semaan",
     "name_i18n": {
       "en": "Carole Semaan"
@@ -417,7 +249,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 16,
+    "id": 67,
     "name": "Desiree Garcia",
     "name_i18n": {
       "en": "Desiree Garcia"
@@ -442,7 +274,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 17,
+    "id": 68,
     "name": "Dr. Mohsen Soofian",
     "name_i18n": {
       "en": "Dr. Mohsen Soofian"
@@ -467,7 +299,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 18,
+    "id": 69,
     "name": "Dr. Raquel Fernández De Castro",
     "name_i18n": {
       "en": "Dr. Raquel Fernández De Castro"
@@ -492,7 +324,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 19,
+    "id": 70,
     "name": "Dr. Amitabha Majumdar",
     "name_i18n": {
       "en": "Dr. Amitabha Majumdar"
@@ -517,7 +349,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 20,
+    "id": 71,
     "name": "Dr. Rashad Haddad",
     "name_i18n": {
       "en": "Dr. Rashad Haddad"
@@ -543,7 +375,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 21,
+    "id": 72,
     "name": "Dr. John Milam Shamoun",
     "name_i18n": {
       "en": "Dr. John Milam Shamoun"
@@ -568,7 +400,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 22,
+    "id": 73,
     "name": "Dr. Amr Elnaggary",
     "name_i18n": {
       "en": "Dr. Amr Elnaggary"
@@ -594,7 +426,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 23,
+    "id": 74,
     "name": "Dr. Garabet Kassabian",
     "name_i18n": {
       "en": "Dr. Garabet Kassabian"
@@ -623,7 +455,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 24,
+    "id": 75,
     "name": "Dr. Kinan Bonni",
     "name_i18n": {
       "en": "Dr. Kinan Bonni"
@@ -649,7 +481,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 25,
+    "id": 76,
     "name": "Dr. Zainab Mohi",
     "name_i18n": {
       "en": "Dr. Zainab Mohi"
@@ -675,7 +507,7 @@
     "source": "google_sheets"
   },
   {
-    "id": 26,
+    "id": 77,
     "name": "Dr. Sezgin Cagatay",
     "name_i18n": {
       "en": "Dr. Sezgin Cagatay"
@@ -699,5 +531,323 @@
     "branches": [],
     "is_visible_to_ai": true,
     "source": "google_sheets"
+  },
+  {
+    "id": 78,
+    "name": "Dr. Anna Zakhozha",
+    "name_i18n": {
+      "en": "Dr. Anna Zakhozha"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "RUSSIAN",
+      "UKRAINIAN"
+    ],
+    "description_i18n": {
+      "en": "Dr. Anna Zakhozha is a highly skilled and experienced Dermatology Specialist, widely recognized for her exceptional expertise in aesthetic medicine. With over a decade of experience, Dr. Anna is known for delivering advanced, customized skin treatments that combine medical precision with artistic finesse. She believes aesthetic medicine is not just science—it's an art form that enhances her patients’ natural beauty and boosts their self-confidence. Her practice is grounded in evidence-based medicine, supported by cutting-edge technologies and refined aesthetic judgment to ensure safe, natural-looking, and effective results. Whether it’s anti-aging treatments, skin rejuvenation, or advanced laser therapies, Dr. Anna provides each patient with personalized care tailored to their skin goals and concerns.\nDr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.\nDr. Anna’s commitment to staying at the forefront of her field is evident from her dedication to research and development. She combines the latest aesthetic techniques with innovative technology for more natural and effective results. Her approach is to provide care with a feminine touch and a deep understanding of the emotions that women experience when considering cosmetic surgery.\nDr. Anna is fluent in English, Russian, and Ukrainian and has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support.",
+      "ru": "Dr. Anna Zakhozha is a highly skilled and experienced Dermatology Specialist, widely recognized for her exceptional expertise in aesthetic medicine. With over a decade of experience, Dr. Anna is known for delivering advanced, customized skin treatments that combine medical precision with artistic finesse. She believes aesthetic medicine is not just science—it's an art form that enhances her patients’ natural beauty and boosts their self-confidence. Her practice is grounded in evidence-based medicine, supported by cutting-edge technologies and refined aesthetic judgment to ensure safe, natural-looking, and effective results. Whether it’s anti-aging treatments, skin rejuvenation, or advanced laser therapies, Dr. Anna provides each patient with personalized care tailored to their skin goals and concerns.\nDr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.\nDr. Anna’s commitment to staying at the forefront of her field is evident from her dedication to research and development. She combines the latest aesthetic techniques with innovative technology for more natural and effective results. Her approach is to provide care with a feminine touch and a deep understanding of the emotions that women experience when considering cosmetic surgery.\nDr. Anna is fluent in English, Russian, and Ukrainian and has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Anna is a board-certified Dermatologist with a deep understanding of clinical dermatology and aesthetic facial treatments. She completed her medical degree from Lviv National Medical University in Ukraine and later completed her residency at the General Hospital of Rivne. She has over seven years of experience in the field of aesthetic medicine and has undergone extensive training in this area.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Dr Anna has a fellowship from the American Academy of Dermatology, the European Academy of Dermatology and Venerology, and the International Master Course on Aging Science. She is also a certified professional with botulinum toxin type A and dermal fillers and has completed training in basic life support.",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 79,
+    "name": "Dr. Sarah Mohamed",
+    "name_i18n": {
+      "en": "Dr. Sarah Mohamed"
+    },
+    "speciality": "Specialist Dermatology",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Sarah Magdy is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.\n\nThroughout her career, Dr. Sarah has cultivated a reputation for her meticulous attention to detail, artistic precision, and deep-rooted passion for helping patients feel confident in their skin. Her treatment philosophy blends scientific rigor with a personalized, empathetic approach, ensuring every client receives a tailored plan designed to enhance their natural beauty while achieving long-lasting, healthy results.\n\nShe remains at the forefront of dermatological and cosmetic advancements by continuously updating her knowledge and techniques. Patients appreciate her gentle manner, transparent communication, and results-driven approach.",
+      "ru": "Dr. Sarah Magdy is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.\n\nThroughout her career, Dr. Sarah has cultivated a reputation for her meticulous attention to detail, artistic precision, and deep-rooted passion for helping patients feel confident in their skin. Her treatment philosophy blends scientific rigor with a personalized, empathetic approach, ensuring every client receives a tailored plan designed to enhance their natural beauty while achieving long-lasting, healthy results.\n\nShe remains at the forefront of dermatological and cosmetic advancements by continuously updating her knowledge and techniques. Patients appreciate her gentle manner, transparent communication, and results-driven approach."
+    },
+    "years_of_experience": 12,
+    "primary_qualifications": "Dr. Sarah Mohamed is a highly accomplished dermatologist and aesthetic specialist with over 12 years of hands-on clinical experience in skin health and cosmetic medicine. She holds a prestigious Master’s degree in Dermatology and Aesthetics and is proudly certified by the American Board in Hair Treatments, reflecting her commitment to the highest standards of patient care and safety.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 80,
+    "name": "Dr. Karem Harb",
+    "name_i18n": {
+      "en": "Dr. Karem Harb"
+    },
+    "speciality": "General Practitioner",
+    "sex": "male",
+    "languages": [
+      "ENGLISH",
+      "ARABIC"
+    ],
+    "description_i18n": {
+      "en": "Dr. Karem Harb is a highly qualified medical professional and a licensed General Practitioner with a special interest in Aesthetic Medicine. He is an experienced clinical trainer in the field of aesthetics and currently holds the title of Medical Director at Hortman Clinics.\nDr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).\nWithin the field of Aesthetic Medicine, he performs various procedures for the face and body. These include but are not limited to; botox, fillers, chemical peels, bio-stimulators, exosomes, PRP, skin boosters, rejuvenating and resurfacing lasers, tattoo removals, skin tightening energy-based devices, body contouring machines, hair restoration treatments, and more.\nDr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management.",
+      "ru": "Dr. Karem Harb is a highly qualified medical professional and a licensed General Practitioner with a special interest in Aesthetic Medicine. He is an experienced clinical trainer in the field of aesthetics and currently holds the title of Medical Director at Hortman Clinics.\nDr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).\nWithin the field of Aesthetic Medicine, he performs various procedures for the face and body. These include but are not limited to; botox, fillers, chemical peels, bio-stimulators, exosomes, PRP, skin boosters, rejuvenating and resurfacing lasers, tattoo removals, skin tightening energy-based devices, body contouring machines, hair restoration treatments, and more.\nDr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management."
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Dr. Harb has a Master of Healthcare Management from the Royal College of Surgeons in Ireland and a Bachelor of Medicine and Surgery from the University of Sharjah in the United Arab Emirates. He also holds a foundation degree from Monash University in Melbourne, Australia. He is a member of the American Academy of Anti-Aging Medicine (A4M) and the National Council on Laser Certifications (NCLC).",
+    "secondary_qualifications": null,
+    "additional_qualifications": "Dr. Harb has over ten years of experience in Academic, Managerial, and Clinical Medicine. Dr. Karem Harb combines his medical qualifications in aesthetic and general medicine with his experience in teaching, regulatory affairs, and healthcare management.",
+    "treat_children": true,
+    "treat_children_age": "Any age",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 81,
+    "name": "Joanine Nieuwoudt",
+    "name_i18n": {
+      "en": "Joanine Nieuwoudt"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "AFRIKAANS"
+    ],
+    "description_i18n": {
+      "en": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.\n\nWith a passion for beauty and skincare, Joanine has mastered the art of luxury facials, dermaplaning, and beauty treatments that leave her clients feeling refreshed and rejuvenated.\n\nJoanine likes to focus on the quality of her treatments, especially with her spa background, which helps her to combine the luxury aspect of 5* hotels with tailored aesthetic treatments. She is known for her gentle touch, exceptional communication skills, and ability to make her clients feel relaxed and comfortable throughout their experience.\n\nHer warm personality and passion for skincare make every appointment with her a luxurious and enjoyable experience. As a skin therapist at Hortman Clinic, Joanine strives to provide exceptional patient care and customer service.",
+      "ru": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.\n\nWith a passion for beauty and skincare, Joanine has mastered the art of luxury facials, dermaplaning, and beauty treatments that leave her clients feeling refreshed and rejuvenated.\n\nJoanine likes to focus on the quality of her treatments, especially with her spa background, which helps her to combine the luxury aspect of 5* hotels with tailored aesthetic treatments. She is known for her gentle touch, exceptional communication skills, and ability to make her clients feel relaxed and comfortable throughout their experience.\n\nHer warm personality and passion for skincare make every appointment with her a luxurious and enjoyable experience. As a skin therapist at Hortman Clinic, Joanine strives to provide exceptional patient care and customer service."
+    },
+    "years_of_experience": 15,
+    "primary_qualifications": "Joanine is a specialized beauty therapist with over 15 years of experience in South Africa and the United Arab Emirates; she is an experienced and dedicated skin therapist who has been transforming the skin and lives of her clients for over a decade. Whether acne-prone skin, aging, or hyperpigmentation, she focuses on creating specialized treatment plans for every patient tailored to their specific skin needs and objectives.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 82,
+    "name": "Andreea Paval",
+    "name_i18n": {
+      "en": "Andreea Paval"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH",
+      "ROMANIAN"
+    ],
+    "description_i18n": {
+      "en": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.\n\nAndreea have welcomed over 100 clients and looking forward to work with thousands more. Maybe you’ll be next!",
+      "ru": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.\n\nAndreea have welcomed over 100 clients and looking forward to work with thousands more. Maybe you’ll be next!"
+    },
+    "years_of_experience": null,
+    "primary_qualifications": "Andreea Paval is a best-in-class Scalp Micropigmentation (SMP) artist, degreed University of Decorative Arts and Design, Bucharest.\n\nSMP Artist, Andreea has studied and trained with industry experts, her growing experiences set the highest standards at SMP. Her aim to exceed all patient’s expectations is her only purpose.Because of her highly skilled technique and the ability to execute an extremely natural hair, she has become known figure in the SMP industry, consistently receiving 5* reviews.\n\nShe is committed in providing clients with the highest possible levels of service. This not only applies for the full-service studio treatments but also the level of support and aftercare she provide.",
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 83,
+    "name": "Nicole Juliet Zysk",
+    "name_i18n": {
+      "en": "Nicole Juliet Zysk"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.\n\nNicole is best known for her innovative approach to treating stretch marks and scar revision, including post-surgical scarring, as well as addressing complex pigmentation concerns, vascular lesions, and other skin irregularities. Her deep commitment to client care and cutting-edge techniques has earned her a loyal clientele and international recognition.\n\nMedia Recognition\n\nAs one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook",
+      "ru": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.\n\nNicole is best known for her innovative approach to treating stretch marks and scar revision, including post-surgical scarring, as well as addressing complex pigmentation concerns, vascular lesions, and other skin irregularities. Her deep commitment to client care and cutting-edge techniques has earned her a loyal clientele and international recognition.\n\nMedia Recognition\n\nAs one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook"
+    },
+    "years_of_experience": 14,
+    "primary_qualifications": "Nicole Zysk is a renownedaesthetician and laser skincare specialist with over 14 years of international experience across the UK and UAE. Now proudly part of the expert team at Hortman Clinics Dubai, Nicole continues her mission of delivering safe, high-quality, and transformative skin treatments tailored to each client.\n\nHolding more than 30 diplomas and Level 7 qualifications, Nicole is among the most highly trained professionals in her field. Her expertise spans advanced laser technologies, skin rejuvenation, and micropigmentation, with a strong focus on safety, precision, and results.",
+    "secondary_qualifications": null,
+    "additional_qualifications": "As one of the industry’s leading DHA-Licensed practitioners, Nicole has been featured in global and regional publications such as Vogue, The Sun, Daily Express, RTL, Dubai Today, Mediworld Middle East, and Gulf News. She also shares her expertise and results through her active social media presence on Instagram, YouTube, TikTok, and Facebook",
+    "treat_children": true,
+    "treat_children_age": "13+",
+    "branches": [
+      "szr"
+    ],
+    "is_visible_to_ai": true,
+    "source": "google_sheets"
+  },
+  {
+    "id": 84,
+    "name": "Cherry Lou Abuyan",
+    "name_i18n": {
+      "en": "Cherry Lou Abuyan"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "",
+      "ru": ""
+    },
+    "years_of_experience": null,
+    "primary_qualifications": null,
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "services_sheet"
+  },
+  {
+    "id": 85,
+    "name": "Frances Tabuada",
+    "name_i18n": {
+      "en": "Frances Tabuada"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "",
+      "ru": ""
+    },
+    "years_of_experience": null,
+    "primary_qualifications": null,
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "services_sheet"
+  },
+  {
+    "id": 86,
+    "name": "Jan Alviola",
+    "name_i18n": {
+      "en": "Jan Alviola"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "",
+      "ru": ""
+    },
+    "years_of_experience": null,
+    "primary_qualifications": null,
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "services_sheet"
+  },
+  {
+    "id": 87,
+    "name": "Mary Grace Cubillas",
+    "name_i18n": {
+      "en": "Mary Grace Cubillas"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "",
+      "ru": ""
+    },
+    "years_of_experience": null,
+    "primary_qualifications": null,
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "services_sheet"
+  },
+  {
+    "id": 88,
+    "name": "Merve Sahinoglu",
+    "name_i18n": {
+      "en": "Merve Sahinoglu"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "",
+      "ru": ""
+    },
+    "years_of_experience": null,
+    "primary_qualifications": null,
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "services_sheet"
+  },
+  {
+    "id": 89,
+    "name": "Svetlana Lialenko",
+    "name_i18n": {
+      "en": "Svetlana Lialenko"
+    },
+    "speciality": "Aesthetics",
+    "sex": "female",
+    "languages": [
+      "ENGLISH"
+    ],
+    "description_i18n": {
+      "en": "",
+      "ru": ""
+    },
+    "years_of_experience": null,
+    "primary_qualifications": null,
+    "secondary_qualifications": null,
+    "additional_qualifications": null,
+    "treat_children": null,
+    "treat_children_age": null,
+    "branches": [],
+    "is_visible_to_ai": true,
+    "source": "services_sheet"
   }
 ]

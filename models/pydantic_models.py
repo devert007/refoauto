@@ -42,7 +42,7 @@ class Sex:
 class Branch:
     """Branch/Location values"""
     JUMEIRAH = "jumeirah"  # Hortman Clinics - Jumeirah 3
-    SRZ = "srz"  # Hortman Clinics - Sheikh Zayed Road
+    szr = "szr"  # Hortman Clinics - Sheikh Zayed Road
 
 
 class Practitioner(BaseModel):
@@ -118,7 +118,7 @@ class Practitioner(BaseModel):
     
     branches: list[str] = Field(
         default_factory=list,
-        description="Clinic branches where practitioner works. Column: Branch. Values: 'jumeirah' (Jumeirah 3), 'srz' (Sheikh Zayed Road). Parse from 'Hortman Clinics - Jumeirah 3' → 'jumeirah', 'Hortman Clinics - Sheikh Zayed Road' → 'srz'"
+        description="Clinic branches where practitioner works. Column: Branch. Values: 'jumeirah' (Jumeirah 3), 'szr' (Sheikh Zayed Road). Parse from 'Hortman Clinics - Jumeirah 3' → 'jumeirah', 'Hortman Clinics - Sheikh Zayed Road' → 'szr'"
     )
     
     # === API Fields ===
@@ -211,8 +211,8 @@ class Service(BaseModel):
     id: int = Field(description="Unique service identifier")
     category_id: int = Field(description="Foreign key to ServiceCategory")
     branches: list[str] = Field(
-        default_factory=lambda: ["jumeirah", "srz"],
-        description="Branches where service is available. Values: 'jumeirah', 'srz'. Example: ['jumeirah', 'srz'] for both"
+        default_factory=lambda: ["jumeirah", "szr"],
+        description="Branches where service is available. Values: 'jumeirah', 'szr'. Example: ['jumeirah', 'szr'] for both"
     )
     
     name_i18n: dict = Field(
@@ -400,8 +400,8 @@ def parse_branches(raw: str) -> list[str]:
     
     Examples:
         "Hortman Clinics - Jumeirah 3" → ["jumeirah"]
-        "Hortman Clinics - Sheikh Zayed Road" → ["srz"]
-        "Hortman Clinics - Sheikh Zayed RoadHortman Clinics - Jumeirah 3" → ["srz", "jumeirah"]
+        "Hortman Clinics - Sheikh Zayed Road" → ["szr"]
+        "Hortman Clinics - Sheikh Zayed RoadHortman Clinics - Jumeirah 3" → ["szr", "jumeirah"]
     """
     if not raw:
         return []
@@ -412,7 +412,7 @@ def parse_branches(raw: str) -> list[str]:
     if "jumeirah" in raw_lower:
         branches.append(Branch.JUMEIRAH)
     if "sheikh zayed" in raw_lower or "szr" in raw_lower or "zayed road" in raw_lower:
-        branches.append(Branch.SRZ)
+        branches.append(Branch.szr)
     
     return branches
 

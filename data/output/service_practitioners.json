@@ -1,4022 +1,4022 @@
 [
   {
-    "service_id": 3093,
-    "practitioner_id": 7
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 8
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 9
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 13
-  },
-  {
-    "service_id": 3093,
-    "practitioner_id": 14
-  },
-  {
-    "service_id": 3094,
-    "practitioner_id": 7
-  },
-  {
-    "service_id": 3094,
-    "practitioner_id": 8
-  },
-  {
-    "service_id": 3094,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 3094,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3094,
-    "practitioner_id": 12
+    "service_id": 3095,
+    "practitioner_id": 78
   },
   {
     "service_id": 3095,
-    "practitioner_id": 7
+    "practitioner_id": 79
   },
   {
     "service_id": 3095,
-    "practitioner_id": 8
+    "practitioner_id": 80
   },
   {
     "service_id": 3095,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3095,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3095,
-    "practitioner_id": 11
+    "practitioner_id": 60
   },
   {
     "service_id": 3095,
-    "practitioner_id": 12
+    "practitioner_id": 61
   },
   {
     "service_id": 3095,
-    "practitioner_id": 13
-  },
-  {
-    "service_id": 3095,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3096,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3096,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3096,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3096,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3096,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3096,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3096,
-    "practitioner_id": 14
+    "practitioner_id": 60
   },
   {
     "service_id": 3097,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3097,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3097,
-    "practitioner_id": 10
+    "practitioner_id": 80
   },
   {
     "service_id": 3097,
-    "practitioner_id": 11
+    "practitioner_id": 58
   },
   {
     "service_id": 3097,
-    "practitioner_id": 12
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3097,
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3097,
+    "practitioner_id": 61
+  },
+  {
+    "service_id": 3097,
+    "practitioner_id": 69
   },
   {
     "service_id": 3098,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3098,
-    "practitioner_id": 11
+    "practitioner_id": 79
   },
   {
     "service_id": 3098,
-    "practitioner_id": 12
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3098,
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3098,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3098,
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3098,
+    "practitioner_id": 69
   },
   {
     "service_id": 3099,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3099,
-    "practitioner_id": 11
+    "practitioner_id": 79
   },
   {
     "service_id": 3099,
-    "practitioner_id": 12
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3099,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3099,
+    "practitioner_id": 60
   },
   {
     "service_id": 3100,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3100,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3100,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3101,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3101,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3101,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3102,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3102,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3102,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3103,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3103,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3103,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3104,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3104,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3104,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3105,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3105,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3105,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3106,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3106,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3106,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3107,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3107,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3107,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3108,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3108,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3108,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3109,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3109,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3109,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3110,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3110,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3110,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3111,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3111,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3111,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3112,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3112,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3112,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3113,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3113,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3113,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3114,
-    "practitioner_id": 15
+    "practitioner_id": 78
   },
   {
     "service_id": 3114,
-    "practitioner_id": 16
+    "practitioner_id": 59
   },
   {
     "service_id": 3114,
-    "practitioner_id": 17
-  },
-  {
-    "service_id": 3114,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3114,
-    "practitioner_id": 19
-  },
-  {
-    "service_id": 3114,
-    "practitioner_id": 20
+    "practitioner_id": 60
   },
   {
     "service_id": 3115,
-    "practitioner_id": 15
+    "practitioner_id": 78
   },
   {
     "service_id": 3115,
-    "practitioner_id": 16
+    "practitioner_id": 59
   },
   {
     "service_id": 3115,
-    "practitioner_id": 17
-  },
-  {
-    "service_id": 3115,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3115,
-    "practitioner_id": 19
-  },
-  {
-    "service_id": 3115,
-    "practitioner_id": 20
+    "practitioner_id": 60
   },
   {
     "service_id": 3116,
-    "practitioner_id": 19
+    "practitioner_id": 81
   },
   {
-    "service_id": 53,
-    "practitioner_id": 19
+    "service_id": 3116,
+    "practitioner_id": 63
   },
   {
-    "service_id": 3117,
-    "practitioner_id": 15
+    "service_id": 3116,
+    "practitioner_id": 66
   },
   {
-    "service_id": 3117,
-    "practitioner_id": 16
+    "service_id": 3116,
+    "practitioner_id": 64
   },
   {
-    "service_id": 3117,
-    "practitioner_id": 17
+    "service_id": 3116,
+    "practitioner_id": 62
   },
   {
-    "service_id": 3117,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3117,
-    "practitioner_id": 19
+    "service_id": 3116,
+    "practitioner_id": 65
   },
   {
     "service_id": 3117,
-    "practitioner_id": 20
+    "practitioner_id": 81
+  },
+  {
+    "service_id": 3117,
+    "practitioner_id": 63
+  },
+  {
+    "service_id": 3117,
+    "practitioner_id": 66
+  },
+  {
+    "service_id": 3117,
+    "practitioner_id": 64
+  },
+  {
+    "service_id": 3117,
+    "practitioner_id": 62
+  },
+  {
+    "service_id": 3117,
+    "practitioner_id": 65
   },
   {
     "service_id": 3118,
-    "practitioner_id": 15
+    "practitioner_id": 62
   },
   {
-    "service_id": 3118,
-    "practitioner_id": 16
-  },
-  {
-    "service_id": 3118,
-    "practitioner_id": 17
-  },
-  {
-    "service_id": 3118,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3118,
-    "practitioner_id": 19
-  },
-  {
-    "service_id": 3118,
-    "practitioner_id": 20
+    "service_id": 3094,
+    "practitioner_id": 62
   },
   {
     "service_id": 3119,
-    "practitioner_id": 15
+    "practitioner_id": 81
+  },
+  {
+    "service_id": 3119,
+    "practitioner_id": 63
+  },
+  {
+    "service_id": 3119,
+    "practitioner_id": 66
+  },
+  {
+    "service_id": 3119,
+    "practitioner_id": 64
+  },
+  {
+    "service_id": 3119,
+    "practitioner_id": 62
+  },
+  {
+    "service_id": 3119,
+    "practitioner_id": 65
   },
   {
     "service_id": 3120,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3120,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3120,
-    "practitioner_id": 19
+    "practitioner_id": 66
+  },
+  {
+    "service_id": 3120,
+    "practitioner_id": 64
+  },
+  {
+    "service_id": 3120,
+    "practitioner_id": 62
+  },
+  {
+    "service_id": 3120,
+    "practitioner_id": 65
   },
   {
     "service_id": 3121,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3122,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3122,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3122,
-    "practitioner_id": 17
-  },
-  {
-    "service_id": 3122,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3122,
-    "practitioner_id": 19
-  },
-  {
-    "service_id": 3122,
-    "practitioner_id": 20
+    "practitioner_id": 62
   },
   {
     "service_id": 3123,
-    "practitioner_id": 15
-  },
-  {
-    "service_id": 3123,
-    "practitioner_id": 16
-  },
-  {
-    "service_id": 3123,
-    "practitioner_id": 17
-  },
-  {
-    "service_id": 3123,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3123,
-    "practitioner_id": 19
-  },
-  {
-    "service_id": 3123,
-    "practitioner_id": 20
+    "practitioner_id": 81
   },
   {
     "service_id": 3124,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3124,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3124,
-    "practitioner_id": 17
+    "practitioner_id": 66
   },
   {
     "service_id": 3124,
-    "practitioner_id": 18
+    "practitioner_id": 64
   },
   {
     "service_id": 3124,
-    "practitioner_id": 19
+    "practitioner_id": 62
   },
   {
     "service_id": 3124,
-    "practitioner_id": 20
+    "practitioner_id": 65
   },
   {
     "service_id": 3125,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3125,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3125,
-    "practitioner_id": 17
+    "practitioner_id": 66
   },
   {
     "service_id": 3125,
-    "practitioner_id": 18
+    "practitioner_id": 64
   },
   {
     "service_id": 3125,
-    "practitioner_id": 19
+    "practitioner_id": 62
   },
   {
     "service_id": 3125,
-    "practitioner_id": 20
+    "practitioner_id": 65
   },
   {
     "service_id": 3126,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3126,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3126,
-    "practitioner_id": 17
+    "practitioner_id": 66
   },
   {
     "service_id": 3126,
-    "practitioner_id": 18
+    "practitioner_id": 64
   },
   {
     "service_id": 3126,
-    "practitioner_id": 19
+    "practitioner_id": 62
   },
   {
     "service_id": 3126,
-    "practitioner_id": 20
+    "practitioner_id": 65
   },
   {
     "service_id": 3127,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3127,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3127,
-    "practitioner_id": 19
+    "practitioner_id": 66
   },
   {
     "service_id": 3127,
-    "practitioner_id": 21
+    "practitioner_id": 64
+  },
+  {
+    "service_id": 3127,
+    "practitioner_id": 62
+  },
+  {
+    "service_id": 3127,
+    "practitioner_id": 65
   },
   {
     "service_id": 3128,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3128,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3128,
-    "practitioner_id": 19
+    "practitioner_id": 66
   },
   {
     "service_id": 3128,
-    "practitioner_id": 21
+    "practitioner_id": 64
+  },
+  {
+    "service_id": 3128,
+    "practitioner_id": 62
+  },
+  {
+    "service_id": 3128,
+    "practitioner_id": 65
   },
   {
     "service_id": 3129,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3129,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3129,
-    "practitioner_id": 19
+    "practitioner_id": 62
+  },
+  {
+    "service_id": 3129,
+    "practitioner_id": 87
   },
   {
     "service_id": 3130,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3130,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3130,
-    "practitioner_id": 19
+    "practitioner_id": 62
   },
   {
     "service_id": 3130,
-    "practitioner_id": 21
+    "practitioner_id": 87
   },
   {
     "service_id": 3131,
-    "practitioner_id": 16
+    "practitioner_id": 81
+  },
+  {
+    "service_id": 3131,
+    "practitioner_id": 63
+  },
+  {
+    "service_id": 3131,
+    "practitioner_id": 62
   },
   {
     "service_id": 3132,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3132,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3132,
-    "practitioner_id": 22
+    "practitioner_id": 62
   },
   {
     "service_id": 3132,
-    "practitioner_id": 23
-  },
-  {
-    "service_id": 3132,
-    "practitioner_id": 18
-  },
-  {
-    "service_id": 3132,
-    "practitioner_id": 19
+    "practitioner_id": 87
   },
   {
     "service_id": 3133,
-    "practitioner_id": 15
+    "practitioner_id": 63
   },
   {
     "service_id": 3134,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3134,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3134,
-    "practitioner_id": 17
+    "practitioner_id": 88
   },
   {
     "service_id": 3134,
-    "practitioner_id": 18
+    "practitioner_id": 89
   },
   {
     "service_id": 3134,
-    "practitioner_id": 19
+    "practitioner_id": 64
   },
   {
     "service_id": 3134,
-    "practitioner_id": 20
+    "practitioner_id": 62
   },
   {
     "service_id": 3135,
-    "practitioner_id": 16
+    "practitioner_id": 81
   },
   {
     "service_id": 3136,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3136,
-    "practitioner_id": 16
+    "practitioner_id": 63
   },
   {
     "service_id": 3136,
-    "practitioner_id": 17
+    "practitioner_id": 66
   },
   {
     "service_id": 3136,
-    "practitioner_id": 18
+    "practitioner_id": 64
   },
   {
     "service_id": 3136,
-    "practitioner_id": 19
+    "practitioner_id": 62
   },
   {
     "service_id": 3136,
-    "practitioner_id": 20
+    "practitioner_id": 65
+  },
+  {
+    "service_id": 3137,
+    "practitioner_id": 63
   },
   {
     "service_id": 3138,
-    "practitioner_id": 7
+    "practitioner_id": 81
   },
   {
     "service_id": 3138,
-    "practitioner_id": 10
+    "practitioner_id": 63
   },
   {
     "service_id": 3138,
-    "practitioner_id": 11
+    "practitioner_id": 66
   },
   {
     "service_id": 3138,
-    "practitioner_id": 12
+    "practitioner_id": 64
   },
   {
-    "service_id": 3139,
-    "practitioner_id": 7
+    "service_id": 3138,
+    "practitioner_id": 62
   },
   {
-    "service_id": 3139,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 3139,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3139,
-    "practitioner_id": 12
+    "service_id": 3138,
+    "practitioner_id": 65
   },
   {
     "service_id": 3140,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3140,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3140,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3140,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3141,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3141,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3141,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3141,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3142,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3142,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3142,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3142,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3143,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3143,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3143,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3143,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3144,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3144,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3144,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3144,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3145,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3145,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3145,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3145,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3146,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3146,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3146,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3146,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3147,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3147,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3147,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3147,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3148,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3148,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3148,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3148,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3148,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3148,
-    "practitioner_id": 14
+    "practitioner_id": 60
   },
   {
     "service_id": 3149,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3149,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3149,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3149,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3149,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3149,
-    "practitioner_id": 14
+    "practitioner_id": 60
   },
   {
     "service_id": 3150,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3150,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3150,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3150,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3150,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3150,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3151,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3151,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3151,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3151,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3151,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3151,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3152,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3152,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3152,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3152,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3152,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3152,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3153,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3153,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3153,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3153,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3153,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3153,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3154,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3154,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3154,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3154,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3154,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3154,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3155,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3155,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3155,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3155,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3155,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3155,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3156,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3156,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3156,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3156,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3156,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3156,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3157,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3157,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3157,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3157,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3157,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3157,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3158,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3158,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3158,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3158,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3158,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3158,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3159,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3159,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3159,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3159,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3159,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3159,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3160,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3160,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3160,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3160,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3160,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3160,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3161,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3161,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3161,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3161,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3161,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3161,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3162,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3162,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3162,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3162,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3162,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3162,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3163,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3163,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3163,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3163,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3163,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3163,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3164,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3164,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3164,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3164,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3164,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3164,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3165,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3165,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3165,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3165,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3165,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3165,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3166,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3166,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3166,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3166,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3166,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3166,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3167,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3167,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3167,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3167,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3167,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3167,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3168,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3168,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3168,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3168,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3168,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3168,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3169,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3169,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3169,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3169,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3169,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3169,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3170,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3170,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3170,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3170,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3170,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3170,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3171,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3171,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3171,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3171,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3171,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3171,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3172,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3172,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3172,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3172,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3172,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3172,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3173,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3173,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3173,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3173,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3173,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3173,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3174,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3174,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3174,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3174,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3174,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3174,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3175,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3175,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3175,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3175,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3175,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3175,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3176,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3176,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3176,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3176,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3176,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3176,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3177,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3177,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3177,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3177,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3177,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3177,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3178,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3178,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3178,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3178,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3178,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3178,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3179,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3179,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3179,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3179,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3179,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3179,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3180,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3180,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3180,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3180,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3180,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3180,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3181,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3181,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3181,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3181,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3181,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3181,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3182,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3182,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3182,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3182,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3182,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3182,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3183,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3183,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3183,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3183,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3183,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3183,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3184,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3184,
-    "practitioner_id": 8
+    "practitioner_id": 80
   },
   {
     "service_id": 3184,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3184,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3184,
-    "practitioner_id": 11
+    "practitioner_id": 60
   },
   {
     "service_id": 3184,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3184,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3185,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3185,
-    "practitioner_id": 8
+    "practitioner_id": 80
   },
   {
     "service_id": 3185,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3185,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3185,
-    "practitioner_id": 11
+    "practitioner_id": 60
   },
   {
     "service_id": 3185,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3185,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3186,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3186,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3186,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3186,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3186,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3186,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3186,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3187,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3187,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3187,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3187,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3187,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3187,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3187,
-    "practitioner_id": 14
-  },
-  {
-    "service_id": 7,
-    "practitioner_id": 7
-  },
-  {
-    "service_id": 7,
-    "practitioner_id": 9
-  },
-  {
-    "service_id": 7,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 7,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 7,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 7,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3188,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3188,
-    "practitioner_id": 9
+    "practitioner_id": 79
   },
   {
     "service_id": 3188,
-    "practitioner_id": 10
+    "practitioner_id": 80
   },
   {
     "service_id": 3188,
-    "practitioner_id": 11
+    "practitioner_id": 58
   },
   {
     "service_id": 3188,
-    "practitioner_id": 12
+    "practitioner_id": 59
   },
   {
     "service_id": 3188,
-    "practitioner_id": 14
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3188,
+    "practitioner_id": 69
   },
   {
     "service_id": 3189,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3189,
-    "practitioner_id": 9
+    "practitioner_id": 79
   },
   {
     "service_id": 3189,
-    "practitioner_id": 10
+    "practitioner_id": 80
   },
   {
     "service_id": 3189,
-    "practitioner_id": 11
+    "practitioner_id": 58
   },
   {
     "service_id": 3189,
-    "practitioner_id": 12
+    "practitioner_id": 59
   },
   {
     "service_id": 3189,
-    "practitioner_id": 14
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3189,
+    "practitioner_id": 69
+  },
+  {
+    "service_id": 3093,
+    "practitioner_id": 78
+  },
+  {
+    "service_id": 3093,
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3093,
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3093,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3093,
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3093,
+    "practitioner_id": 69
   },
   {
     "service_id": 3190,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3190,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3190,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3190,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3190,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3190,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3191,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3191,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3191,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3191,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3191,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3191,
-    "practitioner_id": 14
+    "practitioner_id": 69
+  },
+  {
+    "service_id": 3192,
+    "practitioner_id": 78
+  },
+  {
+    "service_id": 3192,
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3192,
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3192,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3192,
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3192,
+    "practitioner_id": 69
   },
   {
     "service_id": 3193,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3193,
-    "practitioner_id": 8
+    "practitioner_id": 80
   },
   {
     "service_id": 3193,
-    "practitioner_id": 9
+    "practitioner_id": 58
   },
   {
     "service_id": 3193,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3193,
-    "practitioner_id": 11
+    "practitioner_id": 60
   },
   {
     "service_id": 3193,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3193,
-    "practitioner_id": 14
-  },
-  {
-    "service_id": 3194,
-    "practitioner_id": 7
-  },
-  {
-    "service_id": 3194,
-    "practitioner_id": 9
-  },
-  {
-    "service_id": 3194,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 3194,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3194,
-    "practitioner_id": 12
-  },
-  {
-    "service_id": 3194,
-    "practitioner_id": 14
+    "practitioner_id": 69
   },
   {
     "service_id": 3195,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3195,
-    "practitioner_id": 9
+    "practitioner_id": 79
   },
   {
     "service_id": 3195,
-    "practitioner_id": 10
+    "practitioner_id": 80
   },
   {
     "service_id": 3195,
-    "practitioner_id": 11
+    "practitioner_id": 58
   },
   {
     "service_id": 3195,
-    "practitioner_id": 12
+    "practitioner_id": 59
   },
   {
     "service_id": 3195,
-    "practitioner_id": 14
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3195,
+    "practitioner_id": 69
   },
   {
     "service_id": 3196,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3196,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3196,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3196,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3196,
-    "practitioner_id": 12
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3196,
+    "practitioner_id": 69
   },
   {
     "service_id": 3197,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3197,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3197,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3197,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3197,
-    "practitioner_id": 12
+    "practitioner_id": 60
+  },
+  {
+    "service_id": 3197,
+    "practitioner_id": 69
   },
   {
     "service_id": 3198,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3198,
-    "practitioner_id": 8
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3198,
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3198,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3198,
+    "practitioner_id": 60
   },
   {
     "service_id": 3199,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3199,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3199,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3199,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3199,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3200,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3200,
-    "practitioner_id": 9
-  },
-  {
-    "service_id": 3200,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 3200,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3200,
-    "practitioner_id": 12
+    "practitioner_id": 79
   },
   {
     "service_id": 3201,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3201,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3201,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3201,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3201,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3202,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3202,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3202,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3202,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3202,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3203,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3203,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3203,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3203,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3203,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3204,
-    "practitioner_id": 10
+    "practitioner_id": 78
   },
   {
     "service_id": 3204,
-    "practitioner_id": 11
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3204,
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3204,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3204,
+    "practitioner_id": 60
   },
   {
     "service_id": 3205,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3205,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3205,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3205,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3205,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3206,
-    "practitioner_id": 7
+    "practitioner_id": 58
   },
   {
     "service_id": 3206,
-    "practitioner_id": 9
-  },
-  {
-    "service_id": 3206,
-    "practitioner_id": 10
-  },
-  {
-    "service_id": 3206,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3206,
-    "practitioner_id": 12
+    "practitioner_id": 59
   },
   {
     "service_id": 3207,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3207,
-    "practitioner_id": 8
+    "practitioner_id": 80
   },
   {
     "service_id": 3207,
-    "practitioner_id": 9
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3207,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3207,
+    "practitioner_id": 60
   },
   {
     "service_id": 3208,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3208,
-    "practitioner_id": 8
+    "practitioner_id": 80
   },
   {
     "service_id": 3208,
-    "practitioner_id": 9
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3208,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3208,
+    "practitioner_id": 60
   },
   {
     "service_id": 3209,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3209,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3209,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3210,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3210,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3210,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3211,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3211,
-    "practitioner_id": 8
+    "practitioner_id": 79
   },
   {
     "service_id": 3211,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3212,
-    "practitioner_id": 10
+    "practitioner_id": 78
   },
   {
     "service_id": 3212,
-    "practitioner_id": 11
+    "practitioner_id": 79
   },
   {
     "service_id": 3212,
-    "practitioner_id": 13
+    "practitioner_id": 80
   },
   {
     "service_id": 3213,
-    "practitioner_id": 10
+    "practitioner_id": 78
   },
   {
     "service_id": 3213,
-    "practitioner_id": 11
+    "practitioner_id": 79
   },
   {
     "service_id": 3213,
-    "practitioner_id": 13
+    "practitioner_id": 80
   },
   {
     "service_id": 3214,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3214,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3214,
-    "practitioner_id": 13
+    "practitioner_id": 61
   },
   {
     "service_id": 3215,
-    "practitioner_id": 13
+    "practitioner_id": 58
   },
   {
     "service_id": 3215,
-    "practitioner_id": 16
+    "practitioner_id": 59
   },
   {
     "service_id": 3215,
-    "practitioner_id": 10
+    "practitioner_id": 61
   },
   {
     "service_id": 3216,
-    "practitioner_id": 7
+    "practitioner_id": 58
   },
   {
     "service_id": 3216,
-    "practitioner_id": 9
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3216,
+    "practitioner_id": 61
   },
   {
     "service_id": 3217,
-    "practitioner_id": 7
+    "practitioner_id": 61
   },
   {
     "service_id": 3217,
-    "practitioner_id": 9
+    "practitioner_id": 63
+  },
+  {
+    "service_id": 3217,
+    "practitioner_id": 58
   },
   {
     "service_id": 3218,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3218,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3219,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3219,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3220,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3220,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3221,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3221,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3222,
-    "practitioner_id": 10
+    "practitioner_id": 78
   },
   {
     "service_id": 3222,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3222,
-    "practitioner_id": 13
+    "practitioner_id": 80
   },
   {
     "service_id": 3223,
-    "practitioner_id": 10
+    "practitioner_id": 78
   },
   {
     "service_id": 3223,
-    "practitioner_id": 11
-  },
-  {
-    "service_id": 3223,
-    "practitioner_id": 13
+    "practitioner_id": 80
   },
   {
     "service_id": 3224,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3224,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3224,
-    "practitioner_id": 13
+    "practitioner_id": 61
   },
   {
     "service_id": 3225,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3225,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3225,
-    "practitioner_id": 13
+    "practitioner_id": 61
   },
   {
     "service_id": 3226,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3226,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3226,
-    "practitioner_id": 13
-  },
-  {
-    "service_id": 3226,
-    "practitioner_id": 24
+    "practitioner_id": 61
   },
   {
     "service_id": 3227,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3227,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3227,
-    "practitioner_id": 13
-  },
-  {
-    "service_id": 3227,
-    "practitioner_id": 24
+    "practitioner_id": 61
   },
   {
     "service_id": 3228,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3228,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3228,
-    "practitioner_id": 13
+    "practitioner_id": 61
   },
   {
     "service_id": 3228,
-    "practitioner_id": 24
+    "practitioner_id": 62
   },
   {
     "service_id": 3229,
-    "practitioner_id": 7
+    "practitioner_id": 58
   },
   {
     "service_id": 3229,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3229,
-    "practitioner_id": 11
+    "practitioner_id": 61
   },
   {
     "service_id": 3229,
-    "practitioner_id": 12
+    "practitioner_id": 62
   },
   {
     "service_id": 3230,
-    "practitioner_id": 7
+    "practitioner_id": 58
   },
   {
     "service_id": 3230,
-    "practitioner_id": 10
+    "practitioner_id": 59
   },
   {
     "service_id": 3230,
-    "practitioner_id": 11
+    "practitioner_id": 61
   },
   {
     "service_id": 3230,
-    "practitioner_id": 12
+    "practitioner_id": 62
   },
   {
     "service_id": 3231,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3231,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3231,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3231,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3232,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3232,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3232,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3232,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3233,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3233,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3233,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3233,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3234,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3234,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3234,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3234,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3235,
-    "practitioner_id": 7
+    "practitioner_id": 78
   },
   {
     "service_id": 3235,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3235,
-    "practitioner_id": 11
+    "practitioner_id": 59
   },
   {
     "service_id": 3235,
-    "practitioner_id": 12
+    "practitioner_id": 60
   },
   {
     "service_id": 3236,
-    "practitioner_id": 13
+    "practitioner_id": 78
   },
   {
     "service_id": 3236,
-    "practitioner_id": 24
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3236,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3236,
+    "practitioner_id": 60
   },
   {
     "service_id": 3237,
-    "practitioner_id": 10
+    "practitioner_id": 78
+  },
+  {
+    "service_id": 3237,
+    "practitioner_id": 58
+  },
+  {
+    "service_id": 3237,
+    "practitioner_id": 59
+  },
+  {
+    "service_id": 3237,
+    "practitioner_id": 60
   },
   {
     "service_id": 3238,
-    "practitioner_id": 10
+    "practitioner_id": 61
+  },
+  {
+    "service_id": 3238,
+    "practitioner_id": 62
   },
   {
     "service_id": 3239,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3240,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3241,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3242,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3243,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3244,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3245,
-    "practitioner_id": 10
+    "practitioner_id": 58
   },
   {
     "service_id": 3246,
-    "practitioner_id": 20
+    "practitioner_id": 58
   },
   {
     "service_id": 3247,
-    "practitioner_id": 20
+    "practitioner_id": 58
   },
   {
     "service_id": 3248,
-    "practitioner_id": 20
+    "practitioner_id": 65
   },
   {
     "service_id": 3249,
-    "practitioner_id": 20
+    "practitioner_id": 65
   },
   {
     "service_id": 3250,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3250,
-    "practitioner_id": 15
-  },
-  {
-    "service_id": 3250,
-    "practitioner_id": 26
+    "practitioner_id": 65
   },
   {
     "service_id": 3251,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3251,
-    "practitioner_id": 15
-  },
-  {
-    "service_id": 3251,
-    "practitioner_id": 26
+    "practitioner_id": 65
   },
   {
     "service_id": 3252,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3252,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3252,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3253,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3253,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3253,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3254,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3254,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3254,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3255,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3255,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3255,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3256,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3256,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3256,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3257,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3257,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3257,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3258,
-    "practitioner_id": 25
+    "practitioner_id": 67
   },
   {
     "service_id": 3258,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3258,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3259,
-    "practitioner_id": 9
+    "practitioner_id": 67
   },
   {
     "service_id": 3259,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3259,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3260,
-    "practitioner_id": 9
+    "practitioner_id": 67
   },
   {
     "service_id": 3260,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3260,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3261,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3261,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3261,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3262,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3262,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3262,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3263,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3263,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3263,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3264,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3264,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3264,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3265,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3265,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3265,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3266,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3266,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3266,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3267,
-    "practitioner_id": 9
+    "practitioner_id": 80
   },
   {
     "service_id": 3267,
-    "practitioner_id": 15
+    "practitioner_id": 81
   },
   {
     "service_id": 3267,
-    "practitioner_id": 26
+    "practitioner_id": 84
   },
   {
     "service_id": 3268,
-    "practitioner_id": 16
+    "practitioner_id": 80
   },
   {
     "service_id": 3268,
-    "practitioner_id": 24
+    "practitioner_id": 81
   },
   {
     "service_id": 3268,
-    "practitioner_id": 15
+    "practitioner_id": 84
   },
   {
     "service_id": 3269,
-    "practitioner_id": 25
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3269,
+    "practitioner_id": 81
+  },
+  {
+    "service_id": 3269,
+    "practitioner_id": 84
   },
   {
     "service_id": 3270,
-    "practitioner_id": 25
+    "practitioner_id": 63
   },
   {
-    "service_id": 3271,
-    "practitioner_id": 25
+    "service_id": 3270,
+    "practitioner_id": 62
   },
   {
-    "service_id": 3272,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3273,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3274,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3275,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3276,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3277,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3278,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3279,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3280,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3281,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3282,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3283,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3284,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3285,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3286,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3286,
-    "practitioner_id": 27
-  },
-  {
-    "service_id": 3287,
-    "practitioner_id": 25
-  },
-  {
-    "service_id": 3288,
-    "practitioner_id": 28
-  },
-  {
-    "service_id": 3289,
-    "practitioner_id": 28
+    "service_id": 3270,
+    "practitioner_id": 81
   },
   {
     "service_id": 3290,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3291,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3292,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3293,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3294,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3295,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3296,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3297,
-    "practitioner_id": 28
+    "practitioner_id": 67
+  },
+  {
+    "service_id": 3279,
+    "practitioner_id": 67
   },
   {
     "service_id": 3298,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3299,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3300,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3301,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3302,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3303,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3304,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3305,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3306,
-    "practitioner_id": 28
+    "practitioner_id": 67
   },
   {
     "service_id": 3306,
-    "practitioner_id": 21
+    "practitioner_id": 80
+  },
+  {
+    "service_id": 3307,
+    "practitioner_id": 67
+  },
+  {
+    "service_id": 3290,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3291,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3292,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3293,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3294,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3295,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3296,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3297,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3298,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3299,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3300,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3301,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3302,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3303,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3304,
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3305,
+    "practitioner_id": 86
   },
   {
     "service_id": 3306,
-    "practitioner_id": 29
-  },
-  {
-    "service_id": 3306,
-    "practitioner_id": 24
+    "practitioner_id": 86
   },
   {
     "service_id": 3307,
-    "practitioner_id": 28
-  },
-  {
-    "service_id": 3307,
-    "practitioner_id": 21
-  },
-  {
-    "service_id": 3307,
-    "practitioner_id": 29
-  },
-  {
-    "service_id": 3307,
-    "practitioner_id": 24
+    "practitioner_id": 86
   },
   {
     "service_id": 3308,
-    "practitioner_id": 28
+    "practitioner_id": 86
   },
   {
     "service_id": 3308,
-    "practitioner_id": 21
+    "practitioner_id": 87
   },
   {
     "service_id": 3308,
-    "practitioner_id": 29
+    "practitioner_id": 85
   },
   {
     "service_id": 3308,
-    "practitioner_id": 24
+    "practitioner_id": 62
   },
   {
     "service_id": 3309,
-    "practitioner_id": 28
+    "practitioner_id": 86
   },
   {
     "service_id": 3309,
-    "practitioner_id": 21
+    "practitioner_id": 87
   },
   {
     "service_id": 3309,
-    "practitioner_id": 29
+    "practitioner_id": 85
   },
   {
     "service_id": 3309,
-    "practitioner_id": 24
+    "practitioner_id": 62
   },
   {
     "service_id": 3310,
-    "practitioner_id": 30
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3310,
+    "practitioner_id": 87
+  },
+  {
+    "service_id": 3310,
+    "practitioner_id": 85
+  },
+  {
+    "service_id": 3310,
+    "practitioner_id": 62
   },
   {
     "service_id": 3311,
-    "practitioner_id": 30
+    "practitioner_id": 86
+  },
+  {
+    "service_id": 3311,
+    "practitioner_id": 87
+  },
+  {
+    "service_id": 3311,
+    "practitioner_id": 85
+  },
+  {
+    "service_id": 3311,
+    "practitioner_id": 62
   },
   {
     "service_id": 3312,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3313,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3314,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3315,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3316,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3317,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3318,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3319,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3320,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3321,
-    "practitioner_id": 30
-  },
-  {
-    "service_id": 3322,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3323,
-    "practitioner_id": 30
+    "practitioner_id": 68
+  },
+  {
+    "service_id": 3323,
+    "practitioner_id": 68
   },
   {
     "service_id": 3324,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3325,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3326,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3327,
-    "practitioner_id": 30
-  },
-  {
-    "service_id": 3328,
-    "practitioner_id": 30
-  },
-  {
-    "service_id": 3329,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3331,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
-    "service_id": 3332,
-    "practitioner_id": 30
+    "service_id": 3331,
+    "practitioner_id": 68
+  },
+  {
+    "service_id": 3331,
+    "practitioner_id": 68
+  },
+  {
+    "service_id": 3331,
+    "practitioner_id": 68
   },
   {
     "service_id": 3333,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3334,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3335,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3336,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3337,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3338,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3339,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3340,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3341,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3342,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3343,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3344,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3345,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3346,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3347,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3348,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3349,
-    "practitioner_id": 30
+    "practitioner_id": 68
   },
   {
     "service_id": 3350,
-    "practitioner_id": 31
+    "practitioner_id": 68
   },
   {
     "service_id": 3351,
-    "practitioner_id": 31
+    "practitioner_id": 68
   },
   {
     "service_id": 3352,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3353,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3354,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3355,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3356,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3357,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3358,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3359,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3360,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3361,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3362,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3363,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3364,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3365,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3366,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3367,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3368,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3369,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3370,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3371,
-    "practitioner_id": 31
+    "practitioner_id": 77
   },
   {
     "service_id": 3372,
-    "practitioner_id": 32
-  },
-  {
-    "service_id": 3372,
-    "practitioner_id": 33
+    "practitioner_id": 77
   },
   {
     "service_id": 3373,
-    "practitioner_id": 32
-  },
-  {
-    "service_id": 3373,
-    "practitioner_id": 33
+    "practitioner_id": 77
   },
   {
     "service_id": 3374,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3374,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3375,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3375,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3376,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3376,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3377,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3377,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3378,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3378,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3379,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3379,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3380,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3380,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3381,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3381,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3382,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3382,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3383,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3383,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3384,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3384,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3385,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3385,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3386,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3386,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3387,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3387,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3388,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3388,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3389,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3389,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3390,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3390,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3391,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3391,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3392,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3392,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3393,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3393,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3394,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3394,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3395,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3395,
-    "practitioner_id": 33
+    "practitioner_id": 71
+  },
+  {
+    "service_id": 3396,
+    "practitioner_id": 70
+  },
+  {
+    "service_id": 3396,
+    "practitioner_id": 71
   },
   {
     "service_id": 3397,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3397,
-    "practitioner_id": 33
-  },
-  {
-    "service_id": 3398,
-    "practitioner_id": 32
-  },
-  {
-    "service_id": 3398,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3399,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3399,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3400,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3400,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3401,
-    "practitioner_id": 32
+    "practitioner_id": 70
   },
   {
     "service_id": 3401,
-    "practitioner_id": 33
+    "practitioner_id": 71
   },
   {
     "service_id": 3402,
-    "practitioner_id": 34
+    "practitioner_id": 70
+  },
+  {
+    "service_id": 3402,
+    "practitioner_id": 71
   },
   {
     "service_id": 3403,
-    "practitioner_id": 34
+    "practitioner_id": 70
+  },
+  {
+    "service_id": 3403,
+    "practitioner_id": 71
   },
   {
     "service_id": 3404,
-    "practitioner_id": 34
+    "practitioner_id": 82
   },
   {
     "service_id": 3405,
-    "practitioner_id": 34
+    "practitioner_id": 82
   },
   {
     "service_id": 3406,
-    "practitioner_id": 34
+    "practitioner_id": 82
   },
   {
     "service_id": 3407,
-    "practitioner_id": 34
-  },
-  {
-    "service_id": 3408,
-    "practitioner_id": 34
-  },
-  {
-    "service_id": 3409,
-    "practitioner_id": 34
-  },
-  {
-    "service_id": 3410,
-    "practitioner_id": 34
-  },
-  {
-    "service_id": 3411,
-    "practitioner_id": 34
-  },
-  {
-    "service_id": 3412,
-    "practitioner_id": 34
+    "practitioner_id": 82
   },
   {
     "service_id": 3413,
-    "practitioner_id": 34
+    "practitioner_id": 82
+  },
+  {
+    "service_id": 3409,
+    "practitioner_id": 82
+  },
+  {
+    "service_id": 3410,
+    "practitioner_id": 82
+  },
+  {
+    "service_id": 3411,
+    "practitioner_id": 82
+  },
+  {
+    "service_id": 3412,
+    "practitioner_id": 82
+  },
+  {
+    "service_id": 3413,
+    "practitioner_id": 82
   },
   {
     "service_id": 3414,
-    "practitioner_id": 34
+    "practitioner_id": 82
   },
   {
     "service_id": 3415,
-    "practitioner_id": 35
-  },
-  {
-    "service_id": 3415,
-    "practitioner_id": 36
+    "practitioner_id": 82
   },
   {
     "service_id": 3416,
-    "practitioner_id": 35
-  },
-  {
-    "service_id": 3416,
-    "practitioner_id": 36
+    "practitioner_id": 82
   },
   {
     "service_id": 3417,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3417,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3418,
-    "practitioner_id": 36
+    "practitioner_id": 76
+  },
+  {
+    "service_id": 3418,
+    "practitioner_id": 75
   },
   {
     "service_id": 3419,
-    "practitioner_id": 36
+    "practitioner_id": 76
+  },
+  {
+    "service_id": 3419,
+    "practitioner_id": 75
   },
   {
     "service_id": 3420,
-    "practitioner_id": 35
-  },
-  {
-    "service_id": 3420,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3421,
-    "practitioner_id": 35
-  },
-  {
-    "service_id": 3421,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3422,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3422,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3423,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3423,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3424,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3424,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3425,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3425,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3426,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3426,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3427,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3427,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3428,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3428,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3429,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3429,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3430,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3430,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3431,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3431,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3432,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3432,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3433,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3433,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3434,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3434,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3435,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3435,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3436,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3436,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3437,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3437,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3438,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3438,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3439,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3439,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3440,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3440,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3441,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3441,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3442,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3442,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3443,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3443,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3444,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3444,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3445,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3445,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3446,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3446,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3447,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3447,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3448,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3448,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3449,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3449,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3450,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3450,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3451,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3451,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3452,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3452,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3453,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3453,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3454,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3454,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3455,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3455,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3456,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3456,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3457,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3457,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3458,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3458,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3459,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3459,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3460,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3460,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3461,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3461,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3462,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3462,
-    "practitioner_id": 36
+    "practitioner_id": 75
   },
   {
     "service_id": 3463,
-    "practitioner_id": 35
+    "practitioner_id": 76
   },
   {
     "service_id": 3463,
-    "practitioner_id": 36
+    "practitioner_id": 75
+  },
+  {
+    "service_id": 3464,
+    "practitioner_id": 76
+  },
+  {
+    "service_id": 3464,
+    "practitioner_id": 75
+  },
+  {
+    "service_id": 3465,
+    "practitioner_id": 76
+  },
+  {
+    "service_id": 3465,
+    "practitioner_id": 75
   }
 ]

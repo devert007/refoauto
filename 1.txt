@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/1ZXYPl573sgfdRYDJj1RzPDJLPpyKpGY6vgr4NsgJ
 | Secondary Qualifications | secondary_qualifications | Как есть |
 | Additional Qualifications | additional_qualifications | Как есть |
 | treat children | treat_children, treat_children_age | "No" → false/null, "Any age" → true/"Any age", "13+" → true/"13+" |
-| Branch | branches | "Hortman Clinics - Jumeirah 3" → ["jumeirah"], "Sheikh Zayed Road" → ["srz"], оба → ["jumeirah", "srz"] |
+| Branch | branches | "Hortman Clinics - Jumeirah 3" → ["jumeirah"], "Sheikh Zayed Road" → ["szr"], оба → ["jumeirah", "szr"] |
 
 ## Известные языки для парсинга
 ENGLISH, RUSSIAN, UKRAINIAN, ARABIC, FRENCH, AFRIKAANS, ROMANIAN, TURKISH, ARMENIAN, SPANISH
@@ -41,7 +41,7 @@ ENGLISH, RUSSIAN, UKRAINIAN, ARABIC, FRENCH, AFRIKAANS, ROMANIAN, TURKISH, ARMEN
     "additional_qualifications": "...",
     "treat_children": true,
     "treat_children_age": "13+",
-    "branches": ["srz"],
+    "branches": ["szr"],
     "is_visible_to_ai": true,
     "source": "google_sheets"
   }

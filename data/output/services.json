@@ -1,7 +1,7 @@
 [
   {
-    "id": 7,
-    "category_id": 17,
+    "id": 3093,
+    "category_id": 336,
     "name_i18n": {
       "en": "MesoTherapy - Face"
     },
@@ -14,12 +14,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 53,
-    "category_id": 12,
+    "id": 3094,
+    "category_id": 331,
     "name_i18n": {
       "en": "Dermaplaning"
     },
@@ -32,12 +32,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3093,
-    "category_id": 10,
+    "id": 3095,
+    "category_id": 329,
     "name_i18n": {
       "en": "Aesthetics Consultation"
     },
@@ -50,12 +50,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3094,
-    "category_id": 10,
+    "id": 3096,
+    "category_id": 329,
     "name_i18n": {
       "en": "Dermatology Consultation"
     },
@@ -68,12 +68,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3095,
-    "category_id": 10,
+    "id": 3097,
+    "category_id": 329,
     "name_i18n": {
       "en": "Follow Up Consultation"
     },
@@ -86,12 +86,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3096,
-    "category_id": 10,
+    "id": 3098,
+    "category_id": 329,
     "name_i18n": {
       "en": "Follow Up Visit"
     },
@@ -102,12 +102,12 @@
     "price_note_i18n": {},
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3097,
-    "category_id": 10,
+    "id": 3099,
+    "category_id": 329,
     "name_i18n": {
       "en": "Follow Up Consultation (Dermatology)"
     },
@@ -118,12 +118,12 @@
     "price_note_i18n": {},
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3098,
-    "category_id": 11,
+    "id": 3100,
+    "category_id": 330,
     "name_i18n": {
       "en": "Lesion Excision (Small)"
     },
@@ -136,12 +136,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3099,
-    "category_id": 11,
+    "id": 3101,
+    "category_id": 330,
     "name_i18n": {
       "en": "Lesion Excision (Large)"
     },
@@ -154,12 +154,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3100,
-    "category_id": 11,
+    "id": 3102,
+    "category_id": 330,
     "name_i18n": {
       "en": "Mole Excision (Small)"
     },
@@ -172,12 +172,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3101,
-    "category_id": 11,
+    "id": 3103,
+    "category_id": 330,
     "name_i18n": {
       "en": "Mole Excision (Large)"
     },
@@ -190,12 +190,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3102,
-    "category_id": 11,
+    "id": 3104,
+    "category_id": 330,
     "name_i18n": {
       "en": "Cryotherapy (Small)"
     },
@@ -208,12 +208,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3103,
-    "category_id": 11,
+    "id": 3105,
+    "category_id": 330,
     "name_i18n": {
       "en": "Cryotherapy (Medium)"
     },
@@ -226,12 +226,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3104,
-    "category_id": 11,
+    "id": 3106,
+    "category_id": 330,
     "name_i18n": {
       "en": "Cryotherapy (Large)"
     },
@@ -244,12 +244,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3105,
-    "category_id": 11,
+    "id": 3107,
+    "category_id": 330,
     "name_i18n": {
       "en": "Cysts Extraction (S)"
     },
@@ -262,12 +262,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3106,
-    "category_id": 11,
+    "id": 3108,
+    "category_id": 330,
     "name_i18n": {
       "en": "Cysts Extraction (M)"
     },
@@ -280,12 +280,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3107,
-    "category_id": 11,
+    "id": 3109,
+    "category_id": 330,
     "name_i18n": {
       "en": "Cysts Extraction (L)"
     },
@@ -298,12 +298,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3108,
-    "category_id": 11,
+    "id": 3110,
+    "category_id": 330,
     "name_i18n": {
       "en": "Skin Tag Removal (small)"
     },
@@ -316,12 +316,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3109,
-    "category_id": 11,
+    "id": 3111,
+    "category_id": 330,
     "name_i18n": {
       "en": "Skin Tag Removal (large)"
     },
@@ -334,12 +334,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3110,
-    "category_id": 11,
+    "id": 3112,
+    "category_id": 330,
     "name_i18n": {
       "en": "Wart Removal (small)"
     },
@@ -352,12 +352,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3111,
-    "category_id": 11,
+    "id": 3113,
+    "category_id": 330,
     "name_i18n": {
       "en": "Wart Removal (large)"
     },
@@ -370,12 +370,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3112,
-    "category_id": 11,
+    "id": 3114,
+    "category_id": 330,
     "name_i18n": {
       "en": "Laser Minor Procedure"
     },
@@ -388,12 +388,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3113,
-    "category_id": 11,
+    "id": 3115,
+    "category_id": 330,
     "name_i18n": {
       "en": "UVB Phototherapy"
     },
@@ -406,12 +406,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3114,
-    "category_id": 12,
+    "id": 3116,
+    "category_id": 331,
     "name_i18n": {
       "en": "Hortman Signature Facial"
     },
@@ -424,12 +424,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3115,
-    "category_id": 12,
+    "id": 3117,
+    "category_id": 331,
     "name_i18n": {
       "en": "Classic Facial"
     },
@@ -442,12 +442,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3116,
-    "category_id": 12,
+    "id": 3118,
+    "category_id": 331,
     "name_i18n": {
       "en": "Face Sculpt"
     },
@@ -460,12 +460,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3117,
-    "category_id": 12,
+    "id": 3119,
+    "category_id": 331,
     "name_i18n": {
       "en": "Dermalux Flex MD LED Therapy"
     },
@@ -478,12 +478,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3118,
-    "category_id": 12,
+    "id": 3120,
+    "category_id": 331,
     "name_i18n": {
       "en": "Face Mask - add on"
     },
@@ -496,12 +496,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3119,
-    "category_id": 12,
+    "id": 3121,
+    "category_id": 331,
     "name_i18n": {
       "en": "Lymphatic Drainage Massage (add on)"
     },
@@ -514,12 +514,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3120,
-    "category_id": 12,
+    "id": 3122,
+    "category_id": 331,
     "name_i18n": {
       "en": "Microdermabrasion (add-on)"
     },
@@ -535,8 +535,8 @@
     ]
   },
   {
-    "id": 3121,
-    "category_id": 12,
+    "id": 3123,
+    "category_id": 331,
     "name_i18n": {
       "en": "Microcurrent Treatment"
     },
@@ -549,12 +549,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3122,
-    "category_id": 12,
+    "id": 3124,
+    "category_id": 331,
     "name_i18n": {
       "en": "pH Facial - Rosacea"
     },
@@ -567,12 +567,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3123,
-    "category_id": 12,
+    "id": 3125,
+    "category_id": 331,
     "name_i18n": {
       "en": "pH Facial - Acne"
     },
@@ -585,12 +585,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3124,
-    "category_id": 12,
+    "id": 3126,
+    "category_id": 331,
     "name_i18n": {
       "en": "pH Facial - Pigmentation"
     },
@@ -603,12 +603,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3125,
-    "category_id": 12,
+    "id": 3127,
+    "category_id": 331,
     "name_i18n": {
       "en": "pH Facial - Skin Resurfacing"
     },
@@ -621,12 +621,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3126,
-    "category_id": 12,
+    "id": 3128,
+    "category_id": 331,
     "name_i18n": {
       "en": "Phixel Needling Facial"
     },
@@ -639,12 +639,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3127,
-    "category_id": 12,
+    "id": 3129,
+    "category_id": 331,
     "name_i18n": {
       "en": "Hydrafacial Syndeo Deluxe"
     },
@@ -660,8 +660,8 @@
     ]
   },
   {
-    "id": 3128,
-    "category_id": 12,
+    "id": 3130,
+    "category_id": 331,
     "name_i18n": {
       "en": "Hydrafacial Syndeo Platinum"
     },
@@ -677,8 +677,8 @@
     ]
   },
   {
-    "id": 3129,
-    "category_id": 12,
+    "id": 3131,
+    "category_id": 331,
     "name_i18n": {
       "en": "Heleo4 - 1 session"
     },
@@ -694,8 +694,8 @@
     ]
   },
   {
-    "id": 3130,
-    "category_id": 12,
+    "id": 3132,
+    "category_id": 331,
     "name_i18n": {
       "en": "Heleo4 Skin Cellular Detox Programme (5 sessions)"
     },
@@ -711,8 +711,8 @@
     ]
   },
   {
-    "id": 3131,
-    "category_id": 12,
+    "id": 3133,
+    "category_id": 331,
     "name_i18n": {
       "en": "Facial Complex"
     },
@@ -725,12 +725,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3132,
-    "category_id": 12,
+    "id": 3134,
+    "category_id": 331,
     "name_i18n": {
       "en": "Pregnancy-Safe Facial"
     },
@@ -743,12 +743,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3133,
-    "category_id": 12,
+    "id": 3135,
+    "category_id": 331,
     "name_i18n": {
       "en": "Teen Facial"
     },
@@ -761,12 +761,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3134,
-    "category_id": 12,
+    "id": 3136,
+    "category_id": 331,
     "name_i18n": {
       "en": "Glass Skin Facial"
     },
@@ -779,12 +779,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3135,
-    "category_id": 12,
+    "id": 3137,
+    "category_id": 331,
     "name_i18n": {
       "en": "Accent Prime - MicroPlasma"
     },
@@ -797,12 +797,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3136,
-    "category_id": 12,
+    "id": 3138,
+    "category_id": 331,
     "name_i18n": {
       "en": "Back Facial"
     },
@@ -815,12 +815,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3137,
-    "category_id": 13,
+    "id": 3139,
+    "category_id": 332,
     "name_i18n": {
       "en": "Biorepeel"
     },
@@ -833,12 +833,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3138,
-    "category_id": 13,
+    "id": 3140,
+    "category_id": 332,
     "name_i18n": {
       "en": "Cosmelan (includes home care products)"
     },
@@ -851,12 +851,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3139,
-    "category_id": 13,
+    "id": 3141,
+    "category_id": 332,
     "name_i18n": {
       "en": "Dermamelan"
     },
@@ -869,12 +869,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3140,
-    "category_id": 13,
+    "id": 3142,
+    "category_id": 332,
     "name_i18n": {
       "en": "Centric - Whitening Treatment"
     },
@@ -887,12 +887,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3141,
-    "category_id": 13,
+    "id": 3143,
+    "category_id": 332,
     "name_i18n": {
       "en": "Centric - Acne Treatment"
     },
@@ -905,12 +905,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3142,
-    "category_id": 13,
+    "id": 3144,
+    "category_id": 332,
     "name_i18n": {
       "en": "Centric - Eye Treatment"
     },
@@ -923,12 +923,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3143,
-    "category_id": 13,
+    "id": 3145,
+    "category_id": 332,
     "name_i18n": {
       "en": "Centric - Lips Treatment"
     },
@@ -941,12 +941,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3144,
-    "category_id": 13,
+    "id": 3146,
+    "category_id": 332,
     "name_i18n": {
       "en": "APPeex Peel"
     },
@@ -959,12 +959,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3145,
-    "category_id": 13,
+    "id": 3147,
+    "category_id": 332,
     "name_i18n": {
       "en": "Intimate Peel"
     },
@@ -977,12 +977,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3146,
-    "category_id": 13,
+    "id": 3148,
+    "category_id": 332,
     "name_i18n": {
       "en": "PRX-T33"
     },
@@ -995,12 +995,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3147,
-    "category_id": 13,
+    "id": 3149,
+    "category_id": 332,
     "name_i18n": {
       "en": "PRX-T33 ADD ON"
     },
@@ -1013,12 +1013,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3148,
-    "category_id": 14,
+    "id": 3150,
+    "category_id": 333,
     "name_i18n": {
       "en": "Botox - Small Zone (up to 20 units)"
     },
@@ -1031,12 +1031,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3149,
-    "category_id": 14,
+    "id": 3151,
+    "category_id": 333,
     "name_i18n": {
       "en": "Botox - Upper Face"
     },
@@ -1049,12 +1049,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3150,
-    "category_id": 14,
+    "id": 3152,
+    "category_id": 333,
     "name_i18n": {
       "en": "Botox - Neck/Platysmal Bands (Nephertiti)"
     },
@@ -1067,12 +1067,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3151,
-    "category_id": 14,
+    "id": 3153,
+    "category_id": 333,
     "name_i18n": {
       "en": "Botox - Hyperhidrosis"
     },
@@ -1085,12 +1085,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3152,
-    "category_id": 14,
+    "id": 3154,
+    "category_id": 333,
     "name_i18n": {
       "en": "Botox - Masseter"
     },
@@ -1103,12 +1103,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3153,
-    "category_id": 14,
+    "id": 3155,
+    "category_id": 333,
     "name_i18n": {
       "en": "FU Botox"
     },
@@ -1119,12 +1119,12 @@
     "price_note_i18n": {},
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3154,
-    "category_id": 15,
+    "id": 3156,
+    "category_id": 334,
     "name_i18n": {
       "en": "Dermal Filler - 1 Syringe"
     },
@@ -1137,12 +1137,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3155,
-    "category_id": 15,
+    "id": 3157,
+    "category_id": 334,
     "name_i18n": {
       "en": "Dermal Filler (add on syringe)"
     },
@@ -1155,12 +1155,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3156,
-    "category_id": 15,
+    "id": 3158,
+    "category_id": 334,
     "name_i18n": {
       "en": "Radiesse Filler - 1 syringe"
     },
@@ -1173,12 +1173,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3157,
-    "category_id": 15,
+    "id": 3159,
+    "category_id": 334,
     "name_i18n": {
       "en": "Radiesse Filler - 2 syringe"
     },
@@ -1191,12 +1191,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3158,
-    "category_id": 15,
+    "id": 3160,
+    "category_id": 334,
     "name_i18n": {
       "en": "Sculptra Filler - 1 syringe"
     },
@@ -1209,12 +1209,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3159,
-    "category_id": 15,
+    "id": 3161,
+    "category_id": 334,
     "name_i18n": {
       "en": "Body Filler - 1 syringe"
     },
@@ -1227,12 +1227,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3160,
-    "category_id": 15,
+    "id": 3162,
+    "category_id": 334,
     "name_i18n": {
       "en": "Dermal Fillers - 1 syringe (Fillmed/Ultra)"
     },
@@ -1245,12 +1245,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3161,
-    "category_id": 15,
+    "id": 3163,
+    "category_id": 334,
     "name_i18n": {
       "en": "FU Dermal Fillers"
     },
@@ -1261,12 +1261,12 @@
     "price_note_i18n": {},
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3162,
-    "category_id": 1,
+    "id": 3164,
+    "category_id": 328,
     "name_i18n": {
       "en": "Skin Booster - 1 Syringe"
     },
@@ -1279,12 +1279,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3163,
-    "category_id": 1,
+    "id": 3165,
+    "category_id": 328,
     "name_i18n": {
       "en": "Profhilo - 1 Syringe"
     },
@@ -1297,12 +1297,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3164,
-    "category_id": 1,
+    "id": 3166,
+    "category_id": 328,
     "name_i18n": {
       "en": "Profhilo Body"
     },
@@ -1315,12 +1315,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3165,
-    "category_id": 1,
+    "id": 3167,
+    "category_id": 328,
     "name_i18n": {
       "en": "Hair Filler"
     },
@@ -1333,12 +1333,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3166,
-    "category_id": 1,
+    "id": 3168,
+    "category_id": 328,
     "name_i18n": {
       "en": "Filler Dissolving (Hyaluronidase) - small"
     },
@@ -1351,12 +1351,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3167,
-    "category_id": 1,
+    "id": 3169,
+    "category_id": 328,
     "name_i18n": {
       "en": "Filler Dissolving (Hyaluronidase) - large"
     },
@@ -1369,12 +1369,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3168,
-    "category_id": 1,
+    "id": 3170,
+    "category_id": 328,
     "name_i18n": {
       "en": "Ultrasound-guided Filler Dissolving"
     },
@@ -1387,12 +1387,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3169,
-    "category_id": 1,
+    "id": 3171,
+    "category_id": 328,
     "name_i18n": {
       "en": "Hair Loss SOS Injection"
     },
@@ -1405,12 +1405,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3170,
-    "category_id": 1,
+    "id": 3172,
+    "category_id": 328,
     "name_i18n": {
       "en": "Keloid/Hypertrophic Scar Treatment"
     },
@@ -1423,12 +1423,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3171,
-    "category_id": 1,
+    "id": 3173,
+    "category_id": 328,
     "name_i18n": {
       "en": "Exosomes Treatment - Hair/Face"
     },
@@ -1441,12 +1441,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3172,
-    "category_id": 1,
+    "id": 3174,
+    "category_id": 328,
     "name_i18n": {
       "en": "Growth Factors & Microneedling"
     },
@@ -1459,12 +1459,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3173,
-    "category_id": 1,
+    "id": 3175,
+    "category_id": 328,
     "name_i18n": {
       "en": "Growth Factors Treatment"
     },
@@ -1477,12 +1477,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3174,
-    "category_id": 1,
+    "id": 3176,
+    "category_id": 328,
     "name_i18n": {
       "en": "Growth Factors (add on)"
     },
@@ -1495,12 +1495,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3175,
-    "category_id": 1,
+    "id": 3177,
+    "category_id": 328,
     "name_i18n": {
       "en": "AnteAGE Growth Factors"
     },
@@ -1513,12 +1513,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3176,
-    "category_id": 1,
+    "id": 3178,
+    "category_id": 328,
     "name_i18n": {
       "en": "AnteAGE Growth Factors (add on)"
     },
@@ -1531,12 +1531,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3177,
-    "category_id": 1,
+    "id": 3179,
+    "category_id": 328,
     "name_i18n": {
       "en": "SIILK SKINEE Lipolysis"
     },
@@ -1549,12 +1549,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3178,
-    "category_id": 1,
+    "id": 3180,
+    "category_id": 328,
     "name_i18n": {
       "en": "PBSerum - Fat Accumulation (Body)"
     },
@@ -1567,12 +1567,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3179,
-    "category_id": 1,
+    "id": 3181,
+    "category_id": 328,
     "name_i18n": {
       "en": "PBSerum - Fat Accumulation (Face)"
     },
@@ -1585,12 +1585,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3180,
-    "category_id": 1,
+    "id": 3182,
+    "category_id": 328,
     "name_i18n": {
       "en": "Polynucleotides Injection (1 syringe)"
     },
@@ -1603,12 +1603,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3181,
-    "category_id": 1,
+    "id": 3183,
+    "category_id": 328,
     "name_i18n": {
       "en": "Polynucleotides Injection ( Under Eye)"
     },
@@ -1621,12 +1621,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3182,
-    "category_id": 1,
+    "id": 3184,
+    "category_id": 328,
     "name_i18n": {
       "en": "Meso Mixed Treatment BCN"
     },
@@ -1639,12 +1639,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3183,
-    "category_id": 16,
+    "id": 3185,
+    "category_id": 335,
     "name_i18n": {
       "en": "PRF Treatment"
     },
@@ -1657,12 +1657,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3184,
-    "category_id": 16,
+    "id": 3186,
+    "category_id": 335,
     "name_i18n": {
       "en": "PRP - Face (1 tube)"
     },
@@ -1675,12 +1675,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3185,
-    "category_id": 16,
+    "id": 3187,
+    "category_id": 335,
     "name_i18n": {
       "en": "PRP - Hair (1 tube)"
     },
@@ -1693,12 +1693,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3186,
-    "category_id": 16,
+    "id": 3188,
+    "category_id": 335,
     "name_i18n": {
       "en": "PRP with HA (1 tube)"
     },
@@ -1711,12 +1711,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3187,
-    "category_id": 16,
+    "id": 3189,
+    "category_id": 335,
     "name_i18n": {
       "en": "PRP & Microneedling - Face"
     },
@@ -1729,12 +1729,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3188,
-    "category_id": 17,
+    "id": 3190,
+    "category_id": 336,
     "name_i18n": {
       "en": "MesoTherapy - Hair"
     },
@@ -1747,12 +1747,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3189,
-    "category_id": 17,
+    "id": 3191,
+    "category_id": 336,
     "name_i18n": {
       "en": "MesoTherapy & Microneedling"
     },
@@ -1765,12 +1765,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3190,
-    "category_id": 17,
+    "id": 3192,
+    "category_id": 336,
     "name_i18n": {
       "en": "Meso - Under Eyes"
     },
@@ -1783,12 +1783,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3191,
-    "category_id": 17,
+    "id": 3193,
+    "category_id": 336,
     "name_i18n": {
       "en": "Mesotherapy NCTF (1 vial)"
     },
@@ -1801,12 +1801,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3192,
-    "category_id": 18,
+    "id": 3194,
+    "category_id": 337,
     "name_i18n": {
       "en": "Ulthera (per line)"
     },
@@ -1818,12 +1818,12 @@
       "en": "Price excludes VAT. Average AED 6000 - 8000 Face Lift"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3193,
-    "category_id": 19,
+    "id": 3195,
+    "category_id": 338,
     "name_i18n": {
       "en": "Morpheus8 RF Microneedling (FACE) - 1 session"
     },
@@ -1836,12 +1836,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3194,
-    "category_id": 19,
+    "id": 3196,
+    "category_id": 338,
     "name_i18n": {
       "en": "Morpheus8 RF Microneedling (FACE & NECK) - 1 session"
     },
@@ -1854,12 +1854,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3195,
-    "category_id": 19,
+    "id": 3197,
+    "category_id": 338,
     "name_i18n": {
       "en": "Morpheus8 RF Microneedling (BODY-1 AREA) - 1 session"
     },
@@ -1872,12 +1872,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3196,
-    "category_id": 20,
+    "id": 3198,
+    "category_id": 339,
     "name_i18n": {
       "en": "BBL - Add on"
     },
@@ -1890,12 +1890,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3197,
-    "category_id": 20,
+    "id": 3199,
+    "category_id": 339,
     "name_i18n": {
       "en": "BBL - Forever Young"
     },
@@ -1908,12 +1908,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3198,
-    "category_id": 20,
+    "id": 3200,
+    "category_id": 339,
     "name_i18n": {
       "en": "HALO - Face & Neck"
     },
@@ -1925,12 +1925,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3199,
-    "category_id": 20,
+    "id": 3201,
+    "category_id": 339,
     "name_i18n": {
       "en": "Er:YAG Sciton - Nano Peel"
     },
@@ -1943,12 +1943,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3200,
-    "category_id": 20,
+    "id": 3202,
+    "category_id": 339,
     "name_i18n": {
       "en": "Er:YAG Sciton - Micro Peel"
     },
@@ -1961,12 +1961,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3201,
-    "category_id": 20,
+    "id": 3203,
+    "category_id": 339,
     "name_i18n": {
       "en": "Er:YAG Sciton - Full Ablation"
     },
@@ -1979,12 +1979,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3202,
-    "category_id": 20,
+    "id": 3204,
+    "category_id": 339,
     "name_i18n": {
       "en": "Er:YAG Sciton - Eyes"
     },
@@ -1997,12 +1997,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3203,
-    "category_id": 20,
+    "id": 3205,
+    "category_id": 339,
     "name_i18n": {
       "en": "Er:YAG Sciton - Small Area"
     },
@@ -2015,12 +2015,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3204,
-    "category_id": 20,
+    "id": 3206,
+    "category_id": 339,
     "name_i18n": {
       "en": "MOXI - Face & Neck"
     },
@@ -2036,8 +2036,8 @@
     ]
   },
   {
-    "id": 3205,
-    "category_id": 20,
+    "id": 3207,
+    "category_id": 339,
     "name_i18n": {
       "en": "Vein Laser Treatment (S)"
     },
@@ -2050,12 +2050,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3206,
-    "category_id": 20,
+    "id": 3208,
+    "category_id": 339,
     "name_i18n": {
       "en": "Vein Laser Treatment (M)"
     },
@@ -2068,12 +2068,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3207,
-    "category_id": 20,
+    "id": 3209,
+    "category_id": 339,
     "name_i18n": {
       "en": "Vein Laser Treatment (L)"
     },
@@ -2086,12 +2086,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3208,
-    "category_id": 20,
+    "id": 3210,
+    "category_id": 339,
     "name_i18n": {
       "en": "Clear Silk"
     },
@@ -2103,12 +2103,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3209,
-    "category_id": 20,
+    "id": 3211,
+    "category_id": 339,
     "name_i18n": {
       "en": "Clear Silk (add on)"
     },
@@ -2120,12 +2120,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3210,
-    "category_id": 20,
+    "id": 3212,
+    "category_id": 339,
     "name_i18n": {
       "en": "Tixel Eyes"
     },
@@ -2137,12 +2137,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3211,
-    "category_id": 20,
+    "id": 3213,
+    "category_id": 339,
     "name_i18n": {
       "en": "Tixel (Full Face)"
     },
@@ -2154,12 +2154,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3212,
-    "category_id": 20,
+    "id": 3214,
+    "category_id": 339,
     "name_i18n": {
       "en": "AviClear (3 sessions)"
     },
@@ -2175,8 +2175,8 @@
     ]
   },
   {
-    "id": 3213,
-    "category_id": 20,
+    "id": 3215,
+    "category_id": 339,
     "name_i18n": {
       "en": "Ultraclear"
     },
@@ -2192,8 +2192,8 @@
     ]
   },
   {
-    "id": 3214,
-    "category_id": 20,
+    "id": 3216,
+    "category_id": 339,
     "name_i18n": {
       "en": "UltraClear 3D MIRACLE"
     },
@@ -2209,8 +2209,8 @@
     ]
   },
   {
-    "id": 3215,
-    "category_id": 20,
+    "id": 3217,
+    "category_id": 339,
     "name_i18n": {
       "en": "Sofwave"
     },
@@ -2226,8 +2226,8 @@
     ]
   },
   {
-    "id": 3216,
-    "category_id": 20,
+    "id": 3218,
+    "category_id": 339,
     "name_i18n": {
       "en": "PicoWay - Tattoo Removal (cosmetic)"
     },
@@ -2239,12 +2239,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3217,
-    "category_id": 20,
+    "id": 3219,
+    "category_id": 339,
     "name_i18n": {
       "en": "PicoWay - Tattoo Removal (body - Small: Hand)"
     },
@@ -2256,12 +2256,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3218,
-    "category_id": 20,
+    "id": 3220,
+    "category_id": 339,
     "name_i18n": {
       "en": "PicoWay - Tattoo Removal (body - Medium: Arm)"
     },
@@ -2273,12 +2273,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3219,
-    "category_id": 20,
+    "id": 3221,
+    "category_id": 339,
     "name_i18n": {
       "en": "PicoWay - Tattoo Removal (body - big: both Arms/back)"
     },
@@ -2290,12 +2290,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3220,
-    "category_id": 20,
+    "id": 3222,
+    "category_id": 339,
     "name_i18n": {
       "en": "PicoWay - Full Face"
     },
@@ -2307,12 +2307,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3221,
-    "category_id": 20,
+    "id": 3223,
+    "category_id": 339,
     "name_i18n": {
       "en": "PicoWay - Small Area (Face/Body)"
     },
@@ -2324,12 +2324,12 @@
       "en": "Price excludes VAT"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3222,
-    "category_id": 20,
+    "id": 3224,
+    "category_id": 339,
     "name_i18n": {
       "en": "Pico Genesis  - Tattoo Removal (cosmetic)"
     },
@@ -2345,8 +2345,8 @@
     ]
   },
   {
-    "id": 3223,
-    "category_id": 20,
+    "id": 3225,
+    "category_id": 339,
     "name_i18n": {
       "en": "Pico Genesis - Tattoo Removal (body - Small: Hand)"
     },
@@ -2362,8 +2362,8 @@
     ]
   },
   {
-    "id": 3224,
-    "category_id": 20,
+    "id": 3226,
+    "category_id": 339,
     "name_i18n": {
       "en": "Pico Genesis - Tattoo Removal (body - Medium: Arm)"
     },
@@ -2379,8 +2379,8 @@
     ]
   },
   {
-    "id": 3225,
-    "category_id": 20,
+    "id": 3227,
+    "category_id": 339,
     "name_i18n": {
       "en": "Pico Genesis - Tattoo Removal (body - big: both Arms/back)"
     },
@@ -2396,8 +2396,8 @@
     ]
   },
   {
-    "id": 3226,
-    "category_id": 20,
+    "id": 3228,
+    "category_id": 339,
     "name_i18n": {
       "en": "Pico Genesis - Full Face"
     },
@@ -2413,8 +2413,8 @@
     ]
   },
   {
-    "id": 3227,
-    "category_id": 20,
+    "id": 3229,
+    "category_id": 339,
     "name_i18n": {
       "en": "Pico Genesis - Small Area (Face/Body)"
     },
@@ -2430,8 +2430,8 @@
     ]
   },
   {
-    "id": 3228,
-    "category_id": 20,
+    "id": 3230,
+    "category_id": 339,
     "name_i18n": {
       "en": "Fotona 4D"
     },
@@ -2447,8 +2447,8 @@
     ]
   },
   {
-    "id": 3229,
-    "category_id": 21,
+    "id": 3231,
+    "category_id": 340,
     "name_i18n": {
       "en": "Acne Scar TCA Cross (Small)"
     },
@@ -2461,12 +2461,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3230,
-    "category_id": 21,
+    "id": 3232,
+    "category_id": 340,
     "name_i18n": {
       "en": "Acne Scar TCA Cross (Large)"
     },
@@ -2479,12 +2479,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3231,
-    "category_id": 21,
+    "id": 3233,
+    "category_id": 340,
     "name_i18n": {
       "en": "Laser - Scar (Small)"
     },
@@ -2497,12 +2497,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3232,
-    "category_id": 21,
+    "id": 3234,
+    "category_id": 340,
     "name_i18n": {
       "en": "Laser - Scar (Meduim)"
     },
@@ -2515,12 +2515,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3233,
-    "category_id": 21,
+    "id": 3235,
+    "category_id": 340,
     "name_i18n": {
       "en": "Laser - Scar (Large)"
     },
@@ -2533,12 +2533,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3234,
-    "category_id": 21,
+    "id": 3236,
+    "category_id": 340,
     "name_i18n": {
       "en": "Laser Drug Delivery (add on)"
     },
@@ -2551,12 +2551,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3235,
-    "category_id": 21,
+    "id": 3237,
+    "category_id": 340,
     "name_i18n": {
       "en": "Scar Subcision"
     },
@@ -2569,12 +2569,12 @@
     },
     "branches": [
       "jumeirah",
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3236,
-    "category_id": 21,
+    "id": 3238,
+    "category_id": 340,
     "name_i18n": {
       "en": "Magnetic Tattoo Removal (Eyebrows)"
     },
@@ -2590,8 +2590,8 @@
     ]
   },
   {
-    "id": 3237,
-    "category_id": 22,
+    "id": 3239,
+    "category_id": 341,
     "name_i18n": {
       "en": "PDO - Mesothreads (per thread)"
     },
@@ -2607,8 +2607,8 @@
     ]
   },
   {
-    "id": 3238,
-    "category_id": 22,
+    "id": 3240,
+    "category_id": 341,
     "name_i18n": {
       "en": "PDO - Mesothreads (10 threads)"
     },
@@ -2624,8 +2624,8 @@
     ]
   },
   {
-    "id": 3239,
-    "category_id": 22,
+    "id": 3241,
+    "category_id": 341,
     "name_i18n": {
       "en": "APTOS Excellence Visage Threads"
     },
@@ -2641,8 +2641,8 @@
     ]
   },
   {
-    "id": 3240,
-    "category_id": 22,
+    "id": 3242,
+    "category_id": 341,
     "name_i18n": {
       "en": "APTOS Nano Threads"
     },
@@ -2658,8 +2658,8 @@
     ]
   },
   {
-    "id": 3241,
-    "category_id": 22,
+    "id": 3243,
+    "category_id": 341,
     "name_i18n": {
       "en": "EVERLINE PLA Threads 19G 100mm (4 threads)"
     },
@@ -2675,8 +2675,8 @@
     ]
   },
   {
-    "id": 3242,
-    "category_id": 22,
+    "id": 3244,
+    "category_id": 341,
     "name_i18n": {
       "en": "EVERLINE PLA Threads 19G 100mm (add-on thread)"
     },
@@ -2692,8 +2692,8 @@
     ]
   },
   {
-    "id": 3243,
-    "category_id": 22,
+    "id": 3245,
+    "category_id": 341,
     "name_i18n": {
       "en": "Mono Threads G27 60mm (10 threads)"
     },
@@ -2709,8 +2709,8 @@
     ]
   },
   {
-    "id": 3244,
-    "category_id": 22,
+    "id": 3246,
+    "category_id": 341,
     "name_i18n": {
       "en": "APTOS 2 G Threads - Lower Face"
     },
@@ -2726,8 +2726,8 @@
     ]
   },
   {
-    "id": 3245,
-    "category_id": 22,
+    "id": 3247,
+    "category_id": 341,
     "name_i18n": {
       "en": "APTOS Thread Lifting - Double Chin"
     },
@@ -2743,8 +2743,8 @@
     ]
   },
   {
-    "id": 3246,
-    "category_id": 23,
+    "id": 3248,
+    "category_id": 342,
     "name_i18n": {
       "en": "Icoone Body - 45 minutes"
     },
@@ -2760,8 +2760,8 @@
     ]
   },
   {
-    "id": 3247,
-    "category_id": 23,
+    "id": 3249,
+    "category_id": 342,
     "name_i18n": {
       "en": "Icoone Body - 60 minutes"
     },
@@ -2777,8 +2777,8 @@
     ]
   },
   {
-    "id": 3248,
-    "category_id": 23,
+    "id": 3250,
+    "category_id": 342,
     "name_i18n": {
       "en": "Icoone Body - 90 minutes"
     },
@@ -2794,8 +2794,8 @@
     ]
   },
   {
-    "id": 3249,
-    "category_id": 23,
+    "id": 3251,
+    "category_id": 342,
     "name_i18n": {
       "en": "Icoone Face - 30 minutes"
     },
@@ -2811,8 +2811,8 @@
     ]
   },
   {
-    "id": 3250,
-    "category_id": 24,
+    "id": 3252,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Small Area"
     },
@@ -2824,12 +2824,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3251,
-    "category_id": 24,
+    "id": 3253,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Arms"
     },
@@ -2841,12 +2841,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3252,
-    "category_id": 24,
+    "id": 3254,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Flanks"
     },
@@ -2858,12 +2858,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3253,
-    "category_id": 24,
+    "id": 3255,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Stomach"
     },
@@ -2875,12 +2875,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3254,
-    "category_id": 24,
+    "id": 3256,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Full Thighs"
     },
@@ -2892,12 +2892,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3255,
-    "category_id": 24,
+    "id": 3257,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Thighs + Buttocks"
     },
@@ -2909,12 +2909,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3256,
-    "category_id": 24,
+    "id": 3258,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - Front Thighs"
     },
@@ -2926,12 +2926,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3257,
-    "category_id": 24,
+    "id": 3259,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - 3 areas"
     },
@@ -2943,12 +2943,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3258,
-    "category_id": 24,
+    "id": 3260,
+    "category_id": 343,
     "name_i18n": {
       "en": "Accent Prime – RF and Ultrasound - 4 areas +"
     },
@@ -2960,12 +2960,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3259,
-    "category_id": 25,
+    "id": 3261,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo - Abdomen"
     },
@@ -2977,12 +2977,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3260,
-    "category_id": 25,
+    "id": 3262,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo - Buttocks"
     },
@@ -2994,12 +2994,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3261,
-    "category_id": 25,
+    "id": 3263,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo – Front Thighs"
     },
@@ -3011,12 +3011,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3262,
-    "category_id": 25,
+    "id": 3264,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo – Back Thighs"
     },
@@ -3028,12 +3028,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3263,
-    "category_id": 25,
+    "id": 3265,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo – Outer Thighs"
     },
@@ -3045,12 +3045,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3264,
-    "category_id": 25,
+    "id": 3266,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo - Inner Thighs"
     },
@@ -3062,12 +3062,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3265,
-    "category_id": 25,
+    "id": 3267,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo - Calves"
     },
@@ -3079,12 +3079,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3266,
-    "category_id": 25,
+    "id": 3268,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo - Triceps"
     },
@@ -3096,12 +3096,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3267,
-    "category_id": 25,
+    "id": 3269,
+    "category_id": 344,
     "name_i18n": {
       "en": "Emsculpt Neo - Biceps"
     },
@@ -3113,12 +3113,12 @@
       "en": "Price excludes VAT. Initial consultation has to be done by Dr Karem Harb - his Nurse , Nurse Cherry-Lou Abuyan does the treatment itself"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3268,
-    "category_id": 25,
+    "id": 3270,
+    "category_id": 344,
     "name_i18n": {
       "en": "Wonder Face (5 sessions)"
     },
@@ -3134,144 +3134,8 @@
     ]
   },
   {
-    "id": 3269,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR (Small Area)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 15,
-    "price_min": 200.0,
-    "price_max": 200.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3270,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Full Face"
-    },
-    "description_i18n": {},
-    "duration_minutes": 30,
-    "price_min": 400.0,
-    "price_max": 400.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3271,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Half Face"
-    },
-    "description_i18n": {},
-    "duration_minutes": 15,
-    "price_min": 300.0,
-    "price_max": 300.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3272,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Face and Neckline"
-    },
-    "description_i18n": {},
-    "duration_minutes": 30,
-    "price_min": 450.0,
-    "price_max": 450.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3273,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Arms (Full)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 60,
-    "price_min": 550.0,
-    "price_max": 550.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3274,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Arms (Half)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 45,
-    "price_min": 350.0,
-    "price_max": 350.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3275,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Back"
-    },
-    "description_i18n": {},
-    "duration_minutes": 60,
-    "price_min": 650.0,
-    "price_max": 650.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3276,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Bikini"
-    },
-    "description_i18n": {},
-    "duration_minutes": 30,
-    "price_min": 350.0,
-    "price_max": 350.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3277,
-    "category_id": 26,
+    "id": 3279,
+    "category_id": 345,
     "name_i18n": {
       "en": "MLHR: Bikini (MALE)"
     },
@@ -3283,182 +3147,29 @@
       "en": "Price excludes VAT. Free Consultation . Performed by our male Doctor , Dr Karem Harb"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3278,
-    "category_id": 26,
+    "id": 3290,
+    "category_id": 345,
     "name_i18n": {
-      "en": "LHR: Legs (Full)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 60,
-    "price_min": 750.0,
-    "price_max": 750.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3279,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Legs (Half)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 45,
-    "price_min": 500.0,
-    "price_max": 500.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3280,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Underarms"
+      "en": "LHR (Small Area)"
     },
     "description_i18n": {},
     "duration_minutes": 15,
-    "price_min": 300.0,
-    "price_max": 300.0,
+    "price_min": 200.0,
+    "price_max": 200.0,
     "price_note_i18n": {
       "en": "Price excludes VAT. Free Consultation"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3281,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Upper Lip + Chin"
-    },
-    "description_i18n": {},
-    "duration_minutes": 15,
-    "price_min": 250.0,
-    "price_max": 250.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3282,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Bikini + Underarms"
-    },
-    "description_i18n": {},
-    "duration_minutes": 45,
-    "price_min": 450.0,
-    "price_max": 450.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3283,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Chest"
-    },
-    "description_i18n": {},
-    "duration_minutes": 60,
-    "price_min": 650.0,
-    "price_max": 650.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3284,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Abdomen"
-    },
-    "description_i18n": {},
-    "duration_minutes": 60,
-    "price_min": 400.0,
-    "price_max": 400.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3285,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Full Body (FEMALE)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 120,
-    "price_min": 1250.0,
-    "price_max": 1250.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3286,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: Full Body (MALE)"
-    },
-    "description_i18n": {},
-    "duration_minutes": 150,
-    "price_min": 1200.0,
-    "price_max": 1200.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation. Dr Karem does the private area at an additional cost of 900 + VAT and Desiree Garcia the rest of the body."
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3287,
-    "category_id": 26,
-    "name_i18n": {
-      "en": "LHR: 3 areas"
-    },
-    "description_i18n": {},
-    "duration_minutes": 90,
-    "price_min": 950.0,
-    "price_max": 950.0,
-    "price_note_i18n": {
-      "en": "Price excludes VAT. Free Consultation"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3288,
-    "category_id": 27,
+    "id": 3290,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR (Small Area)"
     },
@@ -3474,8 +3185,25 @@
     ]
   },
   {
-    "id": 3289,
-    "category_id": 27,
+    "id": 3291,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Full Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3291,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Full Face"
     },
@@ -3491,8 +3219,25 @@
     ]
   },
   {
-    "id": 3290,
-    "category_id": 27,
+    "id": 3292,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Half Face"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3292,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Half Face"
     },
@@ -3508,8 +3253,25 @@
     ]
   },
   {
-    "id": 3291,
-    "category_id": 27,
+    "id": 3293,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Face and Neckline"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3293,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Face and Neckline"
     },
@@ -3525,8 +3287,25 @@
     ]
   },
   {
-    "id": 3292,
-    "category_id": 27,
+    "id": 3294,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Arms (Full)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 550.0,
+    "price_max": 550.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3294,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Arms (Full)"
     },
@@ -3542,8 +3321,25 @@
     ]
   },
   {
-    "id": 3293,
-    "category_id": 27,
+    "id": 3295,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Arms (Half)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3295,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Arms (Half)"
     },
@@ -3559,8 +3355,25 @@
     ]
   },
   {
-    "id": 3294,
-    "category_id": 27,
+    "id": 3296,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Back"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3296,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Back"
     },
@@ -3576,8 +3389,25 @@
     ]
   },
   {
-    "id": 3295,
-    "category_id": 27,
+    "id": 3297,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Bikini"
+    },
+    "description_i18n": {},
+    "duration_minutes": 30,
+    "price_min": 350.0,
+    "price_max": 350.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3297,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Bikini"
     },
@@ -3593,8 +3423,25 @@
     ]
   },
   {
-    "id": 3296,
-    "category_id": 27,
+    "id": 3298,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Legs (Full)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 750.0,
+    "price_max": 750.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3298,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Legs (Full)"
     },
@@ -3610,8 +3457,25 @@
     ]
   },
   {
-    "id": 3297,
-    "category_id": 27,
+    "id": 3299,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Legs (Half)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 500.0,
+    "price_max": 500.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3299,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Legs (Half)"
     },
@@ -3627,8 +3491,25 @@
     ]
   },
   {
-    "id": 3298,
-    "category_id": 27,
+    "id": 3300,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Underarms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 300.0,
+    "price_max": 300.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3300,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Underarms"
     },
@@ -3644,8 +3525,25 @@
     ]
   },
   {
-    "id": 3299,
-    "category_id": 27,
+    "id": 3301,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Upper Lip + Chin"
+    },
+    "description_i18n": {},
+    "duration_minutes": 15,
+    "price_min": 250.0,
+    "price_max": 250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3301,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Upper Lip + Chin"
     },
@@ -3661,8 +3559,25 @@
     ]
   },
   {
-    "id": 3300,
-    "category_id": 27,
+    "id": 3302,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Bikini + Underarms"
+    },
+    "description_i18n": {},
+    "duration_minutes": 45,
+    "price_min": 450.0,
+    "price_max": 450.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3302,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Bikini + Underarms"
     },
@@ -3678,8 +3593,25 @@
     ]
   },
   {
-    "id": 3301,
-    "category_id": 27,
+    "id": 3303,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Chest"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 650.0,
+    "price_max": 650.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3303,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Chest"
     },
@@ -3695,8 +3627,25 @@
     ]
   },
   {
-    "id": 3302,
-    "category_id": 27,
+    "id": 3304,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Abdomen"
+    },
+    "description_i18n": {},
+    "duration_minutes": 60,
+    "price_min": 400.0,
+    "price_max": 400.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3304,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Abdomen"
     },
@@ -3712,8 +3661,25 @@
     ]
   },
   {
-    "id": 3303,
-    "category_id": 27,
+    "id": 3305,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Full Body (FEMALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 120,
+    "price_min": 1250.0,
+    "price_max": 1250.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3305,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Full Body (FEMALE)"
     },
@@ -3729,8 +3695,25 @@
     ]
   },
   {
-    "id": 3304,
-    "category_id": 27,
+    "id": 3306,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: Full Body (MALE)"
+    },
+    "description_i18n": {},
+    "duration_minutes": 150,
+    "price_min": 1200.0,
+    "price_max": 1200.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation. Dr Karem does the private area at an additional cost of 900 + VAT and Desiree Garcia the rest of the body."
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3306,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: Full Body (MALE)"
     },
@@ -3746,8 +3729,25 @@
     ]
   },
   {
-    "id": 3305,
-    "category_id": 27,
+    "id": 3307,
+    "category_id": 345,
+    "name_i18n": {
+      "en": "LHR: 3 areas"
+    },
+    "description_i18n": {},
+    "duration_minutes": 90,
+    "price_min": 950.0,
+    "price_max": 950.0,
+    "price_note_i18n": {
+      "en": "Price excludes VAT. Free Consultation"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3307,
+    "category_id": 346,
     "name_i18n": {
       "en": "LHR: 3 areas"
     },
@@ -3763,8 +3763,8 @@
     ]
   },
   {
-    "id": 3306,
-    "category_id": 28,
+    "id": 3308,
+    "category_id": 347,
     "name_i18n": {
       "en": "Bleaching - Upper Lip"
     },
@@ -3780,8 +3780,8 @@
     ]
   },
   {
-    "id": 3307,
-    "category_id": 28,
+    "id": 3309,
+    "category_id": 347,
     "name_i18n": {
       "en": "Bleaching - Small (half face)"
     },
@@ -3797,8 +3797,8 @@
     ]
   },
   {
-    "id": 3308,
-    "category_id": 28,
+    "id": 3310,
+    "category_id": 347,
     "name_i18n": {
       "en": "Bleaching - Medium (full face)"
     },
@@ -3814,8 +3814,8 @@
     ]
   },
   {
-    "id": 3309,
-    "category_id": 28,
+    "id": 3311,
+    "category_id": 347,
     "name_i18n": {
       "en": "Bleaching - Large (one body area)"
     },
@@ -3831,8 +3831,8 @@
     ]
   },
   {
-    "id": 3310,
-    "category_id": 29,
+    "id": 3312,
+    "category_id": 348,
     "name_i18n": {
       "en": "Home Service"
     },
@@ -3848,8 +3848,8 @@
     ]
   },
   {
-    "id": 3311,
-    "category_id": 29,
+    "id": 3313,
+    "category_id": 348,
     "name_i18n": {
       "en": "Family Medicine IV Therapy  Consultation"
     },
@@ -3865,8 +3865,8 @@
     ]
   },
   {
-    "id": 3312,
-    "category_id": 29,
+    "id": 3314,
+    "category_id": 348,
     "name_i18n": {
       "en": "ANTISTRESS DRIP"
     },
@@ -3882,8 +3882,8 @@
     ]
   },
   {
-    "id": 3313,
-    "category_id": 29,
+    "id": 3315,
+    "category_id": 348,
     "name_i18n": {
       "en": "IMMUNE BOOST DRIP"
     },
@@ -3899,8 +3899,8 @@
     ]
   },
   {
-    "id": 3314,
-    "category_id": 29,
+    "id": 3316,
+    "category_id": 348,
     "name_i18n": {
       "en": "ENERGY DRIP"
     },
@@ -3916,8 +3916,8 @@
     ]
   },
   {
-    "id": 3315,
-    "category_id": 29,
+    "id": 3317,
+    "category_id": 348,
     "name_i18n": {
       "en": "LIVER CLEANSE (DETOX)"
     },
@@ -3933,8 +3933,8 @@
     ]
   },
   {
-    "id": 3316,
-    "category_id": 29,
+    "id": 3318,
+    "category_id": 348,
     "name_i18n": {
       "en": "GUT CLEANSE"
     },
@@ -3950,8 +3950,8 @@
     ]
   },
   {
-    "id": 3317,
-    "category_id": 29,
+    "id": 3319,
+    "category_id": 348,
     "name_i18n": {
       "en": "ANTI HAIR LOSS DRIP"
     },
@@ -3967,8 +3967,8 @@
     ]
   },
   {
-    "id": 3318,
-    "category_id": 29,
+    "id": 3320,
+    "category_id": 348,
     "name_i18n": {
       "en": "MULTIVITAMIN FOR WOMEN"
     },
@@ -3984,8 +3984,8 @@
     ]
   },
   {
-    "id": 3319,
-    "category_id": 29,
+    "id": 3321,
+    "category_id": 348,
     "name_i18n": {
       "en": "ANTI-AGING VITAMINS"
     },
@@ -4001,8 +4001,8 @@
     ]
   },
   {
-    "id": 3320,
-    "category_id": 29,
+    "id": 3323,
+    "category_id": 348,
     "name_i18n": {
       "en": "NAD IV DRIP"
     },
@@ -4018,8 +4018,8 @@
     ]
   },
   {
-    "id": 3321,
-    "category_id": 29,
+    "id": 3323,
+    "category_id": 348,
     "name_i18n": {
       "en": "NAD+ IV DRIP"
     },
@@ -4035,8 +4035,8 @@
     ]
   },
   {
-    "id": 3322,
-    "category_id": 29,
+    "id": 3324,
+    "category_id": 348,
     "name_i18n": {
       "en": "Vitamin D Injection"
     },
@@ -4052,8 +4052,8 @@
     ]
   },
   {
-    "id": 3323,
-    "category_id": 29,
+    "id": 3325,
+    "category_id": 348,
     "name_i18n": {
       "en": "Iron Infusion"
     },
@@ -4069,8 +4069,8 @@
     ]
   },
   {
-    "id": 3324,
-    "category_id": 30,
+    "id": 3326,
+    "category_id": 349,
     "name_i18n": {
       "en": "Family Medicine Consultant Consultation"
     },
@@ -4084,8 +4084,8 @@
     ]
   },
   {
-    "id": 3325,
-    "category_id": 30,
+    "id": 3327,
+    "category_id": 349,
     "name_i18n": {
       "en": "Family Medicine Consultant Follow Up"
     },
@@ -4099,8 +4099,8 @@
     ]
   },
   {
-    "id": 3326,
-    "category_id": 31,
+    "id": 3331,
+    "category_id": 350,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
     },
@@ -4116,8 +4116,8 @@
     ]
   },
   {
-    "id": 3327,
-    "category_id": 32,
+    "id": 3331,
+    "category_id": 351,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
     },
@@ -4133,8 +4133,8 @@
     ]
   },
   {
-    "id": 3328,
-    "category_id": 33,
+    "id": 3331,
+    "category_id": 352,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
     },
@@ -4150,8 +4150,8 @@
     ]
   },
   {
-    "id": 3329,
-    "category_id": 34,
+    "id": 3331,
+    "category_id": 353,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
     },
@@ -4167,8 +4167,8 @@
     ]
   },
   {
-    "id": 3330,
-    "category_id": 35,
+    "id": 3332,
+    "category_id": 354,
     "name_i18n": {
       "en": "TRT Consultation"
     },
@@ -4182,8 +4182,8 @@
     ]
   },
   {
-    "id": 3331,
-    "category_id": 35,
+    "id": 3333,
+    "category_id": 354,
     "name_i18n": {
       "en": "Testosterone Replacement Therapy (1 month program / weekly follow-ups)"
     },
@@ -4197,8 +4197,8 @@
     ]
   },
   {
-    "id": 3332,
-    "category_id": 35,
+    "id": 3334,
+    "category_id": 354,
     "name_i18n": {
       "en": "Testosterone Replacement Therapy (3 month program / unlimited follow-ups)"
     },
@@ -4212,8 +4212,8 @@
     ]
   },
   {
-    "id": 3333,
-    "category_id": 36,
+    "id": 3335,
+    "category_id": 355,
     "name_i18n": {
       "en": "Peptides Consultation"
     },
@@ -4227,8 +4227,8 @@
     ]
   },
   {
-    "id": 3334,
-    "category_id": 36,
+    "id": 3336,
+    "category_id": 355,
     "name_i18n": {
       "en": "BPC 157"
     },
@@ -4242,8 +4242,8 @@
     ]
   },
   {
-    "id": 3335,
-    "category_id": 36,
+    "id": 3337,
+    "category_id": 355,
     "name_i18n": {
       "en": "Epitalon"
     },
@@ -4257,8 +4257,8 @@
     ]
   },
   {
-    "id": 3336,
-    "category_id": 36,
+    "id": 3338,
+    "category_id": 355,
     "name_i18n": {
       "en": "IGF LR3"
     },
@@ -4272,8 +4272,8 @@
     ]
   },
   {
-    "id": 3337,
-    "category_id": 36,
+    "id": 3339,
+    "category_id": 355,
     "name_i18n": {
       "en": "Thymosin alpha 1"
     },
@@ -4287,8 +4287,8 @@
     ]
   },
   {
-    "id": 3338,
-    "category_id": 36,
+    "id": 3340,
+    "category_id": 355,
     "name_i18n": {
       "en": "Thymosin beta 4"
     },
@@ -4302,8 +4302,8 @@
     ]
   },
   {
-    "id": 3339,
-    "category_id": 36,
+    "id": 3341,
+    "category_id": 355,
     "name_i18n": {
       "en": "PT 141 Spray"
     },
@@ -4317,8 +4317,8 @@
     ]
   },
   {
-    "id": 3340,
-    "category_id": 36,
+    "id": 3342,
+    "category_id": 355,
     "name_i18n": {
       "en": "CJC ipamorelin"
     },
@@ -4332,8 +4332,8 @@
     ]
   },
   {
-    "id": 3341,
-    "category_id": 36,
+    "id": 3343,
+    "category_id": 355,
     "name_i18n": {
       "en": "MOTSc"
     },
@@ -4347,8 +4347,8 @@
     ]
   },
   {
-    "id": 3342,
-    "category_id": 36,
+    "id": 3344,
+    "category_id": 355,
     "name_i18n": {
       "en": "AOD 9604"
     },
@@ -4362,8 +4362,8 @@
     ]
   },
   {
-    "id": 3343,
-    "category_id": 36,
+    "id": 3345,
+    "category_id": 355,
     "name_i18n": {
       "en": "GHK-Cu (Copper Peptide)"
     },
@@ -4377,8 +4377,8 @@
     ]
   },
   {
-    "id": 3344,
-    "category_id": 36,
+    "id": 3346,
+    "category_id": 355,
     "name_i18n": {
       "en": "DSIP Peptides"
     },
@@ -4392,8 +4392,8 @@
     ]
   },
   {
-    "id": 3345,
-    "category_id": 36,
+    "id": 3347,
+    "category_id": 355,
     "name_i18n": {
       "en": "Oxytocin"
     },
@@ -4407,8 +4407,8 @@
     ]
   },
   {
-    "id": 3346,
-    "category_id": 36,
+    "id": 3348,
+    "category_id": 355,
     "name_i18n": {
       "en": "Kisspeptin"
     },
@@ -4422,8 +4422,8 @@
     ]
   },
   {
-    "id": 3347,
-    "category_id": 36,
+    "id": 3349,
+    "category_id": 355,
     "name_i18n": {
       "en": "Bi-Estrogen 1mg liposomal cream"
     },
@@ -4437,8 +4437,8 @@
     ]
   },
   {
-    "id": 3348,
-    "category_id": 36,
+    "id": 3350,
+    "category_id": 355,
     "name_i18n": {
       "en": "Progestrone SR 100mg"
     },
@@ -4452,8 +4452,8 @@
     ]
   },
   {
-    "id": 3349,
-    "category_id": 36,
+    "id": 3351,
+    "category_id": 355,
     "name_i18n": {
       "en": "Testosterone 2mg Liposmal Cream"
     },
@@ -4467,8 +4467,8 @@
     ]
   },
   {
-    "id": 3350,
-    "category_id": 37,
+    "id": 3352,
+    "category_id": 356,
     "name_i18n": {
       "en": "Hair Transplant Consultation"
     },
@@ -4478,12 +4478,12 @@
     "price_max": 500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3351,
-    "category_id": 37,
+    "id": 3353,
+    "category_id": 356,
     "name_i18n": {
       "en": "Hair Loss Consultation (Treatments)"
     },
@@ -4493,12 +4493,12 @@
     "price_max": 525.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3352,
-    "category_id": 37,
+    "id": 3354,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Growth Fасtors"
     },
@@ -4508,12 +4508,12 @@
     "price_max": 1000.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3353,
-    "category_id": 37,
+    "id": 3355,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Pep Factor"
     },
@@ -4523,12 +4523,12 @@
     "price_max": 1600.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3354,
-    "category_id": 37,
+    "id": 3356,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Laser Hair Stimulation"
     },
@@ -4538,12 +4538,12 @@
     "price_max": 500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3355,
-    "category_id": 37,
+    "id": 3357,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Trichology Service"
     },
@@ -4553,12 +4553,12 @@
     "price_max": 2000.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3356,
-    "category_id": 37,
+    "id": 3358,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT BT HT"
     },
@@ -4568,12 +4568,12 @@
     "price_max": 2000.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3357,
-    "category_id": 37,
+    "id": 3359,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT BT Hair Loss"
     },
@@ -4583,12 +4583,12 @@
     "price_max": 2000.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3358,
-    "category_id": 37,
+    "id": 3360,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Acell"
     },
@@ -4598,12 +4598,12 @@
     "price_max": 5000.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3359,
-    "category_id": 37,
+    "id": 3361,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Triple Therapy"
     },
@@ -4613,12 +4613,12 @@
     "price_max": 2300.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3360,
-    "category_id": 37,
+    "id": 3362,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Skin Biopsy"
     },
@@ -4628,12 +4628,12 @@
     "price_max": 2500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3361,
-    "category_id": 37,
+    "id": 3363,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Basic Package"
     },
@@ -4643,12 +4643,12 @@
     "price_max": 31158.75,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3362,
-    "category_id": 37,
+    "id": 3364,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Standart Package"
     },
@@ -4658,12 +4658,12 @@
     "price_max": 35306.25,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3363,
-    "category_id": 37,
+    "id": 3365,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Standart Package (2 days)"
     },
@@ -4673,12 +4673,12 @@
     "price_max": 45806.25,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3364,
-    "category_id": 37,
+    "id": 3366,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Premium Package"
     },
@@ -4688,12 +4688,12 @@
     "price_max": 40346.25,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3365,
-    "category_id": 37,
+    "id": 3367,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Premium Package (2 days)"
     },
@@ -4703,12 +4703,12 @@
     "price_max": 50846.25,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3366,
-    "category_id": 37,
+    "id": 3368,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Elite Package"
     },
@@ -4718,12 +4718,12 @@
     "price_max": 49245.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3367,
-    "category_id": 37,
+    "id": 3369,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Elite Package (2 days)"
     },
@@ -4733,12 +4733,12 @@
     "price_max": 59745.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3368,
-    "category_id": 37,
+    "id": 3370,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Growth Factors + PRP (6 sessions)"
     },
@@ -4748,12 +4748,12 @@
     "price_max": 10500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3369,
-    "category_id": 37,
+    "id": 3371,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Pep Factor (6 sessions)"
     },
@@ -4763,12 +4763,12 @@
     "price_max": 7500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3370,
-    "category_id": 37,
+    "id": 3372,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Triple Therapy (6 sessions)"
     },
@@ -4778,12 +4778,12 @@
     "price_max": 10500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3371,
-    "category_id": 37,
+    "id": 3373,
+    "category_id": 356,
     "name_i18n": {
       "en": "HT Acell + Triple Therapy (6 sessions)"
     },
@@ -4793,12 +4793,12 @@
     "price_max": 13500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3372,
-    "category_id": 38,
+    "id": 3374,
+    "category_id": 357,
     "name_i18n": {
       "en": "Specialist Gynecology Consultation"
     },
@@ -4812,8 +4812,8 @@
     ]
   },
   {
-    "id": 3373,
-    "category_id": 38,
+    "id": 3375,
+    "category_id": 357,
     "name_i18n": {
       "en": "Obstetric Ultrasound Scan"
     },
@@ -4827,8 +4827,8 @@
     ]
   },
   {
-    "id": 3374,
-    "category_id": 38,
+    "id": 3376,
+    "category_id": 357,
     "name_i18n": {
       "en": "Gynaecology Ultrasound Scan"
     },
@@ -4842,8 +4842,8 @@
     ]
   },
   {
-    "id": 3375,
-    "category_id": 38,
+    "id": 3377,
+    "category_id": 357,
     "name_i18n": {
       "en": "Ultrasound assisted Hysterosalpingoscopy"
     },
@@ -4857,8 +4857,8 @@
     ]
   },
   {
-    "id": 3376,
-    "category_id": 38,
+    "id": 3378,
+    "category_id": 357,
     "name_i18n": {
       "en": "Folliculometry"
     },
@@ -4872,8 +4872,8 @@
     ]
   },
   {
-    "id": 3377,
-    "category_id": 38,
+    "id": 3379,
+    "category_id": 357,
     "name_i18n": {
       "en": "Uterine Cavity Aspiration by Pipelle + Endometrial Biopsy + Histology"
     },
@@ -4887,8 +4887,8 @@
     ]
   },
   {
-    "id": 3378,
-    "category_id": 38,
+    "id": 3380,
+    "category_id": 357,
     "name_i18n": {
       "en": "IUD Installation (including the device)"
     },
@@ -4902,8 +4902,8 @@
     ]
   },
   {
-    "id": 3379,
-    "category_id": 38,
+    "id": 3381,
+    "category_id": 357,
     "name_i18n": {
       "en": "CU 375 IUD Insertion"
     },
@@ -4917,8 +4917,8 @@
     ]
   },
   {
-    "id": 3380,
-    "category_id": 38,
+    "id": 3382,
+    "category_id": 357,
     "name_i18n": {
       "en": "IUD Removal"
     },
@@ -4932,8 +4932,8 @@
     ]
   },
   {
-    "id": 3381,
-    "category_id": 38,
+    "id": 3383,
+    "category_id": 357,
     "name_i18n": {
       "en": "Implanon Removal"
     },
@@ -4947,8 +4947,8 @@
     ]
   },
   {
-    "id": 3382,
-    "category_id": 38,
+    "id": 3384,
+    "category_id": 357,
     "name_i18n": {
       "en": "Depoprovera Injection"
     },
@@ -4962,8 +4962,8 @@
     ]
   },
   {
-    "id": 3383,
-    "category_id": 38,
+    "id": 3385,
+    "category_id": 357,
     "name_i18n": {
       "en": "Pessary Installation for Pregnant"
     },
@@ -4977,8 +4977,8 @@
     ]
   },
   {
-    "id": 3384,
-    "category_id": 38,
+    "id": 3386,
+    "category_id": 357,
     "name_i18n": {
       "en": "Cervix colposcopy"
     },
@@ -4992,8 +4992,8 @@
     ]
   },
   {
-    "id": 3385,
-    "category_id": 38,
+    "id": 3387,
+    "category_id": 357,
     "name_i18n": {
       "en": "Papilloma/Condyloma Removal + Histology (single)"
     },
@@ -5007,8 +5007,8 @@
     ]
   },
   {
-    "id": 3386,
-    "category_id": 38,
+    "id": 3388,
+    "category_id": 357,
     "name_i18n": {
       "en": "Papilloma/Condyloma Removal + Histology (multiple)"
     },
@@ -5022,8 +5022,8 @@
     ]
   },
   {
-    "id": 3387,
-    "category_id": 38,
+    "id": 3389,
+    "category_id": 357,
     "name_i18n": {
       "en": "Cervix or Vaginal Biopsy + Histopathology"
     },
@@ -5037,8 +5037,8 @@
     ]
   },
   {
-    "id": 3388,
-    "category_id": 39,
+    "id": 3390,
+    "category_id": 358,
     "name_i18n": {
       "en": "G-SPOT AMPLIFICATION"
     },
@@ -5052,8 +5052,8 @@
     ]
   },
   {
-    "id": 3389,
-    "category_id": 39,
+    "id": 3391,
+    "category_id": 358,
     "name_i18n": {
       "en": "O-SHOT"
     },
@@ -5067,8 +5067,8 @@
     ]
   },
   {
-    "id": 3390,
-    "category_id": 39,
+    "id": 3392,
+    "category_id": 358,
     "name_i18n": {
       "en": "PRP - 1 session"
     },
@@ -5082,8 +5082,8 @@
     ]
   },
   {
-    "id": 3391,
-    "category_id": 39,
+    "id": 3393,
+    "category_id": 358,
     "name_i18n": {
       "en": "Femilift - Laser Tightening & Vaginal Rejuvenation"
     },
@@ -5097,8 +5097,8 @@
     ]
   },
   {
-    "id": 3392,
-    "category_id": 39,
+    "id": 3394,
+    "category_id": 358,
     "name_i18n": {
       "en": "Intimate Whitening Treatment - 1 session"
     },
@@ -5112,8 +5112,8 @@
     ]
   },
   {
-    "id": 3393,
-    "category_id": 39,
+    "id": 3395,
+    "category_id": 358,
     "name_i18n": {
       "en": "LABIA AUGMENTATION WITH FILLERS (per syringe)"
     },
@@ -5127,8 +5127,8 @@
     ]
   },
   {
-    "id": 3394,
-    "category_id": 39,
+    "id": 3396,
+    "category_id": 358,
     "name_i18n": {
       "en": "Labial Skin Tag Removal"
     },
@@ -5142,8 +5142,8 @@
     ]
   },
   {
-    "id": 3395,
-    "category_id": 40,
+    "id": 3397,
+    "category_id": 359,
     "name_i18n": {
       "en": "LABIAPLASTY"
     },
@@ -5157,8 +5157,8 @@
     ]
   },
   {
-    "id": 3396,
-    "category_id": 41,
+    "id": 3398,
+    "category_id": 360,
     "name_i18n": {
       "en": "Intimate Rejuvenation - Femilift x 3 sessions & O-shot x 3 sessions"
     },
@@ -5174,8 +5174,8 @@
     ]
   },
   {
-    "id": 3397,
-    "category_id": 41,
+    "id": 3399,
+    "category_id": 360,
     "name_i18n": {
       "en": "Pre-Pregnancy Health Check"
     },
@@ -5191,8 +5191,8 @@
     ]
   },
   {
-    "id": 3398,
-    "category_id": 41,
+    "id": 3400,
+    "category_id": 360,
     "name_i18n": {
       "en": "Well Women Check"
     },
@@ -5208,8 +5208,8 @@
     ]
   },
   {
-    "id": 3399,
-    "category_id": 41,
+    "id": 3401,
+    "category_id": 360,
     "name_i18n": {
       "en": "Sexual Health Screen"
     },
@@ -5225,8 +5225,8 @@
     ]
   },
   {
-    "id": 3400,
-    "category_id": 41,
+    "id": 3402,
+    "category_id": 360,
     "name_i18n": {
       "en": "Fertility Check"
     },
@@ -5242,8 +5242,8 @@
     ]
   },
   {
-    "id": 3401,
-    "category_id": 41,
+    "id": 3403,
+    "category_id": 360,
     "name_i18n": {
       "en": "Hormonal Health Check"
     },
@@ -5259,8 +5259,8 @@
     ]
   },
   {
-    "id": 3402,
-    "category_id": 42,
+    "id": 3404,
+    "category_id": 361,
     "name_i18n": {
       "en": "Beard micropigmentation"
     },
@@ -5272,12 +5272,12 @@
       "en": "4200"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3403,
-    "category_id": 42,
+    "id": 3405,
+    "category_id": 361,
     "name_i18n": {
       "en": "Full bold shaved look"
     },
@@ -5289,12 +5289,12 @@
       "en": "10500"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3404,
-    "category_id": 42,
+    "id": 3406,
+    "category_id": 361,
     "name_i18n": {
       "en": "Crown area"
     },
@@ -5306,12 +5306,12 @@
       "en": "5250"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3405,
-    "category_id": 42,
+    "id": 3407,
+    "category_id": 361,
     "name_i18n": {
       "en": "Hairline area"
     },
@@ -5323,29 +5323,12 @@
       "en": "4200"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3406,
-    "category_id": 42,
-    "name_i18n": {
-      "en": "Hairline and Crown"
-    },
-    "description_i18n": {},
-    "duration_minutes": null,
-    "price_min": 2625.0,
-    "price_max": 2625.0,
-    "price_note_i18n": {
-      "en": "6300"
-    },
-    "branches": [
-      "srz"
-    ]
-  },
-  {
-    "id": 3407,
-    "category_id": 42,
+    "id": 3409,
+    "category_id": 361,
     "name_i18n": {
       "en": "Hair Transplant Scar"
     },
@@ -5357,12 +5340,12 @@
       "en": "3150"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3408,
-    "category_id": 42,
+    "id": 3410,
+    "category_id": 361,
     "name_i18n": {
       "en": "Ludwig Scale Type 1"
     },
@@ -5374,12 +5357,12 @@
       "en": "2100"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3409,
-    "category_id": 42,
+    "id": 3411,
+    "category_id": 361,
     "name_i18n": {
       "en": "Ludwig Scale Type 2"
     },
@@ -5391,12 +5374,12 @@
       "en": "3150"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3410,
-    "category_id": 42,
+    "id": 3412,
+    "category_id": 361,
     "name_i18n": {
       "en": "Ludwig Scale Type 3"
     },
@@ -5408,12 +5391,12 @@
       "en": "4200"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3411,
-    "category_id": 42,
+    "id": 3413,
+    "category_id": 361,
     "name_i18n": {
       "en": "Hairline and Crown"
     },
@@ -5425,12 +5408,29 @@
       "en": "6300"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3412,
-    "category_id": 42,
+    "id": 3413,
+    "category_id": 361,
+    "name_i18n": {
+      "en": "Hairline and Crown"
+    },
+    "description_i18n": {},
+    "duration_minutes": null,
+    "price_min": 2625.0,
+    "price_max": 2625.0,
+    "price_note_i18n": {
+      "en": "6300"
+    },
+    "branches": [
+      "szr"
+    ]
+  },
+  {
+    "id": 3414,
+    "category_id": 361,
     "name_i18n": {
       "en": "Microblading eyebrows"
     },
@@ -5442,12 +5442,12 @@
       "en": "1 session + touch up"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3413,
-    "category_id": 42,
+    "id": 3415,
+    "category_id": 361,
     "name_i18n": {
       "en": "Touch up session"
     },
@@ -5457,12 +5457,12 @@
     "price_max": 1050.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3414,
-    "category_id": 42,
+    "id": 3416,
+    "category_id": 361,
     "name_i18n": {
       "en": "Exosomes Treatment - Hair"
     },
@@ -5472,12 +5472,12 @@
     "price_max": 2100.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3415,
-    "category_id": 43,
+    "id": 3417,
+    "category_id": 362,
     "name_i18n": {
       "en": "Dental Consultation"
     },
@@ -5489,12 +5489,12 @@
       "en": "Consultation is 350 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3416,
-    "category_id": 43,
+    "id": 3418,
+    "category_id": 362,
     "name_i18n": {
       "en": "Dental Consultation - Comprehensive"
     },
@@ -5506,12 +5506,12 @@
       "en": "Consultation is 500 AED +VAT however, if you proceed with treatment on the same day then you only pay for the cost of the treatment .Consultation fees will be waived"
     },
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3417,
-    "category_id": 43,
+    "id": 3419,
+    "category_id": 362,
     "name_i18n": {
       "en": "Smile Design ( Wax up + casts )"
     },
@@ -5521,12 +5521,12 @@
     "price_max": 2100.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3418,
-    "category_id": 43,
+    "id": 3420,
+    "category_id": 362,
     "name_i18n": {
       "en": "Emax Veneers"
     },
@@ -5536,12 +5536,12 @@
     "price_max": 3675.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3419,
-    "category_id": 43,
+    "id": 3421,
+    "category_id": 362,
     "name_i18n": {
       "en": "Feldspathic Veneers"
     },
@@ -5551,12 +5551,12 @@
     "price_max": 7350.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3420,
-    "category_id": 43,
+    "id": 3422,
+    "category_id": 362,
     "name_i18n": {
       "en": "Emax Crown"
     },
@@ -5566,12 +5566,12 @@
     "price_max": 3500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3421,
-    "category_id": 43,
+    "id": 3423,
+    "category_id": 362,
     "name_i18n": {
       "en": "Zirconia Crown"
     },
@@ -5581,12 +5581,12 @@
     "price_max": 3500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3422,
-    "category_id": 43,
+    "id": 3424,
+    "category_id": 362,
     "name_i18n": {
       "en": "Inlay"
     },
@@ -5596,12 +5596,12 @@
     "price_max": 3500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3423,
-    "category_id": 43,
+    "id": 3425,
+    "category_id": 362,
     "name_i18n": {
       "en": "Onlay"
     },
@@ -5611,12 +5611,12 @@
     "price_max": 3500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3424,
-    "category_id": 43,
+    "id": 3426,
+    "category_id": 362,
     "name_i18n": {
       "en": "Whitening + Bleaching trays"
     },
@@ -5626,12 +5626,12 @@
     "price_max": 2520.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3425,
-    "category_id": 43,
+    "id": 3427,
+    "category_id": 362,
     "name_i18n": {
       "en": "Teeth Whitening"
     },
@@ -5641,12 +5641,12 @@
     "price_max": 2100.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3426,
-    "category_id": 43,
+    "id": 3428,
+    "category_id": 362,
     "name_i18n": {
       "en": "Scaling and Polishing (Moderate)"
     },
@@ -5656,12 +5656,12 @@
     "price_max": 550.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3427,
-    "category_id": 43,
+    "id": 3429,
+    "category_id": 362,
     "name_i18n": {
       "en": "Scaling and Polishing (Severe)"
     },
@@ -5671,12 +5671,12 @@
     "price_max": 800.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3428,
-    "category_id": 43,
+    "id": 3430,
+    "category_id": 362,
     "name_i18n": {
       "en": "Teeth Polishing"
     },
@@ -5686,12 +5686,12 @@
     "price_max": 300.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3429,
-    "category_id": 43,
+    "id": 3431,
+    "category_id": 362,
     "name_i18n": {
       "en": "Deep Root Planing + Scaling and Polishing (Moderate)"
     },
@@ -5701,12 +5701,12 @@
     "price_max": 1500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3430,
-    "category_id": 43,
+    "id": 3432,
+    "category_id": 362,
     "name_i18n": {
       "en": "Deep Root Planing + Scaling and Polishing (Severe)"
     },
@@ -5716,12 +5716,12 @@
     "price_max": 3000.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3431,
-    "category_id": 43,
+    "id": 3433,
+    "category_id": 362,
     "name_i18n": {
       "en": "Gingivectomy (per tooth)"
     },
@@ -5731,12 +5731,12 @@
     "price_max": 450.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3432,
-    "category_id": 43,
+    "id": 3434,
+    "category_id": 362,
     "name_i18n": {
       "en": "Enameloplasty (per tooth)"
     },
@@ -5746,12 +5746,12 @@
     "price_max": 350.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3433,
-    "category_id": 43,
+    "id": 3435,
+    "category_id": 362,
     "name_i18n": {
       "en": "Labial Composite Veneer"
     },
@@ -5761,12 +5761,12 @@
     "price_max": 1575.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3434,
-    "category_id": 43,
+    "id": 3436,
+    "category_id": 362,
     "name_i18n": {
       "en": "Direct Pulp Caping"
     },
@@ -5776,12 +5776,12 @@
     "price_max": 350.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3435,
-    "category_id": 43,
+    "id": 3437,
+    "category_id": 362,
     "name_i18n": {
       "en": "Indircet Pulp Caping"
     },
@@ -5791,12 +5791,12 @@
     "price_max": 350.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3436,
-    "category_id": 43,
+    "id": 3438,
+    "category_id": 362,
     "name_i18n": {
       "en": "Temporary Restoration"
     },
@@ -5806,12 +5806,12 @@
     "price_max": 300.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3437,
-    "category_id": 43,
+    "id": 3439,
+    "category_id": 362,
     "name_i18n": {
       "en": "Bridge Cementation"
     },
@@ -5821,12 +5821,12 @@
     "price_max": 600.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3438,
-    "category_id": 43,
+    "id": 3440,
+    "category_id": 362,
     "name_i18n": {
       "en": "Crown Cementation"
     },
@@ -5836,12 +5836,12 @@
     "price_max": 500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3439,
-    "category_id": 43,
+    "id": 3441,
+    "category_id": 362,
     "name_i18n": {
       "en": "Bridge Removal"
     },
@@ -5851,12 +5851,12 @@
     "price_max": 500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3440,
-    "category_id": 43,
+    "id": 3442,
+    "category_id": 362,
     "name_i18n": {
       "en": "Temporary Acrylic (lab manufactured, per tooth)"
     },
@@ -5866,12 +5866,12 @@
     "price_max": 250.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3441,
-    "category_id": 43,
+    "id": 3443,
+    "category_id": 362,
     "name_i18n": {
       "en": "Crown Removal"
     },
@@ -5881,12 +5881,12 @@
     "price_max": 350.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3442,
-    "category_id": 43,
+    "id": 3444,
+    "category_id": 362,
     "name_i18n": {
       "en": "Temporary Chairside (per tooth)"
     },
@@ -5896,12 +5896,12 @@
     "price_max": 250.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3443,
-    "category_id": 43,
+    "id": 3445,
+    "category_id": 362,
     "name_i18n": {
       "en": "Wax up (per tooth)"
     },
@@ -5911,12 +5911,12 @@
     "price_max": 200.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3444,
-    "category_id": 43,
+    "id": 3446,
+    "category_id": 362,
     "name_i18n": {
       "en": "OPG X-Ray"
     },
@@ -5926,12 +5926,12 @@
     "price_max": 350.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3445,
-    "category_id": 43,
+    "id": 3447,
+    "category_id": 362,
     "name_i18n": {
       "en": "Intraoral Periapical (IOPA)"
     },
@@ -5941,12 +5941,12 @@
     "price_max": 50.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3446,
-    "category_id": 43,
+    "id": 3448,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - one surface, anterior"
     },
@@ -5956,12 +5956,12 @@
     "price_max": 600.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3447,
-    "category_id": 43,
+    "id": 3449,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - two surfaces, anterior"
     },
@@ -5971,12 +5971,12 @@
     "price_max": 700.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3448,
-    "category_id": 43,
+    "id": 3450,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - three surface, anterior"
     },
@@ -5986,12 +5986,12 @@
     "price_max": 800.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3449,
-    "category_id": 43,
+    "id": 3451,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - four or more surfaces or involving incisal angle (anterior)"
     },
@@ -6001,12 +6001,12 @@
     "price_max": 1200.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3450,
-    "category_id": 43,
+    "id": 3452,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - Crown, anterior"
     },
@@ -6016,12 +6016,12 @@
     "price_max": 1225.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3451,
-    "category_id": 43,
+    "id": 3453,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - one surface, posterior"
     },
@@ -6031,12 +6031,12 @@
     "price_max": 700.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3452,
-    "category_id": 43,
+    "id": 3454,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - two surfaces, posterior"
     },
@@ -6046,12 +6046,12 @@
     "price_max": 800.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3453,
-    "category_id": 43,
+    "id": 3455,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - three surface, posterior"
     },
@@ -6061,12 +6061,12 @@
     "price_max": 950.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3454,
-    "category_id": 43,
+    "id": 3456,
+    "category_id": 362,
     "name_i18n": {
       "en": "Resin Based Composite - four or more surfaces, posterior"
     },
@@ -6076,12 +6076,12 @@
     "price_max": 1200.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3455,
-    "category_id": 43,
+    "id": 3457,
+    "category_id": 362,
     "name_i18n": {
       "en": "Invisalign® Comprehensive"
     },
@@ -6091,12 +6091,12 @@
     "price_max": 27825.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3456,
-    "category_id": 43,
+    "id": 3458,
+    "category_id": 362,
     "name_i18n": {
       "en": "Invisalign® Lite (Dual Arches)"
     },
@@ -6106,12 +6106,12 @@
     "price_max": 17010.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3457,
-    "category_id": 43,
+    "id": 3459,
+    "category_id": 362,
     "name_i18n": {
       "en": "Invisalign® Lite (Single Arch)"
     },
@@ -6121,12 +6121,12 @@
     "price_max": 13650.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3458,
-    "category_id": 43,
+    "id": 3460,
+    "category_id": 362,
     "name_i18n": {
       "en": "Invisalign® Express (Single Arch)"
     },
@@ -6136,12 +6136,12 @@
     "price_max": 8242.5,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3459,
-    "category_id": 43,
+    "id": 3461,
+    "category_id": 362,
     "name_i18n": {
       "en": "Invisalign® Express (Dual Arches)"
     },
@@ -6151,12 +6151,12 @@
     "price_max": 11550.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3460,
-    "category_id": 43,
+    "id": 3462,
+    "category_id": 362,
     "name_i18n": {
       "en": "Surgical stent"
     },
@@ -6166,12 +6166,12 @@
     "price_max": 1500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3461,
-    "category_id": 43,
+    "id": 3463,
+    "category_id": 362,
     "name_i18n": {
       "en": "Surgical placement of implant body: endosteal implant"
     },
@@ -6181,12 +6181,12 @@
     "price_max": 7500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3462,
-    "category_id": 43,
+    "id": 3464,
+    "category_id": 362,
     "name_i18n": {
       "en": "Abutment supported porcelain/ceramic crown"
     },
@@ -6196,12 +6196,12 @@
     "price_max": 4500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   },
   {
-    "id": 3463,
-    "category_id": 43,
+    "id": 3465,
+    "category_id": 362,
     "name_i18n": {
       "en": "Abutment supported porcelain fused to metal crown (high noble metal)"
     },
@@ -6211,7 +6211,7 @@
     "price_max": 5500.0,
     "price_note_i18n": {},
     "branches": [
-      "srz"
+      "szr"
     ]
   }
 ]

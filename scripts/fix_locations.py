@@ -9,7 +9,7 @@ PROBLEM:
 
 LOCATION MAPPING:
   location_id=17  →  Jumeirah  →  branches containing "jumeirah"
-  location_id=18  →  SZR       →  branches containing "srz"
+  location_id=18  →  SZR       →  branches containing "szr"
 
 WHAT THIS SCRIPT DOES (in order):
 
@@ -18,13 +18,13 @@ WHAT THIS SCRIPT DOES (in order):
     - 35 categories need to be created on Location 18
 
   Step 2: Upload services to Location 18 (SZR)
-    - Services with branches=["srz"] → 133 services (SZR only)
-    - Services with branches=["jumeirah","srz"] → 116 services (both)
+    - Services with branches=["szr"] → 133 services (SZR only)
+    - Services with branches=["jumeirah","szr"] → 116 services (both)
     - Total: 249 services need to be on Location 18
     - Maps category_id from local → API (Location 18 IDs)
 
-  Step 3: Delete SRZ-only services from Location 17 (Jumeirah)
-    - 133 services with branches=["srz"] should NOT be on Location 17
+  Step 3: Delete szr-only services from Location 17 (Jumeirah)
+    - 133 services with branches=["szr"] should NOT be on Location 17
     - Matches by name_i18n.en between local data and API
 
   Step 4: Upload practitioners (per location)
@@ -78,8 +78,8 @@ LOCATION_SZR = 18
 # branch name in local JSON → location_id
 BRANCH_TO_LOCATION = {
     "jumeirah": LOCATION_JUMEIRAH,
-    "srz": LOCATION_SZR,
-    "szr": LOCATION_SZR,  # alias (practitioners use "szr" instead of "srz")
+    "szr": LOCATION_SZR,
+    "szr": LOCATION_SZR,  # alias (practitioners use "szr" instead of "szr")
 }
 
 
@@ -152,14 +152,14 @@ def fetch_api_practitioners(location_id: int) -> list:
 
 def classify_services(services: list) -> dict:
     """Classify services by which locations they belong to."""
-    result = {"jumeirah_only": [], "srz_only": [], "both": []}
+    result = {"jumeirah_only": [], "szr_only": [], "both": []}
     for svc in services:
         branches = set(svc.get("branches", []))
         if branches == {"jumeirah"}:
             result["jumeirah_only"].append(svc)
-        elif branches == {"srz"}:
-            result["srz_only"].append(svc)
-        elif "jumeirah" in branches and "srz" in branches:
+        elif branches == {"szr"}:
+            result["szr_only"].append(svc)
+        elif "jumeirah" in branches and "szr" in branches:
             result["both"].append(svc)
         else:
             print(f"  WARNING: unexpected branches {branches} for service '{get_name_en(svc)}'")
@@ -169,14 +169,14 @@ def classify_services(services: list) -> dict:
 def classify_practitioners(practitioners: list) -> dict:
     """Classify practitioners by which locations they belong to.
     
-    NOTE: In practitioners.json, SZR branch is spelled "szr" (not "srz").
+    NOTE: In practitioners.json, SZR branch is spelled "szr" (not "szr").
     Practitioners with empty branches go to BOTH locations.
     """
     result = {"jumeirah_only": [], "szr_only": [], "both": []}
     for p in practitioners:
         branches = set(b.lower() for b in p.get("branches", []))
         has_jum = "jumeirah" in branches
-        has_szr = "szr" in branches or "srz" in branches
+        has_szr = "szr" in branches or "szr" in branches
         
         if has_jum and has_szr:
             result["both"].append(p)
@@ -214,7 +214,7 @@ def do_analyze():
     print(f"  Categories:              {len(local_cats)}")
     print(f"  Services total:          {len(local_svcs)}")
     print(f"    - jumeirah only:       {len(svc_class['jumeirah_only'])}")
-    print(f"    - srz only:            {len(svc_class['srz_only'])}")
+    print(f"    - szr only:            {len(svc_class['szr_only'])}")
     print(f"    - both:                {len(svc_class['both'])}")
     print(f"  Practitioners total:     {len(local_practs)}")
     print(f"    - jumeirah only:       {len(pract_class['jumeirah_only'])}")
@@ -237,7 +237,7 @@ def do_analyze():
 
     # Expected
     exp_17_svcs = len(svc_class["jumeirah_only"]) + len(svc_class["both"])
-    exp_18_svcs = len(svc_class["srz_only"]) + len(svc_class["both"])
+    exp_18_svcs = len(svc_class["szr_only"]) + len(svc_class["both"])
     exp_17_practs = len(pract_class["jumeirah_only"]) + len(pract_class["both"])
     exp_18_practs = len(pract_class["szr_only"]) + len(pract_class["both"])
 
@@ -259,7 +259,7 @@ def do_analyze():
     print(f"{'─'*40}")
     print(f"  [Step 1] Upload {len(local_cats)} categories to Location 18 (SZR)")
     print(f"  [Step 2] Upload {exp_18_svcs} services to Location 18 (SZR)")
-    print(f"  [Step 3] Delete {len(svc_class['srz_only'])} srz-only services from Location 17")
+    print(f"  [Step 3] Delete {len(svc_class['szr_only'])} szr-only services from Location 17")
     print(f"  [Step 4] Upload {exp_17_practs} practitioners to Loc 17 + {exp_18_practs} to Loc 18")
     print(f"  [Step 5] Link service-practitioners on both locations")
     print("=" * 70)
@@ -364,10 +364,10 @@ def do_step2(execute: bool):
     svc_class = classify_services(local_svcs)
     local_catid_to_name = build_local_catid_to_name(local_cats)
 
-    # Services for Location 18: srz_only + both
-    services_for_18 = svc_class["srz_only"] + svc_class["both"]
-    print(f"\n  Services with 'srz' in branches: {len(services_for_18)}")
-    print(f"    - srz only:  {len(svc_class['srz_only'])}")
+    # Services for Location 18: szr_only + both
+    services_for_18 = svc_class["szr_only"] + svc_class["both"]
+    print(f"\n  Services with 'szr' in branches: {len(services_for_18)}")
+    print(f"    - szr only:  {len(svc_class['szr_only'])}")
     print(f"    - both:      {len(svc_class['both'])}")
 
     # Check what already exists on Location 18 — match by (name, category)
@@ -457,12 +457,12 @@ def do_step2(execute: bool):
 
 
 # ═════════════════════════════════════════════════════════════════════════════
-# STEP 3: Delete SRZ-only services from Location 17
+# STEP 3: Delete szr-only services from Location 17
 # ═════════════════════════════════════════════════════════════════════════════
 
 def do_step3(execute: bool):
     print("\n" + "=" * 70)
-    print("  STEP 3: Delete SRZ-only services from Location 17 (Jumeirah)")
+    print("  STEP 3: Delete szr-only services from Location 17 (Jumeirah)")
     print("=" * 70)
     print("  NOTE: Uses (name + category) matching to avoid deleting")
     print("  services that share a name but belong to different categories/branches.")
@@ -472,12 +472,12 @@ def do_step3(execute: bool):
     local_catid_to_name = build_local_catid_to_name(local_cats)
     svc_class = classify_services(local_svcs)
 
-    # Build set of (name, category) keys for srz-only services
-    srz_only_keys = set()
-    for s in svc_class["srz_only"]:
+    # Build set of (name, category) keys for szr-only services
+    szr_only_keys = set()
+    for s in svc_class["szr_only"]:
         cat_name = local_catid_to_name.get(s.get("category_id"), "")
-        srz_only_keys.add(svc_key(get_name_en(s), cat_name))
-    print(f"\n  SRZ-only service (name,cat) keys: {len(srz_only_keys)}")
+        szr_only_keys.add(svc_key(get_name_en(s), cat_name))
+    print(f"\n  szr-only service (name,cat) keys: {len(szr_only_keys)}")
 
     # Fetch current Location 17 services and build (name, category) keys
     api_svcs = fetch_api_services(LOCATION_JUMEIRAH)
@@ -488,17 +488,17 @@ def do_step3(execute: bool):
     for svc in api_svcs:
         api_cat_name = api_catid_to_name_17.get(svc.get("category_id"), "")
         key = svc_key(get_name_en(svc), api_cat_name)
-        if key in srz_only_keys:
+        if key in szr_only_keys:
             to_delete.append(svc)
         else:
             kept += 1
 
     print(f"  API services on Location 17: {len(api_svcs)}")
-    print(f"  Services to DELETE (srz-only): {len(to_delete)}")
+    print(f"  Services to DELETE (szr-only): {len(to_delete)}")
     print(f"  Services to KEEP:              {kept}")
 
     if not to_delete:
-        print("\n  No SRZ-only services found on Location 17. Nothing to do.")
+        print("\n  No szr-only services found on Location 17. Nothing to do.")
         return
 
     # Show first 20
@@ -698,7 +698,7 @@ def do_step5(execute: bool):
         if loc_id == LOCATION_JUMEIRAH:
             loc_branch = "jumeirah"
         else:
-            loc_branch = "srz"  # services use "srz"
+            loc_branch = "szr"  # services use "szr"
 
         # Get API data for this location
         api_svcs = fetch_api_services(loc_id)
@@ -738,8 +738,8 @@ def do_step5(execute: bool):
             # Check if service belongs to this location
             svc_branches = local_svc_id_to_branches.get(local_svc_id, set())
 
-            if loc_branch == "srz":
-                if "srz" not in svc_branches:
+            if loc_branch == "szr":
+                if "szr" not in svc_branches:
                     skipped_svc += 1
                     continue
             else:  # jumeirah
@@ -754,7 +754,7 @@ def do_step5(execute: bool):
             # Practitioner with empty branches → goes to both locations
             if pract_branches:
                 if loc_id == LOCATION_SZR:
-                    if "szr" not in pract_branches and "srz" not in pract_branches:
+                    if "szr" not in pract_branches and "szr" not in pract_branches:
                         skipped_pract += 1
                         continue
                 else:
@@ -855,7 +855,7 @@ Examples:
     parser.add_argument("--analyze", action="store_true", help="Show analysis of current vs expected state")
     parser.add_argument("--step1", action="store_true", help="Step 1: Upload categories to Location 18")
     parser.add_argument("--step2", action="store_true", help="Step 2: Upload services to Location 18")
-    parser.add_argument("--step3", action="store_true", help="Step 3: Delete srz-only services from Location 17")
+    parser.add_argument("--step3", action="store_true", help="Step 3: Delete szr-only services from Location 17")
     parser.add_argument("--step4", action="store_true", help="Step 4: Upload practitioners to both locations")
     parser.add_argument("--step5", action="store_true", help="Step 5: Link service-practitioners on both locations")
     parser.add_argument("--execute", action="store_true", help="Actually execute (default is dry-run)")

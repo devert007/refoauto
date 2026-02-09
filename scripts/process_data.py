@@ -101,18 +101,18 @@ def parse_price(price_str: str) -> tuple[float | None, float | None, dict | None
 def parse_branches(branch_str: str) -> list[str]:
     """Parse branch string to list"""
     if not branch_str or branch_str.strip() == "":
-        return ["jumeirah", "srz"]
+        return ["jumeirah", "szr"]
 
     branch_str = branch_str.strip().lower()
 
     if branch_str == "both":
-        return ["jumeirah", "srz"]
+        return ["jumeirah", "szr"]
     elif branch_str == "jumeirah":
         return ["jumeirah"]
-    elif branch_str in ["szr", "srz"]:
-        return ["srz"]
+    elif branch_str in ["szr", "szr"]:
+        return ["szr"]
     else:
-        return ["jumeirah", "srz"]
+        return ["jumeirah", "szr"]
 
 
 def parse_service_name(name_str: str) -> tuple[str, str | None]:
