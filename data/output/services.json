@@ -3168,7 +3168,7 @@
     ]
   },
   {
-    "id": 3290,
+    "id": 3466,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR (Small Area)"
@@ -3202,7 +3202,7 @@
     ]
   },
   {
-    "id": 3291,
+    "id": 3467,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Full Face"
@@ -3236,7 +3236,7 @@
     ]
   },
   {
-    "id": 3292,
+    "id": 3468,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Half Face"
@@ -3270,7 +3270,7 @@
     ]
   },
   {
-    "id": 3293,
+    "id": 3469,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Face and Neckline"
@@ -3304,7 +3304,7 @@
     ]
   },
   {
-    "id": 3294,
+    "id": 3470,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Arms (Full)"
@@ -3338,7 +3338,7 @@
     ]
   },
   {
-    "id": 3295,
+    "id": 3471,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Arms (Half)"
@@ -3372,7 +3372,7 @@
     ]
   },
   {
-    "id": 3296,
+    "id": 3472,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Back"
@@ -3406,7 +3406,7 @@
     ]
   },
   {
-    "id": 3297,
+    "id": 3473,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Bikini"
@@ -3440,7 +3440,7 @@
     ]
   },
   {
-    "id": 3298,
+    "id": 3474,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Legs (Full)"
@@ -3474,7 +3474,7 @@
     ]
   },
   {
-    "id": 3299,
+    "id": 3475,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Legs (Half)"
@@ -3508,7 +3508,7 @@
     ]
   },
   {
-    "id": 3300,
+    "id": 3476,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Underarms"
@@ -3542,7 +3542,7 @@
     ]
   },
   {
-    "id": 3301,
+    "id": 3477,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Upper Lip + Chin"
@@ -3576,7 +3576,7 @@
     ]
   },
   {
-    "id": 3302,
+    "id": 3478,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Bikini + Underarms"
@@ -3610,7 +3610,7 @@
     ]
   },
   {
-    "id": 3303,
+    "id": 3479,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Chest"
@@ -3644,7 +3644,7 @@
     ]
   },
   {
-    "id": 3304,
+    "id": 3480,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Abdomen"
@@ -3678,7 +3678,7 @@
     ]
   },
   {
-    "id": 3305,
+    "id": 3481,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Full Body (FEMALE)"
@@ -3712,7 +3712,7 @@
     ]
   },
   {
-    "id": 3306,
+    "id": 3482,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: Full Body (MALE)"
@@ -3746,7 +3746,7 @@
     ]
   },
   {
-    "id": 3307,
+    "id": 3483,
     "category_id": 346,
     "name_i18n": {
       "en": "LHR: 3 areas"
@@ -4018,7 +4018,7 @@
     ]
   },
   {
-    "id": 3323,
+    "id": 3484,
     "category_id": 348,
     "name_i18n": {
       "en": "NAD+ IV DRIP"
@@ -4116,7 +4116,7 @@
     ]
   },
   {
-    "id": 3331,
+    "id": 3485,
     "category_id": 351,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
@@ -4133,7 +4133,7 @@
     ]
   },
   {
-    "id": 3331,
+    "id": 3486,
     "category_id": 352,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
@@ -4150,7 +4150,7 @@
     ]
   },
   {
-    "id": 3331,
+    "id": 3487,
     "category_id": 353,
     "name_i18n": {
       "en": "Comprehensive Consultation & Examination"
@@ -5389,23 +5389,6 @@
     "price_max": 3150.0,
     "price_note_i18n": {
       "en": "4200"
-    },
-    "branches": [
-      "szr"
-    ]
-  },
-  {
-    "id": 3413,
-    "category_id": 361,
-    "name_i18n": {
-      "en": "Hairline and Crown"
-    },
-    "description_i18n": {},
-    "duration_minutes": null,
-    "price_min": 2625.0,
-    "price_max": 2625.0,
-    "price_note_i18n": {
-      "en": "6300"
     },
     "branches": [
       "szr"

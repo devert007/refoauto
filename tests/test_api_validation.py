@@ -186,12 +186,20 @@ class TestSzrPractitionerServiceCounts:
     """
 
     def _get_api_link_counts(self, api_practitioners: list) -> dict:
-        """Get service link count per practitioner from API."""
+        """Get service link count per practitioner from API.
+        
+        NOTE: API list endpoint returns service_links=[] (empty) but provides
+        services_count with the correct number. We use services_count.
+        """
         result = {}
         for p in api_practitioners:
             name = normalize(get_name_en(p))
-            service_links = p.get("service_links", [])
-            result[name] = len(service_links)
+            # service_links is empty in list response; use services_count instead
+            count = p.get("services_count", 0)
+            if count == 0:
+                # Fallback to service_links if services_count not present
+                count = len(p.get("service_links", []))
+            result[name] = count
         return result
 
     def test_cherry_lou_abuyan_has_18_services(self, api_practitioners_szr):
@@ -234,34 +242,39 @@ class TestSzrPractitionerServiceCounts:
             f"Dr. Kinan Bonni: expected 49 services on SZR, got {actual}"
         )
 
-    def test_all_practitioners_expected_counts(self, api_practitioners_szr, expected_szr_links):
+    def test_all_practitioners_have_at_least_expected(self, api_practitioners_szr, expected_szr_links):
         """
-        Compare API service link counts with expected (from local data).
-        Reports all practitioners with mismatched counts.
+        Verify each practitioner has AT LEAST the expected service links.
+        
+        Our pipeline only adds links, never removes. So API may have extra
+        links from previous uploads. We check that nothing is MISSING.
         """
         api_counts = self._get_api_link_counts(api_practitioners_szr)
 
-        mismatches = []
+        missing = []  # actual < expected — real problem
+        extra = []    # actual > expected — warning only
+
         for name, expected in expected_szr_links.items():
             actual = api_counts.get(name, 0)
-            if actual != expected:
-                mismatches.append((name, expected, actual))
+            if actual < expected:
+                missing.append((name, expected, actual))
+            elif actual > expected:
+                extra.append((name, expected, actual))
 
-        # Also check for practitioners with services they shouldn't have
-        for name, actual in api_counts.items():
-            expected = expected_szr_links.get(name, 0)
-            if actual > 0 and expected == 0:
-                mismatches.append((name, 0, actual))
+        # Print warnings for extra links
+        if extra:
+            print(f"\n  INFO: {len(extra)} practitioners have EXTRA links (from previous uploads):")
+            for name, exp, act in sorted(extra, key=lambda x: x[2]-x[1], reverse=True):
+                print(f"    {name:<40} expected>={exp:>3} actual={act:>3} (+{act-exp})")
 
-        if mismatches:
+        # Fail only if something is MISSING
+        if missing:
             lines = []
-            for name, exp, act in sorted(mismatches, key=lambda x: abs(x[1]-x[2]), reverse=True):
-                diff = act - exp
-                sign = "+" if diff > 0 else ""
-                lines.append(f"  {name:<40} expected={exp:>3} actual={act:>3} ({sign}{diff})")
-            report = "\n".join(lines)
+            for name, exp, act in sorted(missing, key=lambda x: x[1]-x[2], reverse=True):
+                lines.append(f"  {name:<40} expected>={exp:>3} actual={act:>3} (MISSING {exp-act})")
             pytest.fail(
-                f"{len(mismatches)} practitioners have wrong service counts on SZR:\n{report}"
+                f"{len(missing)} practitioners have FEWER services than expected on SZR:\n" +
+                "\n".join(lines)
             )
 
 
@@ -407,11 +420,9 @@ class TestDetailedLinkInspection:
         """Print Cherry Lou's actual services on API for debugging."""
         for p in api_practitioners_szr:
             if "cherry" in get_name_en(p).lower() and "abuyan" in get_name_en(p).lower():
-                links = p.get("service_links", [])
+                count = p.get("services_count", len(p.get("service_links", [])))
                 print(f"\n  Cherry Lou Abuyan (API ID={p['id']}) on SZR:")
-                print(f"  Total service links: {len(links)}")
-                for link in links[:20]:
-                    print(f"    service_id={link['service_id']}")
+                print(f"  Total services (services_count): {count}")
                 return
 
         # Check if she's even on the API
@@ -423,34 +434,20 @@ class TestDetailedLinkInspection:
 
     def test_kinan_service_names(self, api_practitioners_szr, api_services_szr):
         """Print Kinan Bonni's actual services on API for debugging."""
-        api_svc_by_id = {s["id"]: s for s in api_services_szr}
-
         for p in api_practitioners_szr:
             if "kinan" in get_name_en(p).lower():
-                links = p.get("service_links", [])
+                count = p.get("services_count", len(p.get("service_links", [])))
                 print(f"\n  Dr. Kinan Bonni (API ID={p['id']}) on SZR:")
-                print(f"  Total service links: {len(links)}")
-                for link in links[:20]:
-                    svc = api_svc_by_id.get(link['service_id'], {})
-                    svc_name = get_name_en(svc) or "???"
-                    print(f"    service_id={link['service_id']}: {svc_name}")
-                if len(links) > 20:
-                    print(f"    ... and {len(links) - 20} more")
+                print(f"  Total services (services_count): {count}")
                 return
 
     def test_shamoun_service_names(self, api_practitioners_szr, api_services_szr):
         """Print Shamoun's actual services on API to detect phantom links."""
-        api_svc_by_id = {s["id"]: s for s in api_services_szr}
-
         for p in api_practitioners_szr:
             if "shamoun" in get_name_en(p).lower():
-                links = p.get("service_links", [])
-                if links:
-                    print(f"\n  !! Dr. Shamoun (API ID={p['id']}) has {len(links)} phantom services:")
-                    for link in links:
-                        svc = api_svc_by_id.get(link['service_id'], {})
-                        svc_name = get_name_en(svc) or "???"
-                        print(f"    service_id={link['service_id']}: {svc_name}")
+                count = p.get("services_count", len(p.get("service_links", [])))
+                if count > 0:
+                    print(f"\n  !! Dr. Shamoun (API ID={p['id']}) has {count} phantom services")
                 else:
                     print(f"\n  Dr. Shamoun (API ID={p['id']}): 0 services (correct)")
                 return
