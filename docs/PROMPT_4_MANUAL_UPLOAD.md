@@ -277,6 +277,7 @@ python scripts/fix_locations.py --step2 --execute     # Services → Location 18
 python scripts/fix_locations.py --step3 --execute     # Delete wrong services from Loc 17
 python scripts/fix_locations.py --step4 --execute     # Practitioners → both locations
 python scripts/fix_locations.py --step5 --execute     # Service-practitioner links
+python scripts/fix_locations.py --step6 --execute     # Set price_type=fixed for all services
 
 # Финальная проверка
 python scripts/fix_locations.py --analyze

@@ -39,7 +39,7 @@ PLAYWRIGHT_PROFILE = PROJECT_ROOT / ".playwright_profile"
 # API Configuration
 API_BASE_URL = "https://dialoggauge.yma.health/api"
 DG_BASE_URL = "https://dialoggauge.yma.health"
-LOCATION_ID = 17
+LOCATION_ID = 21
 
 # Cookie expires in 7 days (604800 seconds), refresh 1 hour before
 COOKIE_REFRESH_BUFFER = 3600
@@ -495,8 +495,8 @@ def main():
         print("TESTING: CREATE CATEGORY")
         print("=" * 60)
         
-        # Get location_id from args or use default 17 (from user's example)
-        location_id = 17
+        # Get location_id from args or use default 21 (Jumeirah)
+        location_id = 21
         for arg in sys.argv:
             if arg.startswith("--location="):
                 location_id = int(arg.split("=")[1])

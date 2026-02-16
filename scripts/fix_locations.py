@@ -72,8 +72,8 @@ DATA_API = PROJECT_ROOT / "data" / "api"
 # ─── API ─────────────────────────────────────────────────────────────────────
 API_BASE = "https://dialoggauge.yma.health/api"
 
-LOCATION_JUMEIRAH = 17
-LOCATION_SZR = 18
+LOCATION_JUMEIRAH = 21
+LOCATION_SZR = 20
 
 # branch name in local JSON → location_id
 BRANCH_TO_LOCATION = {
@@ -126,6 +126,13 @@ def api_post(endpoint: str, data: dict) -> dict:
     r = requests.post(f"{API_BASE}{endpoint}", headers=api_headers(), json=data)
     if r.status_code not in (200, 201):
         raise Exception(f"POST {endpoint} → {r.status_code}: {r.text[:200]}")
+    return r.json()
+
+
+def api_put(endpoint: str, data: dict) -> dict:
+    r = requests.put(f"{API_BASE}{endpoint}", headers=api_headers(), json=data)
+    if r.status_code not in (200, 201):
+        raise Exception(f"PUT {endpoint} → {r.status_code}: {r.text[:200]}")
     return r.json()
 
 
@@ -226,7 +233,7 @@ def do_analyze():
     print(f"\n{'─'*40}")
     print("CURRENT API STATE")
     print(f"{'─'*40}")
-    for loc_id, loc_name in [(17, "Jumeirah"), (18, "SZR")]:
+    for loc_id, loc_name in [(LOCATION_JUMEIRAH, "Jumeirah"), (LOCATION_SZR, "SZR")]:
         cats = fetch_api_categories(loc_id)
         svcs = fetch_api_services(loc_id)
         practs = fetch_api_practitioners(loc_id)
@@ -244,11 +251,11 @@ def do_analyze():
     print(f"\n{'─'*40}")
     print("EXPECTED STATE")
     print(f"{'─'*40}")
-    print(f"  Location 17 (Jumeirah):")
+    print(f"  Location {LOCATION_JUMEIRAH} (Jumeirah):")
     print(f"    Categories:    {len(local_cats)}")
     print(f"    Services:      {exp_17_svcs}")
     print(f"    Practitioners: {exp_17_practs}")
-    print(f"  Location 18 (SZR):")
+    print(f"  Location {LOCATION_SZR} (SZR):")
     print(f"    Categories:    {len(local_cats)}")
     print(f"    Services:      {exp_18_svcs}")
     print(f"    Practitioners: {exp_18_practs}")
@@ -834,6 +841,59 @@ def do_step5(execute: bool):
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# STEP 6: Set price_type="fixed" for all services on both locations
+# ═════════════════════════════════════════════════════════════════════════════
+
+def do_step6(execute: bool):
+    print("\n" + "=" * 70)
+    print("  STEP 6: Set price_type='fixed' for all services")
+    print("=" * 70)
+
+    for loc_id, loc_name in [(LOCATION_JUMEIRAH, "Jumeirah"), (LOCATION_SZR, "SZR")]:
+        api_svcs = fetch_api_services(loc_id)
+
+        # Find services that are NOT "fixed"
+        to_fix = [s for s in api_svcs if s.get("price_type") != "fixed"]
+        already = len(api_svcs) - len(to_fix)
+
+        print(f"\n  ──────────────────────────────────────────────────")
+        print(f"  Location {loc_id} ({loc_name})")
+        print(f"  ──────────────────────────────────────────────────")
+        print(f"    Total services:       {len(api_svcs)}")
+        print(f"    Already fixed:        {already}")
+        print(f"    To update:            {len(to_fix)}")
+
+        if not to_fix:
+            print(f"    All services already have price_type='fixed'. Nothing to do.")
+            continue
+
+        for svc in to_fix[:5]:
+            print(f"      {get_name_en(svc)[:45]:45} price_type={svc.get('price_type', '???')}")
+        if len(to_fix) > 5:
+            print(f"      ... and {len(to_fix) - 5} more")
+
+        if not execute:
+            print(f"\n    [DRY RUN] Add --execute to update {len(to_fix)} services")
+            continue
+
+        print(f"\n    Updating {len(to_fix)} services...")
+        ok, fail = 0, 0
+        for svc in to_fix:
+            svc_id = svc["id"]
+            payload = {"price_type": "fixed"}
+            try:
+                api_put(f"/locations/{loc_id}/services/{svc_id}", payload)
+                ok += 1
+                if ok % 50 == 0:
+                    print(f"      ... updated {ok} services")
+            except Exception as e:
+                fail += 1
+                print(f"      ✗ {get_name_en(svc)[:40]}: {e}")
+
+        print(f"    Result: {ok} updated, {fail} failed")
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # MAIN
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -858,11 +918,12 @@ Examples:
     parser.add_argument("--step3", action="store_true", help="Step 3: Delete szr-only services from Location 17")
     parser.add_argument("--step4", action="store_true", help="Step 4: Upload practitioners to both locations")
     parser.add_argument("--step5", action="store_true", help="Step 5: Link service-practitioners on both locations")
+    parser.add_argument("--step6", action="store_true", help="Step 6: Set price_type='fixed' for all services")
     parser.add_argument("--execute", action="store_true", help="Actually execute (default is dry-run)")
 
     args = parser.parse_args()
 
-    if not any([args.analyze, args.step1, args.step2, args.step3, args.step4, args.step5]):
+    if not any([args.analyze, args.step1, args.step2, args.step3, args.step4, args.step5, args.step6]):
         parser.print_help()
         return
 
@@ -883,6 +944,9 @@ Examples:
 
     if args.step5:
         do_step5(execute=args.execute)
+
+    if args.step6:
+        do_step6(execute=args.execute)
 
 
 if __name__ == "__main__":

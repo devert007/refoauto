@@ -21,6 +21,20 @@
 
 ---
 
+## Шаг 2.5. Quality Review (описания и атрибуты)
+
+Прочитай `docs/PROMPT_2.5_QUALITY_REVIEW.md` и выполни все инструкции в нём.
+
+Запусти скрипт-помощник, прочитай вывод, оцени качество по критериям из промпта:
+
+```bash
+python scripts/print_quality.py
+```
+
+Результат: отчёт QUALITY REVIEW REPORT. Если FAIL — исправь данные, повтори.
+
+---
+
 ## Шаг 3. Тесты (СТОП если fail)
 
 Запусти ВСЕ три локальных теста:
@@ -58,7 +72,20 @@ pytest tests/test_random_sample.py -v -s
 
 ---
 
-## Шаг 6. API тесты (СТОП если fail)
+## Шаг 6. Установка price_type=fixed
+
+Все сервисы должны иметь `price_type: "fixed"`. Это делается через PUT запрос к API.
+
+```bash
+python scripts/fix_locations.py --step6              # Dry run — покажет сколько сервисов нужно обновить
+python scripts/fix_locations.py --step6 --execute    # Execute — обновит price_type на обоих locations
+```
+
+Результат: все сервисы на Jumeirah и SZR имеют `price_type: "fixed"`.
+
+---
+
+## Шаг 7. API тесты (СТОП если fail)
 
 ```bash
 pytest tests/test_api_validation.py -v -s

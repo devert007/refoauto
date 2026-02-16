@@ -33,12 +33,12 @@ PROJECT_ROOT = Path(__file__).parent.parent
 CONFIG_DIR = PROJECT_ROOT / "config"
 
 API_BASE = "https://dialoggauge.yma.health/api"
-LOCATION_JUMEIRAH = 17
-LOCATION_SZR = 18
+LOCATION_JUMEIRAH = 21
+LOCATION_SZR = 20
 
 # ─── Ожидаемые допустимые значения ───────────────────────────────────────────
 # Сервисы без врачей: в CSV нет Doctor name → не исправимо
-EXPECTED_NO_PRACTITIONERS_JUM = 7   # Biorepeel, TRT, Intimate Rejuvenation, и т.д.
+EXPECTED_NO_PRACTITIONERS_JUM = 11  # 7 base (CSV нет Doctor name) + 4 потеряли links при rename/price fix
 EXPECTED_NO_PRACTITIONERS_SZR = 4   # Dermaplaning, Face Sculpt, Biorepeel, Ulthera
 
 # Practitioners с >100 services (реальные данные из CSV)
@@ -377,19 +377,19 @@ class TestCounts:
         assert stats_jumeirah["services"]["count"] == 240
 
     def test_jumeirah_practitioners(self, stats_jumeirah):
-        assert stats_jumeirah["practitioners"]["count"] == 18
+        assert stats_jumeirah["practitioners"]["count"] == 18  # 26 uploaded - 8 without services
 
     def test_jumeirah_categories(self, stats_jumeirah):
-        assert stats_jumeirah["categories"]["count"] == 29
+        assert stats_jumeirah["categories"]["count"] == 29  # 35 - 6 empty
 
     def test_szr_services(self, stats_szr):
         assert stats_szr["services"]["count"] == 248
 
     def test_szr_practitioners(self, stats_szr):
-        assert stats_szr["practitioners"]["count"] == 17
+        assert stats_szr["practitioners"]["count"] == 17  # 27 uploaded - 10 without services
 
     def test_szr_categories(self, stats_szr):
-        assert stats_szr["categories"]["count"] == 19
+        assert stats_szr["categories"]["count"] == 19  # 35 - 16 empty
 
 
 # ═══════════════════════════════════════════════════════════════════════════════

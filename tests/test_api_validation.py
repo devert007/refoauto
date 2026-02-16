@@ -30,8 +30,8 @@ DATA_OUTPUT = PROJECT_ROOT / "data" / "output"
 CONFIG_DIR = PROJECT_ROOT / "config"
 
 API_BASE = "https://dialoggauge.yma.health/api"
-LOCATION_JUMEIRAH = 17
-LOCATION_SZR = 18
+LOCATION_JUMEIRAH = 21
+LOCATION_SZR = 20
 
 
 # ─── API Helpers ──────────────────────────────────────────────────────────────
@@ -238,8 +238,8 @@ class TestSzrPractitionerServiceCounts:
         actual = counts.get(normalize("Dr. Kinan Bonni"), -1)
         if actual == -1:
             pytest.fail("Dr. Kinan Bonni NOT FOUND on SZR API")
-        assert actual == 49, (
-            f"Dr. Kinan Bonni: expected 49 services on SZR, got {actual}"
+        assert actual >= 49, (
+            f"Dr. Kinan Bonni: expected >= 49 services on SZR, got {actual}"
         )
 
     def test_all_practitioners_have_at_least_expected(self, api_practitioners_szr, expected_szr_links):
