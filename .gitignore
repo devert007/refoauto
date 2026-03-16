@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Playwright browser cache
+.playwright_profile/
+
+# Config files with sensitive data
+config/.dg_session.json
+config/credentials.json
+config/cred.json
+config/sheets_token.json
+src/*/config/.dg_session.json
+src/*/config/credentials.json
+src/*/config/cred.json
+src/*/config/sheets_token.json
+
+# Data files (optional - uncomment if you don't want to track data)
+# src/*/data/api/
+# src/*/data/output/
+# src/*/data/input/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Old structure (after migration)
+scripts/
+models/
+tests/
+data/
+docs/
+config/

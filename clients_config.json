@@ -1,0 +1,44 @@
+{
+  "clients": {
+    "hortman": {
+      "enabled": true,
+      "display_name": "Hortman Clinics",
+      "base_path": "src/hortman",
+      "locations": [
+        {
+          "location_id": 28,
+          "name": "Jumeirah",
+          "branch": "jumeirah",
+          "description": "Jumeirah branch"
+        },
+        {
+          "location_id": 29,
+          "name": "SZR",
+          "branch": "szr",
+          "description": "Sheikh Zayed Road branch"
+        }
+      ],
+      "branch_to_location": {
+        "jumeirah": 28,
+        "szr": 29
+      }
+    },
+    "milena": {
+      "enabled": true,
+      "display_name": "Milena Clinics",
+      "base_path": "src/milena",
+      "locations": [
+        {
+          "location_id": 30,
+          "name": "MILENA AESTHETIC CLINIC LLC",
+          "branch": "main",
+          "description": "Main location - to be configured"
+        }
+      ],
+      "branch_to_location": {
+        "main": null
+      }
+    }
+  },
+  "active_client": "hortman"
+}

@@ -16,7 +16,7 @@ alwaysApply: false
 Синхронизация данных между локальными JSON и DialogGauge API.
 
 - **API:** `https://dialoggauge.yma.health/api`
-- **Location ID:** `17` (в `scripts/get_categories.py`)
+- **Location ID:** `28` (в `scripts/get_categories.py`)
 - **Auth:** Cookie `dg_session` (автообновление через Playwright)
 
 ## Ключевые файлы
@@ -74,7 +74,7 @@ alwaysApply: false
 ```json
 // POST category/service
 {
-	"location_id": 17,
+	"location_id": 28,
 	"name": { "en": "Name" }, // ОБЪЕКТ, не строка!
 	"is_visible_to_ai": true
 }

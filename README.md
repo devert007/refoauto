@@ -1,262 +1,385 @@
-# Hortman Clinics → DialogGauge: Data Sync Pipeline
+# DialogGauge API Automation - Multi-Client
 
-Автоматизация загрузки данных клиники Hortman (categories, services, practitioners) в DialogGauge API с учётом двух филиалов (locations).
+Автоматизация работы с DialogGauge API для нескольких клиентов (Hortman, Milena, и др.).
 
-## Архитектура
+## 🎯 Быстрый старт
 
+### 1. Установка
+
+```bash
+pip install requests playwright
+python -m playwright install chromium
 ```
-Google Sheets / CSV  →  JSON файлы  →  Sync IDs с API  →  Upload по locations
-     (Step 1)            (Step 1)        (Step 2)            (Steps 3-5)
+
+### 2. Настройка клиента
+
+Отредактируйте `clients_config.json` - укажите `location_id` для ваших филиалов:
+
+```json
+{
+  "clients": {
+    "hortman": {
+      "enabled": true,
+      "locations": [
+        {"location_id": 28, "name": "Jumeirah", "branch": "jumeirah"},
+        {"location_id": 29, "name": "SZR", "branch": "szr"}
+      ]
+    },
+    "milena": {
+      "enabled": false,
+      "locations": [
+        {"location_id": null, "name": "Main", "branch": "main"}
+      ]
+    }
+  },
+  "active_client": "hortman"
+}
 ```
 
-## Locations (Филиалы)
+### 3. Запуск (для активного клиента)
 
-| Location ID | Название                | Branch в данных |
-| ----------- | ----------------------- | --------------- |
-| 17          | Jumeirah                | `jumeirah`      |
-| 18          | SZR (Sheikh Zayed Road) | `szr` / `szr`   |
+```bash
+# Перейти в директорию клиента
+cd src/hortman  # или src/milena
 
-**Правило распределения по branches:**
+# Запустить обработку
+python scripts/process_data.py
+python scripts/sync_with_api.py
+python scripts/fix_locations.py --analyze
+```
 
-- `branches: ["jumeirah"]` → только Location 17
-- `branches: ["szr"]` → только Location 18
-- `branches: ["jumeirah", "szr"]` → оба locations
-- `branches: []` (пусто, только у practitioners) → оба locations
-- Categories не имеют branches → одинаковые для обоих locations
-
-## Структура проекта
+## 📁 Структура проекта
 
 ```
 refoauto/
-├── config/
-│   ├── .dg_session.json        # Сессия для DialogGauge API
-│   ├── cred.json               # Google API credentials
-│   ├── credentials.json        # Google API credentials (альт.)
-│   └── sheets_token.json       # Google Sheets токен
-├── data/
-│   ├── input/
-│   │   └── raw_data.csv        # Исходные данные (services, categories)
-│   ├── output/                 # ← ОСНОВНЫЕ JSON ФАЙЛЫ
-│   │   ├── categories.json     # 35 категорий
-│   │   ├── services.json       # 373 сервиса (с branches)
-│   │   ├── practitioners.json  # 26 practitioners (с branches)
-│   │   └── service_practitioners.json  # 1005 связей service↔practitioner
-│   └── api/                    # Ответы API (для отладки)
-│       ├── _sync_report.json
-│       └── ...
-├── scripts/
-│   ├── process_data.py              # [Step 1a] CSV → JSON (categories, services)
-│   ├── parse_practitioners_sheet.py # [Step 1b] Google Sheets → practitioners JSON
-│   ├── sync_with_api.py             # [Step 2]  Sync IDs: local ↔ API
-│   ├── fix_locations.py             # [Step 3-5] Upload с учётом locations
-│   └── get_categories.py            # Библиотека API (fetch/create/session)
-├── models/
-│   ├── pydantic_models.py      # Pydantic модели данных
-│   └── models.py               # Полные модели DialogGauge
-└── docs/
-    ├── PROMPT_FOR_CLAUDE_CODE.md
-    └── CLAUDE_CODE_CONTEXT.md
+├── clients_config.json          # ← Конфигурация всех клиентов
+├── .env                         # ← Активный клиент (ACTIVE_CLIENT=hortman)
+├── .env.example                 # Пример настроек
+├── run.py                       # Универсальный запускалка (WIP)
+│
+├── src/
+│   ├── config_manager.py        # Менеджер конфигураций
+│   │
+│   ├── hortman/                 # ← Клиент #1: Hortman Clinics
+│   │   ├── scripts/             # Скрипты обработки и API sync
+│   │   ├── models/              # Модели данных
+│   │   ├── tests/               # Тесты
+│   │   ├── data/
+│   │   │   ├── input/           # Входные данные (CSV, etc.)
+│   │   │   ├── output/          # Обработанные JSON файлы
+│   │   │   └── api/             # Кеш API ответов
+│   │   ├── config/              # Конфиги (credentials, session)
+│   │   └── docs/                # Документация клиента
+│   │
+│   └── milena/                  # ← Клиент #2: Milena (шаблон)
+│       ├── scripts/
+│       ├── models/
+│       ├── tests/
+│       ├── data/
+│       ├── config/
+│       ├── docs/
+│       └── README.md            # Инструкции для Milena
+│
+└── README.md                    # ← Вы здесь
 ```
 
-## Полный цикл: Пошаговая инструкция
+## 🔄 Workflow: Полный цикл обработки данных
 
-### Step 1a: Получить categories + services из CSV
+### Для Hortman (2 филиала: Jumeirah + SZR)
+
+```bash
+cd src/hortman
+
+# Step 1: Получить данные
+python scripts/process_data.py                  # Categories + Services из CSV
+python scripts/parse_practitioners_sheet.py     # Practitioners из Google Sheets
+
+# Step 2: Синхронизировать ID с API
+python scripts/sync_with_api.py
+
+# Step 3: Проанализировать текущее состояние
+python scripts/fix_locations.py --analyze
+
+# Step 4: Загрузить данные (по шагам, с --execute для выполнения)
+python scripts/fix_locations.py --step1 --execute   # Categories → оба locations
+python scripts/fix_locations.py --step2 --execute   # Services → по branches
+python scripts/fix_locations.py --step4 --execute   # Practitioners → по branches
+python scripts/fix_locations.py --step5 --execute   # Service-practitioner links
+```
+
+### Для нового клиента (Milena)
+
+```bash
+cd src/milena
+
+# Step 1: Настроить location_id в clients_config.json
+# Step 2: Добавить данные в data/input/
+# Step 3: Запустить обработку
+python scripts/process_data.py
+python scripts/sync_with_api.py
+```
+
+## ⚙️ Настройка нового клиента
+
+### Шаг 1: Добавить конфигурацию
+
+В `clients_config.json`:
+
+```json
+"milena": {
+  "enabled": true,
+  "display_name": "Milena Clinics",
+  "base_path": "src/milena",
+  "locations": [
+    {
+      "location_id": 30,           // ← Ваш location_id из DialogGauge
+      "name": "Main Location",
+      "branch": "main",
+      "description": "Main branch"
+    }
+  ],
+  "branch_to_location": {
+    "main": 30
+  }
+}
+```
+
+### Шаг 2: Скопировать скрипты
+
+```bash
+cp -r src/hortman/scripts/* src/milena/scripts/
+cp -r src/hortman/models/* src/milena/models/
+```
+
+### Шаг 3: Подготовить данные
+
+Добавьте CSV или другие данные в `src/milena/data/input/`
+
+### Шаг 4: Запустить
+
+```bash
+cd src/milena
+python scripts/process_data.py
+python scripts/sync_with_api.py
+```
+
+## 🌍 Location IDs и Branches
+
+Каждый клиент может иметь несколько локаций (филиалов).
+
+### Пример: Hortman (2 локации)
+
+| Location ID | Название | Branch     | Описание         |
+| ----------- | -------- | ---------- | ---------------- |
+| 28          | Jumeirah | `jumeirah` | Jumeirah branch  |
+| 29          | SZR      | `szr`      | Sheikh Zayed Rd. |
+
+### Правила распределения по branches
+
+Для **Services** и **Practitioners**:
+
+- `branches: ["jumeirah"]` → только Location 28
+- `branches: ["szr"]` → только Location 29
+- `branches: ["jumeirah", "szr"]` → оба locations
+- `branches: []` (пусто, только practitioners) → оба locations
+
+Для **Categories**:
+
+- Не имеют branches → одинаковые для всех locations
+
+## 🔧 Config Manager API
+
+Используйте `config_manager.py` для доступа к конфигурации из Python:
+
+```python
+from src.config_manager import get_client_config
+
+# Получить конфиг активного клиента
+config = get_client_config()
+
+# Или конкретного клиента
+config = get_client_config("milena")
+
+# Использовать пути
+print(config.data_dir)        # → .../src/milena/data
+print(config.scripts_dir)     # → .../src/milena/scripts
+print(config.config_dir)      # → .../src/milena/config
+
+# Получить location IDs
+location_ids = config.get_location_ids()  # → [30]
+
+# Маппинг branch → location_id
+location = config.get_location_by_branch("main")  # → 30
+```
+
+## 🚀 Основные скрипты
+
+### `process_data.py`
+
+Обрабатывает входные данные (CSV) и создает JSON файлы.
 
 ```bash
 python scripts/process_data.py
 ```
 
-**Что делает:** Парсит `data/input/raw_data.csv` и создаёт:
+Создает:
 
-- `data/output/categories.json` — уникальные категории с ID
-- `data/output/services.json` — сервисы с `branches` и `category_id`
-- `data/output/service_practitioners.json` — связи service↔practitioner
+- `data/output/categories.json`
+- `data/output/services.json`
+- `data/output/service_practitioners.json`
 
-**Когда запускать:** При изменении данных в CSV.
+### `sync_with_api.py`
 
-### Step 1b: Получить practitioners из Google Sheets
-
-```bash
-python scripts/parse_practitioners_sheet.py
-```
-
-**Что делает:** Читает вкладку "Practitioners" из Google Sheets и создаёт:
-
-- `data/output/practitioners.json` — 26 practitioners с полями:
-  - `name`, `name_i18n`, `speciality`, `sex`, `languages`
-  - `description_i18n` (en + ru), `years_of_experience`
-  - `primary/secondary/additional_qualifications`
-  - `treat_children`, `treat_children_age`, `branches`
-
-**Когда запускать:** При изменении данных о practitioners в Google Sheets.
-
-**Требования:** Google API credentials в `config/cred.json`.
-
-### Step 2: Синхронизация ID с API
+Синхронизирует локальные ID с API ID.
 
 ```bash
-python scripts/sync_with_api.py                  # Все типы
+python scripts/sync_with_api.py
 python scripts/sync_with_api.py --categories-only
 python scripts/sync_with_api.py --services-only
-python scripts/sync_with_api.py --practitioners-only
 ```
 
-**Что делает:**
+### `get_categories.py`
 
-1. Получает данные из API (Location 17)
-2. Сравнивает по имени: `name_i18n.en` (normalized)
-3. Для совпавших → присваивает API ID
-4. Для новых → присваивает `max_api_id + 1, +2, ...`
-5. Обновляет `category_id` в services и `service_id/practitioner_id` в service_practitioners
-6. Сохраняет отчёт в `data/api/_sync_report.json`
+Загружает данные из API (библиотека + CLI).
 
-**Когда запускать:** После Step 1, перед загрузкой в API.
+```bash
+python scripts/get_categories.py --all
+python scripts/get_categories.py --services
+```
 
-### Step 3: Анализ текущего состояния
+### `fix_locations.py`
+
+Распределяет данные по локациям (для multi-location клиентов).
 
 ```bash
 python scripts/fix_locations.py --analyze
+python scripts/fix_locations.py --step1 --execute
 ```
 
-**Что делает:** Показывает:
+## 🔐 Конфигурационные файлы
 
-- Сколько данных на каждом location сейчас
-- Сколько должно быть
-- Какие действия нужны
+### `clients_config.json`
 
-### Step 4: Загрузка categories на Location 18 (SZR)
+Основная конфигурация всех клиентов с location_ids.
+
+### `.env`
+
+Переменные окружения:
+
+```env
+ACTIVE_CLIENT=hortman
+DG_SESSION=your_session_cookie  # Опционально
+```
+
+### `src/{client}/config/`
+
+Клиент-специфичные конфиги:
+
+- `.dg_session.json` - кеш сессии DialogGauge
+- `credentials.json` - Google Sheets credentials
+- `sheets_token.json` - Google Sheets token
+
+## 🔄 Переключение между клиентами
+
+### Способ 1: Через .env файл
 
 ```bash
-python scripts/fix_locations.py --step1              # Dry-run (только показать)
-python scripts/fix_locations.py --step1 --execute    # Выполнить загрузку
+# В файле .env
+ACTIVE_CLIENT=milena
 ```
 
-**Что делает:** Создаёт 35 категорий на Location 18 (SZR).
-Категории одинаковые для обоих locations. На Location 17 они уже есть.
-
-### Step 5: Загрузка services на Location 18 (SZR)
+### Способ 2: Через environment variable
 
 ```bash
-python scripts/fix_locations.py --step2              # Dry-run
-python scripts/fix_locations.py --step2 --execute    # Выполнить
+ACTIVE_CLIENT=milena python run.py get_categories
 ```
 
-**Что делает:** Создаёт 249 сервисов на Location 18:
-
-- 133 с `branches=["szr"]` (только SZR)
-- 116 с `branches=["jumeirah","szr"]` (оба locations)
-
-**Важно:** Матчинг по `(name + category)` для предотвращения ошибок с дубликатами имён (например, LHR сервисы существуют в двух категориях с разными branches).
-
-### Step 6: Удаление лишних services с Location 17
+### Способ 3: Явное указание (WIP)
 
 ```bash
-python scripts/fix_locations.py --step3              # Dry-run
-python scripts/fix_locations.py --step3 --execute    # Выполнить
+python run.py milena get_categories --all
 ```
 
-**Что делает:** Удаляет 133 сервиса с `branches=["szr"]` с Location 17 (Jumeirah), где их быть не должно. Матчинг по `(name + category)`.
-
-### Step 7: Загрузка practitioners на оба locations
+### Способ 4: Просто перейти в директорию
 
 ```bash
-python scripts/fix_locations.py --step4              # Dry-run
-python scripts/fix_locations.py --step4 --execute    # Выполнить
+cd src/milena
+python scripts/get_categories.py --all
 ```
 
-**Что делает:** Создаёт practitioners на правильных locations:
-
-- Location 17: 20 practitioners (5 jumeirah-only + 15 both/empty)
-- Location 18: 21 practitioner (6 szr-only + 15 both/empty)
-
-**API поля (выяснены тестированием):**
-
-- `speciality` → `{"en": "..."}` (i18n, не plain string!)
-- `qualifications` → одно поле `qualifications_i18n` (не три отдельных)
-- `treats_children` (с "s") вместо `treat_children`
-
-### Step 8: Привязка service-practitioner links
-
-```bash
-python scripts/fix_locations.py --step5              # Dry-run
-python scripts/fix_locations.py --step5 --execute    # Выполнить
-```
-
-**Что делает:** Создаёт связи service↔practitioner на обоих locations.
-Endpoint: `POST /locations/{loc}/practitioners/{id}/services` с `{"service_id": ...}`
-
-Фильтрует связи: на каждый location попадают только связи где **и сервис, и practitioner** принадлежат этому location.
-
-## Безопасность
-
-- **Dry-run по умолчанию:** Без `--execute` ни один шаг ничего не делает.
-- **Идемпотентность:** Каждый шаг проверяет существующие данные перед созданием.
-- **Матчинг по (name + category):** Предотвращает ошибки с одноимёнными сервисами в разных категориях.
-- **Сессия:** `config/.dg_session.json` содержит `dg_session` cookie (expires: 7 дней).
-
-## API
+## 📚 API Reference
 
 - **Base URL:** `https://dialoggauge.yma.health/api`
-- **Auth:** Cookie `dg_session` (получается через Playwright OAuth)
-- **Client ID:** 15 (Hortman Test Content)
+- **Auth:** Cookie `dg_session` (автоматически через Playwright OAuth)
 
 ### Endpoints
 
-| Метод  | Endpoint                                                      | Описание                         |
-| ------ | ------------------------------------------------------------- | -------------------------------- |
-| GET    | `/locations/{loc}/categories?flat=true&include_archived=true` | Список категорий                 |
-| POST   | `/locations/{loc}/categories`                                 | Создать категорию                |
-| DELETE | `/locations/{loc}/categories/{id}`                            | Архивировать категорию           |
-| GET    | `/locations/{loc}/services?include_archived=true`             | Список сервисов                  |
-| POST   | `/locations/{loc}/services`                                   | Создать сервис                   |
-| DELETE | `/locations/{loc}/services/{id}`                              | Архивировать сервис              |
-| GET    | `/locations/{loc}/practitioners?include_archived=true`        | Список practitioners             |
-| POST   | `/locations/{loc}/practitioners`                              | Создать practitioner             |
-| DELETE | `/locations/{loc}/practitioners/{id}`                         | Удалить practitioner             |
-| POST   | `/locations/{loc}/practitioners/{id}/services`                | Привязать сервис к practitioner  |
-| GET    | `/clients/wizard/15`                                          | Информация о клиенте и locations |
+| Метод  | Endpoint                                        | Описание                        |
+| ------ | ----------------------------------------------- | ------------------------------- |
+| GET    | `/locations/{id}/categories`                    | Список категорий                |
+| POST   | `/locations/{id}/categories`                    | Создать категорию               |
+| GET    | `/locations/{id}/services`                      | Список сервисов                 |
+| POST   | `/locations/{id}/services`                      | Создать сервис                  |
+| GET    | `/locations/{id}/practitioners`                 | Список practitioners            |
+| POST   | `/locations/{id}/practitioners`                 | Создать practitioner            |
+| POST   | `/locations/{id}/practitioners/{id}/services`   | Привязать сервис к practitioner |
 
-## Быстрый старт (полный цикл)
+Параметры:
+
+- `?flat=true` - плоский список категорий
+- `?include_archived=true` - включая архивные
+
+## 🐛 Troubleshooting
+
+### "Script not found" или "Module not found"
+
+Убедитесь, что запускаете скрипт из директории клиента:
 
 ```bash
-# 1. Получить данные
-python scripts/process_data.py                        # categories + services из CSV
-python scripts/parse_practitioners_sheet.py           # practitioners из Google Sheets
-
-# 2. Синхронизировать ID
-python scripts/sync_with_api.py
-
-# 3. Проверить состояние
-python scripts/fix_locations.py --analyze
-
-# 4. Загрузить (в строгом порядке!)
-python scripts/fix_locations.py --step1 --execute     # Categories → Location 18
-python scripts/fix_locations.py --step2 --execute     # Services → Location 18
-python scripts/fix_locations.py --step3 --execute     # Delete wrong services from Location 17
-python scripts/fix_locations.py --step4 --execute     # Practitioners → both locations
-python scripts/fix_locations.py --step5 --execute     # Service-practitioner links
-
-# 5. Финальная проверка
-python scripts/fix_locations.py --analyze
+cd src/hortman  # или src/milena
+python scripts/your_script.py
 ```
 
-## Дублирующиеся имена сервисов
+### Location ID не настроен
 
-В данных есть 20 сервисов с одинаковыми именами в разных категориях/branches:
+Проверьте `clients_config.json` - убедитесь, что `location_id` указан для вашего клиента.
 
-- "LHR: Full Face" в **Soprano Titanium** (cat 26) → `branches=["szr"]`
-- "LHR: Full Face" в **Polylase MX** (cat 27) → `branches=["jumeirah"]`
+### Ошибка импорта модулей
 
-Скрипт `fix_locations.py` использует ключ **(name + category)** для корректного матчинга.
+Запускайте скрипты из директории клиента или добавьте project root в PYTHONPATH:
 
-## Category ID Mapping (Local → API)
+```bash
+export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+```
 
-| Local ID | API ID (Loc 17) | Название                 |
-| -------- | --------------- | ------------------------ |
-| 1        | 328             | INJECTABLE TREATMENTS    |
-| 10       | 329             | AESTHETICS & DERMATOLOGY |
-| 11       | 330             | DERMATOLOGY              |
-| ...      | ...             | ...                      |
-| 43       | 362             | DENTISTRY                |
+### Session expired
 
-Полный маппинг генерируется автоматически при запуске `sync_with_api.py`.
+Скрипт автоматически обновит сессию через Playwright. При первом запуске откроется браузер для Google OAuth.
+
+## 📖 Дополнительная документация
+
+- **Hortman-specific:** [src/hortman/docs/](src/hortman/docs/)
+- **Milena setup:** [src/milena/README.md](src/milena/README.md)
+- **Config Manager:** См. комментарии в [src/config_manager.py](src/config_manager.py)
+
+## 🎯 Миграция со старой структуры
+
+Старая структура (всё в корне) автоматически перемещена в `src/hortman/`.
+
+Если у вас есть старые ссылки:
+
+- `scripts/` → `src/hortman/scripts/`
+- `data/` → `src/hortman/data/`
+- `config/` → `src/hortman/config/`
+
+## 📝 TODO / Roadmap
+
+- [ ] Полная интеграция config_manager во все скрипты
+- [ ] Автоматическое создание структуры для нового клиента
+- [ ] CLI tool для управления клиентами (`python cli.py add-client milena`)
+- [ ] Unified тестирование для всех клиентов
+- [ ] Docker контейнер для isolated запуска
+
+## 📄 License
+
+Internal use only.
