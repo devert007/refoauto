@@ -29,10 +29,16 @@
       "base_path": "src/milena",
       "locations": [
         {
-          "location_id": 30,
+          "location_id": 32,
+          "name": "Milena Aesthetic Clinic (Branch) LLC",
+          "branch": "2",
+          "description": "MILENA AESTHETIC CLINIC (BRANCH), RIMAL 03, PLAZA - LEVEL, SHOP R03 - Jumeirah Beach Residence - Dubai"
+        },
+        {
+          "location_id": 31,
           "name": "MILENA AESTHETIC CLINIC LLC",
-          "branch": "main",
-          "description": "Main location - to be configured"
+          "branch": "1",
+          "description": "Al Wasl road, Um Suqaim first, VILLA D01 (892 - Dubai"
         }
       ],
       "branch_to_location": {

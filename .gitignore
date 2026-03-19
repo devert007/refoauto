@@ -71,3 +71,6 @@ tests/
 data/
 docs/
 config/
+.playwright_profile/
+.pytest_cache/
+.coverage
