@@ -29,21 +29,188 @@
       "base_path": "src/milena",
       "locations": [
         {
-          "location_id": 32,
-          "name": "Milena Aesthetic Clinic (Branch) LLC",
-          "branch": "2",
-          "description": "MILENA AESTHETIC CLINIC (BRANCH), RIMAL 03, PLAZA - LEVEL, SHOP R03 - Jumeirah Beach Residence - Dubai"
-        },
-        {
           "location_id": 31,
           "name": "MILENA AESTHETIC CLINIC LLC",
           "branch": "1",
           "description": "Al Wasl road, Um Suqaim first, VILLA D01 (892 - Dubai"
+        },
+        {
+          "location_id": 32,
+          "name": "Milena Aesthetic Clinic (Branch) LLC",
+          "branch": "2",
+          "description": "MILENA AESTHETIC CLINIC (BRANCH), RIMAL 03, PLAZA - LEVEL, SHOP R03 - Jumeirah Beach Residence - Dubai"
         }
       ],
       "branch_to_location": {
         "main": null
-      }
+      },
+      "field_mappings": {
+        "categories": {
+          "source_column": "",
+          "rules": "",
+          "translation": "en_only",
+          "sort_order": "appearance"
+        }
+      },
+      "common_rules": "",
+      "pipeline_steps": [
+        {
+          "name": "get_categories",
+          "description": "Fetch data from API",
+          "enabled": true,
+          "args": [
+            "--all"
+          ]
+        },
+        {
+          "name": "sync_with_api",
+          "description": "Sync IDs with API",
+          "enabled": true,
+          "args": []
+        },
+        {
+          "name": "merge_descriptions",
+          "description": "Merge descriptions from CSV",
+          "enabled": true,
+          "args": []
+        },
+        {
+          "name": "generate_categories",
+          "description": "Generate categories from CSV",
+          "enabled": true,
+          "args": []
+        },
+        {
+          "name": "translate",
+          "description": "Translate descriptions",
+          "enabled": true,
+          "args": []
+        },
+        {
+          "name": "fix_locations",
+          "description": "Distribute data across locations",
+          "enabled": true,
+          "args": [
+            "--analyze"
+          ]
+        },
+        {
+          "name": "delete_duplicates",
+          "description": "Delete duplicate services",
+          "enabled": true,
+          "args": []
+        }
+      ],
+      "uploaded_files": []
+    },
+    "test": {
+      "enabled": true,
+      "display_name": "test",
+      "base_path": "src/test",
+      "locations": [
+        {
+          "location_id": 34,
+          "name": "test location",
+          "branch": "1",
+          "description": ""
+        }
+      ],
+      "branch_to_location": {
+        "1": 34
+      },
+      "field_mappings": {
+        "services": {
+          "columns": {
+            "id": {
+              "source": "",
+              "rules": ""
+            },
+            "category_id": {
+              "source": "",
+              "rules": ""
+            },
+            "name_i18n": {
+              "source": "Эффект, особенности:",
+              "rules": "Отсюда бери название service"
+            },
+            "description_i18n": {
+              "source": "ПАМЯТКА",
+              "rules": "используй для описания"
+            },
+            "aliases": {
+              "source": "",
+              "rules": ""
+            },
+            "duration_minutes": {
+              "source": "",
+              "rules": ""
+            },
+            "capacity": {
+              "source": "",
+              "rules": ""
+            },
+            "price_type": {
+              "source": "",
+              "rules": ""
+            },
+            "price_min": {
+              "source": "",
+              "rules": ""
+            },
+            "price_max": {
+              "source": "",
+              "rules": ""
+            },
+            "price_note_i18n": {
+              "source": "",
+              "rules": ""
+            },
+            "prepaid": {
+              "source": "",
+              "rules": ""
+            },
+            "booking_mode": {
+              "source": "",
+              "rules": ""
+            },
+            "branches": {
+              "source": "",
+              "rules": ""
+            },
+            "is_visible_to_ai": {
+              "source": "",
+              "rules": ""
+            },
+            "is_archived": {
+              "source": "",
+              "rules": ""
+            },
+            "sort_order": {
+              "source": "",
+              "rules": ""
+            },
+            "source": {
+              "source": "",
+              "rules": ""
+            },
+            "external_id": {
+              "source": "",
+              "rules": ""
+            },
+            "is_group_service": {
+              "source": "",
+              "rules": ""
+            },
+            "overridden_fields": {
+              "source": "",
+              "rules": ""
+            }
+          }
+        }
+      },
+      "common_rules": "",
+      "pipeline_steps": [],
+      "uploaded_files": []
     }
   },
   "active_client": "hortman"

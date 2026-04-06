@@ -1,53 +1,69 @@
 # RefoAuto - DialogGauge Data Pipeline
 
-Мульти-клиентский проект для генерации JSON из Google Sheets и синхронизации с DialogGauge API.
+Multi-client project for generating JSON from data sources and syncing with DialogGauge API.
 
-## Структура проекта
+## Project Structure
 
 ```
 refoauto/
-├── CLAUDE.md                    # ← Этот файл (общий контекст)
-├── clients_config.json          # Конфигурация всех клиентов (locations, branches)
-├── run.py                       # Универсальный запуск скриптов: python run.py [client] script
+├── CLAUDE.md                    # This file (project context)
+├── clients_config.json          # All clients config (locations, branches, settings)
+├── run.py                       # Universal runner: python run.py [client] script | web
+├── config/
+│   └── .dg_session.json         # Shared auth session
 ├── src/
-│   ├── config_manager.py        # Менеджер конфигурации клиентов
-│   ├── hortman/                 # Клиент: Hortman Clinics
-│   │   └── CLAUDE.md            # Контекст для hortman
-│   └── milena/                  # Клиент: Milena
-│       └── CLAUDE.md            # Контекст для milena
+│   ├── shared/                  # Shared modules (models, API client, sync logic)
+│   │   ├── api_client.py        # DGApiClient class (auth, requests)
+│   │   ├── sync.py              # sync_items, normalize_name, update_references
+│   │   ├── utils.py             # load_json, save_json
+│   │   └── models/
+│   │       └── pydantic_models.py  # Service, ServiceCategory, Practitioner, etc.
+│   ├── config_manager.py        # Client configuration manager
+│   ├── hortman/                 # Client: Hortman Clinics
+│   │   └── CLAUDE.md
+│   └── milena/                  # Client: Milena
+│       └── CLAUDE.md
+├── web/                         # Web UI
+│   ├── server.py                # Python HTTP server + JSON API
+│   └── static/
+│       ├── index.html
+│       ├── app.js
+│       └── style.css
 └── .env                         # ACTIVE_CLIENT=hortman|milena
 ```
 
-## Как работает проект
-
-Каждый клиент — это папка в `src/{client_name}/` со стандартной структурой:
-- `config/` — credentials, сессии
-- `data/input/` — исходные данные (CSV, JSON из Google Sheets)
-- `data/output/` — сгенерированные JSON (categories, services, practitioners, service_practitioners)
-- `data/api/` — кеш ответов API, отчеты синхронизации
-- `scripts/` — скрипты обработки и загрузки
-- `models/` — Pydantic модели данных
-- `tests/` — тесты (pytest)
-- `docs/` — промпты и документация
-
-## Pipeline (одинаковый для всех клиентов)
-
-1. **Парсинг** — Google Sheets CSV → 4 JSON файла (categories, services, practitioners, service_practitioners)
-2. **Валидация** — проверка структуры, FK, spot-check с Google Sheets
-3. **Sync IDs** — синхронизация локальных ID с DialogGauge API
-4. **Загрузка** — POST данных в API (categories → services → practitioners → links)
-5. **Тесты** — API validation, content-stats
-
-## Запуск скриптов
+## Running
 
 ```bash
+# CLI scripts
 python run.py hortman get_categories --all
 python run.py milena sync_with_api --categories-only
+
+# Web UI
+python run.py web                # http://localhost:8080
+python run.py web --port 3000
 ```
 
-## Важные правила
+## Key Architecture
 
-- Промпт для каждого клиента находится в `src/{client}/docs/PROMPT.md`
-- Credentials НЕ коммитить (config/*.json в .gitignore)
-- Перед загрузкой ВСЕГДА запускать тесты
-- fix_locations.py по умолчанию dry-run, нужен `--execute` для реального выполнения
+- **Shared modules** (`src/shared/`): Models, API client, sync logic shared by all clients
+- **Per-client scripts** (`src/{client}/scripts/`): Client-specific data processing
+- **Web UI** (`web/`): Manage clients, upload data, configure mappings, run pipeline
+- **Single auth session** (`config/.dg_session.json`): Shared across all clients
+- Client scripts import from `src.shared.api_client` and `src.shared.sync`
+
+## Pipeline
+
+1. **Parse** — CSV/JSON input → 4 JSON files (categories, services, practitioners, service_practitioners)
+2. **Validate** — structure, FK, spot-check
+3. **Sync IDs** — match local names with DialogGauge API, assign correct IDs
+4. **Upload** — POST/PUT data to API (categories → services → practitioners → links)
+5. **Test** — API validation, content-stats
+
+## Rules
+
+- Prompt for each client is in `src/{client}/docs/PROMPT.md`
+- Don't commit credentials (`config/*.json` in .gitignore)
+- Always run tests before uploading
+- `fix_locations.py` is dry-run by default, needs `--execute` for real changes
+- Support ALL configured locations per client, not just the first one

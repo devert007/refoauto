@@ -4,11 +4,18 @@ Universal script runner for multi-client setup.
 
 Usage:
     python run.py [client_name] script_name [args...]
+    python run.py [client_name] generate [options]
+    python run.py web [--port PORT]
 
 Examples:
     python run.py hortman get_categories --all
     python run.py milena process_data
     python run.py sync_with_api  # Uses active client
+    python run.py web             # Start web UI on port 8080
+    python run.py web --port 3000
+    python run.py milena generate                     # Full generation
+    python run.py hortman generate --categories-only  # Only categories
+    python run.py milena generate --sync              # Generate + sync
 
 Available scripts:
     - get_categories: Fetch categories/services/practitioners from API
@@ -16,6 +23,8 @@ Available scripts:
     - process_data: Process raw input data
     - fix_locations: Fix data distribution across locations
     - print_quality: Print quality report
+    - generate: Generate output JSON using Claude AI
+    - web: Start web UI server
 """
 
 import sys
@@ -44,8 +53,36 @@ def main():
 
     args = sys.argv[1:]
 
-    # Determine client and script
+    # Special command: web server
+    if args[0] == "web":
+        web_args = [sys.executable, str(project_root / "web" / "server.py")] + args[1:]
+        import subprocess
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(project_root)
+        result = subprocess.run(web_args, env=env)
+        return result.returncode
+
+    # Special command: generate (requires client name before or uses active)
+    # Handle: "run.py milena generate ..." or "run.py generate ..."
     all_clients = list_clients()
+    if args[0] in all_clients and len(args) > 1 and args[1] == "generate":
+        gen_args = [sys.executable, str(project_root / "src" / "shared" / "generate_pipeline.py"), args[0]] + args[2:]
+        import subprocess
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(project_root)
+        result = subprocess.run(gen_args, env=env)
+        return result.returncode
+    elif args[0] == "generate":
+        from src.config_manager import get_active_client
+        active = get_active_client()
+        gen_args = [sys.executable, str(project_root / "src" / "shared" / "generate_pipeline.py"), active] + args[1:]
+        import subprocess
+        env = os.environ.copy()
+        env["PYTHONPATH"] = str(project_root)
+        result = subprocess.run(gen_args, env=env)
+        return result.returncode
+
+    # Determine client and script
     client_name = None
     script_name = None
 
@@ -84,6 +121,10 @@ def main():
         "print_quality": "print_quality.py",
         "regenerate_data": "regenerate_data.py",
         "parse_practitioners": "parse_practitioners_sheet.py",
+        "merge_descriptions": "merge_descriptions.py",
+        "generate_categories": "generate_categories.py",
+        "translate": "translate.py",
+        "delete_duplicates": "delete_duplicates.py",
     }
 
     script_file = script_map.get(script_name, f"{script_name}.py")
@@ -100,17 +141,17 @@ def main():
     # Change to client directory so relative paths work
     os.chdir(config.base_dir)
 
-    # Execute script
+    # Execute script with project root in PYTHONPATH
     print(f"Executing: {script_path}")
     print(f"Working directory: {os.getcwd()}")
     print("-" * 60)
 
-    # Build command
     cmd_args = [sys.executable, str(script_path)] + script_args
 
-    # Execute
     import subprocess
-    result = subprocess.run(cmd_args)
+    env = os.environ.copy()
+    env["PYTHONPATH"] = str(project_root)
+    result = subprocess.run(cmd_args, env=env)
 
     return result.returncode
 

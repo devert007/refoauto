@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RefoAuto - Pipeline Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>RefoAuto</h1>
+  <select id="clientSelect" onchange="app.onClientChange(this.value)">
+    <option value="">-- Select Client --</option>
+  </select>
+  <button class="btn btn-outline btn-sm" onclick="app.showNewClientDialog()">+ New Client</button>
+  <span id="authBadge" class="auth-badge invalid">Auth: checking...</span>
+</div>
+
+<!-- Tabs -->
+<div class="tabs">
+  <div class="tab active" data-tab="config" onclick="app.switchTab('config')">Config</div>
+  <div class="tab" data-tab="upload" onclick="app.switchTab('upload')">Upload & Fields</div>
+  <div class="tab" data-tab="categories" onclick="app.switchTab('categories')">Categories</div>
+  <div class="tab" data-tab="services" onclick="app.switchTab('services')">Services</div>
+  <div class="tab" data-tab="doctors" onclick="app.switchTab('doctors')">Doctors</div>
+  <div class="tab" data-tab="qa" onclick="app.switchTab('qa')">QA / Offers</div>
+  <div class="tab" data-tab="pipeline" onclick="app.switchTab('pipeline')">Pipeline</div>
+  <div class="tab" data-tab="rules" onclick="app.switchTab('rules')">Rules</div>
+</div>
+
+<!-- Content -->
+<div class="content">
+
+  <!-- Config Tab -->
+  <div id="tab-config" class="tab-content active">
+    <div class="card">
+      <h3>Client Configuration</h3>
+      <div id="configNoClient" class="empty-state">Select or create a client to begin</div>
+      <div id="configForm" style="display:none">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Client Name</label>
+            <input type="text" id="cfgName" readonly>
+          </div>
+          <div class="form-group">
+            <label>Display Name</label>
+            <input type="text" id="cfgDisplayName">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>
+            <input type="checkbox" id="cfgEnabled"> Enabled
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div id="locationsCard" class="card" style="display:none">
+      <h3>Locations</h3>
+      <div id="locationsList"></div>
+      <button class="btn btn-outline btn-sm mt-8" onclick="app.addLocation()">+ Add Location</button>
+    </div>
+
+    <div id="configActions" class="btn-group" style="display:none">
+      <button class="btn btn-primary" onclick="app.saveConfig()">Save Config</button>
+      <button class="btn btn-danger" onclick="app.deleteClient()">Delete Client</button>
+    </div>
+  </div>
+
+  <!-- Upload Tab -->
+  <div id="tab-upload" class="tab-content">
+    <div class="card">
+      <h3>Upload Data Files</h3>
+      <div class="flex gap-8 items-center mb-16">
+        <input type="file" id="fileUpload" accept=".csv,.json,.html,.htm" multiple>
+        <button class="btn btn-primary" onclick="app.uploadFiles()">Upload</button>
+      </div>
+      <div id="fileList"></div>
+    </div>
+
+    <div class="card">
+      <h3>Extracted Fields</h3>
+      <div class="flex gap-8 items-center mb-16">
+        <select id="extractFileSelect"></select>
+        <button class="btn btn-outline" onclick="app.extractFields()">Extract Fields</button>
+        <label class="flex items-center gap-8" style="margin-left:auto; font-size:12px">
+          <input type="checkbox" id="showHiddenFields"> Show hidden fields
+        </label>
+      </div>
+      <div id="fieldsList"></div>
+    </div>
+  </div>
+
+  <!-- Categories Tab -->
+  <div id="tab-categories" class="tab-content">
+    <div class="card">
+      <h3>Category Mapping</h3>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:12px">
+        Configure how categories are extracted from source data
+      </p>
+      <div id="categoryMappings">
+        <div class="mapping-row">
+          <div>
+            <label>Source Column</label>
+            <input type="text" id="catSourceCol" placeholder="e.g. Category">
+          </div>
+          <div>
+            <label>Target Field</label>
+            <input type="text" value="name_i18n" readonly>
+          </div>
+          <div>
+            <label>Rules / Prompt</label>
+            <textarea id="catRules" placeholder="e.g. Translate to English and Russian, assign sequential IDs"></textarea>
+          </div>
+        </div>
+        <div class="mapping-row">
+          <div>
+            <label>Translation</label>
+            <select id="catTranslation">
+              <option value="en_only">English only</option>
+              <option value="en_ru">English + Russian</option>
+              <option value="none">No translation</option>
+            </select>
+          </div>
+          <div>
+            <label>Sort Order</label>
+            <select id="catSortOrder">
+              <option value="appearance">Order of appearance</option>
+              <option value="alphabetical">Alphabetical</option>
+              <option value="api">From API</option>
+            </select>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Output Preview</h3>
+      <div id="catPreview" class="json-preview">[ ]</div>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="app.saveEntitySettings('categories')">Save</button>
+    </div>
+  </div>
+
+  <!-- Services Tab -->
+  <div id="tab-services" class="tab-content">
+    <div class="card">
+      <h3>Service Mapping — All Fields</h3>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:12px">
+        Map source data columns to Service model fields. Leave source empty to skip.
+      </p>
+      <div id="serviceMappings"></div>
+    </div>
+    <div class="card">
+      <h3>Output Preview</h3>
+      <div id="svcPreview" class="json-preview">[ ]</div>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="app.saveEntitySettings('services')">Save</button>
+    </div>
+  </div>
+
+  <!-- Doctors Tab -->
+  <div id="tab-doctors" class="tab-content">
+    <div class="card">
+      <h3>Practitioner Mapping — All Fields</h3>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:12px">
+        Map source data columns to Practitioner model fields. Leave source empty to skip.
+      </p>
+      <div id="doctorMappings"></div>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="app.saveEntitySettings('practitioners')">Save</button>
+    </div>
+  </div>
+
+  <!-- QA / Offers Tab -->
+  <div id="tab-qa" class="tab-content">
+    <div class="card">
+      <h3>QA / Offers</h3>
+      <div class="empty-state">
+        <p>Coming soon</p>
+        <p style="font-size:12px;margin-top:8px">QA and Offers configuration will be available in a future update</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pipeline Tab -->
+  <div id="tab-pipeline" class="tab-content">
+
+    <!-- Generate with Claude -->
+    <div class="card">
+      <h3>Generate with Claude AI</h3>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:12px">
+        Generate output JSON (categories, services, practitioners) from input data using Claude.
+        Uses rules and field mappings configured in the other tabs.
+        Requires ANTHROPIC_API_KEY in .env
+      </p>
+      <div class="pipeline-controls">
+        <select id="generateScope">
+          <option value="all">All (categories + services + practitioners)</option>
+          <option value="categories">Categories only</option>
+          <option value="services">Services only</option>
+          <option value="practitioners">Practitioners only</option>
+        </select>
+        <label class="flex items-center gap-8" style="font-size:12px">
+          <input type="checkbox" id="genMergeApi" checked> Merge with API data
+        </label>
+        <label class="flex items-center gap-8" style="font-size:12px">
+          <input type="checkbox" id="genSync"> Sync IDs after generation
+        </label>
+        <button class="btn btn-primary" onclick="app.runGenerate()">Generate</button>
+      </div>
+      <div id="generateLog" class="pipeline-log" style="min-height:60px">Ready to generate...</div>
+    </div>
+
+    <!-- Pipeline Steps -->
+    <div class="card">
+      <h3>Pipeline Steps</h3>
+      <div class="pipeline-controls">
+        <select id="pipelineMode">
+          <option value="dry-run">Dry Run (analyze only)</option>
+          <option value="execute">Execute (make changes)</option>
+        </select>
+        <div id="locationCheckboxes" class="flex gap-8 flex-wrap items-center">
+          <label class="flex items-center gap-8">
+            <input type="checkbox" id="locAll" checked onchange="app.toggleAllLocations(this)"> All Locations
+          </label>
+        </div>
+        <button class="btn btn-primary" onclick="app.runPipeline('selected')">Run Selected</button>
+        <button class="btn btn-outline" onclick="app.runPipeline('all')">Run All</button>
+      </div>
+      <div id="pipelineSteps"></div>
+    </div>
+
+    <div class="card">
+      <h3>Pipeline Log</h3>
+      <div id="pipelineLog" class="pipeline-log">Ready...</div>
+      <div class="btn-group">
+        <button class="btn btn-outline btn-sm" onclick="app.refreshPipelineLog()">Refresh Log</button>
+        <button class="btn btn-outline btn-sm" onclick="document.getElementById('pipelineLog').textContent=''">Clear</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rules Tab -->
+  <div id="tab-rules" class="tab-content">
+    <div class="card">
+      <h3>Common Rules (shared across entities)</h3>
+      <p style="font-size:12px;color:var(--text-muted);margin-bottom:8px">
+        These rules apply to all data processing for this client. Based on PROMPT.md patterns.
+      </p>
+      <textarea id="commonRules" class="rules-textarea" placeholder="Enter common processing rules here..."></textarea>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="app.saveRules()">Save Rules</button>
+      <button class="btn btn-outline" onclick="app.loadDefaultRules()">Load Default Template</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- New Client Dialog -->
+<div id="newClientDialog" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:200;display:none;align-items:center;justify-content:center;">
+  <div class="card" style="width:450px;max-width:90vw">
+    <h3>Create New Client</h3>
+    <div class="form-group">
+      <label>Client Name (lowercase, no spaces)</label>
+      <input type="text" id="newClientName" placeholder="e.g. clinic_name">
+    </div>
+    <div class="form-group">
+      <label>Display Name</label>
+      <input type="text" id="newClientDisplayName" placeholder="e.g. My Clinic">
+    </div>
+    <div class="form-group">
+      <label>Location ID</label>
+      <input type="number" id="newClientLocationId" placeholder="e.g. 31">
+    </div>
+    <div class="form-group">
+      <label>Location Name</label>
+      <input type="text" id="newClientLocationName" placeholder="e.g. Main Branch">
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-primary" onclick="app.createClient()">Create</button>
+      <button class="btn btn-outline" onclick="app.hideNewClientDialog()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
